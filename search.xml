@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Help</title>
+    <url>/Help/</url>
+    <content><![CDATA[<h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
+<li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
+</li>
+<li><p>Q：打开后有弹窗报错<br>A：一般是缺少RTP。请安装<a href="https://dl.degica.com/rpgmakerweb/run-time-packages/rpg2003_rtp_installer.zip">英文版rtp2003</a>，解压后将文件复制粘贴于Ephemreal的内部文件夹内。</p>
+</li>
+</ul>
+<p><strong>重名的情况请务必保留源文件不要覆盖！！！！！！！！</strong> </p>
+<ul>
+<li><p>Q：可以用Easyrpg启动吗<br>A：请<strong>不要</strong>这样做，会有很多奇怪的bug。<del>信我，开头就会黑屏</del></p>
+</li>
+<li><p>Q：我还是打不开<br>A：首先确认是不是Windows系统。</p>
+</li>
+<li><p>Q：非中文系统想运行简体中文版<br>A：Win7用户请下载Applocale，安装后选择中文，指定Start.exe后运行即可，不成功的情况请指定Ephemreal文件夹内的RPG_RT.exe运行。<br>Win10用户请下载<a href="https://github.com/xupefei/Locale-Emulator/releases">Local Emulator</a>，按步骤安装后鼠标右键选中Start.exe，在菜单栏里勾选上「按程序源环境配置」应该就能成功运行了，不成功的情况同上。</p>
+</li>
+</ul>
+<p>遇到了其他问题请参考或私信<br><a href="http://yumenikki.info/archives/%e6%b4%be%e7%94%9f%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95/">派生安装方法</a></p>
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ephemreal</title>
+    <url>/Ephemreal/</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2021/05/07/64FqkcE3WOUwPiy.png" alt="ephemreal.png"><br><img src="https://i.loli.net/2021/05/07/UTfbhj5FOKsr2CI.png" alt="room.png"></p>
+<span id="more"></span>
+
+<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><ul>
+<li>此游戏是梦日记的fangame，也就是所谓的同人游戏。并不是梦日记的续作，<strong>与梦日记和kikiyama氏完全没有关系。</strong><br>此外，Ephemreal现处于开发状态，因此内容较少，并没有实装结局。今后还会不定期进行更新和修复，欢迎向我报告遇到的bug。</li>
+</ul>
+<h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><ul>
+<li>移动：<code>方向键</code></li>
+<li>确定：<code>Z/Enter</code></li>
+<li>菜单/取消：<code>X</code></li>
+<li>特殊动作：<code>Shift</code></li>
+<li>捏脸：<code>数字9</code></li>
+<li>存档：<code>调查主人公卧室右下角的显示屏</code></li>
+</ul>
+<p>在梦中四处转转，调查一些特殊物品取得<code>效果</code>吧。</p>
+<h3 id="版本履历"><a href="#版本履历" class="headerlink" title="版本履历"></a>版本履历</h3><table>
+<thead>
+<tr>
+<th>版本信息</th>
+<th>下载连接</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ver0.00</td>
+<td><a href="https://www.mediafire.com/file/27u86p7gu7hx97b/Ephemreal_ver0.00.rar/file">简体中文</a></td>
+</tr>
+<tr>
+<td>ver0.00+</td>
+<td><a href="https://www.mediafire.com/file/875djymsazazs6d/Ephemreal_ver0.00%252B.rar/file">ENGLISH</a></td>
+</tr>
+</tbody></table>
+<h3 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h3><p>安装运行出现了问题？请看这边。<br>我想投稿，该怎么做？请点这里。</p>
+<h2 id="其他链接"><a href="#其他链接" class="headerlink" title="其他链接"></a>其他链接</h2><p><a href="https://www.pixiv.net/artworks/86174142">pixiv发布页面</a><br><a href="https://yumenikkifg.fandom.com/wiki/Ephemreal">英文wiki页面</a></p>
+]]></content>
+      <categories>
+        <category>更新/发布信息</category>
+      </categories>
+      <tags>
+        <tag>梦日记派生</tag>
+        <tag>游戏发布</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Submission rules</title>
+    <url>/subrules/</url>
+    <content><![CDATA[<h2 id="投稿规则"><a href="#投稿规则" class="headerlink" title="投稿规则"></a>投稿规则</h2><h3 id="Wallpaper"><a href="#Wallpaper" class="headerlink" title="Wallpaper"></a>Wallpaper</h3><ul>
+<li><p>壁纸的规格</p>
+<ul>
+<li><p>画布大小使用320×240像素为最佳（比例为4：3也可以，不过最终都会被缩小成320×240。如果介意图片变糊，请尽量使用这个大小进行创作。）</p>
+</li>
+<li><p>图像命名为<code>pc-wallpaper-[yourID].png</code></p>
+</li>
+<li><p>有条件的请将图片转换为<code>索引模式256色</code>（这一步不会可以跳过，也可以参考教程）</p>
+</li>
+<li><p>给壁纸起一个标题（英文最佳）</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="Music"><a href="#Music" class="headerlink" title="Music"></a>Music</h3><ul>
+<li><p>音乐的规格：</p>
+<ul>
+<li><p>不宜过长，前后可以无缝衔接</p>
+</li>
+<li><p>格式为wav或mp3</p>
+</li>
+<li><p>有条件的请尽量压缩大小再上传</p>
+</li>
+<li><p>文件命名为<code>[title]_[yourID].wav/mp3</code></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#121;&#x6f;&#x75;&#114;&#x79;&#117;&#x75;&#64;&#102;&#111;&#120;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#104;&#121;&#x6f;&#x75;&#114;&#x79;&#117;&#x75;&#64;&#102;&#111;&#120;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></p>
+]]></content>
+      <categories>
+        <category>投稿规则</category>
+      </categories>
+      <tags>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+</search>
