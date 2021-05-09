@@ -1,51 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Ephemreal</title>
-    <url>/Ephemreal/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.loli.net/2021/05/07/64FqkcE3WOUwPiy.png" alt="ephemreal.png"><br><img src="https://i.loli.net/2021/05/07/UTfbhj5FOKsr2CI.png" alt="room.png"></p>
-<span id="more"></span>
-
-<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><ul>
-<li>此游戏是梦日记的fangame，也就是所谓的同人游戏。并不是梦日记的续作，<strong>与梦日记和kikiyama氏完全没有关系。</strong><br>此外，Ephemreal现处于开发状态，因此内容较少，并没有实装结局。今后还会不定期进行更新和修复，欢迎向我报告遇到的bug。</li>
-</ul>
-<h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><ul>
-<li>移动：<code>方向键</code></li>
-<li>确定：<code>Z/Enter</code></li>
-<li>菜单/取消：<code>X</code></li>
-<li>特殊动作：<code>Shift</code></li>
-<li>捏脸：<code>数字9</code></li>
-<li>存档：<code>调查主人公卧室右下角的显示屏</code></li>
-</ul>
-<p>在梦中四处转转，调查一些特殊物品取得<code>效果</code>吧。</p>
-<h3 id="版本履历"><a href="#版本履历" class="headerlink" title="版本履历"></a>版本履历</h3><table>
-<thead>
-<tr>
-<th>版本信息</th>
-<th>下载连接</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ver0.00</td>
-<td><a href="https://www.mediafire.com/file/27u86p7gu7hx97b/Ephemreal_ver0.00.rar/file">简体中文</a></td>
-</tr>
-<tr>
-<td>ver0.00+</td>
-<td><a href="https://www.mediafire.com/file/875djymsazazs6d/Ephemreal_ver0.00%252B.rar/file">ENGLISH</a></td>
-</tr>
-</tbody></table>
-<h3 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h3><p>安装运行出现了问题？<a href="https://hrdrifter.github.io/Help/">请看这边</a><br>我想投稿，该怎么做？<a href="https://hrdrifter.github.io/subrules/">请点这里</a></p>
-<h2 id="其他链接"><a href="#其他链接" class="headerlink" title="其他链接"></a>其他链接</h2><p><a href="https://www.pixiv.net/artworks/86174142">pixiv发布页面</a><br><a href="https://yumenikkifg.fandom.com/wiki/Ephemreal">英文wiki页面</a></p>
-]]></content>
-      <categories>
-        <category>更新/发布信息</category>
-      </categories>
-      <tags>
-        <tag>梦日记派生</tag>
-        <tag>游戏发布</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客搭建经验</title>
     <url>/Blog/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
@@ -117,6 +72,51 @@
       </tags>
   </entry>
   <entry>
+    <title>Ephemreal</title>
+    <url>/Ephemreal/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.loli.net/2021/05/07/64FqkcE3WOUwPiy.png" alt="ephemreal.png"><br><img src="https://i.loli.net/2021/05/07/UTfbhj5FOKsr2CI.png" alt="room.png"></p>
+<span id="more"></span>
+
+<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><ul>
+<li>此游戏是梦日记的fangame，也就是所谓的同人游戏。并不是梦日记的续作，<strong>与梦日记和kikiyama氏完全没有关系。</strong><br>此外，Ephemreal现处于开发状态，因此内容较少，并没有实装结局。今后还会不定期进行更新和修复，欢迎向我报告遇到的bug。</li>
+</ul>
+<h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><ul>
+<li>移动：<code>方向键</code></li>
+<li>确定：<code>Z/Enter</code></li>
+<li>菜单/取消：<code>X</code></li>
+<li>特殊动作：<code>Shift</code></li>
+<li>捏脸：<code>数字9</code></li>
+<li>存档：<code>调查主人公卧室右下角的显示屏</code></li>
+</ul>
+<p>在梦中四处转转，调查一些特殊物品取得<code>效果</code>吧。</p>
+<h3 id="版本履历"><a href="#版本履历" class="headerlink" title="版本履历"></a>版本履历</h3><table>
+<thead>
+<tr>
+<th>版本信息</th>
+<th>下载连接</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ver0.00</td>
+<td><a href="https://www.mediafire.com/file/27u86p7gu7hx97b/Ephemreal_ver0.00.rar/file">简体中文</a></td>
+</tr>
+<tr>
+<td>ver0.00+</td>
+<td><a href="https://www.mediafire.com/file/875djymsazazs6d/Ephemreal_ver0.00%252B.rar/file">ENGLISH</a></td>
+</tr>
+</tbody></table>
+<h3 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h3><p>安装运行出现了问题？<a href="https://hrdrifter.github.io/Help/">请看这边</a><br>我想投稿，该怎么做？<a href="https://hrdrifter.github.io/subrules/">请点这里</a></p>
+<h2 id="其他链接"><a href="#其他链接" class="headerlink" title="其他链接"></a>其他链接</h2><p><a href="https://www.pixiv.net/artworks/86174142">pixiv发布页面</a><br><a href="https://yumenikkifg.fandom.com/wiki/Ephemreal">英文wiki页面</a></p>
+]]></content>
+      <categories>
+        <category>更新/发布信息</category>
+      </categories>
+      <tags>
+        <tag>梦日记派生</tag>
+        <tag>游戏发布</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Submission rules</title>
     <url>/subrules/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="投稿规则"><a href="#投稿规则" class="headerlink" title="投稿规则"></a>投稿规则</h2><h3 id="Wallpaper"><a href="#Wallpaper" class="headerlink" title="Wallpaper"></a>Wallpaper</h3><ul>
@@ -148,7 +148,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#121;&#x6f;&#117;&#x72;&#x79;&#117;&#117;&#x40;&#x66;&#111;&#120;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#104;&#121;&#x6f;&#117;&#x72;&#x79;&#117;&#117;&#x40;&#x66;&#111;&#120;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></p>
+<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#x68;&#121;&#111;&#117;&#114;&#121;&#x75;&#x75;&#64;&#x66;&#111;&#120;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x68;&#121;&#111;&#117;&#114;&#121;&#x75;&#x75;&#64;&#x66;&#111;&#120;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></p>
 ]]></content>
       <categories>
         <category>投稿规则</category>
