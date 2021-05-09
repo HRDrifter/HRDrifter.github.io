@@ -117,6 +117,33 @@
       </tags>
   </entry>
   <entry>
+    <title>Help</title>
+    <url>/Help/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
+<li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
+</li>
+<li><p>Q：打开后有弹窗报错<br>A：一般是缺少RTP。请安装<a href="https://dl.degica.com/rpgmakerweb/run-time-packages/rpg2003_rtp_installer.zip">英文版rtp2003</a>，解压后将文件复制粘贴于Ephemreal的内部文件夹内。</p>
+</li>
+</ul>
+<p><strong>重名的情况请务必保留源文件不要覆盖！！！！！！！！</strong> </p>
+<ul>
+<li><p>Q：可以用Easyrpg启动吗<br>A：请<strong>不要</strong>这样做，会有很多奇怪的bug。<del>信我，开头就会黑屏</del></p>
+</li>
+<li><p>Q：我还是打不开<br>A：首先确认是不是Windows系统。</p>
+</li>
+<li><p>Q：非中文系统想运行简体中文版<br>A：Win7用户请下载Applocale，安装后选择中文，指定Start.exe后运行即可，不成功的情况请指定Ephemreal文件夹内的RPG_RT.exe运行。<br>Win10用户请下载<a href="https://github.com/xupefei/Locale-Emulator/releases">Local Emulator</a>，按步骤安装后鼠标右键选中Start.exe，在菜单栏里勾选上「按程序源环境配置」应该就能成功运行了，不成功的情况同上。</p>
+</li>
+</ul>
+<p>遇到了其他问题请参考或私信<br><a href="http://yumenikki.info/archives/%e6%b4%be%e7%94%9f%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95/">派生安装方法</a></p>
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Submission rules</title>
     <url>/subrules/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="投稿规则"><a href="#投稿规则" class="headerlink" title="投稿规则"></a>投稿规则</h2><h3 id="Wallpaper"><a href="#Wallpaper" class="headerlink" title="Wallpaper"></a>Wallpaper</h3><ul>
@@ -148,7 +175,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#x68;&#121;&#111;&#117;&#114;&#121;&#x75;&#x75;&#64;&#x66;&#111;&#120;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x68;&#121;&#111;&#117;&#114;&#121;&#x75;&#x75;&#64;&#x66;&#111;&#120;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></p>
+<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#121;&#111;&#117;&#x72;&#121;&#x75;&#117;&#64;&#x66;&#x6f;&#120;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#104;&#121;&#111;&#117;&#x72;&#121;&#x75;&#117;&#64;&#x66;&#x6f;&#120;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></p>
 ]]></content>
       <categories>
         <category>投稿规则</category>
@@ -158,30 +185,109 @@
       </tags>
   </entry>
   <entry>
-    <title>Help</title>
-    <url>/Help/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
-<li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
+    <title>nexT主题v5升级至v8记录</title>
+    <url>/nextupdate/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h2 id="更新之前"><a href="#更新之前" class="headerlink" title="更新之前"></a>更新之前</h2><p>昨天写搭建记录的时候发现自己的Hexo和Node.js还有Git都是最新版本，但nexT版本还停留在5.1.4，看了一下官网最新版本都已经8.4.0了，遂决定手动跨版本更新。</p>
+<p>这是nexT的历代版本仓库。</p>
+<table>
+<thead>
+<tr>
+<th>年</th>
+<th>版本号</th>
+<th>仓库地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2014~2017</td>
+<td>v5</td>
+<td><a href="https://github.com/iissnan/hexo-theme-next">https://github.com/iissnan/hexo-theme-next</a></td>
+</tr>
+<tr>
+<td>2018~2019</td>
+<td>v6~v7</td>
+<td><a href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></td>
+</tr>
+<tr>
+<td>2020</td>
+<td>v8</td>
+<td><a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></td>
+</tr>
+</tbody></table>
+<p>下载主题就相当于从仓库下载代码，这就是为什么明明跟着教程走却只能安装到v5版本的原因。可v5升级到v8在网上的教程少得可怜，看了官方的介绍还是一知半解……还是走一步算一步，出了错再随机应变吧。</p>
+<p>以下是我的更新步骤。</p>
+<span id="more"></span>
+
+<h2 id="需要准备的"><a href="#需要准备的" class="headerlink" title="需要准备的"></a>需要准备的</h2><ol>
+<li>下载一个文件对比软件，比如<code>BeyondCompare</code></li>
+<li>一个备份文件夹，用来装之前的v5版本</li>
+<li><code>GitBash</code>，所有的基础</li>
+</ol>
+<p>准备以上材料，我们开始进行更新。</p>
+<hr>
+<h3 id="第一步-安装"><a href="#第一步-安装" class="headerlink" title="第一步 安装"></a>第一步 安装</h3><ul>
+<li><p>将themes中的next文件夹转移至备份文件夹内。</p>
 </li>
-<li><p>Q：打开后有弹窗报错<br>A：一般是缺少RTP。请安装<a href="https://dl.degica.com/rpgmakerweb/run-time-packages/rpg2003_rtp_installer.zip">英文版rtp2003</a>，解压后将文件复制粘贴于Ephemreal的内部文件夹内。</p>
+<li><p>之后用GitBash定位到站点文件夹，通过<code>npm</code>安装最新版本。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure></li>
+<li><p>下载完成后，在站点文件夹的node_modules里找到一个名为hexo-theme-next的文件夹，这就是最新版的主题文件。把它复制到themes文件夹内，并重新命名为<code>next-v8</code>。（只是个例子）</p>
+</li>
+<li><p>打开站点配置文件，把<code>themes: next</code>后面的内容改成<code>next-v8</code>。</p>
+</li>
+<li><p>在GitBash中输入<code>hexo version</code>查看当前版本号，出现一个巨大NEXT和最新版本号即成功安装。</p>
 </li>
 </ul>
-<p><strong>重名的情况请务必保留源文件不要覆盖！！！！！！！！</strong> </p>
+<p>恭喜！你已经完成一半的内容了！</p>
+<h3 id="第二步-配置"><a href="#第二步-配置" class="headerlink" title="第二步 配置"></a>第二步 配置</h3><p>因为是v5刚刚起步的缘故，官网上所说的迁移方法对我来说并没有什么用处。这里我选择单独配置：</p>
 <ul>
-<li><p>Q：可以用Easyrpg启动吗<br>A：请<strong>不要</strong>这样做，会有很多奇怪的bug。<del>信我，开头就会黑屏</del></p>
+<li><p>把这个还没有动过的主题配置文件复制出来，重命名为<code>_config.next.yml</code>，放在站点文件夹里。</p>
 </li>
-<li><p>Q：我还是打不开<br>A：首先确认是不是Windows系统。</p>
+<li><p>运行<code>BeyondCompare</code>，打开旧主题配置和新主题配置，进行一个比较和修改。</p>
+<p><strong>注意！最开始的主题设置，如果想启用之前的<code>Gemini</code>，请关闭默认主题选项！！！</strong></p>
 </li>
-<li><p>Q：非中文系统想运行简体中文版<br>A：Win7用户请下载Applocale，安装后选择中文，指定Start.exe后运行即可，不成功的情况请指定Ephemreal文件夹内的RPG_RT.exe运行。<br>Win10用户请下载<a href="https://github.com/xupefei/Locale-Emulator/releases">Local Emulator</a>，按步骤安装后鼠标右键选中Start.exe，在菜单栏里勾选上「按程序源环境配置」应该就能成功运行了，不成功的情况同上。</p>
+<li><p>然后可以试着运行一下<code>hexo s</code>，查看是否可以正常显示。建议一边改一边检查，新主题配置文件的内容比起v5还是有很大的区别的，具体设置跟着注释走，不要无脑修改。</p>
 </li>
 </ul>
-<p>遇到了其他问题请参考或私信<br><a href="http://yumenikki.info/archives/%e6%b4%be%e7%94%9f%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95/">派生安装方法</a></p>
+<p>至此，你已经完成了v5至v8的升级。</p>
+<h3 id="第三步-自定义"><a href="#第三步-自定义" class="headerlink" title="第三步 自定义"></a>第三步 自定义</h3><p>自定义所消耗的时间最长。原因在于我很想还原v5的配置，但内部文件改动太大，加上针对v8的自定义的教程比更新的教程还少，无从下手，只得摸索。</p>
+<h4 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a>Font Awesome</h4><p>v8更新之后，所有的有关图标的配置都得改成fa fa-xxx格式才能正常显示。具体的图标样式和格式在官网上可以查看引用。<a href="https://fontawesome.com/icons">Font Awesome</a></p>
+<h4 id="代码样式"><a href="#代码样式" class="headerlink" title="代码样式"></a>代码样式</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="comment"># Code Highlight theme</span></span><br><span class="line">  <span class="comment"># All available themes: https://theme-next.js.org/highlight/</span></span><br><span class="line">  <span class="attr">theme:</span></span><br><span class="line">    <span class="attr">light:</span> </span><br><span class="line">    <span class="attr">dark:</span> </span><br><span class="line">  <span class="attr">prism:</span></span><br><span class="line">    <span class="attr">light:</span> </span><br><span class="line">    <span class="attr">dark:</span> </span><br><span class="line">  <span class="comment"># Add copy button on codeblock</span></span><br><span class="line">  <span class="attr">copy_button:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">False</span></span><br><span class="line">    <span class="comment"># Available values: default | flat | mac</span></span><br><span class="line">    <span class="attr">style:</span> </span><br></pre></td></tr></table></figure>
+
+<p>这里的代码模块样式可以在<a href="https://theme-next.js.org/highlight/">这里</a>找到即时预览，把样式名直接输入进<code>theme</code>和<code>prism</code>栏即可。把<code>copy_button</code>设置为True可以打开一键复制按钮，很方便。</p>
+<p>此处我把底部的<code>style</code>设置成了<code>flat</code>，也有不少人选择mac`（这款也很好看推荐大家尝试）</p>
+<h4 id="自定义CSS目录"><a href="#自定义CSS目录" class="headerlink" title="自定义CSS目录"></a>自定义CSS目录</h4><p>v8更新之后很多文件都找不到了，而要自定义CSS得在站点文件夹的<code>/source/_data/styles.styl</code>里改。没有_data的话就创一个。</p>
+<p>然后在主题配置里将<code>custom_file_path</code>里的<code>style</code>启用即可。</p>
+<p>这里是我的配置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">//</span> <span class="string">图片阴影</span></span><br><span class="line"><span class="string">.medium-zoom-image</span> &#123;</span><br><span class="line">  <span class="attr">box-shadow:</span> <span class="number">0</span> <span class="string">10px</span> <span class="string">30px</span> <span class="string">0px</span> <span class="string">rgba(0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span><span class="string">);</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">短代码颜色</span></span><br><span class="line"><span class="string">code</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="comment">#E3E1E8;</span></span><br><span class="line">  <span class="attr">color:</span> <span class="comment">#383a42;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">隐藏顶部黑线条</span></span><br><span class="line"><span class="string">.headband</span> &#123;</span><br><span class="line">  <span class="attr">display:</span> <span class="string">none;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//底部文字颜色</span></span><br><span class="line"><span class="string">.footer-inner</span> &#123;</span><br><span class="line">  <span class="attr">color:</span> <span class="comment">#494948;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//</span> <span class="string">代码滑块</span></span><br><span class="line"><span class="string">.table-container</span> &#123;</span><br><span class="line">  <span class="attr">scrollbar-width:</span> <span class="string">thin;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.table-container::-webkit-scrollbar</span> &#123;</span><br><span class="line">  <span class="attr">width:</span> <span class="number">0.</span><span class="string">5em;</span></span><br><span class="line">  <span class="attr">height:</span> <span class="number">0.</span><span class="string">5em;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.table-container::-webkit-scrollbar-thumb</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">4px;</span></span><br><span class="line">  <span class="attr">background:</span> <span class="comment">#00af91;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.table-container::-webkit-scrollbar-track</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">none;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//透明化：自定义opacity的值。范围为0~1的小数</span></span><br><span class="line"><span class="string">//文章内容透明</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.95</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//侧边框透明</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.95</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//菜单栏透明</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">margin-top:</span> <span class="string">18px;</span></span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.95</span><span class="string">);</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//搜索框透明</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.95</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//</span> <span class="string">添加顶部边距</span></span><br><span class="line"><span class="string">.main</span> &#123;</span><br><span class="line">  <span class="attr">margin:</span> <span class="string">4px</span> <span class="string">auto</span> <span class="number">0</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">.header</span> &#123;</span><br><span class="line">  <span class="string">+mobile()</span> &#123;</span><br><span class="line">    <span class="attr">padding:</span> <span class="string">4px;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">圆角计划</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">50px</span> <span class="string">50px</span> <span class="string">18px</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.site-brand-container</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="string">18px</span> <span class="number">0</span> <span class="number">0</span><span class="string">;</span></span><br><span class="line">  <span class="string">+mobile()</span> &#123;</span><br><span class="line">    <span class="attr">border-radius:</span> <span class="string">18px;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.sidebar-inner</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.back-to-top</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="number">0</span> <span class="number">0</span> <span class="string">18px</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.post-block</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="type">!important;</span></span><br><span class="line">  <span class="attr">margin-top:</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.pagination</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="type">!important;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.comments</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="type">!important;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">字体大小</span></span><br><span class="line"><span class="string">.post-body</span> &#123;</span><br><span class="line">  <span class="attr">font-size:</span> <span class="string">15px;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>里面的数值可以根据自己的想法修改。这里我启用了圆角化，这样页面看起来可爱又舒服。</p>
+<h4 id="Canvas-nest"><a href="#Canvas-nest" class="headerlink" title="Canvas_nest"></a>Canvas_nest</h4><p>v8更新之后动态背景只剩下<code>canvas_ribbon</code>一个选项了，但我又很想要还原以前的风格，于是找到了<a href="https://github.com/theme-next/theme-next-canvas-nest">官方地址</a>，跟着README一步一步配置即可。</p>
+<p>再次进入主题配置文件，找到<code>custom_file_path</code>，将<code>footer</code>启用。</p>
+<p>还需要注意的一点：v8升级之后<code>swig</code>文件已经替换成了<code>njk</code>，因此官方所说的</p>
+<blockquote>
+<p>Create a file named <code>footer.swig</code> in <code>hexo/source/_data</code> directory (create <code>_data</code> directory if it does not exist).</p>
+</blockquote>
+<p>应该将<code>footer.swig</code>改成<code>footer.njk</code>。</p>
+<p>最后在配置文件里新增一段<code>canvas_nest: true</code>就可以运行了。</p>
+<h4 id="Animation-Settings"><a href="#Animation-Settings" class="headerlink" title="Animation Settings"></a>Animation Settings</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">motion:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">async:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">transition:</span></span><br><span class="line">    <span class="comment"># All available transition variants: https://theme-next.js.org/animate/</span></span><br><span class="line">    <span class="attr">post_block:</span> <span class="string">fadeIn</span></span><br><span class="line">    <span class="attr">post_header:</span> <span class="string">fadeInDown</span></span><br><span class="line">    <span class="attr">post_body:</span> <span class="string">fadeInDown</span></span><br><span class="line">    <span class="attr">coll_header:</span> <span class="string">fadeInLeft</span></span><br><span class="line">    <span class="comment"># Only for Pisces | Gemini.</span></span><br><span class="line">    <span class="attr">sidebar:</span> <span class="string">bounceInUp</span></span><br></pre></td></tr></table></figure>
+
+<p>在<a href="https://animate.style/">这里</a>可以看到所有的动画设置和名称，根据想要的样式修改即可。</p>
+<h4 id="自动打开编辑器"><a href="#自动打开编辑器" class="headerlink" title="自动打开编辑器"></a>自动打开编辑器</h4><p>这与更新无关，但加上之后可以提升一些写作的速度。</p>
+<p>在站点目录下新建<code>scripts</code>，再里面添加一个脚本：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> spawn = require(<span class="string">&#x27;child_process&#x27;</span>).exec;</span><br><span class="line">hexo.on(<span class="string">&#x27;new&#x27;</span>, function(data)&#123;</span><br><span class="line">  spawn(<span class="string">&#x27;start  &quot;Typora.exe&quot; &#x27;</span> + data.path);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p>此处的<code>start &quot;Typora.exe&quot;</code>里面应该填写编辑器所在的路径。此处我用的是Typora，因此这里应该指向Typora.exe所在的文件路径。</p>
+<p>配置好后，之后每次执行完<code>hexo new</code>后都会自动弹出编辑器，不用再去<code>_post</code>路径下寻找文章了。</p>
+<hr>
+<p>至此，你已经完成了此次更新！恭喜！</p>
+<p>其他问题和更新相关的说明请查看<a href="https://github.com/next-theme/hexo-theme-next/issues/4">官方文档</a></p>
 ]]></content>
       <categories>
         <category>帮助</category>
       </categories>
       <tags>
-        <tag>梦日记派生</tag>
+        <tag>Hexo</tag>
+        <tag>nexT</tag>
       </tags>
   </entry>
 </search>
