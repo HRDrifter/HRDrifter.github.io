@@ -206,13 +206,25 @@
    <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.busuanzi_count.enable %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;busuanzi-count&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p>   然后在主题配置文件里将<code>busuanzi_count</code>目录下的enable改成true。这下面还可以改一下<code>site_uv_footer</code>和<code>site_pv_footer</code>，这是访问量的后缀。</p>
+<p>注释：新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
 <h3 id="2-头像设置成圆形并且让它转起来"><a href="#2-头像设置成圆形并且让它转起来" class="headerlink" title="2. 头像设置成圆形并且让它转起来"></a>2. 头像设置成圆形并且让它转起来</h3><p>   打开<code>themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code>，输入</p>
    <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">2s</span> all;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);</span><br></pre></td></tr></table></figure>
 
+<p>注释：新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
 <h3 id="3-文章置顶"><a href="#3-文章置顶" class="headerlink" title="3. 文章置顶"></a>3. 文章置顶</h3><p>   首先在GitBash中输入<code>npm uninstall hexo-generator-index --save</code>卸载默认插件。</p>
 <p>   然后安装一个新的插件<code>npm install hexo-generator-index-pin-top --save</code></p>
 <p>   之后写文章的时候在标签分类下面写上一行<code>top: true</code>就可以让这篇文章出现在第一个了。</p>
 <hr>
+<h2 id="一些摸索"><a href="#一些摸索" class="headerlink" title="一些摸索"></a>一些摸索</h2><h3 id="仓库整理"><a href="#仓库整理" class="headerlink" title="仓库整理"></a>仓库整理</h3><p>在查看仓库时发现我的文章全都以单独文件夹的形式罗列在仓库里，时间长了肯定不好管理。去看了其他人的仓库却发现他们并没有我这样的情况，难道是我最开始安装Git的时候出错了吗？还是说我有哪些配置改错了？</p>
+<p>既然是生成部署的问题，那就去站点配置里找答案。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:name/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br></pre></td></tr></table></figure>
+
+<p>当时我自定义的时候想“永久链接的格式当然要简介明了才比较好记”，于是跟着官网的设置选择了以文件名(name)为永久链接，这样我的文章地址就变成了<code>https://drifter-games.com/name</code>。</p>
+<p>好看是好看，但在进行<code>hexo g</code>的时候，这篇文章就会以<code>index.html</code>的形式放在<code>public\name</code>的文件夹里。（同理，有几篇文章就会生成几个文件夹）随着文章数增加，文件夹也会越来越多，仓库内部的画面可想而知。所以我选择了以年份作为一个整理的方案：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:name/</span></span><br></pre></td></tr></table></figure>
+
+<p>这样进行<code>hexo g</code>的时候，public文件夹里就会自动把文章进行一个年份归档，之后部署到GitHub仓库的时候就不会再出现这个问题了。</p>
+<p>注：执行<code>hexo clean</code>时会自动删除public文件，如果找不到public文件夹在哪的话请先执行<code>hexo g</code>查看。</p>
 ]]></content>
       <categories>
         <category>帮助</category>
@@ -254,7 +266,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#121;&#x6f;&#x75;&#114;&#121;&#117;&#117;&#64;&#102;&#x6f;&#120;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#104;&#121;&#x6f;&#x75;&#114;&#121;&#117;&#117;&#64;&#102;&#x6f;&#120;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></p>
+<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#121;&#x6f;&#117;&#114;&#x79;&#x75;&#117;&#64;&#x66;&#111;&#120;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#104;&#121;&#x6f;&#117;&#114;&#x79;&#x75;&#117;&#64;&#x66;&#111;&#120;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a></p>
 ]]></content>
       <categories>
         <category>投稿规则</category>
