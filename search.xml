@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Ephemreal</title>
-    <url>/Ephemreal/</url>
+    <url>/2020/Ephemreal/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.loli.net/2021/05/07/64FqkcE3WOUwPiy.png" alt="ephemreal.png"><br><img src="https://i.loli.net/2021/05/07/UTfbhj5FOKsr2CI.png" alt="room.png"></p>
 <span id="more"></span>
 
@@ -47,7 +47,7 @@
   </entry>
   <entry>
     <title>nexT主题v5升级至v8记录</title>
-    <url>/nextupdate/</url>
+    <url>/2021/nextupdate/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h2 id="更新之前"><a href="#更新之前" class="headerlink" title="更新之前"></a>更新之前</h2><p>昨天写搭建记录的时候发现自己的Hexo和Node.js还有Git都是最新版本，但nexT版本还停留在5.1.4，看了一下官网最新版本都已经8.4.0了，遂决定手动跨版本更新。</p>
 <p>这是nexT的历代版本仓库。</p>
@@ -153,7 +153,7 @@
   </entry>
   <entry>
     <title>博客搭建经验</title>
-    <url>/Blog/</url>
+    <url>/2021/Blog/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在一堆博客平台上兜兜转转好几年，最终还是选择了GitHub。无各种限制+无广告+无社交互动已经很让人心动了，最重要的还是对系统友好、不用花高价去维护，很适合像我这样又穷又自闭的赛博难民。</p>
 <p>这两天花了一些时间学习了怎么搭建和配置，趁着还没忘记录一下搭建时遇到的问题和解决办法（详细的搭建过程很容易找到，这里就不阐述了）</p>
@@ -224,7 +224,7 @@
   </entry>
   <entry>
     <title>Submission rules</title>
-    <url>/subrules/</url>
+    <url>/2020/subrules/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="投稿规则"><a href="#投稿规则" class="headerlink" title="投稿规则"></a>投稿规则</h2><h3 id="Wallpaper"><a href="#Wallpaper" class="headerlink" title="Wallpaper"></a>Wallpaper</h3><ul>
 <li><p>壁纸的规格</p>
 <ul>
@@ -254,7 +254,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#x68;&#121;&#111;&#x75;&#x72;&#x79;&#117;&#x75;&#64;&#102;&#111;&#x78;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x68;&#121;&#111;&#x75;&#x72;&#x79;&#117;&#x75;&#64;&#102;&#111;&#x78;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#121;&#x6f;&#x75;&#114;&#121;&#117;&#117;&#64;&#102;&#x6f;&#120;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#104;&#121;&#x6f;&#x75;&#114;&#121;&#117;&#117;&#64;&#102;&#x6f;&#120;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></p>
 ]]></content>
       <categories>
         <category>投稿规则</category>
@@ -265,7 +265,7 @@
   </entry>
   <entry>
     <title>Help</title>
-    <url>/Help/</url>
+    <url>/2020/Help/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
 <li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
 </li>
