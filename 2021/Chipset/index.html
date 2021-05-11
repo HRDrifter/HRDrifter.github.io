@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;drifter-games.com&quot;,&quot;root&quot;:&quot;&#x2F;&quot;,&quot;images&quot;:&quot;&#x2F;images&quot;,&quot;scheme&quot;:&quot;Gemini&quot;,&quot;version&quot;:&quot;8.4.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:true,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:false,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:false,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;bounceInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;搜索...&quot;,&quot;empty&quot;:&quot;没有找到任何搜索结果：${query}&quot;,&quot;hits_time&quot;:&quot;找到 ${hits} 个搜索结果（用时 ${time} 毫秒）&quot;,&quot;hits&quot;:&quot;找到 ${hits} 个搜索结果&quot;},&quot;path&quot;:&quot;&#x2F;search.xml&quot;,&quot;localsearch&quot;:{&quot;enable&quot;:true,&quot;trigger&quot;:&quot;auto&quot;,&quot;top_n_per_article&quot;:1,&quot;unescape&quot;:false,&quot;preload&quot;:false}}</script>
+<meta name="description" content="有关ChipsetChipset是存放地图素材的地方，它是构成一切地图的基础，也是游戏开发者必须要去了解的东西。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="讲解RM2K3-Chipset的原理">
+<meta property="og:url" content="http://drifter-games.com/2021/Chipset/">
+<meta property="og:site_name" content="DrifterGames">
+<meta property="og:description" content="有关ChipsetChipset是存放地图素材的地方，它是构成一切地图的基础，也是游戏开发者必须要去了解的东西。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/05/11/79Pdmr3THInxUkj.png">
+<meta property="og:image" content="https://i.loli.net/2021/05/11/ac1MesHqxf2CwJp.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/12/gd8mLR.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaItb9.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaT80J.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaHnMT.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaqKUJ.md.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaLweU.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gavoHf.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/12/gd3w24.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/12/gd3ca6.png">
+<meta property="article:published_time" content="2021-05-11T19:43:25.000Z">
+<meta property="article:modified_time" content="2021-05-11T19:48:43.115Z">
+<meta property="article:author" content="-Drifter">
+<meta property="article:tag" content="RM2003">
+<meta property="article:tag" content="游戏开发">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/05/11/79Pdmr3THInxUkj.png">
+
+
+<link rel="canonical" href="http://drifter-games.com/2021/Chipset/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;http:&#x2F;&#x2F;drifter-games.com&#x2F;2021&#x2F;Chipset&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;Chipset&#x2F;&quot;,&quot;title&quot;:&quot;讲解RM2K3-Chipset的原理&quot;}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">&quot;&quot;</script>
+<title>讲解RM2K3-Chipset的原理 | DrifterGames</title><script src="/js/config.js"></script>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">DrifterGames</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">游戏开发</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
+        <li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>友链</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%89%E5%85%B3Chipset"><span class="nav-number">1.</span> <span class="nav-text">有关Chipset</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%84%E6%A0%BC%E5%92%8C%E9%85%8D%E7%BD%AE"><span class="nav-number">1.1.</span> <span class="nav-text">规格和配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E5%B1%82%E5%85%83%E4%BB%B6%E7%BB%98%E5%88%B6"><span class="nav-number">1.2.</span> <span class="nav-text">下层元件绘制</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%9D%E9%98%B6%EF%BC%9A%E5%9B%9B%E6%96%B9%E8%BF%9E%E7%BB%AD%E4%B8%8E%E5%8A%A8%E7%94%BB%E5%85%83%E4%BB%B6"><span class="nav-number">1.2.1.</span> <span class="nav-text">初阶：四方连续与动画元件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BF%9B%E9%98%B6%EF%BC%9A%E8%87%AA%E5%8A%A8%E5%A1%AB%E5%85%85"><span class="nav-number">1.2.2.</span> <span class="nav-text">进阶：自动填充</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%AD%E9%98%B6%EF%BC%9A%E6%B5%B7%E6%B4%8B%E5%9B%BE%E5%9D%97"><span class="nav-number">1.2.3.</span> <span class="nav-text">中阶：海洋图块</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%AB%98%E9%98%B6%EF%BC%9A%E5%BA%94%E7%94%A8"><span class="nav-number">1.2.4.</span> <span class="nav-text">高阶：应用</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8A%E5%B1%82%E5%85%83%E4%BB%B6%E7%BB%98%E5%88%B6"><span class="nav-number">1.3.</span> <span class="nav-text">上层元件绘制</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E5%AE%9A"><span class="nav-number">2.</span> <span class="nav-text">数据库设定</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="-Drifter"
+      src="https://i.loli.net/2021/05/07/j4NkXWc1fDTlLCI.png">
+  <p class="site-author-name" itemprop="name">-Drifter</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/HRDrifter" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;HRDrifter" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/drifter_matsu" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;drifter_matsu" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://drifter-games.com/2021/Chipset/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://i.loli.net/2021/05/07/j4NkXWc1fDTlLCI.png">
+      <meta itemprop="name" content="-Drifter">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="DrifterGames">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          讲解RM2K3-Chipset的原理
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-05-12 03:43:25 / 修改时间：03:48:43" itemprop="dateCreated datePublished" datetime="2021-05-12T03:43:25+08:00">2021-05-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">教程</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关Chipset"><a href="#有关Chipset" class="headerlink" title="有关Chipset"></a>有关Chipset</h2><p>Chipset是存放地图素材的地方，它是构成一切地图的基础，也是游戏开发者必须要去了解的东西。</p>
+<span id="more"></span>
+
+<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
+<li><p>规格</p>
+<table>
+<thead>
+<tr>
+<th>图像大小</th>
+<th>导入格式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>480×256</td>
+<td>PNG、BMP、XYZ</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>配置</p>
+<p><img src="https://i.loli.net/2021/05/11/79Pdmr3THInxUkj.png" alt="chipset.png"></p>
+<p>这是一张Chipset的模板。可以看到被分成了五个部分：</p>
+<blockquote>
+<p>蓝色海洋元件（A）</p>
+<p>黄色动画元件（B）</p>
+<p>自动填充元件（C）</p>
+<p>普通下层元件（D）</p>
+<p>普通上层元件（E）</p>
+</blockquote>
+<p>所有的下层元件位于亮黄色折线的左边（包括ABC三个区域），上层则位于折线的右边。折线的中央有一块不太一样的空格，它代表透明色。<strong>注意：必须留一个空格表示透明色</strong></p>
+<p>官方有关上下层元件的说明如下：</p>
+<blockquote>
+<p>The map is comprised of 2 layers (upper and lower)  and each has a different set of placeable tiles. The “lower layer” is used for  placing terrain such as sea, mountains, and dirt, while the “upper layer” is  used for details such as buildings, treasure chests, and characters.</p>
+</blockquote>
+<blockquote>
+<p>地图由2层（上层和下层）组成，每层都有一组不同的可放置元件。“下层 ”用于放置地形，如大海、山脉和泥土，而 “上层 ”则用于放置细节，比如建筑物、宝箱和人物。</p>
+</blockquote>
+<p>了解了什么是上下层之后，我们可以开始着手画元件了。</p>
+</li>
+</ol>
+<hr>
+<h3 id="下层元件绘制"><a href="#下层元件绘制" class="headerlink" title="下层元件绘制"></a>下层元件绘制</h3><h4 id="初阶：四方连续与动画元件"><a href="#初阶：四方连续与动画元件" class="headerlink" title="初阶：四方连续与动画元件"></a>初阶：四方连续与动画元件</h4><ol>
+<li><p>四方连续的画法</p>
+<p>我们先从最简单的开始入手：只需一格（16×16）就能平铺成地面的四方连续型元件。例子：草地、泥土、地板、沙漠等等。</p>
+<p><img src="https://i.loli.net/2021/05/11/ac1MesHqxf2CwJp.png" alt="四方连续"></p>
+<p>首先构思好想要画的地面。比如我想要一块泥土，就用棕色填充一块16×16的格子作为基底，再确定好浅色和深色分别代表土块和阴影，画出一个大致的形状。但是仅仅像这样是不够的，还得检查拼接是否有瑕疵。检查的方法有很多种，图中我演示的是<code>对角线互换法</code>。像这样把一格分为四等分，把它们以对角线交换，在此基础上进行略微改动即可。</p>
+<p>按照同样的方法继续绘制石块和海洋。</p>
+</li>
+<li><p>动画元件的画法</p>
+<p>动画元件一共有三列可以被调用，每一列都有四个16×16的格子组成。动画的行进方向为从上至下1→2→3→4→1。这个区域的动画速度是无法被调整的，因此如果想要加快速度或减慢速度的话推荐使用<u>行走图（Charset）</u>进行绘制。</p>
+<p>这里用我以前做的瀑布动画作为例子：</p>
+<p><img src="https://z3.ax1x.com/2021/05/12/gd8mLR.png" alt="瀑布"></p>
+<p>除了瀑布以外还可以画风扇、灯光、火焰等等。</p>
+<p>当然也完全可以把这个区域当成一个静止的下层元件看待，只要四帧动画完全一致，那么这一列就和普通的下层元件没有区别。</p>
+</li>
+</ol>
+<h4 id="进阶：自动填充"><a href="#进阶：自动填充" class="headerlink" title="进阶：自动填充"></a>进阶：自动填充</h4><p>自动填充是初学者在绘制时很容易碰壁的区域，光看系统自带的RTP也无法完全参透它的原理。它其实就是让系统自动帮忙填充边界的功能，只要运用好就可以大大缩短地图的配置时间。</p>
+<p>这里我使用上面准备的石块作为自动填充的素材，将它和泥土结合形成一块石头路面。首先石块和泥土各复制成九块，按照3×3的规格排列。（石块要进行一些擦除和修改，使其变成一个不规则图形。按照自己的想法随意修改即可）</p>
+<p><img src="https://z3.ax1x.com/2021/05/11/gaItb9.png" alt="重组并修改"></p>
+<p>粉色的区域对应正中央四方连续型的石头图块，其余四个角分别用黄、绿、蓝、红标出。之后按照第二步进行一个重组。</p>
+<p>重组完成后会发现中央的四个直角区域有瑕疵（亮粉色区域），把它们修正后可以得到一个完美的十字。</p>
+<p><img src="https://z3.ax1x.com/2021/05/11/gaT80J.png" alt="自动填充图块"></p>
+<p>之后将高光部分如上图拼起来，可以得到两个小图块。这两个小图块就是自动填充图块的精髓，左边代表了<code>外侧边缘的填充</code>，右边代表了<code>内侧边缘的填充</code>。</p>
+<blockquote>
+<p>注：关于外侧边缘的填充系统会自动完成，实际上第一格只是起到一个标记的作用，方便作者在编辑器里调用相关内容。因此无论这一格不论画成什么样都都不会影响外侧边缘的填充。</p>
+</blockquote>
+<p>之后我们把这些元素进行一个最终组装：</p>
+<p><img src="https://z3.ax1x.com/2021/05/11/gaHnMT.png" alt="cobble"></p>
+<p>锵锵！一块自动填充元件就画好啦！</p>
+<h4 id="中阶：海洋图块"><a href="#中阶：海洋图块" class="headerlink" title="中阶：海洋图块"></a>中阶：海洋图块</h4><p>海洋图块位于Chipset的左上角，一组由三个16×16的图块为一排、四个16×16的图块为一列组成，共12格。每排它都会自动按照从左到右（默认1→2→3→2）的顺序播放。可以算作是一种动画图块。</p>
+<p>同样地，先绘制好海洋的三帧动画，进行一个调色和拼装：</p>
+<p><img src="https://z3.ax1x.com/2021/05/11/gaqKUJ.md.png" alt="ocean"></p>
+<p>在这里我设置底下两排为深水区。实际上这块可以灵活变通，不一定要设置深水区，甚至都不一定要画海洋，只要知道它会自动从左往右播放就行。</p>
+<p>海洋画好后我们来设置陆地。依旧是之前画的泥土<del>（本来应该重新画草地的但我懒）</del>拼成一个十字，但进行一个调色使其看起来像是青苔陆地。</p>
+<p><img src="https://z3.ax1x.com/2021/05/11/gaLweU.png" alt="island"></p>
+<p>在周围画上边缘体现厚度。这里我不推荐把16*16的格子画满，最多到四分之一的大小就好（就是下方示意图的小色块的大小），而且如果想偷懒的话，还可以只画一边，然后水平翻转一下就可以了。<del>当然不偷懒会更自然好看，可我懒</del></p>
+<p>最容易配置的是黄色的区域，就是四个内侧直角所在的地方。把它们组合拼装我们可以得到第一块。</p>
+<p>绿色和红色区域是左右接续边缘，把它们组合拼装得到第二块。</p>
+<p>蓝色和紫色区域是上下接续边缘，把它们组合拼装得到第三块。</p>
+<p>最后就是白色区域，它是负责拼接外侧转角的部分，组合拼装得到第四块。</p>
+<p>这样我们就准备好所有的素材了！把整体拖入上面画的海洋图层里看看效果（不满意还可以再后期调色，直到看起来像是陆地为止）此外考虑到陆地周边的海洋不会是深水区，因此配置的时候背景采用的是第一排的海洋图块。</p>
+<p><img src="https://z3.ax1x.com/2021/05/11/gavoHf.png" alt="海洋图块"></p>
+<p>大功告成！</p>
+<h4 id="高阶：应用"><a href="#高阶：应用" class="headerlink" title="高阶：应用"></a>高阶：应用</h4><p>现在我们学会了自动填充的绘制方法，也知道了它的构成原理，那么接下来该谈谈如何灵活运用这块区域，让它变成一个“元件储藏室”。</p>
+<p>介绍Chipset的配置时提到，不管是海洋元件、动画元件还是自动填充元件，它们都属于<code>下层元件</code>。下层原件就是构成地面或墙壁的元素，一不小心就会画很多。这种时候为了节省空间，是可以把下层元件放进上层区域管理的。但如果上层的空间都已经被各种元件占满了，还有一些没地方放怎么办？一张地图只支持一张Chipset，难道要忍痛删除部分元件吗？</p>
+<p>不用着急，这里有两种解决办法：</p>
+<ol>
+<li>利用行走图，让它变成一块可管理的第三级元件。</li>
+<li>利用自动填充区域，让它变成可以在编辑器里复制的下层元件。</li>
+</ol>
+<p>第一种方法请参考<u>Charset应用篇</u>，在这里详细解释一下第二种解决办法。</p>
+<p><img src="https://z3.ax1x.com/2021/05/12/gd3w24.png" alt="数字与符号"></p>
+<p>这里为了方便大家理解，我在每一格里放入了对应的数字和符号。当这张Chipset被导入进编辑器后，数字0以16×16的大小出现在下层编辑器的左上角，表示这一格可以调用数字1~9所在区域的内容。</p>
+<p>我们在地图里画出一个3×3的格子就可以自然得到1~9，而右上角的冒号得画出一个十字才能被显示出来。如图所示：</p>
+<p><img src="https://z3.ax1x.com/2021/05/12/gd3ca6.png" alt="编辑器实践"></p>
+<p>按住<code>Shift</code>不要松开，使用<code>右键</code>点击任何数字所在区域即可随意复制（长按右键拖动可以复制更多内容），之后在任意区域再次<code>右键</code>就可以粘贴了。<strong>※全程请不要松开Shift。</strong></p>
+<p>按照这个方法，我们可以随意排列组合1~9以及符号，而不受自动填充系统的影响。这就相当于多出了10个16×16的下层空间！当普通上层和下层的区域都被塞满，而自动填充区域还有空间时，请不妨使用这个方法配置更多元件。</p>
+<hr>
+<h3 id="上层元件绘制"><a href="#上层元件绘制" class="headerlink" title="上层元件绘制"></a>上层元件绘制</h3><p>上层并没有多少可以讲解的部分，除了注意配置一栏提到的<code>必须留空的格子</code>以外，几乎所有的空间都可以被调用。不论是树木，屋顶，栏杆，家具，一切能够在地图上存在的物件都可以往上面画。</p>
+<hr>
+<h2 id="数据库设定"><a href="#数据库设定" class="headerlink" title="数据库设定"></a>数据库设定</h2><p>最后我们画好一整张Chipset后，在数据库里进行一个通行设定和音效的设定。</p>
+<p>进入<code>Database</code>，找到<code>Tilesets</code>选项卡，在<code>Tileset Graphic</code>里指定画好的Chipset就可以开始进行设定了。</p>
+<ol>
+<li><p>下层元件<code>Lower Layer</code></p>
+<p><code>Terrain</code>是音效和特效的指定。得先在<code>Terrain</code>选项卡里设定好，再回到<code>Tilesets</code>选项卡里指定相关的数字。</p>
+<p><code>Passability</code>就是通行设定。○是可通行，×是不可通行，☆是可穿过，□是自动填充元件的专属通行规则。</p>
+<p><code>Passage(4 Dir)</code>是通行设定的一个辅助功能。如果不想让主人公在特定方向通过此图块，只要把这个方向关掉即可，反之亦然。</p>
+<p><code>Global Terrain Setting</code>是可以将Chipset上所有的Terrain都设置成同一种数字的功能。</p>
+<p><code>Autotile Animation</code>可以设定海洋元件的播放速度和播放顺序。有自动预览，可以根据自己的喜好进行调整。</p>
+</li>
+<li><p>上层元件<code>Upper Layer</code></p>
+<p><code>Passability</code>与<code>Passage(4 Dir)</code>的功能与下层元件一样，都是通行设定。</p>
+<p><code>Counter</code>是计数标记，和地图事件有关。当一个地图事件用上了以<code>Action Button</code>作为开关时，主人公必须踩在上面或面对它按确认键才能激活。但计数标记图块存在于主人公和事件之间时，事件就会直接执行。</p>
+</li>
+</ol>
+<p>设置好后就可以开始在编辑器里绘制地图了。</p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/RM2003/" rel="tag"><i class="fa fa-tag"></i> RM2003</a>
+              <a href="/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" rel="tag"><i class="fa fa-tag"></i> 游戏开发</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/nextupdate/" rel="prev" title="nexT主题v5升级至v8记录">
+                  <i class="fa fa-chevron-left"></i> nexT主题v5升级至v8记录
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+<script src="/js/comments.js"></script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">-Drifter</span>
+</div>
+<div class="busuanzi-count">
+</div><script color="85,89,116" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+<span id="busuanzi_container_site_uv">
+  总访问量：<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+</span>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
