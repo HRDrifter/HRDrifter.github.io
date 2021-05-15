@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;drifter-games.com&quot;,&quot;root&quot;:&quot;&#x2F;&quot;,&quot;images&quot;:&quot;&#x2F;images&quot;,&quot;scheme&quot;:&quot;Gemini&quot;,&quot;version&quot;:&quot;8.4.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:true,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:false,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:false,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;bounceInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;搜索...&quot;,&quot;empty&quot;:&quot;没有找到任何搜索结果：${query}&quot;,&quot;hits_time&quot;:&quot;找到 ${hits} 个搜索结果（用时 ${time} 毫秒）&quot;,&quot;hits&quot;:&quot;找到 ${hits} 个搜索结果&quot;},&quot;path&quot;:&quot;&#x2F;search.xml&quot;,&quot;localsearch&quot;:{&quot;enable&quot;:true,&quot;trigger&quot;:&quot;auto&quot;,&quot;top_n_per_article&quot;:1,&quot;unescape&quot;:false,&quot;preload&quot;:false}}</script>
+<meta name="description" content="有关CharsetCharset是存放角色行走图的地方，也是制作游戏时必不可少的元素之一。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="讲解RM2K3-Charset的原理">
+<meta property="og:url" content="http://drifter-games.com/2021/Charset/">
+<meta property="og:site_name" content="DrifterGames">
+<meta property="og:description" content="有关CharsetCharset是存放角色行走图的地方，也是制作游戏时必不可少的元素之一。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/14/gsxFne.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/14/gsxOv8.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/14/gyp64s.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/gyJr4J.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/gyJgjx.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/gytASA.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/gytZOP.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/gytUTU.gif">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/gytg0K.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/gyto6I.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/gytTXt.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/gytHnP.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/g6NGWQ.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/g6NX0P.gif">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/g6R9OK.png">
+<meta property="og:image" content="https://z3.ax1x.com/2021/05/15/g6WH54.gif">
+<meta property="article:published_time" content="2021-05-14T12:37:09.000Z">
+<meta property="article:modified_time" content="2021-05-15T12:59:50.555Z">
+<meta property="article:author" content="-Drifter">
+<meta property="article:tag" content="RM2003">
+<meta property="article:tag" content="游戏开发">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://z3.ax1x.com/2021/05/14/gsxFne.png">
+
+
+<link rel="canonical" href="http://drifter-games.com/2021/Charset/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;http:&#x2F;&#x2F;drifter-games.com&#x2F;2021&#x2F;Charset&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;Charset&#x2F;&quot;,&quot;title&quot;:&quot;讲解RM2K3-Charset的原理&quot;}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">&quot;&quot;</script>
+<title>讲解RM2K3-Charset的原理 | DrifterGames</title><script src="/js/config.js"></script>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">DrifterGames</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">游戏开发</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
+        <li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>友链</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%89%E5%85%B3Charset"><span class="nav-number">1.</span> <span class="nav-text">有关Charset</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%84%E6%A0%BC%E5%92%8C%E9%85%8D%E7%BD%AE"><span class="nav-number">1.1.</span> <span class="nav-text">规格和配置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9D%E9%98%B6%EF%BC%9A%E8%A7%92%E8%89%B2%E7%9A%84%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">初阶：角色的配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%9B%E9%98%B6%EF%BC%9A%E7%89%A9%E4%BB%B6%E7%9A%84%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">进阶：物件的配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E5%B0%8F%E7%89%A9%E4%BB%B6"><span class="nav-number">3.1.</span> <span class="nav-text">配置小物件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E5%A4%A7%E7%89%A9%E4%BB%B6"><span class="nav-number">3.2.</span> <span class="nav-text">配置大物件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%AB%98%E9%98%B6%EF%BC%9A%E5%8A%A8%E7%94%BB%E7%9A%84%E9%85%8D%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">高阶：动画的配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E5%B8%A7-amp-%E5%9B%9B%E5%B8%A7"><span class="nav-number">4.1.</span> <span class="nav-text">三帧&amp;四帧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9B%E5%B8%A7%E4%BB%A5%E4%B8%8A"><span class="nav-number">4.2.</span> <span class="nav-text">四帧以上</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="-Drifter"
+      src="https://i.loli.net/2021/05/07/j4NkXWc1fDTlLCI.png">
+  <p class="site-author-name" itemprop="name">-Drifter</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/HRDrifter" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;HRDrifter" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/drifter_matsu" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;drifter_matsu" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://drifter-games.com/2021/Charset/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://i.loli.net/2021/05/07/j4NkXWc1fDTlLCI.png">
+      <meta itemprop="name" content="-Drifter">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="DrifterGames">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          讲解RM2K3-Charset的原理
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-05-14 20:37:09" itemprop="dateCreated datePublished" datetime="2021-05-14T20:37:09+08:00">2021-05-14</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-05-15 20:59:50" itemprop="dateModified" datetime="2021-05-15T20:59:50+08:00">2021-05-15</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">教程</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关Charset"><a href="#有关Charset" class="headerlink" title="有关Charset"></a>有关Charset</h2><p>Charset是存放角色行走图的地方，也是制作游戏时必不可少的元素之一。</p>
+<span id="more"></span>
+
+<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
+<li><p>规格</p>
+<table>
+<thead>
+<tr>
+<th>图像大小</th>
+<th>导入格式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>288×256</td>
+<td>PNG、BMP、XYZ</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>配置</p>
+<p><img src="https://z3.ax1x.com/2021/05/14/gsxFne.png" alt="Charset"></p>
+<p>这是一张Charset的模板。一格的大小是24×32像素，一组共12块。一整张Charset正好可以放下八组。</p>
+<p>单独把一组拆出来进行解析：</p>
+<p><img src="https://z3.ax1x.com/2021/05/14/gsxOv8.png" alt="gsxOv8.png"></p>
+<p>在这里我把16×16的格子们放置在中间，可以较为直观地看出一格的长度正好是16的两倍，宽度左右各多出了4个像素点的空间。其实多出来的内容一样可以在游戏中显示出来，不需要担心自己的图像超过了范围。</p>
+<p>但需要注意的是如果地图元件没有设置好通行的话，这部分的内容就会<strong>穿过该元件的边缘</strong>，所以除非自己有特殊需求，<strong>尽量</strong>不要让角色的宽度占满所有空间。</p>
+</li>
+</ol>
+<hr>
+<h2 id="初阶：角色的配置"><a href="#初阶：角色的配置" class="headerlink" title="初阶：角色的配置"></a>初阶：角色的配置</h2><p><img src="https://z3.ax1x.com/2021/05/14/gyp64s.png" alt="OC"></p>
+<p>用以前画的行走图拿出来举例，一组一共对应了角色的四个方向：上、右、下、左，每个朝向都对应了三帧动画。</p>
+<p>系统默认玩家不动的时候，角色的状态以正中间的纵列为主，被称为<code>静止帧</code>；当玩家输入按键的时候，图像会进行1→2→3→2的循环并同时移动位置，这些被称为<code>摆动帧</code>。</p>
+<p>制作角色行走图时需要注意的几点要求：</p>
+<ul>
+<li>画行走图时，需要注意角色静止时和行走时的<code>高低差</code>。如果三个动作都在同一水平面上，会感觉角色在地图上平移，不自然不美观。</li>
+<li>配置的时候切记<code>上右下左</code>的顺序，千万不能搞反方向。</li>
+<li>给角色增加细节，例如衣服的摆动和头发的摆动。</li>
+</ul>
+<h2 id="进阶：物件的配置"><a href="#进阶：物件的配置" class="headerlink" title="进阶：物件的配置"></a>进阶：物件的配置</h2><p>那除了画人，是不是还可以画物体呢？</p>
+<p>当然可以！</p>
+<h3 id="配置小物件"><a href="#配置小物件" class="headerlink" title="配置小物件"></a>配置小物件</h3><p><a href="https://drifter-games.com/2021/Chipset/">上一章</a>我们提到，Chipset分为<code>下层元件</code>和<code>上层元件</code>，而Charset的物体，在地图上可以被分类成第三类元件：它不仅可以充当下层元件，甚至还可以存在于上层元件之上。比如可以是床上的一本书，可以是桌上的台灯，栏杆上挂着的衣服……如果Chipset的空间已经占满，或想做一个可交互的小物件时，使用行走图就可以解决大部分问题。</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/gyJr4J.png" alt="台灯"></p>
+<p>以一盏台灯为例，如果把它放进游戏里的话就会是这样的：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/gyJgjx.png" alt="穿过台灯"></p>
+<p>角色虽然不能从杆子的部分穿过，但是可以从灯的后面穿过。我们得出一个结论：<strong>行走图的上半部分会被系统默认为☆可穿过元件。</strong>只要合理利用这点就能很快在地图上配置好各种各样的物件，而不用担心Chipset的上限问题。</p>
+<h3 id="配置大物件"><a href="#配置大物件" class="headerlink" title="配置大物件"></a>配置大物件</h3><p>当然不是所有的物体都像是刚才的台灯那样刚刚好，比如我画了一张大到一个格子塞不下的床：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/gytASA.png" alt="gytASA.png"></p>
+<p>这种情况就要逐个把它们分进小格子里一段一段配置。在配置一节讲到过，行走图一格的宽度比普通的一格宽度多出了8个像素点，但这部分又确实能在地图上显示，所以左右拆分的时候也应当<strong>空出相同数量的像素点</strong>，这样就不会出现显示错误。</p>
+<p>根据以上的结论，可以得出两种拆分方法：</p>
+<ol>
+<li>利用行走图的宽度特性：内容占满了一整格24×32的情况，左右两侧就应该留出4+4=8格像素的空间。</li>
+<li>不利用行走图的宽度特性：内容只占中间16×32的情况，左右两侧就应该留出行走图宽度多出来的4格像素的空间。</li>
+</ol>
+<p>大家可以视实际情况决定拆分方法！在这里我用第一种方法举例：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/gytZOP.png" alt="gytZOP.png"></p>
+<p>因为床的中心占满了整个24×32的格子，所以两侧都得空出8个像素的空间。理论上这张床放进游戏里是不会有任何显示错误的，但放进游戏里进行测试的时候，却发现了这样的问题：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/gytUTU.gif" alt="gytUTU.gif"></p>
+<p>主人公能从中间穿过的原因在于上一章我们得出的结论：</p>
+<blockquote>
+<p>行走图的上半部分会被系统默认为可穿过元件</p>
+</blockquote>
+<p>于是再进行一次拆分工作：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/gytg0K.png" alt="gytg0K.png"></p>
+<p>如图所示，只要把这些会穿过的部分单独拆出来放进另一组的<code>下半部分</code>就不会出现这种问题了。</p>
+<p>最后把这些床全都放进行走图里做一个对比：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/gyto6I.png" alt="gyto6I.png"></p>
+<p>第一张床是简单的拆分法、第二张床是经过改良之后的拆分法、第三张床就是完全没有进行拆分的情况。把这些床放进编辑器里进行配置（<strong>配置时要记得将部件的<code>Animation Type</code>设置成<code>Fixed Graphic</code>才能在地图上正常显示</strong>）</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/gytTXt.png" alt="gytTXt.png"></p>
+<p><img src="https://z3.ax1x.com/2021/05/15/gytHnP.png" alt="gytHnP.png"></p>
+<p>如图所示，未进行拆分的床变得一塌糊涂，而经过拆分的床则没有这种问题。学会拆分就不用担心Chipset空间不够，是一种非常实用的技能。</p>
+<blockquote>
+<p>注：其实第一张床出现的穿过问题，可以在中间那一排加上属性为<code>Same as Characters</code>的空白事件强制让主人公无法通过。大家可以视地图的具体情况来确定拆分方法。</p>
+</blockquote>
+<h2 id="高阶：动画的配置"><a href="#高阶：动画的配置" class="headerlink" title="高阶：动画的配置"></a>高阶：动画的配置</h2><p>动画的配置需要了解事件编辑器中的<code>Animation Type</code>（动画类型）和<code>Movement Speed</code>（移动速度），通过这两者的配合就可以在行走图做出各种不同的帧动画。</p>
+<p><code>Animation Type</code>一共有7种设置方法：</p>
+<table>
+<thead>
+<tr>
+<th>Animation Type</th>
+<th>动画类型</th>
+<th>处理方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Standing Animation</td>
+<td>站立动画</td>
+<td>移动时不会固定朝向和摆动帧动画</td>
+</tr>
+<tr>
+<td>Walking Animation</td>
+<td>行走动画</td>
+<td>循环播放摆动帧动画</td>
+</tr>
+<tr>
+<td>Direction Fix/Inanimated</td>
+<td>方向校正/无动画</td>
+<td>固定朝向，不固定摆动帧动画</td>
+</tr>
+<tr>
+<td>Direction Fix/Animated</td>
+<td>方向校正/动画</td>
+<td>固定朝向，循环播放摆动帧动画</td>
+</tr>
+<tr>
+<td>Fixed Graphic</td>
+<td>图像校正</td>
+<td>可指定任意方向的任意帧数</td>
+</tr>
+<tr>
+<td>Spin</td>
+<td>旋转</td>
+<td>固定读取静止帧，按照上右下左的顺序循环播放</td>
+</tr>
+<tr>
+<td>Step Frame Fix</td>
+<td>摆动帧校正</td>
+<td>固定读取静止帧，不固定朝向</td>
+</tr>
+</tbody></table>
+<p>建议实际操作感受一下这七种类型的区别。</p>
+<h3 id="三帧-amp-四帧"><a href="#三帧-amp-四帧" class="headerlink" title="三帧&amp;四帧"></a>三帧&amp;四帧</h3><p>在行走图里画帧动画，一般会用上<code>Walking Animation</code>和<code>Spin</code>两种模式。行走动画默认读取横向摆动帧，旋转默认读取纵向静止帧，由此可得一张行走图最多可以放置四种行走动画或三种旋转动画。</p>
+<p>举一个例子：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/g6NGWQ.png" alt="g6NGWQ.png"></p>
+<p>中间的静止帧是一个旋转的圆环，其他摆动帧分别为跳动的圆环、拉长的圆环、旋转的宝石和闪烁的圆环。调整好动画类型和速度，放进地图里就会像这样：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/g6NX0P.gif" alt="g6NX0P.gif"></p>
+<p>但是这种方法最多只能画四帧动画，那如果四帧并不能满足需求，这种时候就得用上<code>Movement Type</code>（移动方式）进行辅助了。</p>
+<h3 id="四帧以上"><a href="#四帧以上" class="headerlink" title="四帧以上"></a>四帧以上</h3><p><code>Movement Type</code>位于左下角，一共有七种：</p>
+<table>
+<thead>
+<tr>
+<th>Movement Type</th>
+<th>移动类型</th>
+<th>处理方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Stationary</td>
+<td>静止</td>
+<td>不移动</td>
+</tr>
+<tr>
+<td>Random</td>
+<td>随机</td>
+<td>随机移动</td>
+</tr>
+<tr>
+<td>Vertical</td>
+<td>纵向</td>
+<td>垂直方向移动，碰到障碍物会反向移动</td>
+</tr>
+<tr>
+<td>Horizontal</td>
+<td>横向</td>
+<td>水平方向移动，碰到障碍物会反向移动</td>
+</tr>
+<tr>
+<td>Approach Player</td>
+<td>靠近主人公</td>
+<td>往主人公的所在位置靠近</td>
+</tr>
+<tr>
+<td>Away from Player</td>
+<td>远离主人公</td>
+<td>远离主人公的所在位置</td>
+</tr>
+<tr>
+<td>Custom</td>
+<td>自定义</td>
+<td>指定该事件的移动路线</td>
+</tr>
+</tbody></table>
+<p>这里可以用<code>Custom</code>（自定义）来增加动画的帧数。当选择自定义时，会发现底端多了一个名为<code>Frequency</code>的选项，它的数字越大，执行指令的速度就越快。</p>
+<p>为了举例，我画了一个球体在地面上弹跳的动画：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/g6R9OK.png" alt="g6R9OK.png"></p>
+<p>注意此处我把它们分成了两组，这样设置移动路线的时候可以利用<code>Change Graphic</code>实现帧数之间的无缝衔接。</p>
+<p>我们在<code>Movement Commands</code>里输入以下指令：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">//首先是第一组的四帧</span><br><span class="line">$&gt;Turn Up</span><br><span class="line">$&gt;Turn Right</span><br><span class="line">$&gt;Turn Down</span><br><span class="line">$&gt;Turn Left</span><br><span class="line">//然后衔接上第二组</span><br><span class="line">Graphic:&#x27;ball&#x27;,2</span><br><span class="line">Turn Up</span><br><span class="line">Turn Right</span><br><span class="line">Turn Down</span><br><span class="line">Turn Left</span><br><span class="line">//再切换回第一组</span><br><span class="line">Graphic:&#x27;ball&#x27;,1</span><br></pre></td></tr></table></figure>
+
+<p>之后将<code>Frequency</code>设置成5，按下确定，来看看效果：</p>
+<p><img src="https://z3.ax1x.com/2021/05/15/g6WH54.gif" alt="g6WH54.gif"></p>
+<p>一个弹跳的球完成了！</p>
+<p>注：如果有其他需求，可以用事件指令<code>Set Move Route</code>并指定<code>This Event</code>进行编辑，效果是一样的。</p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/RM2003/" rel="tag"><i class="fa fa-tag"></i> RM2003</a>
+              <a href="/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" rel="tag"><i class="fa fa-tag"></i> 游戏开发</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/Chipset/" rel="prev" title="讲解RM2K3-Chipset的原理">
+                  <i class="fa fa-chevron-left"></i> 讲解RM2K3-Chipset的原理
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+<script src="/js/comments.js"></script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">-Drifter</span>
+</div>
+<div class="busuanzi-count">
+</div><script color="85,89,116" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+<span id="busuanzi_container_site_uv">
+  总访问量：<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+</span>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
