@@ -39,7 +39,7 @@
 <meta property="og:image" content="https://z3.ax1x.com/2021/05/12/gd3w24.png">
 <meta property="og:image" content="https://z3.ax1x.com/2021/05/12/gd3ca6.png">
 <meta property="article:published_time" content="2021-05-11T19:43:25.000Z">
-<meta property="article:modified_time" content="2021-05-16T09:36:18.727Z">
+<meta property="article:modified_time" content="2021-05-19T09:32:25.247Z">
 <meta property="article:author" content="-Drifter">
 <meta property="article:tag" content="RM2003">
 <meta property="article:tag" content="游戏开发">
@@ -175,7 +175,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -266,7 +266,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-05-16 17:36:18" itemprop="dateModified" datetime="2021-05-16T17:36:18+08:00">2021-05-16</time>
+        <time title="修改时间：2021-05-19 17:32:25" itemprop="dateModified" datetime="2021-05-19T17:32:25+08:00">2021-05-19</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -323,7 +323,10 @@
 <p>普通下层元件（D）</p>
 <p>普通上层元件（E）</p>
 </blockquote>
-<p>所有的下层元件位于亮黄色折线的左边（包括ABC三个区域），上层则位于折线的右边。折线的中央有一块不太一样的空格，它代表透明色。<strong>注意：必须留一个空格表示透明色</strong></p>
+<p>所有的下层元件位于亮黄色折线的左边（包括ABC三个区域），上层则位于折线的右边。折线的中央有一块不太一样的空格，它代表透明色。</p>
+<div class="note warning no-icon"><p><strong>注意：必须留一个空格表示透明色</strong></p>
+</div>
+
 <p>官方有关上下层元件的说明如下：</p>
 <blockquote>
 <p>The map is comprised of 2 layers (upper and lower)  and each has a different set of placeable tiles. The “lower layer” is used for  placing terrain such as sea, mountains, and dirt, while the “upper layer” is  used for details such as buildings, treasure chests, and characters.</p>
@@ -389,7 +392,10 @@
 <p>这里为了方便大家理解，我在每一格里放入了对应的数字和符号。当这张Chipset被导入进编辑器后，数字0以16×16的大小出现在下层编辑器的左上角，表示这一格可以调用数字1~9所在区域的内容。</p>
 <p>我们在地图里画出一个3×3的格子就可以自然得到1~9，而右上角的冒号得画出一个十字才能被显示出来。如图所示：</p>
 <p><img src="https://z3.ax1x.com/2021/05/12/gd3ca6.png" alt="编辑器实践"></p>
-<p>按住<code>Shift</code>不要松开，使用<code>右键</code>点击任何数字所在区域即可随意复制（长按右键拖动可以复制更多内容），之后在任意区域再次<code>右键</code>就可以粘贴了。<strong>※全程请不要松开Shift。</strong></p>
+<p>按住<code>Shift</code>不要松开，使用<code>右键</code>点击任何数字所在区域即可随意复制（长按右键拖动可以复制更多内容），之后在任意区域再次<code>右键</code>就可以粘贴了。</p>
+<div class="note warning no-icon"><p><strong>全程请不要松开Shift。</strong></p>
+</div>
+
 <p>按照这个方法，我们可以随意排列组合1~9以及符号，而不受自动填充系统的影响。这就相当于多出了10个16×16的下层空间！当普通上层和下层的区域都被塞满，而自动填充区域还有空间时，请不妨使用这个方法配置更多元件。</p>
 <hr>
 <h2 id="上层元件绘制"><a href="#上层元件绘制" class="headerlink" title="上层元件绘制"></a>上层元件绘制</h2><p>上层并没有多少可以讲解的部分，除了注意配置一栏提到的<code>必须留空的格子</code>以外，几乎所有的空间都可以被调用。不论是树木，屋顶，栏杆，家具，一切能够在地图上存在的物件都可以往上面画。</p>
