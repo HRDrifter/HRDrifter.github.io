@@ -1,52 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Ephemreal</title>
-    <url>/2020/Ephemreal/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.loli.net/2021/05/07/64FqkcE3WOUwPiy.png" alt="ephemreal.png"><br><img src="https://i.loli.net/2021/05/07/UTfbhj5FOKsr2CI.png" alt="room.png"></p>
-<span id="more"></span>
-
-<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><div class="note warning"><p>此游戏是梦日记的fangame，也就是所谓的同人游戏。并不是梦日记的续作，<strong>与梦日记和kikiyama氏完全没有关系。</strong></p>
-</div>
-
-<p>此外，Ephemreal现处于开发状态，因此内容较少，并没有实装结局。今后还会不定期进行更新和修复，欢迎向我报告遇到的bug。</p>
-<h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><ul>
-<li>移动：<code>方向键</code></li>
-<li>确定：<code>Z/Enter</code></li>
-<li>菜单/取消：<code>X</code></li>
-<li>特殊动作：<code>Shift</code></li>
-<li>捏脸：<code>数字9</code></li>
-<li>存档：<code>调查主人公卧室右下角的显示屏</code></li>
-</ul>
-<p>在梦中四处转转，调查一些特殊物品取得<code>效果</code>吧。</p>
-<h3 id="版本履历"><a href="#版本履历" class="headerlink" title="版本履历"></a>版本履历</h3><table>
-<thead>
-<tr>
-<th>版本信息</th>
-<th>下载连接</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ver0.00</td>
-<td><a href="https://www.mediafire.com/file/27u86p7gu7hx97b/Ephemreal_ver0.00.rar/file">简体中文</a></td>
-</tr>
-<tr>
-<td>ver0.00+</td>
-<td><a href="https://www.mediafire.com/file/875djymsazazs6d/Ephemreal_ver0.00%252B.rar/file">ENGLISH</a></td>
-</tr>
-</tbody></table>
-<h3 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h3><p>安装运行出现了问题？<a href="https://drifter-games.com/2020/Help/">请看这边</a><br>我想投稿，该怎么做？<a href="https://drifter-games.com/2020/subrules/">请点这里</a></p>
-<h2 id="其他链接"><a href="#其他链接" class="headerlink" title="其他链接"></a>其他链接</h2><a class="btn" href="https://www.pixiv.net/artworks/86174142 "><i class="fa fa-link fa-lg"></i>Pixiv</a>
-<a class="btn" href="https://yumenikkifg.fandom.com/wiki/Ephemreal "><i class="fa fa-link fa-lg"></i>Wiki</a>]]></content>
-      <categories>
-        <category>更新/发布信息</category>
-      </categories>
-      <tags>
-        <tag>梦日记派生</tag>
-        <tag>游戏发布</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何顺手使用Aseprite</title>
     <url>/2021/Aseprite/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>Aseprite是一个非常便利的像素绘画软件，不仅可以普通绘制图像，还拥有时间轴编辑、逐帧输出等很多对游戏制作有用的功能。</p>
@@ -175,198 +129,6 @@
       </categories>
       <tags>
         <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown语法记录</title>
-    <url>/2021/markdown/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>这几天翻官网发现next自带了一些插件能够通过markdown实现，就干脆单开一个笔记记录一下以后可能会用到的（人比较健忘）。</p>
-<span id="more"></span>
-
-<h2 id="字体篇"><a href="#字体篇" class="headerlink" title="字体篇"></a>字体篇</h2><h3 id="改变字体"><a href="#改变字体" class="headerlink" title="改变字体"></a>改变字体</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font face=&quot;字体&quot;&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p>能调用所有本机系统安装的所有字体文件，只要知道字体的名字就可以。</p>
-<p><font face="Zpix">像素字体</font></p>
-<p><font face="Annabelle">Handwriting</font></p>
-<p><font face="DFPKanTingLiu-B5">もうひつ</font></p>
-<h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;内容&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-
-<center>有一种写论文的感觉</center>
-
-<h3 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font color=16进制HEX&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p>一段话里可以同时存在好几种颜色，比如说<font color=#4E008E>紫色的文字</font>、<font color=#00AB84>绿色的文字</font>、<font color=#D1428D>粉色的文字</font>。</p>
-<h3 id="字体大小"><a href="#字体大小" class="headerlink" title="字体大小"></a>字体大小</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font size=&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p>突然<font size=5>变大</font></p>
-<p>突然<font size=2>缩小</font></p>
-<p>size直接填写数字也可以，填写像素也可以。</p>
-<h3 id="字体综合"><a href="#字体综合" class="headerlink" title="字体综合"></a>字体综合</h3><p>把以上所有的语句全部综合可得：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font color= size= face=&quot;&quot;&gt;内容&lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-
-<center><font color=\#001489 size=5 face="Zpix">居中的蓝色像素大字体</font></center>
-
-<hr>
-<h2 id="列表篇"><a href="#列表篇" class="headerlink" title="列表篇"></a>列表篇</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [ ] 内容</span><br><span class="line">- [x] 内容</span><br></pre></td></tr></table></figure>
-
-<p>任务列表适合写笔记用，或者可以搞选择题。</p>
-<ul>
-<li><input disabled="" type="checkbox"> 未选</li>
-<li><input checked="" disabled="" type="checkbox"> 选择</li>
-</ul>
-<hr>
-<h2 id="NexT插件篇"><a href="#NexT插件篇" class="headerlink" title="NexT插件篇"></a>NexT插件篇</h2><h3 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn 地址 , 文字 , 图标 规格 %&#125;</span><br><span class="line">fa-fw fa-lg fa-2x fa-3x fa-4x fa-5x</span><br></pre></td></tr></table></figure>
-
-<p>可以只选一种也可以互相搭配：</p>
-<a class="btn" href="#">button</a>
-
-<a class="btn" href="#"><i class="fa fa-link fa-lg"></i></a>
-
-<a class="btn" href="https://theme-next.js.org/docs/tag-plugins/button.html "><i class="fa fa-link fa-fw"></i>NexT</a>
-
-<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;内容&lt;/blockquote&gt;</span><br><span class="line">&#123;% centerquote %&#125;内容&#123;% endcenterquote %&#125;</span><br><span class="line">&#123;% cq %&#125;内容&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote class="blockquote-center">
-<p>Each possible move represents a different game,</p>
-<p>a different universe in which you make a better move.</p>
-<p>There are more possible games of chess</p>
-<p>than there are atoms in the universe.</p>
-<p>No one could possibly predict them all, even you.</p>
-
-</blockquote>
-
-<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note class %&#125;内容&#123;% endnote %&#125;</span><br><span class="line">class: default/primary/success/info/warning/danger/no-icon</span><br></pre></td></tr></table></figure>
-
-<p>要启用这些得先去站点配置里找到有关note的介绍并且把它们打开。</p>
-<div class="note default"><h4 id="Default"><a href="#Default" class="headerlink" title="Default"></a>Default</h4><p>灰色箭头标志</p>
-</div>
-
-<div class="note primary"><h4 id="Primary"><a href="#Primary" class="headerlink" title="Primary"></a>Primary</h4><p>紫色加号标志</p>
-</div>
-
-<div class="note success"><h4 id="Success"><a href="#Success" class="headerlink" title="Success"></a>Success</h4><p>绿色对勾标志</p>
-</div>
-
-<div class="note info"><h4 id="Info"><a href="#Info" class="headerlink" title="Info"></a>Info</h4><p>蓝色信息标志</p>
-</div>
-
-<div class="note warning"><h4 id="Warning"><a href="#Warning" class="headerlink" title="Warning"></a>Warning</h4><p>黄色预警标志</p>
-</div>
-
-<div class="note danger"><h4 id="Danger"><a href="#Danger" class="headerlink" title="Danger"></a>Danger</h4><p>红色禁止标志</p>
-</div>
-
-<p>折叠也可以：</p>
-<details class="note danger"><summary><p>Content Warning</p>
-</summary>
-<h4 id="Content-Warning"><a href="#Content-Warning" class="headerlink" title="Content Warning"></a>Content Warning</h4><p>Content warnings are not an excuse for students to skip class or censor your material.</p>
-
-</details>
-
-]]></content>
-      <categories>
-        <category>帮助</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>nexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>讲解RM2K3-System的原理</title>
-    <url>/2021/System/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关System"><a href="#有关System" class="headerlink" title="有关System"></a>有关System</h2><p>System一般指的是菜单样式，它和Chipset、Charset一样属于可自定义的图像。</p>
-<span id="more"></span>
-
-<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
-<li><p>规格</p>
-<table>
-<thead>
-<tr>
-<th>图像大小</th>
-<th>导入格式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>160×80</td>
-<td>PNG、BMP、XYZ</td>
-</tr>
-</tbody></table>
-</li>
-<li><p>配置</p>
-<p><img src="https://z3.ax1x.com/2021/05/16/ggirBq.png" alt="ggirBq.png"></p>
-<p>这是一张System的模板。里面包含了5块32×32的格子，24块16×16的格子以及12块8×16的小格子。</p>
-</li>
-</ol>
-<hr>
-<h2 id="自定义菜单样式"><a href="#自定义菜单样式" class="headerlink" title="自定义菜单样式"></a>自定义菜单样式</h2><p><img src="https://z3.ax1x.com/2021/05/16/ggFEvj.png" alt="ggFEvj.png"></p>
-<p>为了方便理解，我给每个区域标注了对应的字母和数字。如果想看指定区域的解析，可以通过左侧的目录直接跳转（仅限电脑端）</p>
-<h3 id="A区域：菜单背景"><a href="#A区域：菜单背景" class="headerlink" title="A区域：菜单背景"></a>A区域：菜单背景</h3><p>对话框的背景、游戏开场时的选项背景、状态栏的背景……这些全都属于A区域管理的部分。可以在里面随意画上自己喜欢的颜色或者图案。</p>
-<p>通过设置<code>Window Background</code>，可以得到拉伸或平铺的效果。</p>
-<p><img src="https://z3.ax1x.com/2021/05/16/ggkZWD.png" alt="ggkZWD.png"></p>
-<p><code>Stretch to Fit</code>适合纯色/渐变型背景；<code>Tiled Pattern</code>则适合图案型背景。</p>
-<p>※注意：图案型背景选择Stretch的话效果会很糟糕，如果设计了图案的话最好不要选择这项。</p>
-<h3 id="B区域：边框和指示箭头"><a href="#B区域：边框和指示箭头" class="headerlink" title="B区域：边框和指示箭头"></a>B区域：边框和指示箭头</h3><p>黄色的部分是边框所占的最大空间，只要不超过黄色的部分，边框无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。四个直角的读取范围是8×8，剩下的内容会根据边框的长度进行压缩或平铺。</p>
-<p>橙色的部分是指示箭头所占的最大空间，对话框底部闪烁的图案、菜单滚动页面的指示箭头都靠这部分显示，默认闪烁。上半部分和下半部分的大小都是8×16，注意不要画过头了。</p>
-<h3 id="C-amp-D区域：光标"><a href="#C-amp-D区域：光标" class="headerlink" title="C&amp;D区域：光标"></a>C&amp;D区域：光标</h3><p>这两块绿色的部分相当于起到光标的作用，两者交替显示形成一种闪烁的效果：</p>
-<p><img src="https://z3.ax1x.com/2021/05/16/ggVQm9.gif" alt="ggVQm9.gif"></p>
-<p>和边框一样，只要不超过这些区域，无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。比如可以在宽的部分加上指示标记，或者只画一条线充当选项的下划线……请发挥想象力！</p>
-<h3 id="E区域：店铺页面的显示"><a href="#E区域：店铺页面的显示" class="headerlink" title="E区域：店铺页面的显示"></a>E区域：店铺页面的显示</h3><p>这部分一般会在武器防具店购买东西的时候用上，如果是做派生的话这部分的内容是用不上的，想空着也可以空着。</p>
-<p>从上至下分别为<code>状态提升</code>、<code>状态不变</code>、<code>状态下降</code>以及<code>正在装备</code>。它们的播放顺序都是从左往右1→2→3→4</p>
-<h3 id="F区域：整体背景"><a href="#F区域：整体背景" class="headerlink" title="F区域：整体背景"></a>F区域：整体背景</h3><p>它负责没有被边框框住的部分，比如持有金和菜单栏之间的背景，存档页面的背景（如图）。没什么需求的话可以搞成纯黑的，或者和A区域使用同一种色系。</p>
-<p><img src="https://z3.ax1x.com/2021/05/17/g2mxo9.png" alt="g2mxo9.png"></p>
-<p>蓝色的部分就是F区域，橙色的部分则是B区域指示箭头的下半部分。</p>
-<h3 id="G区域：文字的影子"><a href="#G区域：文字的影子" class="headerlink" title="G区域：文字的影子"></a>G区域：文字的影子</h3><p>此区域的颜色会影响所有的文字和符号，它可以让字符变得更加立体和美观。一般设定成深色，可以按实际需求调整。</p>
-<h3 id="0-19：文字的颜色"><a href="#0-19：文字的颜色" class="headerlink" title="0~19：文字的颜色"></a>0~19：文字的颜色</h3><p>0：默认文本颜色</p>
-<p>1：金钱的单位颜色、状态文本的颜色（例如HP、MP、LV等）</p>
-<p>2：状态数值上升时的颜色</p>
-<p>3：某选项无法选择时的颜色（例如游戏在未读出存档时Continue的颜色，详见CD区域的GIF）</p>
-<p>以上四种是制作派生时会用到的颜色。</p>
-<p>剩下的4~19虽然不会在游戏里直接显示，但是可以随时通过<code>\c[]</code>调用。例如我在文本里输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt;Text: Hello, I&#x27;m \c[3]Drifter!</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://z3.ax1x.com/2021/05/17/g2nqfI.png" alt="g2nqfI.png"></p>
-<blockquote>
-<p>注：如果想在一段长台词里标亮其中一段句子或词语，记得在标亮词句后输入<code>\c[0]</code>以保证之后的文本颜色回到默认状态。</p>
-</blockquote>
-<p>只要在[]中输入编号(1~19)，系统就会自动调用System中对应的颜色。当输入的数值超过19的情况，系统会显示默认的颜色（0号）。</p>
-<h3 id="彩色区域：计时器的样式"><a href="#彩色区域：计时器的样式" class="headerlink" title="彩色区域：计时器的样式"></a>彩色区域：计时器的样式</h3><p>这段区域由12块8×16的小格子组成，一般在里面填写0~9以及冒号（剩余一段8×16的空格在游戏里不会被显示）。当在事件里启用计时器时，画面的左上角就会显示这部分的内容。</p>
-<p>制作派生时一般用它来显示入睡时间。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Timer 1 Operation: Start</span><br><span class="line">@&gt; Timer 1 Operation: Set Time, 0 minutes 03 seconds</span><br></pre></td></tr></table></figure>
-
-<p>像本家或派生三秒入睡，实际上只需要布置1~3的数字在此区域就可以运行了。如果没有计时器的要求，那么这段区域空着也可以。</p>
-<h3 id="椭圆区域：飞行船的影子"><a href="#椭圆区域：飞行船的影子" class="headerlink" title="椭圆区域：飞行船的影子"></a>椭圆区域：飞行船的影子</h3><p>它是Vehicle中的Airship的影子，派生一般用不上这块区域其实可以忽略。</p>
-<p>两个椭圆会被系统认定为两个叠加的半透明图案，在飞行船底部形成一个边缘淡化的影子。</p>
-<hr>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><img src="https://z3.ax1x.com/2021/05/17/g2uMN9.png" alt="g2uMN9.png"  />
-
-<p>用一张以前做的菜单样式作为例子，注意边框、指示箭头和计时器数字的背景都指定了透明色。</p>
-<img src="https://z3.ax1x.com/2021/05/17/g2u191.png" alt="g2u191.png" style="zoom:80%;" />
-
-<p>右侧边框的内容可以通过数据库的<code>System 2</code>中得到修改，制作派生时可以将第一行的<code>Items</code>换成<code>Effects</code>，将<code>Equipment</code>与<code>Save</code>关闭。</p>
-<p>边框底部是持有金的显示，货币单位G可以在<code>Glossary4</code>的<code>Shop Paramenters</code>里进行修改。</p>
-<p>右侧是有关主人公的数值面板，第一行是<code>Name</code>和<code>Nickname</code>，制作派生时可以将主人公的状态输进昵称栏里。（第二行的特殊符号我会在下方进行详细的解释）</p>
-<h2 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h2><p>RM2003自带了特殊符号，一共52种。只要使用<code>$英文字母</code>就能随时调用。</p>
-<p>在文本框里输入以下内容可以看到所有的符号：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Text: $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p $q</span><br><span class="line"> :     : $r $s $t $u $v $w $x $y $z</span><br><span class="line"> :     : $A $B $C $D $E $F $G $H $I $J $K $L $M $N $O $P $Q</span><br><span class="line"> :     : $R $S $T $U $V $W $X $Y $Z</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://z3.ax1x.com/2021/05/17/g2uVXT.png" alt="g2uVXT.png"></p>
-<p>这些符号也可以应用到数据库中的<code>Terms</code>里。找到<code>Glossary5</code>，可以在里面设置Level、HP、MP、EXP的缩略符号。</p>
-<p>例如在<code>HP(Abbr.)</code>里输入<code>$k</code>，那么在菜单栏里的HP代表符号就会变成一颗心的形状。</p>
-<p><img src="https://z3.ax1x.com/2021/05/17/g2un74.png" alt="g2un74.png"></p>
-<p>大家可以根据个人喜好决定内容。</p>
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RM2003</tag>
-        <tag>游戏开发</tag>
       </tags>
   </entry>
   <entry>
@@ -571,6 +333,140 @@
       </tags>
   </entry>
   <entry>
+    <title>博客搭建经验</title>
+    <url>/2021/Blog/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在一堆博客平台上兜兜转转好几年，最终还是选择了GitHub。无各种限制+无广告+无社交互动已经很让人心动了，最重要的还是对系统友好、不用花高价去维护，很适合像我这样又穷又自闭的赛博难民。</p>
+<p>这两天花了一些时间学习了怎么搭建和配置，趁着还没忘记录一下搭建时遇到的问题和解决办法（详细的搭建过程很容易找到，这里就不阐述了）</p>
+<span id="more"></span>
+
+<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>先说明自己所用的版本信息：</p>
+<blockquote>
+<p>Git-2.31.1 64bit</p>
+<p>Nodejs-14.16.1 64bit</p>
+<p>Hexo-5.4.0</p>
+<p>nexT-5.1.4</p>
+</blockquote>
+<p>电脑是Win10。</p>
+<hr>
+<h3 id="运行hexo-d时显示错误"><a href="#运行hexo-d时显示错误" class="headerlink" title="运行hexo d时显示错误"></a>运行<code>hexo d</code>时显示错误</h3>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fatal: unable to access &#x27;yoursite&#x27;: Failed to connect to github.com port 443: Timed out</span><br></pre></td></tr></table></figure>
+
+<p>   这是一个经常会产生的问题（我几乎每次部署都会弹这种错误反馈）实在不行就<code>hexo clean</code>几次，重新部署几次总能成功的。</p>
+<h3 id="域名解析时出现问题"><a href="#域名解析时出现问题" class="headerlink" title="域名解析时出现问题"></a>域名解析时出现问题</h3><p>   这个问题一般不会出现，但我实在是太想要一个个人域名了就去Godaddy上买了一个。买完后发现网上找到的教程早已过时，DNS的配置方法和页面布局被官方改得妈都不认识，只好自己慢慢试错了。</p>
+<ul>
+<li>首先打开cmd，输入<code>ping username.github.io</code>得到GitHub的IP。</li>
+<li>进入Godaddy的个人域名管理界面，点击DNS进入DNS管理。添加一个类型A，名称@，值为IP的记录。此外修改名称为www的CNAME，将值改为username.github.io。TTL是默认1h，可以不用动它。</li>
+<li><strong>然后把剩余的DNS管理可编辑的都删了</strong>（它默认有个_domainconnect 的CNAME和parked custom的记录）</li>
+<li>在本地文件source中创建一个CNAME的文件，里面写上自己买的域名，保存，<strong>删掉文件后缀。</strong></li>
+<li>在GitBash中输入<code>hexo d</code>，让这个CNAME上传到GitHub仓库。</li>
+<li>打开仓库，点击<code>Settings</code>进入仓库的设置界面。在左边的目录中找到<code>Pages</code>，在Custom Domain里输入你的域名，然后等待它自己检测DNS配置，变成绿色的√就证明域名解析成功。（如果期间弹出了DNS解析失败等提示可能需要等待一段时间。）</li>
+<li>勾选Enforce HTTPS。</li>
+</ul>
+<p>   然后输入域名就可以跳转到博客界面啦。</p>
+<h3 id="tags和categories的页面显示404"><a href="#tags和categories的页面显示404" class="headerlink" title="tags和categories的页面显示404"></a>tags和categories的页面显示404</h3><p>   这个问题很容易产生！我觉得最大的原因出现在主题的配置文件里。</p>
+<ul>
+<li><p>打开主题配置文件，找到menu一栏</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tags:</span> <span class="string">/tags/||</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">/categories/||</span> <span class="string">th</span></span><br></pre></td></tr></table></figure>
+
+<p>把/和||之间的空格删掉。</p>
+</li>
+<li><p>在GitBash中输入<code>hexo new page tags</code>，让它在source下生成一个名为tags的文件夹，里面会多出个index.md的文件。</p>
+</li>
+<li><p>打开index.md，在最后一行中加入一句<code>type: &quot;tags&quot;</code>，直接保存退出。不需要加<code>---</code>在顶端和末端。</p>
+</li>
+<li><p>添加categories的方法就是同上两个步骤，只是把<code>tags</code>替换成<code>categories</code>。</p>
+</li>
+<li><p>执行<code>hexo s</code>，在localhost上查看页面是否显示正常。</p>
+</li>
+</ul>
+<p>   没啥问题就<code>hexo d</code>了。</p>
+<hr>
+<h2 id="nexT自定义"><a href="#nexT自定义" class="headerlink" title="nexT自定义"></a>nexT自定义</h2><p>这里记录一些我觉得还比较有趣（麻烦）的自定义过程。</p>
+<h3 id="访客量设置"><a href="#访客量设置" class="headerlink" title="访客量设置"></a>访客量设置</h3><p>   不蒜子在2018年换了域名，所以按照网上找到的教程走很有可能无法显示访问量。</p>
+<p>   打开<code>\themes\next\layout\third-party\analytics\busuanzi-counter.swig</code>文件，把第一行改成</p>
+   <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.busuanzi_count.enable %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;busuanzi-count&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>   然后在主题配置文件里将<code>busuanzi_count</code>目录下的enable改成true。这下面还可以改一下<code>site_uv_footer</code>和<code>site_pv_footer</code>，这是访问量的后缀。</p>
+<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
+</div>
+
+<h3 id="头像设置成圆形并且让它转起来"><a href="#头像设置成圆形并且让它转起来" class="headerlink" title="头像设置成圆形并且让它转起来"></a>头像设置成圆形并且让它转起来</h3><p>   打开<code>themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code>，输入</p>
+   <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">2s</span> all;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);</span><br></pre></td></tr></table></figure>
+
+<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
+</div>
+
+<h3 id="文章置顶"><a href="#文章置顶" class="headerlink" title="文章置顶"></a>文章置顶</h3><p>   首先在GitBash中输入<code>npm uninstall hexo-generator-index --save</code>卸载默认插件。</p>
+<p>   然后安装一个新的插件<code>npm install hexo-generator-index-pin-top --save</code></p>
+<p>   之后写文章的时候在标签分类下面写上一行<code>top: true</code>就可以让这篇文章出现在第一个了。</p>
+<hr>
+<h2 id="一些摸索"><a href="#一些摸索" class="headerlink" title="一些摸索"></a>一些摸索</h2><h3 id="仓库整理"><a href="#仓库整理" class="headerlink" title="仓库整理"></a>仓库整理</h3><p>在查看仓库时发现我的文章全都以单独文件夹的形式罗列在仓库里，时间长了肯定不好管理。去看了其他人的仓库却发现他们并没有我这样的情况，难道是我最开始安装Git的时候出错了吗？还是说我有哪些配置改错了？</p>
+<p>既然是生成部署的问题，那就去站点配置里找答案。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:name/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br></pre></td></tr></table></figure>
+
+<p>当时我自定义的时候想“永久链接的格式当然要简介明了才比较好记”，于是跟着官网的设置选择了以文件名(name)为永久链接，这样我的文章地址就变成了<code>https://drifter-games.com/name</code>。</p>
+<p>好看是好看，但在进行<code>hexo g</code>的时候，这篇文章就会以<code>index.html</code>的形式放在<code>public\name</code>的文件夹里。（同理，有几篇文章就会生成几个文件夹）随着文章数增加，文件夹也会越来越多，仓库内部的画面可想而知。所以我选择了以年份作为一个整理的方案：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:name/</span></span><br></pre></td></tr></table></figure>
+
+<p>这样进行<code>hexo g</code>的时候，public文件夹里就会自动把文章进行一个年份归档，之后部署到GitHub仓库的时候就不会再出现这个问题了。</p>
+<div class="note info no-icon"><p>注：执行<code>hexo clean</code>时会自动删除public文件，如果找不到public文件夹在哪的话请先执行<code>hexo g</code>查看。</p>
+</div>
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>nexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ephemreal</title>
+    <url>/2020/Ephemreal/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.loli.net/2021/05/07/64FqkcE3WOUwPiy.png" alt="ephemreal.png"><br><img src="https://i.loli.net/2021/05/07/UTfbhj5FOKsr2CI.png" alt="room.png"></p>
+<span id="more"></span>
+
+<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><div class="note warning"><p>此游戏是梦日记的fangame，也就是所谓的同人游戏。并不是梦日记的续作，<strong>与梦日记和kikiyama氏完全没有关系。</strong></p>
+</div>
+
+<p>此外，Ephemreal现处于开发状态，因此内容较少，并没有实装结局。今后还会不定期进行更新和修复，欢迎向我报告遇到的bug。</p>
+<h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><ul>
+<li>移动：<code>方向键</code></li>
+<li>确定：<code>Z/Enter</code></li>
+<li>菜单/取消：<code>X</code></li>
+<li>特殊动作：<code>Shift</code></li>
+<li>捏脸：<code>数字9</code></li>
+<li>存档：<code>调查主人公卧室右下角的显示屏</code></li>
+</ul>
+<p>在梦中四处转转，调查一些特殊物品取得<code>效果</code>吧。</p>
+<h3 id="版本履历"><a href="#版本履历" class="headerlink" title="版本履历"></a>版本履历</h3><table>
+<thead>
+<tr>
+<th>版本信息</th>
+<th>下载连接</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ver0.00</td>
+<td><a href="https://www.mediafire.com/file/27u86p7gu7hx97b/Ephemreal_ver0.00.rar/file">简体中文</a></td>
+</tr>
+<tr>
+<td>ver0.00+</td>
+<td><a href="https://www.mediafire.com/file/875djymsazazs6d/Ephemreal_ver0.00%252B.rar/file">ENGLISH</a></td>
+</tr>
+</tbody></table>
+<h3 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h3><p>安装运行出现了问题？<a href="https://drifter-games.com/2020/Help/">请看这边</a><br>我想投稿，该怎么做？<a href="https://drifter-games.com/2020/subrules/">请点这里</a></p>
+<h2 id="其他链接"><a href="#其他链接" class="headerlink" title="其他链接"></a>其他链接</h2><a class="btn" href="https://www.pixiv.net/artworks/86174142 "><i class="fa fa-link fa-lg"></i>Pixiv</a>
+<a class="btn" href="https://yumenikkifg.fandom.com/wiki/Ephemreal "><i class="fa fa-link fa-lg"></i>Wiki</a>]]></content>
+      <categories>
+        <category>更新/发布信息</category>
+      </categories>
+      <tags>
+        <tag>梦日记派生</tag>
+        <tag>游戏发布</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>讲解RM2K3-Chipset的原理</title>
     <url>/2021/Chipset/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关Chipset"><a href="#有关Chipset" class="headerlink" title="有关Chipset"></a>有关Chipset</h2><p>Chipset是存放地图素材的地方，它是构成一切地图的基础，也是游戏开发者必须要去了解的东西。</p>
@@ -707,6 +603,290 @@
       </tags>
   </entry>
   <entry>
+    <title>讲解RM2K3-System的原理</title>
+    <url>/2021/System/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关System"><a href="#有关System" class="headerlink" title="有关System"></a>有关System</h2><p>System一般指的是菜单样式，它和Chipset、Charset一样属于可自定义的图像。</p>
+<span id="more"></span>
+
+<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
+<li><p>规格</p>
+<table>
+<thead>
+<tr>
+<th>图像大小</th>
+<th>导入格式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>160×80</td>
+<td>PNG、BMP、XYZ</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>配置</p>
+<p><img src="https://z3.ax1x.com/2021/05/16/ggirBq.png" alt="ggirBq.png"></p>
+<p>这是一张System的模板。里面包含了5块32×32的格子，24块16×16的格子以及12块8×16的小格子。</p>
+</li>
+</ol>
+<hr>
+<h2 id="自定义菜单样式"><a href="#自定义菜单样式" class="headerlink" title="自定义菜单样式"></a>自定义菜单样式</h2><p><img src="https://z3.ax1x.com/2021/05/16/ggFEvj.png" alt="ggFEvj.png"></p>
+<p>为了方便理解，我给每个区域标注了对应的字母和数字。如果想看指定区域的解析，可以通过左侧的目录直接跳转（仅限电脑端）</p>
+<h3 id="A区域：菜单背景"><a href="#A区域：菜单背景" class="headerlink" title="A区域：菜单背景"></a>A区域：菜单背景</h3><p>对话框的背景、游戏开场时的选项背景、状态栏的背景……这些全都属于A区域管理的部分。可以在里面随意画上自己喜欢的颜色或者图案。</p>
+<p>通过设置<code>Window Background</code>，可以得到拉伸或平铺的效果。</p>
+<p><img src="https://z3.ax1x.com/2021/05/16/ggkZWD.png" alt="ggkZWD.png"></p>
+<p><code>Stretch to Fit</code>适合纯色/渐变型背景；<code>Tiled Pattern</code>则适合图案型背景。</p>
+<p>※注意：图案型背景选择Stretch的话效果会很糟糕，如果设计了图案的话最好不要选择这项。</p>
+<h3 id="B区域：边框和指示箭头"><a href="#B区域：边框和指示箭头" class="headerlink" title="B区域：边框和指示箭头"></a>B区域：边框和指示箭头</h3><p>黄色的部分是边框所占的最大空间，只要不超过黄色的部分，边框无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。四个直角的读取范围是8×8，剩下的内容会根据边框的长度进行压缩或平铺。</p>
+<p>橙色的部分是指示箭头所占的最大空间，对话框底部闪烁的图案、菜单滚动页面的指示箭头都靠这部分显示，默认闪烁。上半部分和下半部分的大小都是8×16，注意不要画过头了。</p>
+<h3 id="C-amp-D区域：光标"><a href="#C-amp-D区域：光标" class="headerlink" title="C&amp;D区域：光标"></a>C&amp;D区域：光标</h3><p>这两块绿色的部分相当于起到光标的作用，两者交替显示形成一种闪烁的效果：</p>
+<p><img src="https://z3.ax1x.com/2021/05/16/ggVQm9.gif" alt="ggVQm9.gif"></p>
+<p>和边框一样，只要不超过这些区域，无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。比如可以在宽的部分加上指示标记，或者只画一条线充当选项的下划线……请发挥想象力！</p>
+<h3 id="E区域：店铺页面的显示"><a href="#E区域：店铺页面的显示" class="headerlink" title="E区域：店铺页面的显示"></a>E区域：店铺页面的显示</h3><p>这部分一般会在武器防具店购买东西的时候用上，如果是做派生的话这部分的内容是用不上的，想空着也可以空着。</p>
+<p>从上至下分别为<code>状态提升</code>、<code>状态不变</code>、<code>状态下降</code>以及<code>正在装备</code>。它们的播放顺序都是从左往右1→2→3→4</p>
+<h3 id="F区域：整体背景"><a href="#F区域：整体背景" class="headerlink" title="F区域：整体背景"></a>F区域：整体背景</h3><p>它负责没有被边框框住的部分，比如持有金和菜单栏之间的背景，存档页面的背景（如图）。没什么需求的话可以搞成纯黑的，或者和A区域使用同一种色系。</p>
+<p><img src="https://z3.ax1x.com/2021/05/17/g2mxo9.png" alt="g2mxo9.png"></p>
+<p>蓝色的部分就是F区域，橙色的部分则是B区域指示箭头的下半部分。</p>
+<h3 id="G区域：文字的影子"><a href="#G区域：文字的影子" class="headerlink" title="G区域：文字的影子"></a>G区域：文字的影子</h3><p>此区域的颜色会影响所有的文字和符号，它可以让字符变得更加立体和美观。一般设定成深色，可以按实际需求调整。</p>
+<h3 id="0-19：文字的颜色"><a href="#0-19：文字的颜色" class="headerlink" title="0~19：文字的颜色"></a>0~19：文字的颜色</h3><p>0：默认文本颜色</p>
+<p>1：金钱的单位颜色、状态文本的颜色（例如HP、MP、LV等）</p>
+<p>2：状态数值上升时的颜色</p>
+<p>3：某选项无法选择时的颜色（例如游戏在未读出存档时Continue的颜色，详见CD区域的GIF）</p>
+<p>以上四种是制作派生时会用到的颜色。</p>
+<p>剩下的4~19虽然不会在游戏里直接显示，但是可以随时通过<code>\c[]</code>调用。例如我在文本里输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt;Text: Hello, I&#x27;m \c[3]Drifter!</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://z3.ax1x.com/2021/05/17/g2nqfI.png" alt="g2nqfI.png"></p>
+<blockquote>
+<p>注：如果想在一段长台词里标亮其中一段句子或词语，记得在标亮词句后输入<code>\c[0]</code>以保证之后的文本颜色回到默认状态。</p>
+</blockquote>
+<p>只要在[]中输入编号(1~19)，系统就会自动调用System中对应的颜色。当输入的数值超过19的情况，系统会显示默认的颜色（0号）。</p>
+<h3 id="彩色区域：计时器的样式"><a href="#彩色区域：计时器的样式" class="headerlink" title="彩色区域：计时器的样式"></a>彩色区域：计时器的样式</h3><p>这段区域由12块8×16的小格子组成，一般在里面填写0~9以及冒号（剩余一段8×16的空格在游戏里不会被显示）。当在事件里启用计时器时，画面的左上角就会显示这部分的内容。</p>
+<p>制作派生时一般用它来显示入睡时间。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Timer 1 Operation: Start</span><br><span class="line">@&gt; Timer 1 Operation: Set Time, 0 minutes 03 seconds</span><br></pre></td></tr></table></figure>
+
+<p>像本家或派生三秒入睡，实际上只需要布置1~3的数字在此区域就可以运行了。如果没有计时器的要求，那么这段区域空着也可以。</p>
+<h3 id="椭圆区域：飞行船的影子"><a href="#椭圆区域：飞行船的影子" class="headerlink" title="椭圆区域：飞行船的影子"></a>椭圆区域：飞行船的影子</h3><p>它是Vehicle中的Airship的影子，派生一般用不上这块区域其实可以忽略。</p>
+<p>两个椭圆会被系统认定为两个叠加的半透明图案，在飞行船底部形成一个边缘淡化的影子。</p>
+<hr>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><img src="https://z3.ax1x.com/2021/05/17/g2uMN9.png" alt="g2uMN9.png"  />
+
+<p>用一张以前做的菜单样式作为例子，注意边框、指示箭头和计时器数字的背景都指定了透明色。</p>
+<img src="https://z3.ax1x.com/2021/05/17/g2u191.png" alt="g2u191.png" style="zoom:80%;" />
+
+<p>右侧边框的内容可以通过数据库的<code>System 2</code>中得到修改，制作派生时可以将第一行的<code>Items</code>换成<code>Effects</code>，将<code>Equipment</code>与<code>Save</code>关闭。</p>
+<p>边框底部是持有金的显示，货币单位G可以在<code>Glossary4</code>的<code>Shop Paramenters</code>里进行修改。</p>
+<p>右侧是有关主人公的数值面板，第一行是<code>Name</code>和<code>Nickname</code>，制作派生时可以将主人公的状态输进昵称栏里。（第二行的特殊符号我会在下方进行详细的解释）</p>
+<h2 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h2><p>RM2003自带了特殊符号，一共52种。只要使用<code>$英文字母</code>就能随时调用。</p>
+<p>在文本框里输入以下内容可以看到所有的符号：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Text: $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p $q</span><br><span class="line"> :     : $r $s $t $u $v $w $x $y $z</span><br><span class="line"> :     : $A $B $C $D $E $F $G $H $I $J $K $L $M $N $O $P $Q</span><br><span class="line"> :     : $R $S $T $U $V $W $X $Y $Z</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://z3.ax1x.com/2021/05/17/g2uVXT.png" alt="g2uVXT.png"></p>
+<p>这些符号也可以应用到数据库中的<code>Terms</code>里。找到<code>Glossary5</code>，可以在里面设置Level、HP、MP、EXP的缩略符号。</p>
+<p>例如在<code>HP(Abbr.)</code>里输入<code>$k</code>，那么在菜单栏里的HP代表符号就会变成一颗心的形状。</p>
+<p><img src="https://z3.ax1x.com/2021/05/17/g2un74.png" alt="g2un74.png"></p>
+<p>大家可以根据个人喜好决定内容。</p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Help</title>
+    <url>/2020/Help/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
+<li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
+</li>
+<li><p>Q：打开后有弹窗报错<br>A：一般是缺少RTP。请安装<a href="https://dl.degica.com/rpgmakerweb/run-time-packages/rpg2003_rtp_installer.zip">英文版rtp2003</a>，解压后将文件复制粘贴于Ephemreal的内部文件夹内。</p>
+<div class="note danger"><p><strong>重名的情况请务必保留源文件不要覆盖！！！！！！！！</strong> </p>
+</div></li>
+<li><p>Q：可以用Easyrpg启动吗<br>A：请<strong>不要</strong>这样做，会有很多奇怪的bug。<del>信我，开头就会黑屏</del></p>
+</li>
+<li><p>Q：Mac可以玩吗<br>A：很遗憾，非Windows系统是无法运行游戏的……</p>
+</li>
+<li><p>Q：非中文系统想运行简体中文版<br>A：Win7用户请下载Applocale，安装后选择中文，指定Start.exe后运行即可，不成功的情况请指定Ephemreal文件夹内的RPG_RT.exe运行。<br>Win10用户请下载<a href="https://github.com/xupefei/Locale-Emulator/releases">Local Emulator</a>，按步骤安装后鼠标右键选中Start.exe，在菜单栏里勾选上「按程序源环境配置」应该就能成功运行了，不成功的情况同上。</p>
+</li>
+</ul>
+<p>遇到了其他问题请参考或私信<br><a href="http://yumenikki.info/archives/%e6%b4%be%e7%94%9f%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95/">派生安装方法</a></p>
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法记录</title>
+    <url>/2021/markdown/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>这几天翻官网发现next自带了一些插件能够通过markdown实现，就干脆单开一个笔记记录一下以后可能会用到的（人比较健忘）。</p>
+<span id="more"></span>
+
+<h2 id="字体篇"><a href="#字体篇" class="headerlink" title="字体篇"></a>字体篇</h2><h3 id="改变字体"><a href="#改变字体" class="headerlink" title="改变字体"></a>改变字体</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font face=&quot;字体&quot;&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>能调用所有本机系统安装的所有字体文件，只要知道字体的名字就可以。</p>
+<p><font face="Zpix">像素字体</font></p>
+<p><font face="Annabelle">Handwriting</font></p>
+<p><font face="DFPKanTingLiu-B5">もうひつ</font></p>
+<h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;内容&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+
+<center>有一种写论文的感觉</center>
+
+<h3 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font color=16进制HEX&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>一段话里可以同时存在好几种颜色，比如说<font color=#4E008E>紫色的文字</font>、<font color=#00AB84>绿色的文字</font>、<font color=#D1428D>粉色的文字</font>。</p>
+<h3 id="字体大小"><a href="#字体大小" class="headerlink" title="字体大小"></a>字体大小</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font size=&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>突然<font size=5>变大</font></p>
+<p>突然<font size=2>缩小</font></p>
+<p>size直接填写数字也可以，填写像素也可以。</p>
+<h3 id="字体综合"><a href="#字体综合" class="headerlink" title="字体综合"></a>字体综合</h3><p>把以上所有的语句全部综合可得：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font color= size= face=&quot;&quot;&gt;内容&lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+
+<center><font color=\#001489 size=5 face="Zpix">居中的蓝色像素大字体</font></center>
+
+<hr>
+<h2 id="列表篇"><a href="#列表篇" class="headerlink" title="列表篇"></a>列表篇</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [ ] 内容</span><br><span class="line">- [x] 内容</span><br></pre></td></tr></table></figure>
+
+<p>任务列表适合写笔记用，或者可以搞选择题。</p>
+<ul>
+<li><input disabled="" type="checkbox"> 未选</li>
+<li><input checked="" disabled="" type="checkbox"> 选择</li>
+</ul>
+<hr>
+<h2 id="NexT插件篇"><a href="#NexT插件篇" class="headerlink" title="NexT插件篇"></a>NexT插件篇</h2><h3 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn 地址 , 文字 , 图标 规格 %&#125;</span><br><span class="line">fa-fw fa-lg fa-2x fa-3x fa-4x fa-5x</span><br></pre></td></tr></table></figure>
+
+<p>可以只选一种也可以互相搭配：</p>
+<a class="btn" href="#">button</a>
+
+<a class="btn" href="#"><i class="fa fa-link fa-lg"></i></a>
+
+<a class="btn" href="https://theme-next.js.org/docs/tag-plugins/button.html "><i class="fa fa-link fa-fw"></i>NexT</a>
+
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;内容&lt;/blockquote&gt;</span><br><span class="line">&#123;% centerquote %&#125;内容&#123;% endcenterquote %&#125;</span><br><span class="line">&#123;% cq %&#125;内容&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote class="blockquote-center">
+<p>Each possible move represents a different game,</p>
+<p>a different universe in which you make a better move.</p>
+<p>There are more possible games of chess</p>
+<p>than there are atoms in the universe.</p>
+<p>No one could possibly predict them all, even you.</p>
+
+</blockquote>
+
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note class %&#125;内容&#123;% endnote %&#125;</span><br><span class="line">class: default/primary/success/info/warning/danger/no-icon</span><br></pre></td></tr></table></figure>
+
+<p>要启用这些得先去站点配置里找到有关note的介绍并且把它们打开。</p>
+<div class="note default"><h4 id="Default"><a href="#Default" class="headerlink" title="Default"></a>Default</h4><p>灰色箭头标志</p>
+</div>
+
+<div class="note primary"><h4 id="Primary"><a href="#Primary" class="headerlink" title="Primary"></a>Primary</h4><p>紫色加号标志</p>
+</div>
+
+<div class="note success"><h4 id="Success"><a href="#Success" class="headerlink" title="Success"></a>Success</h4><p>绿色对勾标志</p>
+</div>
+
+<div class="note info"><h4 id="Info"><a href="#Info" class="headerlink" title="Info"></a>Info</h4><p>蓝色信息标志</p>
+</div>
+
+<div class="note warning"><h4 id="Warning"><a href="#Warning" class="headerlink" title="Warning"></a>Warning</h4><p>黄色预警标志</p>
+</div>
+
+<div class="note danger"><h4 id="Danger"><a href="#Danger" class="headerlink" title="Danger"></a>Danger</h4><p>红色禁止标志</p>
+</div>
+
+<p>折叠也可以：</p>
+<details class="note danger"><summary><p>Content Warning</p>
+</summary>
+<h4 id="Content-Warning"><a href="#Content-Warning" class="headerlink" title="Content Warning"></a>Content Warning</h4><p>Content warnings are not an excuse for students to skip class or censor your material.</p>
+
+</details>
+
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>nexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>RM2K3特殊事件-镜子和倒影</title>
+    <url>/2021/mirrorevent/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>内容涉及了<u>变量</u>和<u>坐标轴</u>。</p>
+<div class="note warning no-icon"><p>在阅读内容之前，请确认自己已经学习过03的基础指令和变量相关的知识，以及坐标轴的判定原理。</p>
+</div>
+
+<p>※此教程为个人学习笔记，可能会有很多表述不清楚的地方</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>要做一面镜子，首先得确定<code>镜子的样式</code>、<code>面积</code>以及<code>在地图上的位置</code>。</p>
+<p>为了能让倒影有足够多的测试空间，我选择了3×3的落地镜作为范例，这样一来倒影的活动范围也就固定在了3×3的空间中。</p>
+<p>而倒影本质上是<code>一个会跟着主人公走动的NPC</code>，因此倒影事件的图像应当设置成<code>半透明形态的主人公</code>。</p>
+<p>决定好后就可以开始画对应的素材了。</p>
+<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>理想状态是：主人公在镜子前走动，倒影能即时作出反应，且没有延迟</p>
+<p>那么需要用到的指令一定会有<code>Conditional Branch</code>以及<code>Set Move Route</code>，朝向不需要牵扯到变量，因此可以先在倒影的事件中把四个朝向的条件分歧输入进框架中。</p>
+<p>要让倒影做出即时反应，那么必须读取主人公的坐标。当主人公的X值增加，倒影和主人公都会往右走；当主人公的Y值增加，那么倒影应该往上走；而变量可以将XY值转化为可以操作的数值，所以条件分歧除了主人公朝向，大部分应是变量。</p>
+<p>主人公走出3×3范围外倒影就会消失，所以还得准备一个开关来控制倒影的有无。</p>
+<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备好四个变量，分别是主人公的XY轴和倒影的XY轴。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0001:X] = Player&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0002:Y] = Player&#x27;s Y Coordinate</span><br><span class="line">@&gt; Control Variables: [0003:mirror X] = This Event&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0004:mirror Y] = This Event&#x27;s Y Coordinate</span><br></pre></td></tr></table></figure>
+
+<p>然后我们进入编辑器，手动确认主人公的活动范围。</p>
+<p>X轴在<code>23~25</code>之间，Y轴在<code>19~21</code>之间，在此区间内倒影会显形，反之就会消失。这里就需要用上之前构思的开关了：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 22</span><br><span class="line">  @&gt; Conditional Branch: Variable [0001:X] &lt; 26</span><br><span class="line">    @&gt; Conditional Branch: Variable [0002:Y] &lt; 21</span><br><span class="line">      @&gt; Control Switches: [0002:transparent] = OFF</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; 22</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 26</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0002:Y] &gt; 21</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>然后比较主人公和倒影的XY值。因为镜子的面积是3×3，所以这里需要把倒影事件设置在<code>底部的中心</code>。这样就可以直接通过比较大小来确认主人公往哪个方向移动了。</p>
+<p>当系统读取到主人公往右走时，X值增加，所以当主人公的X值大于倒影的X值时，倒影也应该跟着往右走一格，反之亦然。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>之后是最难的Y轴部分，因为倒影的行走方向和主人公相反，光靠比较大小是没办法的。这里我们要先把每个坐标数值的变化记下来，找到其中的运算规律。</p>
+<p>经过计算，最终确定用<code>两个Y变量</code>来代入倒影的Y值。</p>
+<p>理论如下（左为主人公，右为倒影）<br>（24,19）→（24,20）      （24,18）→（24,17）</p>
+<p>因为最底部中心点的Y值是18，所以两个Y的初始值都应是18</p>
+<p>假设主人公往下移动了一格，倒影的理想状态是往上移动一格</p>
+<p>第一个Y减去主人公Y坐标 = 18-20 = -2<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
+<p>因为主人公不可能和倒影重叠，所以第二个Y必须＞主人公的Y值（差值最少为1）所以给第二个Y+1<br>第一个Y永远比主人公Y轴大，所以得取绝对值才能有条件分歧 ×-1得到2</p>
+<p>所以当 第一个Y ＞ 第二个Y 的时候，倒影往上走</p>
+<p>相反，如果两者靠近的话</p>
+<p>第一个Y减去主人公Y坐标 = 18-19 = -1<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
+<p>按照刚才的理论，第二个Y ＞ 第一个Y， 倒影往下走</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0005:mirror Ymove] = 18 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] -= Variable [0002]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] = 18 </span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] -= Variable [0004]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] += 1 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] *= -1 </span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &lt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &gt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>移动决定了，停止时的朝向也得考虑：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Player is facing Up</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Right</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Down</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Left</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>之后，我们设置好主人公的半透明图像，并且将这个事件设置为<code>Parallel Process</code>。另：主人公的速度如果保持默认，<code>Movement Speed</code>应当设置成和主人公一样的普通速。</p>
+<p>还记得之前的开关吗？我们将这一页直接复制，左上角的触发条件只需要将<code>transparent</code>给打开，图像设置成一个<strong>完全透明</strong>的图块就OK了。如果不想让主人公碰到倒影，还可以将<code>Priority</code>设置为<code>Below Characters</code>。</p>
+<p>如果有加速道具或是长按SHIFT加速的需求，再复制一页，触发条件中将加速的开关打开，然后将<code>Movement Speed</code>调整为加速后的速度就没问题了。</p>
+<p>最后，我们将主人公放在镜子前，开始debug！</p>
+<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>延迟完全为零几乎是不存在的，行动稍微有一点点延迟是正常现象。</p>
+<p>为了不穿帮，主人公的3×3的外围最好也布置一些不可通行的图块，这样就不会出现倒影乱跑的BUG。</p>
+<p>最终结果看起来就会是这样（我还顺带测试了一下SHIFT加速）：</p>
+<p><img src="https://z3.ax1x.com/2021/09/14/4FWegS.gif" alt="Mirror.gif"></p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>nexT主题v5升级至v8记录</title>
     <url>/2021/nextupdate/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
@@ -813,94 +993,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客搭建经验</title>
-    <url>/2021/Blog/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在一堆博客平台上兜兜转转好几年，最终还是选择了GitHub。无各种限制+无广告+无社交互动已经很让人心动了，最重要的还是对系统友好、不用花高价去维护，很适合像我这样又穷又自闭的赛博难民。</p>
-<p>这两天花了一些时间学习了怎么搭建和配置，趁着还没忘记录一下搭建时遇到的问题和解决办法（详细的搭建过程很容易找到，这里就不阐述了）</p>
-<span id="more"></span>
-
-<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>先说明自己所用的版本信息：</p>
-<blockquote>
-<p>Git-2.31.1 64bit</p>
-<p>Nodejs-14.16.1 64bit</p>
-<p>Hexo-5.4.0</p>
-<p>nexT-5.1.4</p>
-</blockquote>
-<p>电脑是Win10。</p>
-<hr>
-<h3 id="运行hexo-d时显示错误"><a href="#运行hexo-d时显示错误" class="headerlink" title="运行hexo d时显示错误"></a>运行<code>hexo d</code>时显示错误</h3>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fatal: unable to access &#x27;yoursite&#x27;: Failed to connect to github.com port 443: Timed out</span><br></pre></td></tr></table></figure>
-
-<p>   这是一个经常会产生的问题（我几乎每次部署都会弹这种错误反馈）实在不行就<code>hexo clean</code>几次，重新部署几次总能成功的。</p>
-<h3 id="域名解析时出现问题"><a href="#域名解析时出现问题" class="headerlink" title="域名解析时出现问题"></a>域名解析时出现问题</h3><p>   这个问题一般不会出现，但我实在是太想要一个个人域名了就去Godaddy上买了一个。买完后发现网上找到的教程早已过时，DNS的配置方法和页面布局被官方改得妈都不认识，只好自己慢慢试错了。</p>
-<ul>
-<li>首先打开cmd，输入<code>ping username.github.io</code>得到GitHub的IP。</li>
-<li>进入Godaddy的个人域名管理界面，点击DNS进入DNS管理。添加一个类型A，名称@，值为IP的记录。此外修改名称为www的CNAME，将值改为username.github.io。TTL是默认1h，可以不用动它。</li>
-<li><strong>然后把剩余的DNS管理可编辑的都删了</strong>（它默认有个_domainconnect 的CNAME和parked custom的记录）</li>
-<li>在本地文件source中创建一个CNAME的文件，里面写上自己买的域名，保存，<strong>删掉文件后缀。</strong></li>
-<li>在GitBash中输入<code>hexo d</code>，让这个CNAME上传到GitHub仓库。</li>
-<li>打开仓库，点击<code>Settings</code>进入仓库的设置界面。在左边的目录中找到<code>Pages</code>，在Custom Domain里输入你的域名，然后等待它自己检测DNS配置，变成绿色的√就证明域名解析成功。（如果期间弹出了DNS解析失败等提示可能需要等待一段时间。）</li>
-<li>勾选Enforce HTTPS。</li>
-</ul>
-<p>   然后输入域名就可以跳转到博客界面啦。</p>
-<h3 id="tags和categories的页面显示404"><a href="#tags和categories的页面显示404" class="headerlink" title="tags和categories的页面显示404"></a>tags和categories的页面显示404</h3><p>   这个问题很容易产生！我觉得最大的原因出现在主题的配置文件里。</p>
-<ul>
-<li><p>打开主题配置文件，找到menu一栏</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tags:</span> <span class="string">/tags/||</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">/categories/||</span> <span class="string">th</span></span><br></pre></td></tr></table></figure>
-
-<p>把/和||之间的空格删掉。</p>
-</li>
-<li><p>在GitBash中输入<code>hexo new page tags</code>，让它在source下生成一个名为tags的文件夹，里面会多出个index.md的文件。</p>
-</li>
-<li><p>打开index.md，在最后一行中加入一句<code>type: &quot;tags&quot;</code>，直接保存退出。不需要加<code>---</code>在顶端和末端。</p>
-</li>
-<li><p>添加categories的方法就是同上两个步骤，只是把<code>tags</code>替换成<code>categories</code>。</p>
-</li>
-<li><p>执行<code>hexo s</code>，在localhost上查看页面是否显示正常。</p>
-</li>
-</ul>
-<p>   没啥问题就<code>hexo d</code>了。</p>
-<hr>
-<h2 id="nexT自定义"><a href="#nexT自定义" class="headerlink" title="nexT自定义"></a>nexT自定义</h2><p>这里记录一些我觉得还比较有趣（麻烦）的自定义过程。</p>
-<h3 id="访客量设置"><a href="#访客量设置" class="headerlink" title="访客量设置"></a>访客量设置</h3><p>   不蒜子在2018年换了域名，所以按照网上找到的教程走很有可能无法显示访问量。</p>
-<p>   打开<code>\themes\next\layout\third-party\analytics\busuanzi-counter.swig</code>文件，把第一行改成</p>
-   <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.busuanzi_count.enable %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;busuanzi-count&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>   然后在主题配置文件里将<code>busuanzi_count</code>目录下的enable改成true。这下面还可以改一下<code>site_uv_footer</code>和<code>site_pv_footer</code>，这是访问量的后缀。</p>
-<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
-</div>
-
-<h3 id="头像设置成圆形并且让它转起来"><a href="#头像设置成圆形并且让它转起来" class="headerlink" title="头像设置成圆形并且让它转起来"></a>头像设置成圆形并且让它转起来</h3><p>   打开<code>themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code>，输入</p>
-   <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">2s</span> all;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);</span><br></pre></td></tr></table></figure>
-
-<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
-</div>
-
-<h3 id="文章置顶"><a href="#文章置顶" class="headerlink" title="文章置顶"></a>文章置顶</h3><p>   首先在GitBash中输入<code>npm uninstall hexo-generator-index --save</code>卸载默认插件。</p>
-<p>   然后安装一个新的插件<code>npm install hexo-generator-index-pin-top --save</code></p>
-<p>   之后写文章的时候在标签分类下面写上一行<code>top: true</code>就可以让这篇文章出现在第一个了。</p>
-<hr>
-<h2 id="一些摸索"><a href="#一些摸索" class="headerlink" title="一些摸索"></a>一些摸索</h2><h3 id="仓库整理"><a href="#仓库整理" class="headerlink" title="仓库整理"></a>仓库整理</h3><p>在查看仓库时发现我的文章全都以单独文件夹的形式罗列在仓库里，时间长了肯定不好管理。去看了其他人的仓库却发现他们并没有我这样的情况，难道是我最开始安装Git的时候出错了吗？还是说我有哪些配置改错了？</p>
-<p>既然是生成部署的问题，那就去站点配置里找答案。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:name/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br></pre></td></tr></table></figure>
-
-<p>当时我自定义的时候想“永久链接的格式当然要简介明了才比较好记”，于是跟着官网的设置选择了以文件名(name)为永久链接，这样我的文章地址就变成了<code>https://drifter-games.com/name</code>。</p>
-<p>好看是好看，但在进行<code>hexo g</code>的时候，这篇文章就会以<code>index.html</code>的形式放在<code>public\name</code>的文件夹里。（同理，有几篇文章就会生成几个文件夹）随着文章数增加，文件夹也会越来越多，仓库内部的画面可想而知。所以我选择了以年份作为一个整理的方案：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:name/</span></span><br></pre></td></tr></table></figure>
-
-<p>这样进行<code>hexo g</code>的时候，public文件夹里就会自动把文章进行一个年份归档，之后部署到GitHub仓库的时候就不会再出现这个问题了。</p>
-<div class="note info no-icon"><p>注：执行<code>hexo clean</code>时会自动删除public文件，如果找不到public文件夹在哪的话请先执行<code>hexo g</code>查看。</p>
-</div>
-]]></content>
-      <categories>
-        <category>帮助</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>nexT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Submission rules</title>
     <url>/2020/subrules/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="投稿规则"><a href="#投稿规则" class="headerlink" title="投稿规则"></a>投稿规则</h2><h3 id="Wallpaper"><a href="#Wallpaper" class="headerlink" title="Wallpaper"></a>Wallpaper</h3><ul>
@@ -932,35 +1024,10 @@
 </ul>
 </li>
 </ul>
-<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#121;&#111;&#117;&#114;&#121;&#117;&#117;&#64;&#x66;&#x6f;&#x78;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#104;&#121;&#111;&#117;&#114;&#121;&#117;&#117;&#64;&#x66;&#x6f;&#x78;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a></p>
+<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#x79;&#111;&#117;&#x72;&#121;&#x75;&#117;&#x40;&#102;&#111;&#120;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#104;&#x79;&#111;&#117;&#x72;&#121;&#x75;&#117;&#x40;&#102;&#111;&#120;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></p>
 ]]></content>
       <categories>
         <category>投稿规则</category>
-      </categories>
-      <tags>
-        <tag>梦日记派生</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Help</title>
-    <url>/2020/Help/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
-<li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
-</li>
-<li><p>Q：打开后有弹窗报错<br>A：一般是缺少RTP。请安装<a href="https://dl.degica.com/rpgmakerweb/run-time-packages/rpg2003_rtp_installer.zip">英文版rtp2003</a>，解压后将文件复制粘贴于Ephemreal的内部文件夹内。</p>
-<div class="note danger"><p><strong>重名的情况请务必保留源文件不要覆盖！！！！！！！！</strong> </p>
-</div></li>
-<li><p>Q：可以用Easyrpg启动吗<br>A：请<strong>不要</strong>这样做，会有很多奇怪的bug。<del>信我，开头就会黑屏</del></p>
-</li>
-<li><p>Q：Mac可以玩吗<br>A：很遗憾，非Windows系统是无法运行游戏的……</p>
-</li>
-<li><p>Q：非中文系统想运行简体中文版<br>A：Win7用户请下载Applocale，安装后选择中文，指定Start.exe后运行即可，不成功的情况请指定Ephemreal文件夹内的RPG_RT.exe运行。<br>Win10用户请下载<a href="https://github.com/xupefei/Locale-Emulator/releases">Local Emulator</a>，按步骤安装后鼠标右键选中Start.exe，在菜单栏里勾选上「按程序源环境配置」应该就能成功运行了，不成功的情况同上。</p>
-</li>
-</ul>
-<p>遇到了其他问题请参考或私信<br><a href="http://yumenikki.info/archives/%e6%b4%be%e7%94%9f%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95/">派生安装方法</a></p>
-]]></content>
-      <categories>
-        <category>帮助</category>
       </categories>
       <tags>
         <tag>梦日记派生</tag>

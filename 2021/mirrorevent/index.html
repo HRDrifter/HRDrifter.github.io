@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/32logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/16logo.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;drifter-games.com&quot;,&quot;root&quot;:&quot;&#x2F;&quot;,&quot;images&quot;:&quot;&#x2F;images&quot;,&quot;scheme&quot;:&quot;Gemini&quot;,&quot;version&quot;:&quot;8.4.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:true,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:false,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:false,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;bounceInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;搜索...&quot;,&quot;empty&quot;:&quot;没有找到任何搜索结果：${query}&quot;,&quot;hits_time&quot;:&quot;找到 ${hits} 个搜索结果（用时 ${time} 毫秒）&quot;,&quot;hits&quot;:&quot;找到 ${hits} 个搜索结果&quot;},&quot;path&quot;:&quot;&#x2F;search.xml&quot;,&quot;localsearch&quot;:{&quot;enable&quot;:true,&quot;trigger&quot;:&quot;auto&quot;,&quot;top_n_per_article&quot;:1,&quot;unescape&quot;:false,&quot;preload&quot;:false}}</script>
+<meta name="description" content="写在前面内容涉及了变量和坐标轴。 在阅读内容之前，请确认自己已经学习过03的基础指令和变量相关的知识，以及坐标轴的判定原理。   ※此教程为个人学习笔记，可能会有很多表述不清楚的地方">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RM2K3特殊事件-镜子和倒影">
+<meta property="og:url" content="http://drifter-games.com/2021/mirrorevent/">
+<meta property="og:site_name" content="DrifterGames">
+<meta property="og:description" content="写在前面内容涉及了变量和坐标轴。 在阅读内容之前，请确认自己已经学习过03的基础指令和变量相关的知识，以及坐标轴的判定原理。   ※此教程为个人学习笔记，可能会有很多表述不清楚的地方">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://z3.ax1x.com/2021/09/14/4FWegS.gif">
+<meta property="article:published_time" content="2021-09-14T01:38:01.000Z">
+<meta property="article:modified_time" content="2021-09-14T03:21:45.780Z">
+<meta property="article:author" content="-Drifter">
+<meta property="article:tag" content="RM2003">
+<meta property="article:tag" content="游戏开发">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://z3.ax1x.com/2021/09/14/4FWegS.gif">
+
+
+<link rel="canonical" href="http://drifter-games.com/2021/mirrorevent/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;http:&#x2F;&#x2F;drifter-games.com&#x2F;2021&#x2F;mirrorevent&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;mirrorevent&#x2F;&quot;,&quot;title&quot;:&quot;RM2K3特殊事件-镜子和倒影&quot;}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">&quot;&quot;</script>
+<title>RM2K3特殊事件-镜子和倒影 | DrifterGames</title><script src="/js/config.js"></script>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">DrifterGames</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">游戏开发</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
+        <li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>友链</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="nav-number">1.</span> <span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9D%E6%AD%A5%E6%9E%84%E6%80%9D"><span class="nav-number">2.</span> <span class="nav-text">初步构思</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%A0%E6%9D%90%E7%9A%84%E5%87%86%E5%A4%87"><span class="nav-number">2.1.</span> <span class="nav-text">素材的准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E7%90%86%E6%80%9D%E8%B7%AF"><span class="nav-number">2.2.</span> <span class="nav-text">整理思路</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9E%E9%99%85%E6%93%8D%E4%BD%9C"><span class="nav-number">3.</span> <span class="nav-text">实际操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%93%E9%AA%8C%E5%AE%9E%E8%A3%85"><span class="nav-number">4.</span> <span class="nav-text">体验实装</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="-Drifter"
+      src="https://i.loli.net/2021/05/07/j4NkXWc1fDTlLCI.png">
+  <p class="site-author-name" itemprop="name">-Drifter</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/HRDrifter" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;HRDrifter" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/drifter_matsu" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;drifter_matsu" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://drifter-games.com/2021/mirrorevent/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://i.loli.net/2021/05/07/j4NkXWc1fDTlLCI.png">
+      <meta itemprop="name" content="-Drifter">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="DrifterGames">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          RM2K3特殊事件-镜子和倒影
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-09-14 09:38:01 / 修改时间：11:21:45" itemprop="dateCreated datePublished" datetime="2021-09-14T09:38:01+08:00">2021-09-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">教程</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>内容涉及了<u>变量</u>和<u>坐标轴</u>。</p>
+<div class="note warning no-icon"><p>在阅读内容之前，请确认自己已经学习过03的基础指令和变量相关的知识，以及坐标轴的判定原理。</p>
+</div>
+
+<p>※此教程为个人学习笔记，可能会有很多表述不清楚的地方</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>要做一面镜子，首先得确定<code>镜子的样式</code>、<code>面积</code>以及<code>在地图上的位置</code>。</p>
+<p>为了能让倒影有足够多的测试空间，我选择了3×3的落地镜作为范例，这样一来倒影的活动范围也就固定在了3×3的空间中。</p>
+<p>而倒影本质上是<code>一个会跟着主人公走动的NPC</code>，因此倒影事件的图像应当设置成<code>半透明形态的主人公</code>。</p>
+<p>决定好后就可以开始画对应的素材了。</p>
+<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>理想状态是：主人公在镜子前走动，倒影能即时作出反应，且没有延迟</p>
+<p>那么需要用到的指令一定会有<code>Conditional Branch</code>以及<code>Set Move Route</code>，朝向不需要牵扯到变量，因此可以先在倒影的事件中把四个朝向的条件分歧输入进框架中。</p>
+<p>要让倒影做出即时反应，那么必须读取主人公的坐标。当主人公的X值增加，倒影和主人公都会往右走；当主人公的Y值增加，那么倒影应该往上走；而变量可以将XY值转化为可以操作的数值，所以条件分歧除了主人公朝向，大部分应是变量。</p>
+<p>主人公走出3×3范围外倒影就会消失，所以还得准备一个开关来控制倒影的有无。</p>
+<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备好四个变量，分别是主人公的XY轴和倒影的XY轴。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@&gt; Control Variables: [0001:X] = Player&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0002:Y] = Player&#x27;s Y Coordinate</span><br><span class="line">@&gt; Control Variables: [0003:mirror X] = This Event&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0004:mirror Y] = This Event&#x27;s Y Coordinate</span><br></pre></td></tr></table></figure>
+
+<p>然后我们进入编辑器，手动确认主人公的活动范围。</p>
+<p>X轴在<code>23~25</code>之间，Y轴在<code>19~21</code>之间，在此区间内倒影会显形，反之就会消失。这里就需要用上之前构思的开关了：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 22</span><br><span class="line">  @&gt; Conditional Branch: Variable [0001:X] &lt; 26</span><br><span class="line">    @&gt; Conditional Branch: Variable [0002:Y] &lt; 21</span><br><span class="line">      @&gt; Control Switches: [0002:transparent] = OFF</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; 22</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 26</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0002:Y] &gt; 21</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>然后比较主人公和倒影的XY值。因为镜子的面积是3×3，所以这里需要把倒影事件设置在<code>底部的中心</code>。这样就可以直接通过比较大小来确认主人公往哪个方向移动了。</p>
+<p>当系统读取到主人公往右走时，X值增加，所以当主人公的X值大于倒影的X值时，倒影也应该跟着往右走一格，反之亦然。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>之后是最难的Y轴部分，因为倒影的行走方向和主人公相反，光靠比较大小是没办法的。这里我们要先把每个坐标数值的变化记下来，找到其中的运算规律。</p>
+<p>经过计算，最终确定用<code>两个Y变量</code>来代入倒影的Y值。</p>
+<p>理论如下（左为主人公，右为倒影）<br>（24,19）→（24,20）      （24,18）→（24,17）</p>
+<p>因为最底部中心点的Y值是18，所以两个Y的初始值都应是18</p>
+<p>假设主人公往下移动了一格，倒影的理想状态是往上移动一格</p>
+<p>第一个Y减去主人公Y坐标 = 18-20 = -2<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
+<p>因为主人公不可能和倒影重叠，所以第二个Y必须＞主人公的Y值（差值最少为1）所以给第二个Y+1<br>第一个Y永远比主人公Y轴大，所以得取绝对值才能有条件分歧 ×-1得到2</p>
+<p>所以当 第一个Y ＞ 第二个Y 的时候，倒影往上走</p>
+<p>相反，如果两者靠近的话</p>
+<p>第一个Y减去主人公Y坐标 = 18-19 = -1<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
+<p>按照刚才的理论，第二个Y ＞ 第一个Y， 倒影往下走</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">@&gt; Control Variables: [0005:mirror Ymove] = 18 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] -= Variable [0002]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] = 18 </span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] -= Variable [0004]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] += 1 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] *= -1 </span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &lt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &gt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>移动决定了，停止时的朝向也得考虑：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">@&gt; Conditional Branch: Player is facing Up</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Right</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Down</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Left</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>之后，我们设置好主人公的半透明图像，并且将这个事件设置为<code>Parallel Process</code>。另：主人公的速度如果保持默认，<code>Movement Speed</code>应当设置成和主人公一样的普通速。</p>
+<p>还记得之前的开关吗？我们将这一页直接复制，左上角的触发条件只需要将<code>transparent</code>给打开，图像设置成一个<strong>完全透明</strong>的图块就OK了。如果不想让主人公碰到倒影，还可以将<code>Priority</code>设置为<code>Below Characters</code>。</p>
+<p>如果有加速道具或是长按SHIFT加速的需求，再复制一页，触发条件中将加速的开关打开，然后将<code>Movement Speed</code>调整为加速后的速度就没问题了。</p>
+<p>最后，我们将主人公放在镜子前，开始debug！</p>
+<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>延迟完全为零几乎是不存在的，行动稍微有一点点延迟是正常现象。</p>
+<p>为了不穿帮，主人公的3×3的外围最好也布置一些不可通行的图块，这样就不会出现倒影乱跑的BUG。</p>
+<p>最终结果看起来就会是这样（我还顺带测试了一下SHIFT加速）：</p>
+<p><img src="https://z3.ax1x.com/2021/09/14/4FWegS.gif" alt="Mirror.gif"></p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/RM2003/" rel="tag"><i class="fa fa-tag"></i> RM2003</a>
+              <a href="/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" rel="tag"><i class="fa fa-tag"></i> 游戏开发</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/Aseprite/" rel="prev" title="如何顺手使用Aseprite">
+                  <i class="fa fa-chevron-left"></i> 如何顺手使用Aseprite
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+<script src="/js/comments.js"></script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-gamepad"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">-Drifter</span>
+</div>
+<div class="busuanzi-count">
+</div><script color="85,89,116" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+<span id="busuanzi_container_site_uv">
+  总访问量：<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+</span>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
