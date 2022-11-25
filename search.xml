@@ -222,7 +222,7 @@
 <h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>延迟完全为零几乎是不存在的，行动稍微有一点点延迟是正常现象。</p>
 <p>为了不穿帮，主人公的3×3的外围最好也布置一些不可通行的图块，这样就不会出现倒影乱跑的BUG。</p>
 <p>最终结果看起来就会是这样（我还顺带测试了一下SHIFT加速）：</p>
-<p><img src="https://z3.ax1x.com/2021/09/14/4FWegS.gif" alt="Mirror.gif"></p>
+<p><img src="https://s2.loli.net/2022/11/25/aFQMrWiKjvxN4V5.gif" alt="mirror.gif"></p>
 <hr>
 <p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
 <p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
@@ -334,9 +334,9 @@
 <p><code>Frame</code>：可以调整帧动画的内容，新增帧数、复制帧数、调整速度等都可以在这里调整。比较有趣的是<code>Tags</code>，可以通过打tag的方式循环特定帧数。画好帧动画可以直接按回车键预览效果。</p>
 <p><code>View</code>：可以调整视窗。这里建议各位打开<code>Symmetry options</code>，这样就可以开启对称尺功能，画人物和物件非常便利！<code>Grid</code>可以设置网格的大小，如果配合<code>Tiled Mode</code>一同使用，就可以很轻松地画出四方连续型地砖，不用进行额外的检查。</p>
 <p>另外，如果想要开启缩略图，请把目光移向右下角1:1的按钮。</p>
-<h2 id="制作帧动画"><a href="#制作帧动画" class="headerlink" title="制作帧动画"></a>制作帧动画</h2><p>要制作帧动画之前首先要知道洋葱皮的用法，洋葱皮的开启键就在时间轴左上方，类似于窗口化的一个小图标。同时，旁边的设置小图标里可以调整洋葱皮的透明度。</p>
-<p><img src="https://z3.ax1x.com/2021/06/29/RwUXyq.gif" alt="RwUXyq.gif"></p>
-<p>为了演示动画功能，我画了一个奇怪熊型生物（……）Aseprite可以<strong>直接导入GIF文件</strong>查看帧数，这点我觉得非常便利，大家可以拖拽上方的GIF直接进入Aseprite查看帧数的运行情况，也可以跟着下方的步骤实际操作，加强理解！</p>
+<h2 id="制作帧动画"><a href="#制作帧动画" class="headerlink" title="制作帧动画"></a>制作帧动画</h2><p><img src="https://s2.loli.net/2022/11/25/UA5Ef9lh7Maue1v.gif"></p>
+<p>要制作帧动画之前首先要知道洋葱皮的用法，洋葱皮的开启键就在时间轴左上方，类似于窗口化的一个小图标。同时，旁边的设置小图标里可以调整洋葱皮的透明度。</p>
+<p>Aseprite可以<strong>直接导入GIF文件</strong>查看帧数，这点我觉得非常便利，大家可以拖拽上方的GIF直接进入Aseprite查看帧数的运行情况，也可以跟着下方的步骤实际操作，加强理解！</p>
 <p><code>Frame</code>栏的<code>Constant Frame Rate</code>可以一并修改所有帧数的播放速度，默认是100，数字越大运行速度越慢，反之越快。如果想单独调整帧数的播放速度可以按下<code>P</code>来调整。</p>
 <p>如果想要移动帧的位置，点击要移动的帧数（上方的数字），将光标往边缘稍稍移动，直到光标变成移动的样子，就可以长按调整位置了。同理，多选帧数的情况可以一起移动位置。</p>
 <p>想移动帧内容的位置，同样也是选中拖拽即可。移动到了右侧空白的区域，它将会自动新建帧数，将选中的内容移进去。</p>
@@ -351,8 +351,7 @@
 <h2 id="导出"><a href="#导出" class="headerlink" title="导出"></a>导出</h2><p>一般来说直接在<code>Save as</code>里选择保存的格式就可以保存了，但像素太小了，如果直接导出的话成品也会很小。所以一般使用<code>Export</code>来导出文件。</p>
 <p>导出的选项里可以选择大小，最大可以放大10倍（我一般就放大个4倍左右），因为是像素所以根本不用担心会糊。如果要导出GIF的话，还可以选择导出的图层和动画的播放模式。</p>
 <p>1.3的Gif导出时偶尔会出现颜色显示错误的问题，如果重启无效的话，还是建议退回1.2.9版本。</p>
-<img src="https://z3.ax1x.com/2021/06/30/Rwsk5V.png" alt="Rwsk5V.png" style="zoom:50%;" />
-
+<p><img src="https://s2.loli.net/2022/11/25/KSQuzoqX9vcnIP7.png"></p>
 <center>祝大家绘制愉快！</center>
 
 <hr>
@@ -483,27 +482,27 @@
 </tbody></table>
 </li>
 <li><p>配置</p>
-<p><img src="https://z3.ax1x.com/2021/05/16/ggirBq.png" alt="ggirBq.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/lI7w1xcCo5KS4fh.png" alt="system.png"></p>
 <p>这是一张System的模板。里面包含了5块32×32的格子，24块16×16的格子以及12块8×16的小格子。</p>
 </li>
 </ol>
 <hr>
-<h2 id="自定义菜单样式"><a href="#自定义菜单样式" class="headerlink" title="自定义菜单样式"></a>自定义菜单样式</h2><p><img src="https://z3.ax1x.com/2021/05/16/ggFEvj.png" alt="ggFEvj.png"></p>
+<h2 id="自定义菜单样式"><a href="#自定义菜单样式" class="headerlink" title="自定义菜单样式"></a>自定义菜单样式</h2><p><img src="https://s2.loli.net/2022/11/25/cs9mECYZ8DPKaV3.png" alt="systemtutorials.png"></p>
 <p>为了方便理解，我给每个区域标注了对应的字母和数字。如果想看指定区域的解析，可以通过左侧的目录直接跳转（仅限电脑端）</p>
 <h3 id="A区域：菜单背景"><a href="#A区域：菜单背景" class="headerlink" title="A区域：菜单背景"></a>A区域：菜单背景</h3><p>对话框的背景、游戏开场时的选项背景、状态栏的背景……这些全都属于A区域管理的部分。可以在里面随意画上自己喜欢的颜色或者图案。</p>
 <p>通过设置<code>Window Background</code>，可以得到拉伸或平铺的效果。</p>
-<p><img src="https://z3.ax1x.com/2021/05/16/ggkZWD.png" alt="ggkZWD.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/HZgeX7iAET8fz3U.png" alt="backgroundsetting.png"></p>
 <p><code>Stretch to Fit</code>适合纯色/渐变型背景；<code>Tiled Pattern</code>则适合图案型背景。</p>
 <p>※注意：图案型背景选择Stretch的话效果会很糟糕，如果设计了图案的话最好不要选择这项。</p>
 <h3 id="B区域：边框和指示箭头"><a href="#B区域：边框和指示箭头" class="headerlink" title="B区域：边框和指示箭头"></a>B区域：边框和指示箭头</h3><p>黄色的部分是边框所占的最大空间，只要不超过黄色的部分，边框无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。四个直角的读取范围是8×8，剩下的内容会根据边框的长度进行压缩或平铺。</p>
 <p>橙色的部分是指示箭头所占的最大空间，对话框底部闪烁的图案、菜单滚动页面的指示箭头都靠这部分显示，默认闪烁。上半部分和下半部分的大小都是8×16，注意不要画过头了。</p>
 <h3 id="C-amp-D区域：光标"><a href="#C-amp-D区域：光标" class="headerlink" title="C&amp;D区域：光标"></a>C&amp;D区域：光标</h3><p>这两块绿色的部分相当于起到光标的作用，两者交替显示形成一种闪烁的效果：</p>
-<p><img src="https://z3.ax1x.com/2021/05/16/ggVQm9.gif" alt="ggVQm9.gif"></p>
+<p><img src="https://s2.loli.net/2022/11/25/kEUt43LK9ApVTea.gif" alt="titile.gif"></p>
 <p>和边框一样，只要不超过这些区域，无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。比如可以在宽的部分加上指示标记，或者只画一条线充当选项的下划线……请发挥想象力！</p>
 <h3 id="E区域：店铺页面的显示"><a href="#E区域：店铺页面的显示" class="headerlink" title="E区域：店铺页面的显示"></a>E区域：店铺页面的显示</h3><p>这部分一般会在武器防具店购买东西的时候用上，如果是做派生的话这部分的内容是用不上的，想空着也可以空着。</p>
 <p>从上至下分别为<code>状态提升</code>、<code>状态不变</code>、<code>状态下降</code>以及<code>正在装备</code>。它们的播放顺序都是从左往右1→2→3→4</p>
 <h3 id="F区域：整体背景"><a href="#F区域：整体背景" class="headerlink" title="F区域：整体背景"></a>F区域：整体背景</h3><p>它负责没有被边框框住的部分，比如持有金和菜单栏之间的背景，存档页面的背景（如图）。没什么需求的话可以搞成纯黑的，或者和A区域使用同一种色系。</p>
-<p><img src="https://z3.ax1x.com/2021/05/17/g2mxo9.png" alt="g2mxo9.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/XHrgJE5waOWBfZx.png" alt="save.png"></p>
 <p>蓝色的部分就是F区域，橙色的部分则是B区域指示箭头的下半部分。</p>
 <h3 id="G区域：文字的影子"><a href="#G区域：文字的影子" class="headerlink" title="G区域：文字的影子"></a>G区域：文字的影子</h3><p>此区域的颜色会影响所有的文字和符号，它可以让字符变得更加立体和美观。一般设定成深色，可以按实际需求调整。</p>
 <h3 id="0-19：文字的颜色"><a href="#0-19：文字的颜色" class="headerlink" title="0~19：文字的颜色"></a>0~19：文字的颜色</h3><p>0：默认文本颜色</p>
@@ -514,7 +513,7 @@
 <p>剩下的4~19虽然不会在游戏里直接显示，但是可以随时通过<code>\c[]</code>调用。例如我在文本里输入：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt;Text: Hello, I&#x27;m \c[3]Drifter!</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://z3.ax1x.com/2021/05/17/g2nqfI.png" alt="g2nqfI.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/WGAw1TLq7UcoZJj.png" alt="text.png"></p>
 <blockquote>
 <p>注：如果想在一段长台词里标亮其中一段句子或词语，记得在标亮词句后输入<code>\c[0]</code>以保证之后的文本颜色回到默认状态。</p>
 </blockquote>
@@ -527,11 +526,9 @@
 <h3 id="椭圆区域：飞行船的影子"><a href="#椭圆区域：飞行船的影子" class="headerlink" title="椭圆区域：飞行船的影子"></a>椭圆区域：飞行船的影子</h3><p>它是Vehicle中的Airship的影子，派生一般用不上这块区域其实可以忽略。</p>
 <p>两个椭圆会被系统认定为两个叠加的半透明图案，在飞行船底部形成一个边缘淡化的影子。</p>
 <hr>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><img src="https://z3.ax1x.com/2021/05/17/g2uMN9.png" alt="g2uMN9.png"  />
-
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="https://s2.loli.net/2022/11/25/4TQjtzSLsP6bCYG.png" alt="systemexample.png"></p>
 <p>用一张以前做的菜单样式作为例子，注意边框、指示箭头和计时器数字的背景都指定了透明色。</p>
-<img src="https://z3.ax1x.com/2021/05/17/g2u191.png" alt="g2u191.png" style="zoom:80%;" />
-
+<p><img src="https://s2.loli.net/2022/11/25/hQeOPp5KFUXJSDY.png" alt="parts.png"></p>
 <p>右侧边框的内容可以通过数据库的<code>System 2</code>中得到修改，制作派生时可以将第一行的<code>Items</code>换成<code>Effects</code>，将<code>Equipment</code>与<code>Save</code>关闭。</p>
 <p>边框底部是持有金的显示，货币单位G可以在<code>Glossary4</code>的<code>Shop Paramenters</code>里进行修改。</p>
 <p>右侧是有关主人公的数值面板，第一行是<code>Name</code>和<code>Nickname</code>，制作派生时可以将主人公的状态输进昵称栏里。（第二行的特殊符号我会在下方进行详细的解释）</p>
@@ -539,12 +536,10 @@
 <p>在文本框里输入以下内容可以看到所有的符号：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Text: $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p $q</span><br><span class="line"> :     : $r $s $t $u $v $w $x $y $z</span><br><span class="line"> :     : $A $B $C $D $E $F $G $H $I $J $K $L $M $N $O $P $Q</span><br><span class="line"> :     : $R $S $T $U $V $W $X $Y $Z</span><br></pre></td></tr></table></figure>
 
-
-
-<p><img src="https://z3.ax1x.com/2021/05/17/g2uVXT.png" alt="g2uVXT.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/3fYiBt92OqsoZ4C.png" alt="emoji.png"></p>
 <p>这些符号也可以应用到数据库中的<code>Terms</code>里。找到<code>Glossary5</code>，可以在里面设置Level、HP、MP、EXP的缩略符号。</p>
 <p>例如在<code>HP(Abbr.)</code>里输入<code>$k</code>，那么在菜单栏里的HP代表符号就会变成一颗心的形状。</p>
-<p><img src="https://z3.ax1x.com/2021/05/17/g2un74.png" alt="g2un74.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/MQVav2jumi4oY9G.png" alt="Snipaste_2021-05-17_03-19-48.png"></p>
 <p>大家可以根据个人喜好决定内容。</p>
 <hr>
 <p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
@@ -580,16 +575,16 @@
 </tbody></table>
 </li>
 <li><p>配置</p>
-<p><img src="https://z3.ax1x.com/2021/05/14/gsxFne.png" alt="Charset"></p>
+<p><img src="https://s2.loli.net/2022/11/25/iWHP2SrODXmnJe9.png" alt="charset.png"></p>
 <p>这是一张Charset的模板。一格的大小是24×32像素，一组共12块。一整张Charset正好可以放下八组。</p>
 <p>单独把一组拆出来进行解析：</p>
-<p><img src="https://z3.ax1x.com/2021/05/14/gsxOv8.png" alt="gsxOv8.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/IUOD1v2jfN6ch3B.png" alt="size.png"></p>
 <p>在这里我把16×16的格子们放置在中间，可以较为直观地看出一格的长度正好是16的两倍，宽度左右各多出了4个像素点的空间。其实多出来的内容一样可以在游戏中显示出来，不需要担心自己的图像超过了范围。</p>
 <p>但需要注意的是如果地图元件没有设置好通行的话，这部分的内容就会<strong>穿过该元件的边缘</strong>，所以除非自己有特殊需求，<strong>尽量</strong>不要让角色的宽度占满所有空间。</p>
 </li>
 </ol>
 <hr>
-<h2 id="初阶：角色的配置"><a href="#初阶：角色的配置" class="headerlink" title="初阶：角色的配置"></a>初阶：角色的配置</h2><p><img src="https://z3.ax1x.com/2021/05/14/gyp64s.png" alt="OC"></p>
+<h2 id="初阶：角色的配置"><a href="#初阶：角色的配置" class="headerlink" title="初阶：角色的配置"></a>初阶：角色的配置</h2><p><img src="https://s2.loli.net/2022/11/25/4qJdLmlhfU2s8Hc.png" alt="character.png"></p>
 <p>用以前画的行走图拿出来举例，一组一共对应了角色的四个方向：上、右、下、左，每个朝向都对应了三帧动画。</p>
 <p>系统默认玩家不动的时候，角色的状态以正中间的纵列为主，被称为<code>静止帧</code>；当玩家输入按键的时候，图像会进行1→2→3→2的循环并同时移动位置，这些被称为<code>摆动帧</code>。</p>
 <p>制作角色行走图时需要注意的几点要求：</p>
@@ -601,12 +596,12 @@
 <h2 id="进阶：物件的配置"><a href="#进阶：物件的配置" class="headerlink" title="进阶：物件的配置"></a>进阶：物件的配置</h2><p>那除了画人，是不是还可以画物体呢？</p>
 <p>当然可以！</p>
 <h3 id="配置小物件"><a href="#配置小物件" class="headerlink" title="配置小物件"></a>配置小物件</h3><p><a href="https://drifter-games.com/2021/Chipset/">上一章</a>我们提到，Chipset分为<code>下层元件</code>和<code>上层元件</code>，而Charset的物体，在地图上可以被分类成第三类元件：它不仅可以充当下层元件，甚至还可以存在于上层元件之上。比如可以是床上的一本书，可以是桌上的台灯，栏杆上挂着的衣服……如果Chipset的空间已经占满，或想做一个可交互的小物件时，使用行走图就可以解决大部分问题。</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/gyJr4J.png" alt="台灯"></p>
+<p><img src="https://s2.loli.net/2022/11/25/IyRsjkuLZFXMnti.png" alt="lamp.png"></p>
 <p>以一盏台灯为例，如果把它放进游戏里的话就会是这样的：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/gyJgjx.png" alt="穿过台灯"></p>
+<p><img src="https://s2.loli.net/2022/11/25/uoCUOAH3ReqEbzD.png" alt="through.png"></p>
 <p>角色虽然不能从杆子的部分穿过，但是可以从灯的后面穿过。我们得出一个结论：<strong>行走图的上半部分会被系统默认为☆可穿过元件。</strong>只要合理利用这点就能很快在地图上配置好各种各样的物件，而不用担心Chipset的上限问题。</p>
 <h3 id="配置大物件"><a href="#配置大物件" class="headerlink" title="配置大物件"></a>配置大物件</h3><p>当然不是所有的物体都像是刚才的台灯那样刚刚好，比如我画了一张大到一个格子塞不下的床：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/gytASA.png" alt="gytASA.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/NjzIbc6JPFSL249.png" alt="example.png"></p>
 <p>这种情况就要逐个把它们分进小格子里一段一段配置。在配置一节讲到过，行走图一格的宽度比普通的一格宽度多出了8个像素点，但这部分又确实能在地图上显示，所以左右拆分的时候也应当<strong>空出相同数量的像素点</strong>，这样就不会出现显示错误。</p>
 <p>根据以上的结论，可以得出两种拆分方法：</p>
 <ol>
@@ -614,24 +609,25 @@
 <li>不利用行走图的宽度特性：内容只占中间16×32的情况，左右两侧就应该留出行走图宽度多出来的4格像素的空间。</li>
 </ol>
 <p>大家可以视实际情况决定拆分方法！在这里我用第一种方法举例：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/gytZOP.png" alt="gytZOP.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/8rQwMNg6RxsoeIt.png" alt="parts.png"></p>
 <p>因为床的中心占满了整个24×32的格子，所以两侧都得空出8个像素的空间。理论上这张床放进游戏里是不会有任何显示错误的，但放进游戏里进行测试的时候，却发现了这样的问题：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/gytUTU.gif" alt="gytUTU.gif"></p>
+<p><img src="https://s2.loli.net/2022/11/25/oQPMsgO7n8bRUva.gif" alt="pass.gif"></p>
 <p>主人公能从中间穿过的原因在于上一章我们得出的结论：</p>
 <blockquote>
 <p>行走图的上半部分会被系统默认为可穿过元件</p>
 </blockquote>
 <p>于是再进行一次拆分工作：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/gytg0K.png" alt="gytg0K.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/tvRHKN5awlJrxOg.png" alt="parts2.png"></p>
 <p>如图所示，只要把这些会穿过的部分单独拆出来放进另一组的<code>下半部分</code>就不会出现这种问题了。</p>
 <p>最后把这些床全都放进行走图里做一个对比：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/gyto6I.png" alt="gyto6I.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/9wrovqtCx581Wni.png" alt="bed.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/DhrM61fCzQxqEVH.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/n3x2fsYVk8MW5HK.png" alt="testplay.png"></p>
 <p>第一张床是简单的拆分法、第二张床是经过改良之后的拆分法、第三张床就是完全没有进行拆分的情况。把这些床放进编辑器里进行配置</p>
 <div class="note info"><p><strong>配置时要记得将部件的<code>Animation Type</code>设置成<code>Fixed Graphic</code>才能在地图上正常显示</strong></p>
 </div>
 
-<p><img src="https://z3.ax1x.com/2021/05/15/gytTXt.png" alt="gytTXt.png"></p>
-<p><img src="https://z3.ax1x.com/2021/05/15/gytHnP.png" alt="gytHnP.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/36brFxXaSCNo8AH.png" alt="fixed graphic.png"></p>
 <p>如图所示，未进行拆分的床变得一塌糊涂，而经过拆分的床则没有这种问题。学会拆分就不用担心Chipset空间不够，是一种非常实用的技能。</p>
 <blockquote>
 <p>注：其实第一张床出现的穿过问题，可以在中间那一排加上属性为<code>Same as Characters</code>的空白事件强制让主人公无法通过。大家可以视地图的具体情况来确定拆分方法。</p>
@@ -685,9 +681,9 @@
 <p>建议实际操作感受一下这七种类型的区别。</p>
 <h3 id="三帧-amp-四帧"><a href="#三帧-amp-四帧" class="headerlink" title="三帧&amp;四帧"></a>三帧&amp;四帧</h3><p>在行走图里画帧动画，一般会用上<code>Walking Animation</code>和<code>Spin</code>两种模式。行走动画默认读取横向摆动帧，旋转默认读取纵向静止帧，由此可得一张行走图最多可以放置四种行走动画或三种旋转动画。</p>
 <p>举一个例子：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/g6NGWQ.png" alt="g6NGWQ.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/o9dnyP3BmS5RXiH.png" alt="ring.png"></p>
 <p>中间的静止帧是一个旋转的圆环，其他摆动帧分别为跳动的圆环、拉长的圆环、旋转的宝石和闪烁的圆环。调整好动画类型和速度，放进地图里就会像这样：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/g6NX0P.gif" alt="g6NX0P.gif"></p>
+<p><img src="https://s2.loli.net/2022/11/25/x4ZYuJn2FKeI36w.gif" alt="ring.gif"></p>
 <p>但是这种方法最多只能画四帧动画，那如果四帧并不能满足需求，这种时候就得用上<code>Movement Type</code>（移动方式）进行辅助了。</p>
 <h3 id="四帧以上"><a href="#四帧以上" class="headerlink" title="四帧以上"></a>四帧以上</h3><p><code>Movement Type</code>位于左下角，一共有七种：</p>
 <table>
@@ -736,13 +732,13 @@
 </tbody></table>
 <p>这里可以用<code>Custom</code>（自定义）来增加动画的帧数。当选择自定义时，会发现底端多了一个名为<code>Frequency</code>的选项，它的数字越大，执行指令的速度就越快。</p>
 <p>为了举例，我画了一个球体在地面上弹跳的动画：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/g6R9OK.png" alt="g6R9OK.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/VGjs1UynxDXTtBR.png" alt="ball.png"></p>
 <p>注意此处我把它们分成了两组，这样设置移动路线的时候可以利用<code>Change Graphic</code>实现帧数之间的无缝衔接。</p>
 <p>我们在<code>Movement Commands</code>里输入以下指令：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//首先是第一组的四帧</span><br><span class="line">$&gt;Turn Up</span><br><span class="line">$&gt;Turn Right</span><br><span class="line">$&gt;Turn Down</span><br><span class="line">$&gt;Turn Left</span><br><span class="line">//然后衔接上第二组</span><br><span class="line">Graphic:&#x27;ball&#x27;,2</span><br><span class="line">Turn Up</span><br><span class="line">Turn Right</span><br><span class="line">Turn Down</span><br><span class="line">Turn Left</span><br><span class="line">//再切换回第一组</span><br><span class="line">Graphic:&#x27;ball&#x27;,1</span><br></pre></td></tr></table></figure>
 
 <p>之后将<code>Frequency</code>设置成5，按下确定，来看看效果：</p>
-<p><img src="https://z3.ax1x.com/2021/05/15/g6WH54.gif" alt="g6WH54.gif"></p>
+<p><img src="https://s2.loli.net/2022/11/25/CLpqa6D9btVAw4i.gif" alt="bounce.gif"></p>
 <p>一个弹跳的球完成了！</p>
 <div class="note info no-icon"><p>如果有其他需求，可以用事件指令<code>Set Move Route</code>并指定<code>This Event</code>进行编辑，效果是一样的。</p>
 </div>
@@ -815,37 +811,37 @@
 <li><p>动画元件的画法</p>
 <p>动画元件一共有三列可以被调用，每一列都有四个16×16的格子组成。动画的行进方向为从上至下1→2→3→4→1。这个区域的动画速度是无法被调整的，因此如果想要加快速度或减慢速度的话推荐使用行走图（Charset）进行绘制。</p>
 <p>这里用我以前做的瀑布动画作为例子：</p>
-<p><img src="https://z3.ax1x.com/2021/05/12/gd8mLR.png" alt="瀑布"></p>
+<p><img src="https://s2.loli.net/2022/11/25/8MbCorvzxaBPd9K.png" alt="waterfall.png"></p>
 <p>除了瀑布以外还可以画风扇、灯光、火焰等等。</p>
 <p>当然也完全可以把这个区域当成一个静止的下层元件看待，只要四帧动画完全一致，那么这一列就和普通的下层元件没有区别。</p>
 </li>
 </ol>
 <h3 id="进阶：自动填充"><a href="#进阶：自动填充" class="headerlink" title="进阶：自动填充"></a>进阶：自动填充</h3><p>自动填充是初学者在绘制时很容易碰壁的区域，光看系统自带的RTP也无法完全参透它的原理。它其实就是让系统自动帮忙填充边界的功能，只要运用好就可以大大缩短地图的配置时间。</p>
 <p>这里我使用上面准备的石块作为自动填充的素材，将它和泥土结合形成一块石头路面。首先石块和泥土各复制成九块，按照3×3的规格排列。（石块要进行一些擦除和修改，使其变成一个不规则图形。按照自己的想法随意修改即可）</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaItb9.png" alt="重组并修改"></p>
+<p><img src="https://s2.loli.net/2022/11/25/VgMsL7x625yEaTm.png" alt="regroup.png"></p>
 <p>粉色的区域对应正中央四方连续型的石头图块，其余四个角分别用黄、绿、蓝、红标出。之后按照第二步进行一个重组。</p>
 <p>重组完成后会发现中央的四个直角区域有瑕疵（亮粉色区域），把它们修正后可以得到一个完美的十字。</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaT80J.png" alt="自动填充图块"></p>
+<p><img src="https://s2.loli.net/2022/11/25/L8kdsFRh3mUnxXO.png" alt="highlight.png"></p>
 <p>之后将高光部分如上图拼起来，可以得到两个小图块。这两个小图块就是自动填充图块的精髓，左边代表了<code>外侧边缘的填充</code>，右边代表了<code>内侧边缘的填充</code>。</p>
 <blockquote>
 <p>注：关于外侧边缘的填充系统会自动完成，实际上第一格只是起到一个标记的作用，方便作者在编辑器里调用相关内容。因此无论这一格不论画成什么样都都不会影响外侧边缘的填充。</p>
 </blockquote>
 <p>之后我们把这些元素进行一个最终组装：</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaHnMT.png" alt="cobble"></p>
+<p><img src="https://s2.loli.net/2022/11/25/TmQOVuZqGANXgwU.png" alt="cobble.png"></p>
 <p>锵锵！一块自动填充元件就画好啦！</p>
 <h3 id="中阶：海洋图块"><a href="#中阶：海洋图块" class="headerlink" title="中阶：海洋图块"></a>中阶：海洋图块</h3><p>海洋图块位于Chipset的左上角，一组由三个16×16的图块为一排、四个16×16的图块为一列组成，共12格。每排它都会自动按照从左到右（默认1→2→3→2）的顺序播放。可以算作是一种动画图块。</p>
 <p>同样地，先绘制好海洋的三帧动画，进行一个调色和拼装：</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaqKUJ.md.png" alt="ocean"></p>
+<p><img src="https://s2.loli.net/2022/11/25/S1VLJlsj46gFWaZ.png" alt="ocean.png"></p>
 <p>在这里我设置底下两排为深水区。实际上这块可以灵活变通，不一定要设置深水区，甚至都不一定要画海洋，只要知道它会自动从左往右播放就行。</p>
 <p>海洋画好后我们来设置陆地。依旧是之前画的泥土<del>（本来应该重新画草地的但我懒）</del>拼成一个十字，但进行一个调色使其看起来像是青苔陆地。</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaLweU.png" alt="island"></p>
+<p><img src="https://s2.loli.net/2022/11/25/hSmKPa5n3g1dOBV.png" alt="regroup2.png"></p>
 <p>在周围画上边缘体现厚度。这里我不推荐把16*16的格子画满，最多到四分之一的大小就好（就是下方示意图的小色块的大小），而且如果想偷懒的话，还可以只画一边，然后水平翻转一下就可以了。<del>当然不偷懒会更自然好看，可我懒</del></p>
 <p>最容易配置的是黄色的区域，就是四个内侧直角所在的地方。把它们组合拼装我们可以得到第一块。</p>
 <p>绿色和红色区域是左右接续边缘，把它们组合拼装得到第二块。</p>
 <p>蓝色和紫色区域是上下接续边缘，把它们组合拼装得到第三块。</p>
 <p>最后就是白色区域，它是负责拼接外侧转角的部分，组合拼装得到第四块。</p>
 <p>这样我们就准备好所有的素材了！把整体拖入上面画的海洋图层里看看效果（不满意还可以再后期调色，直到看起来像是陆地为止）此外考虑到陆地周边的海洋不会是深水区，因此配置的时候背景采用的是第一排的海洋图块。</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gavoHf.png" alt="海洋图块"></p>
+<p><img src="https://s2.loli.net/2022/11/25/e3FHpCAtPNKwyo2.png" alt="land.png"></p>
 <p>大功告成！</p>
 <h3 id="高阶：应用"><a href="#高阶：应用" class="headerlink" title="高阶：应用"></a>高阶：应用</h3><p>现在我们学会了自动填充的绘制方法，也知道了它的构成原理，那么接下来该谈谈如何灵活运用这块区域，让它变成一个“元件储藏室”。</p>
 <p>介绍Chipset的配置时提到，不管是海洋元件、动画元件还是自动填充元件，它们都属于<code>下层元件</code>。下层原件就是构成地面或墙壁的元素，一不小心就会画很多。这种时候为了节省空间，是可以把下层元件放进上层区域管理的。但如果上层的空间都已经被各种元件占满了，还有一些没地方放怎么办？一张地图只支持一张Chipset，难道要忍痛删除部分元件吗？</p>
@@ -855,10 +851,10 @@
 <li>利用自动填充区域，让它变成可以在编辑器里复制的下层元件。</li>
 </ol>
 <p>第一种方法请参考<a href="https://drifter-games.com/2021/Charset/">Charset-物件的配置</a>，在这里详细解释一下第二种解决办法。</p>
-<p><img src="https://z3.ax1x.com/2021/05/12/gd3w24.png" alt="数字与符号"></p>
+<p><img src="https://s2.loli.net/2022/11/25/JcMNIpiSZxYEAje.png" alt="number.png"></p>
 <p>这里为了方便大家理解，我在每一格里放入了对应的数字和符号。当这张Chipset被导入进编辑器后，数字0以16×16的大小出现在下层编辑器的左上角，表示这一格可以调用数字1~9所在区域的内容。</p>
 <p>我们在地图里画出一个3×3的格子就可以自然得到1~9，而右上角的冒号得画出一个十字才能被显示出来。如图所示：</p>
-<p><img src="https://z3.ax1x.com/2021/05/12/gd3ca6.png" alt="编辑器实践"></p>
+<p><img src="https://s2.loli.net/2022/11/25/rVUzmxJ3RuFTk5G.png" alt="autonumber.png"></p>
 <p>按住<code>Shift</code>不要松开，使用<code>右键</code>点击任何数字所在区域即可随意复制（长按右键拖动可以复制更多内容），之后在任意区域再次<code>右键</code>就可以粘贴了。</p>
 <div class="note warning no-icon"><p><strong>全程请不要松开Shift。</strong></p>
 </div>
@@ -1121,7 +1117,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#x68;&#x79;&#111;&#x75;&#114;&#121;&#x75;&#x75;&#64;&#102;&#111;&#x78;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x68;&#x79;&#111;&#x75;&#114;&#121;&#x75;&#x75;&#64;&#102;&#111;&#x78;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></p>
+<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#121;&#111;&#117;&#114;&#121;&#117;&#x75;&#x40;&#102;&#111;&#120;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#104;&#121;&#111;&#117;&#114;&#121;&#117;&#x75;&#x40;&#102;&#111;&#120;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></p>
 ]]></content>
       <categories>
         <category>投稿规则</category>

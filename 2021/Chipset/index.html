@@ -29,17 +29,17 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.loli.net/2021/05/11/79Pdmr3THInxUkj.png">
 <meta property="og:image" content="https://i.loli.net/2021/05/11/ac1MesHqxf2CwJp.png">
-<meta property="og:image" content="https://z3.ax1x.com/2021/05/12/gd8mLR.png">
-<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaItb9.png">
-<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaT80J.png">
-<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaHnMT.png">
-<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaqKUJ.md.png">
-<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gaLweU.png">
-<meta property="og:image" content="https://z3.ax1x.com/2021/05/11/gavoHf.png">
-<meta property="og:image" content="https://z3.ax1x.com/2021/05/12/gd3w24.png">
-<meta property="og:image" content="https://z3.ax1x.com/2021/05/12/gd3ca6.png">
+<meta property="og:image" content="https://s2.loli.net/2022/11/25/8MbCorvzxaBPd9K.png">
+<meta property="og:image" content="https://s2.loli.net/2022/11/25/VgMsL7x625yEaTm.png">
+<meta property="og:image" content="https://s2.loli.net/2022/11/25/L8kdsFRh3mUnxXO.png">
+<meta property="og:image" content="https://s2.loli.net/2022/11/25/TmQOVuZqGANXgwU.png">
+<meta property="og:image" content="https://s2.loli.net/2022/11/25/S1VLJlsj46gFWaZ.png">
+<meta property="og:image" content="https://s2.loli.net/2022/11/25/hSmKPa5n3g1dOBV.png">
+<meta property="og:image" content="https://s2.loli.net/2022/11/25/e3FHpCAtPNKwyo2.png">
+<meta property="og:image" content="https://s2.loli.net/2022/11/25/JcMNIpiSZxYEAje.png">
+<meta property="og:image" content="https://s2.loli.net/2022/11/25/rVUzmxJ3RuFTk5G.png">
 <meta property="article:published_time" content="2021-05-11T19:43:25.000Z">
-<meta property="article:modified_time" content="2021-05-19T09:32:25.247Z">
+<meta property="article:modified_time" content="2022-11-25T11:58:21.432Z">
 <meta property="article:author" content="-Drifter">
 <meta property="article:tag" content="RM2003">
 <meta property="article:tag" content="游戏开发">
@@ -266,7 +266,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-05-19 17:32:25" itemprop="dateModified" datetime="2021-05-19T17:32:25+08:00">2021-05-19</time>
+        <time title="修改时间：2022-11-25 19:58:21" itemprop="dateModified" datetime="2022-11-25T19:58:21+08:00">2022-11-25</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -348,37 +348,37 @@
 <li><p>动画元件的画法</p>
 <p>动画元件一共有三列可以被调用，每一列都有四个16×16的格子组成。动画的行进方向为从上至下1→2→3→4→1。这个区域的动画速度是无法被调整的，因此如果想要加快速度或减慢速度的话推荐使用行走图（Charset）进行绘制。</p>
 <p>这里用我以前做的瀑布动画作为例子：</p>
-<p><img src="https://z3.ax1x.com/2021/05/12/gd8mLR.png" alt="瀑布"></p>
+<p><img src="https://s2.loli.net/2022/11/25/8MbCorvzxaBPd9K.png" alt="waterfall.png"></p>
 <p>除了瀑布以外还可以画风扇、灯光、火焰等等。</p>
 <p>当然也完全可以把这个区域当成一个静止的下层元件看待，只要四帧动画完全一致，那么这一列就和普通的下层元件没有区别。</p>
 </li>
 </ol>
 <h3 id="进阶：自动填充"><a href="#进阶：自动填充" class="headerlink" title="进阶：自动填充"></a>进阶：自动填充</h3><p>自动填充是初学者在绘制时很容易碰壁的区域，光看系统自带的RTP也无法完全参透它的原理。它其实就是让系统自动帮忙填充边界的功能，只要运用好就可以大大缩短地图的配置时间。</p>
 <p>这里我使用上面准备的石块作为自动填充的素材，将它和泥土结合形成一块石头路面。首先石块和泥土各复制成九块，按照3×3的规格排列。（石块要进行一些擦除和修改，使其变成一个不规则图形。按照自己的想法随意修改即可）</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaItb9.png" alt="重组并修改"></p>
+<p><img src="https://s2.loli.net/2022/11/25/VgMsL7x625yEaTm.png" alt="regroup.png"></p>
 <p>粉色的区域对应正中央四方连续型的石头图块，其余四个角分别用黄、绿、蓝、红标出。之后按照第二步进行一个重组。</p>
 <p>重组完成后会发现中央的四个直角区域有瑕疵（亮粉色区域），把它们修正后可以得到一个完美的十字。</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaT80J.png" alt="自动填充图块"></p>
+<p><img src="https://s2.loli.net/2022/11/25/L8kdsFRh3mUnxXO.png" alt="highlight.png"></p>
 <p>之后将高光部分如上图拼起来，可以得到两个小图块。这两个小图块就是自动填充图块的精髓，左边代表了<code>外侧边缘的填充</code>，右边代表了<code>内侧边缘的填充</code>。</p>
 <blockquote>
 <p>注：关于外侧边缘的填充系统会自动完成，实际上第一格只是起到一个标记的作用，方便作者在编辑器里调用相关内容。因此无论这一格不论画成什么样都都不会影响外侧边缘的填充。</p>
 </blockquote>
 <p>之后我们把这些元素进行一个最终组装：</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaHnMT.png" alt="cobble"></p>
+<p><img src="https://s2.loli.net/2022/11/25/TmQOVuZqGANXgwU.png" alt="cobble.png"></p>
 <p>锵锵！一块自动填充元件就画好啦！</p>
 <h3 id="中阶：海洋图块"><a href="#中阶：海洋图块" class="headerlink" title="中阶：海洋图块"></a>中阶：海洋图块</h3><p>海洋图块位于Chipset的左上角，一组由三个16×16的图块为一排、四个16×16的图块为一列组成，共12格。每排它都会自动按照从左到右（默认1→2→3→2）的顺序播放。可以算作是一种动画图块。</p>
 <p>同样地，先绘制好海洋的三帧动画，进行一个调色和拼装：</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaqKUJ.md.png" alt="ocean"></p>
+<p><img src="https://s2.loli.net/2022/11/25/S1VLJlsj46gFWaZ.png" alt="ocean.png"></p>
 <p>在这里我设置底下两排为深水区。实际上这块可以灵活变通，不一定要设置深水区，甚至都不一定要画海洋，只要知道它会自动从左往右播放就行。</p>
 <p>海洋画好后我们来设置陆地。依旧是之前画的泥土<del>（本来应该重新画草地的但我懒）</del>拼成一个十字，但进行一个调色使其看起来像是青苔陆地。</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gaLweU.png" alt="island"></p>
+<p><img src="https://s2.loli.net/2022/11/25/hSmKPa5n3g1dOBV.png" alt="regroup2.png"></p>
 <p>在周围画上边缘体现厚度。这里我不推荐把16*16的格子画满，最多到四分之一的大小就好（就是下方示意图的小色块的大小），而且如果想偷懒的话，还可以只画一边，然后水平翻转一下就可以了。<del>当然不偷懒会更自然好看，可我懒</del></p>
 <p>最容易配置的是黄色的区域，就是四个内侧直角所在的地方。把它们组合拼装我们可以得到第一块。</p>
 <p>绿色和红色区域是左右接续边缘，把它们组合拼装得到第二块。</p>
 <p>蓝色和紫色区域是上下接续边缘，把它们组合拼装得到第三块。</p>
 <p>最后就是白色区域，它是负责拼接外侧转角的部分，组合拼装得到第四块。</p>
 <p>这样我们就准备好所有的素材了！把整体拖入上面画的海洋图层里看看效果（不满意还可以再后期调色，直到看起来像是陆地为止）此外考虑到陆地周边的海洋不会是深水区，因此配置的时候背景采用的是第一排的海洋图块。</p>
-<p><img src="https://z3.ax1x.com/2021/05/11/gavoHf.png" alt="海洋图块"></p>
+<p><img src="https://s2.loli.net/2022/11/25/e3FHpCAtPNKwyo2.png" alt="land.png"></p>
 <p>大功告成！</p>
 <h3 id="高阶：应用"><a href="#高阶：应用" class="headerlink" title="高阶：应用"></a>高阶：应用</h3><p>现在我们学会了自动填充的绘制方法，也知道了它的构成原理，那么接下来该谈谈如何灵活运用这块区域，让它变成一个“元件储藏室”。</p>
 <p>介绍Chipset的配置时提到，不管是海洋元件、动画元件还是自动填充元件，它们都属于<code>下层元件</code>。下层原件就是构成地面或墙壁的元素，一不小心就会画很多。这种时候为了节省空间，是可以把下层元件放进上层区域管理的。但如果上层的空间都已经被各种元件占满了，还有一些没地方放怎么办？一张地图只支持一张Chipset，难道要忍痛删除部分元件吗？</p>
@@ -388,10 +388,10 @@
 <li>利用自动填充区域，让它变成可以在编辑器里复制的下层元件。</li>
 </ol>
 <p>第一种方法请参考<a href="https://drifter-games.com/2021/Charset/">Charset-物件的配置</a>，在这里详细解释一下第二种解决办法。</p>
-<p><img src="https://z3.ax1x.com/2021/05/12/gd3w24.png" alt="数字与符号"></p>
+<p><img src="https://s2.loli.net/2022/11/25/JcMNIpiSZxYEAje.png" alt="number.png"></p>
 <p>这里为了方便大家理解，我在每一格里放入了对应的数字和符号。当这张Chipset被导入进编辑器后，数字0以16×16的大小出现在下层编辑器的左上角，表示这一格可以调用数字1~9所在区域的内容。</p>
 <p>我们在地图里画出一个3×3的格子就可以自然得到1~9，而右上角的冒号得画出一个十字才能被显示出来。如图所示：</p>
-<p><img src="https://z3.ax1x.com/2021/05/12/gd3ca6.png" alt="编辑器实践"></p>
+<p><img src="https://s2.loli.net/2022/11/25/rVUzmxJ3RuFTk5G.png" alt="autonumber.png"></p>
 <p>按住<code>Shift</code>不要松开，使用<code>右键</code>点击任何数字所在区域即可随意复制（长按右键拖动可以复制更多内容），之后在任意区域再次<code>右键</code>就可以粘贴了。</p>
 <div class="note warning no-icon"><p><strong>全程请不要松开Shift。</strong></p>
 </div>
@@ -464,7 +464,7 @@
 
 <div class="copyright">
   &copy; 
-  <span itemprop="copyrightYear">2021</span>
+  <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
     <i class="fa fa-gamepad"></i>
   </span>
