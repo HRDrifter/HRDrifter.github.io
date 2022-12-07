@@ -47,6 +47,51 @@
       </tags>
   </entry>
   <entry>
+    <title>Happy 2nd Anniversary!</title>
+    <url>/2022/Ephem2nd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2022/12/07/bn9JZ5SVksXmY3f.png" title="" alt="二周年.png" data-align="center">
+
+<center><font color=4a5b92>🎉Ephemreal发布二周年🍾</font></center>
+
+<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>不知不觉又过去一年…但是今年的开发进度明显放缓，本想着二周年能够发布0.01版，无奈现实生活过于繁忙。</p>
+<p>要说今年做了什么重要的决定，那就是把数据库<strong>全部删除重写</strong>…………真的非常累。重写意味着0.00版本的存档将不再适用于新版本，所以下次更新之后我会删除0.00相关的所有链接。</p>
+<p>这一年也学会了很多RM2K3的很多高级操作，会逐渐运用至Ephemreal中的。</p>
+<p>感谢大家继续喜爱着Ephemreal，让我们下一个更新再见！</p>
+<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><p>因为进度放缓，新地图的数量不多，为了游玩体验就不再放出新地图的预览。</p>
+<ul>
+<li><p>现在效果数量：11</p>
+</li>
+<li><p>地图数量：约60张</p>
+</li>
+<li><p>电脑、壁纸、音乐播放器、存档系统已全部完成</p>
+</li>
+<li><p>几乎所有的地图全都会改动<del>甚至有些会被删除</del></p>
+</li>
+</ul>
+<p><img src="https://s2.loli.net/2022/12/07/uRm8y9UMIrTWJ42.png" alt="Snipaste_2022-08-04_16-02-24.png"></p>
+<blockquote>
+<p>给GB世界新增了电视扫描线</p>
+</blockquote>
+<p><img src="https://s2.loli.net/2022/12/08/8n4qsDLjguvSkXA.png" alt="Snipaste_2022-11-24_02-11-46.png"></p>
+<blockquote>
+<p>重画了像素</p>
+</blockquote>
+<p>除此之外还有很多…</p>
+<hr>
+<p><img src="https://s2.loli.net/2022/12/07/VF5gJlmBxZP7b3t.gif" alt="爆炸.gif"></p>
+<p><del>当初只是为了搞笑而做的动画，结果意外地很有趣</del> 不会实装！！图个乐子！！</p>
+<hr>
+<p>Ephemreal长期接收壁纸、音乐的投稿！欢迎私信或邮箱。</p>
+]]></content>
+      <categories>
+        <category>杂谈记事</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Happy Anniversary!</title>
     <url>/2021/Ephem1st/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2021/12/08/sNeCQS8OWywocuT.png" alt="round1.png" style="zoom: 50%;" />
@@ -1117,7 +1162,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#x68;&#x79;&#x6f;&#117;&#114;&#121;&#117;&#x75;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x68;&#x79;&#x6f;&#117;&#114;&#121;&#117;&#x75;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></p>
+<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#x68;&#121;&#x6f;&#117;&#x72;&#x79;&#117;&#x75;&#64;&#102;&#111;&#x78;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x68;&#121;&#x6f;&#117;&#x72;&#x79;&#117;&#x75;&#64;&#102;&#111;&#x78;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></p>
 ]]></content>
       <categories>
         <category>投稿规则</category>
