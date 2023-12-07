@@ -1,286 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Ephemreal</title>
-    <url>/2020/Ephemreal/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.loli.net/2021/05/07/64FqkcE3WOUwPiy.png" alt="ephemreal.png"><br><img src="https://i.loli.net/2021/05/07/UTfbhj5FOKsr2CI.png" alt="room.png"></p>
-<span id="more"></span>
-
-<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><div class="note warning"><p>此游戏是梦日记的fangame，也就是所谓的同人游戏。并不是梦日记的续作，<strong>与梦日记和kikiyama氏完全没有关系。</strong></p>
-</div>
-
-<p>此外，Ephemreal现处于开发状态，因此内容较少，并没有实装结局。今后还会不定期进行更新和修复，欢迎向我报告遇到的bug。</p>
-<h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><ul>
-<li>移动：<code>方向键</code></li>
-<li>确定：<code>Z/Enter</code></li>
-<li>菜单/取消：<code>X</code></li>
-<li>特殊动作：<code>Shift</code></li>
-<li>捏脸：<code>数字9</code></li>
-<li>存档：<code>调查主人公卧室右下角的显示屏</code></li>
-</ul>
-<p>在梦中四处转转，调查一些特殊物品取得<code>效果</code>吧。</p>
-<h3 id="版本履历"><a href="#版本履历" class="headerlink" title="版本履历"></a>版本履历</h3><table>
-<thead>
-<tr>
-<th>版本信息</th>
-<th>下载连接</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ver0.00</td>
-<td><a href="https://www.mediafire.com/file/27u86p7gu7hx97b/Ephemreal_ver0.00.rar/file">简体中文</a></td>
-</tr>
-<tr>
-<td>ver0.00+</td>
-<td><a href="https://www.mediafire.com/file/875djymsazazs6d/Ephemreal_ver0.00%252B.rar/file">ENGLISH</a></td>
-</tr>
-</tbody></table>
-<h3 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h3><p>安装运行出现了问题？<a href="https://drifter-games.com/2020/Help/">请看这边</a><br>我想投稿，该怎么做？<a href="https://drifter-games.com/2020/subrules/">请点这里</a></p>
-<h2 id="其他链接"><a href="#其他链接" class="headerlink" title="其他链接"></a>其他链接</h2><a class="btn" href="https://www.pixiv.net/artworks/86174142 "><i class="fa fa-link fa-lg"></i>Pixiv</a>
-<a class="btn" href="https://yumenikkifg.fandom.com/wiki/Ephemreal "><i class="fa fa-link fa-lg"></i>Wiki</a>]]></content>
-      <categories>
-        <category>更新/发布信息</category>
-      </categories>
-      <tags>
-        <tag>梦日记派生</tag>
-        <tag>游戏发布</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Happy 2nd Anniversary!</title>
-    <url>/2022/Ephem2nd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2022/12/07/bn9JZ5SVksXmY3f.png" title="" alt="二周年.png" data-align="center">
-
-<center><font color=4a5b92>🎉Ephemreal发布二周年🍾</font></center>
-
-<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>不知不觉又过去一年…但是今年的开发进度明显放缓，本想着二周年能够发布0.01版，无奈现实生活过于繁忙。</p>
-<p>要说今年做了什么重要的决定，那就是把数据库<strong>全部删除重写</strong>…………真的非常累。重写意味着0.00版本的存档将不再适用于新版本，所以下次更新之后我会删除0.00相关的所有链接。</p>
-<p>这一年也学会了很多RM2K3的很多高级操作，会逐渐运用至Ephemreal中的。</p>
-<p>感谢大家继续喜爱着Ephemreal，让我们下一个更新再见！</p>
-<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><p>因为进度放缓，新地图的数量不多，为了游玩体验就不再放出新地图的预览。</p>
-<ul>
-<li><p>现在效果数量：11</p>
-</li>
-<li><p>地图数量：约60张</p>
-</li>
-<li><p>电脑、壁纸、音乐播放器、存档系统已全部完成</p>
-</li>
-<li><p>几乎所有的地图全都会改动<del>甚至有些会被删除</del></p>
-</li>
-</ul>
-<p><img src="https://s2.loli.net/2022/12/07/uRm8y9UMIrTWJ42.png" alt="Snipaste_2022-08-04_16-02-24.png"></p>
-<blockquote>
-<p>给GB世界新增了电视扫描线</p>
-</blockquote>
-<p><img src="https://s2.loli.net/2022/12/08/8n4qsDLjguvSkXA.png" alt="Snipaste_2022-11-24_02-11-46.png"></p>
-<blockquote>
-<p>重画了像素</p>
-</blockquote>
-<p>除此之外还有很多…</p>
-<hr>
-<p><img src="https://s2.loli.net/2022/12/07/VF5gJlmBxZP7b3t.gif" alt="爆炸.gif"></p>
-<p><del>当初只是为了搞笑而做的动画，结果意外地很有趣</del> 不会实装！！图个乐子！！</p>
-<hr>
-<p>Ephemreal长期接收壁纸、音乐的投稿！欢迎私信或邮箱。</p>
-]]></content>
-      <categories>
-        <category>杂谈记事</category>
-      </categories>
-      <tags>
-        <tag>游戏开发</tag>
-        <tag>梦日记派生</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Happy Anniversary!</title>
-    <url>/2021/Ephem1st/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2021/12/08/sNeCQS8OWywocuT.png" alt="round1.png" style="zoom: 50%;" />
-
-<center><font color=4a5b92>🎉Ephemreal发布一周年🍾</font></center>
-
-
-
-<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>距离上次公开已经过去了一年（<em>2020.12.08~2021.12.08</em>）。时间过得太快了，以至于我都不记得这一年做了什么……</p>
-<p>自从开始做Ephemreal后，也不知道是好事还是坏事，我的大脑就完全被它占满了。（依稀记得在公开0.00+之后，我直接休息了几个月）</p>
-<p>同时，这一年我认识了很多人。有愿意帮我检查、编写优化指令的朋友，还有愿意投稿壁纸、音乐的朋友，可以说没有他们就无法完成现在的Ephemreal。制作完成后，这款派生得到了更多的关注度，其中少不了同人和实况视频的宣传功劳。放在以前，这些是我想都不敢想的。</p>
-<p>在这里由衷感谢所有愿意帮助我的所有人、游玩的你、以及我自己。</p>
-<p>让我们下一个更新再见！</p>
-<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><div class="note warning"><p>以下内容可能会剧透。</p>
-</div>
-
-
-
-<span id="more"></span>
-
-
-
-<h3 id="开发进度报告"><a href="#开发进度报告" class="headerlink" title="开发进度报告"></a>开发进度报告</h3><p>想必大家最关心的就是开发进度了吧。</p>
-<p>很可惜的是，距离0.01发布还有一段时间…我也不知道什么时候能做好，无法给出具体详细的日期。</p>
-<p><strong>但是！</strong>我准备了一些开发中的截图↓</p>
-<img src="https://s2.loli.net/2021/12/08/3JkB61luMLd2US5.png" alt="吊机.png" style="zoom: 80%;" />
-
-<img src="https://s2.loli.net/2021/12/08/mH1VqK5Yj4WGLQ7.png" alt="Snipaste_2021-04-16_00-29-20.png" style="zoom:67%;" />
-
-<img src="https://s2.loli.net/2021/12/08/mUScdQOJof6rq3H.png" alt="Snipaste_2021-03-16_03-03-12.png" style="zoom:67%;" />
-
-<blockquote>
-<p>这三张几乎是处于同一时期做好的地图，时间在今年的3~4月。</p>
-</blockquote>
-<img src="https://s2.loli.net/2021/12/08/9rVT2k3ubdqtQih.png" alt="coffee.png" style="zoom: 67%;" />
-
-<blockquote>
-<p>这一张是最近的地图，时间大概在10月。</p>
-</blockquote>
-<h3 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h3><ul>
-<li>效果会增加至12个</li>
-<li>地图数目至少新增30张（大小不限）</li>
-<li>更多的事件和菜单样式</li>
-<li>电脑系统的重置</li>
-<li>更多细节和玩法的更新</li>
-</ul>
-<hr>
-<p>Ephemreal长期接收壁纸、音乐的投稿！欢迎私信或邮箱。</p>
-]]></content>
-      <categories>
-        <category>杂谈记事</category>
-      </categories>
-      <tags>
-        <tag>游戏开发</tag>
-        <tag>梦日记派生</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>RM2K3特殊事件-自制标题界面</title>
-    <url>/2021/Titlescreen/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>自制标题有两种方法：</p>
-<p>一种是准备好一张320*240的256色索引图片，将它导入于工程文件的<code>Title</code>文件夹内，最后在数据库中的<code>System</code>选项卡中选择刚才导入的图片即可。</p>
-<p>另一种是<strong>跳过</strong>系统标题画面，手动编写地图事件，从头开始创造一个自定义的标题画面。面向于那些有事件编写基础、且对自定义有一定要求的人。</p>
-<p>这里主要记录第二种自定义的方法。</p>
-<span id="more"></span>
-
-<hr>
-<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="跳过标题画面的处理"><a href="#跳过标题画面的处理" class="headerlink" title="跳过标题画面的处理"></a>跳过标题画面的处理</h3><p>既然要开始自定义，首先我们要跳过系统检测标题画面的处理↓</p>
-<img src="https://s2.loli.net/2021/12/06/Z8ayFjtpXenboG7.png" alt="step1.png">
-
-<p>把Use的勾关掉后，程序运行时就会自动跳过标题画面，直接从主人公所在位置开始游戏。</p>
-<p>之后我们打开编辑器，新建一个20*15地图，用透明色填满它。</p>
-<h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>在自定义标题之前，首先确保自己已经构思好整个标题画面的设计以及UI的交互。</p>
-<p>例如，我希望玩家能够在标题界面选择【Start】、【Load】、以及【End】，那么我应该准备这三个选项的设计：当玩家输入上下键时，这三个选项会发生什么样的变化，光标会如何移动等等……</p>
-<p>准备好素材后，将这些所有的素材用透明底导入于工程文件的<code>Pictrue</code>文件夹内。</p>
-<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>既然要涉及到玩家输入上下键位，那么一定会有<code>Key Input Processing</code>和<strong>一大堆</strong><code>Conditional Branch</code>，<del>光是想想都已经有点头晕</del></p>
-<p>而且既然是标题画面，那么一定要<code>Disable Menu Access</code> 以及<code>Hide Player</code>，（当然如果你的游戏开场需要显示主人公就不需要开隐身了）。</p>
-<p>如果处理没问题的话，理想状态的标题画面是这样的：</p>
-<p>玩家输入上下移动光标，被选中的项目就会高亮，只要按下确认键就可以进入相对应的处理。</p>
-<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备两个变量：一个控制玩家键位输入的<code>Keys</code>，一个控制光标移动位置的<code>Cursor</code>。</p>
-<h3 id="EV0001"><a href="#EV0001" class="headerlink" title="EV0001"></a>EV0001</h3><p>我们新建一个EV0001，将它设置成<code>Parallel Process</code>：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Show/Hide Player: Transparent ON</span><br><span class="line">@&gt; Change Menu Access: Disable</span><br><span class="line">@&gt; Erase Event</span><br></pre></td></tr></table></figure>
-
-<p>Erase Event是让它不要在后台一直运行。</p>
-<h3 id="EV0002"><a href="#EV0002" class="headerlink" title="EV0002"></a>EV0002</h3><p>然后我们再新建一个EV0002，也同样设置成<code>Parallel Process</code></p>
-<p>假设我们只需要三个按钮，那么变量<code>Cursor</code>就有三个值分别代表光标的位置。</p>
-<p>（这里要确定的东西比较麻烦，毕竟这三个按钮以及光标的显示需要自己手动去对坐标轴。）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">  @&gt; #如果选中了Start的话，Start高亮，其他的按钮都恢复原貌</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">    @&gt; #如果选中了Load的话，Load高亮，其他的按钮都恢复原貌</span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">      @&gt; #如果选中了End的话，End高亮，其他的按钮都恢复原貌</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>这里不用Erase的缘故是因为按钮和光标必须一直在画面上。</p>
-<p>要注意这三个条件分歧的位置，都是嵌套在上一级的Else里。</p>
-<h3 id="EV0003"><a href="#EV0003" class="headerlink" title="EV0003"></a>EV0003</h3><p>最后我们再新建一个EV0003，依旧是<code>Parallel Process</code></p>
-<p>这个事件重点处理玩家输入上下键以及确认键，是整个事件的核心：</p>
-<p><code>Keys</code>为1时，检测玩家输入↓，为4时，检测玩家输入↑，为5时，检测玩家输入Z/Enter。</p>
-<p><code>Cursor</code>的值就参照EV0002设计的那样，1是选中Start，2是选中Load，3是选中End。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Key Input Processing: V[0025:Keys], (W) &#123; Select, Down, Up, &#125;</span><br><span class="line">@&gt; Conditional Branch: V[0025:Keys] == 1</span><br><span class="line">  @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">    @&gt; #这是在Start按了↓的结果，也就是选中了Load的情况</span><br><span class="line">    @&gt; Control Variables: V[0024:Cursor] += 1</span><br><span class="line">    @&gt; </span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">      @&gt; #这是在Load按了↓的结果，也就是选中了End的情况</span><br><span class="line">      @&gt; Control Variables: V[0024:Cursor] += 1</span><br><span class="line">      @&gt; </span><br><span class="line">     : Else</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">        @&gt; #这是在End按了↓的结果，也就是选中了Start的情况</span><br><span class="line">        @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">        @&gt; </span><br><span class="line">       : Else</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Conditional Branch: V[0025:Keys] == 4</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">      @&gt; #这是在Start按了↑的结果，也就是选中了End的情况</span><br><span class="line">      @&gt; Control Variables: V[0024:Cursor] = 3</span><br><span class="line">      @&gt; </span><br><span class="line">     : Else</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">        @&gt; #这是在Load按了↑的结果，也就是选中了Start的情况</span><br><span class="line">        @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">        @&gt;</span><br><span class="line">       : Else</span><br><span class="line">        @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">          @&gt; #这是在End按了↑的结果，也就是选中了Load的情况</span><br><span class="line">          @&gt; Control Variables: V[0024:Cursor] = 2</span><br><span class="line">          @&gt; </span><br><span class="line">         : Else</span><br><span class="line">          @&gt;</span><br><span class="line">         : Branch End</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0025:Keys] == 5</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">        @&gt; #玩家在Start高亮的时候按下了确认键，进入新游戏。</span><br><span class="line">        @&gt;</span><br><span class="line">       : Else</span><br><span class="line">        @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">          @&gt; #玩家在Load高亮的时候按下了确认键，打开读档界面。</span><br><span class="line">         : Else</span><br><span class="line">          @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">            @&gt; #玩家在End高亮的时候按下了确认键，关闭游戏。</span><br><span class="line">            @&gt;</span><br><span class="line">           : Else</span><br><span class="line">            @&gt;</span><br><span class="line">           : Branch End</span><br><span class="line">          @&gt;</span><br><span class="line">         : Branch End</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Else</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>这样框架就搭好了，试着运行一下吧！</p>
-<p>可能会出现的Bug：如果运行不了，试着把EV0002和EV0003在地图上的位置替换一下。</p>
-<p><img src="https://s2.loli.net/2021/12/06/jVKcQ8hMEzWsJNb.gif" alt="自制菜单测试.gif"></p>
-<p>还有个小小的细节，如果想要让玩家有存档的情况下自动让Load高亮，可以在EV0001中加入这么两行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Savestate is available</span><br><span class="line">  @&gt; #光标自动停留在Load上</span><br><span class="line">  @&gt; Control Variables: V[0024:Cursor] = 2</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">  @&gt; #光标自动停留在Start上</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>这样可以让玩家读档的速度进一步加快。</p>
-<h3 id="举一反三"><a href="#举一反三" class="headerlink" title="举一反三"></a>举一反三</h3><p>既然标题画面变成了一张地图，那么只要稍微添加亿些细节就可以实现标题下雨下雪、动画背景…只要地图上能编写的事件全都可以在标题画面使用。</p>
-<p>那么同理，所有的标题画面能够通过地图事件自定义，那么存档读档以及菜单栏理论上全都可以自定义。</p>
-<p>是不是<del>很容易掉头发</del>很方便？来，试试看！</p>
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RM2003</tag>
-        <tag>游戏开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>RM2K3特殊事件-镜子和倒影</title>
-    <url>/2021/mirrorevent/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>内容涉及了<u>变量</u>和<u>坐标轴</u>。</p>
-<div class="note warning no-icon"><p>在阅读内容之前，请确认自己已经学习过03的基础指令和变量相关的知识，以及坐标轴的判定原理。</p>
-</div>
-
-<p>※此教程为个人学习笔记，可能会有很多表述不清楚的地方</p>
-<span id="more"></span>
-
-<hr>
-<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>要做一面镜子，首先得确定<code>镜子的样式</code>、<code>面积</code>以及<code>在地图上的位置</code>。</p>
-<p>为了能让倒影有足够多的测试空间，我选择了3×3的落地镜作为范例，这样一来倒影的活动范围也就固定在了3×3的空间中。</p>
-<p>而倒影本质上是<code>一个会跟着主人公走动的NPC</code>，因此倒影事件的图像应当设置成<code>半透明形态的主人公</code>。</p>
-<p>决定好后就可以开始画对应的素材了。</p>
-<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>理想状态是：主人公在镜子前走动，倒影能即时作出反应，且没有延迟</p>
-<p>那么需要用到的指令一定会有<code>Conditional Branch</code>以及<code>Set Move Route</code>，朝向不需要牵扯到变量，因此可以先在倒影的事件中把四个朝向的条件分歧输入进框架中。</p>
-<p>要让倒影做出即时反应，那么必须读取主人公的坐标。当主人公的X值增加，倒影和主人公都会往右走；当主人公的Y值增加，那么倒影应该往上走；而变量可以将XY值转化为可以操作的数值，所以条件分歧除了主人公朝向，大部分应是变量。</p>
-<p>主人公走出3×3范围外倒影就会消失，所以还得准备一个开关来控制倒影的有无。</p>
-<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备好四个变量，分别是主人公的XY轴和倒影的XY轴。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0001:X] = Player&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0002:Y] = Player&#x27;s Y Coordinate</span><br><span class="line">@&gt; Control Variables: [0003:mirror X] = This Event&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0004:mirror Y] = This Event&#x27;s Y Coordinate</span><br></pre></td></tr></table></figure>
-
-<p>然后我们进入编辑器，手动确认主人公的活动范围。</p>
-<p>X轴在<code>23~25</code>之间，Y轴在<code>19~21</code>之间，在此区间内倒影会显形，反之就会消失。这里就需要用上之前构思的开关了：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 22</span><br><span class="line">  @&gt; Conditional Branch: Variable [0001:X] &lt; 26</span><br><span class="line">    @&gt; Conditional Branch: Variable [0002:Y] &lt; 21</span><br><span class="line">      @&gt; Control Switches: [0002:transparent] = OFF</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; 22</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 26</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0002:Y] &gt; 21</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>然后比较主人公和倒影的XY值。因为镜子的面积是3×3，所以这里需要把倒影事件设置在<code>底部的中心</code>。这样就可以直接通过比较大小来确认主人公往哪个方向移动了。</p>
-<p>当系统读取到主人公往右走时，X值增加，所以当主人公的X值大于倒影的X值时，倒影也应该跟着往右走一格，反之亦然。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>之后是最难的Y轴部分，因为倒影的行走方向和主人公相反，光靠比较大小是没办法的。这里我们要先把每个坐标数值的变化记下来，找到其中的运算规律。</p>
-<p>经过计算，最终确定用<code>两个Y变量</code>来代入倒影的Y值。</p>
-<p>理论如下（左为主人公，右为倒影）<br>（24,19）→（24,20）      （24,18）→（24,17）</p>
-<p>因为最底部中心点的Y值是18，所以两个Y的初始值都应是18</p>
-<p>假设主人公往下移动了一格，倒影的理想状态是往上移动一格</p>
-<p>第一个Y减去主人公Y坐标 = 18-20 = -2<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
-<p>因为主人公不可能和倒影重叠，所以第二个Y必须＞主人公的Y值（差值最少为1）所以给第二个Y+1<br>第一个Y永远比主人公Y轴大，所以得取绝对值才能有条件分歧 ×-1得到2</p>
-<p>所以当 第一个Y ＞ 第二个Y 的时候，倒影往上走</p>
-<p>相反，如果两者靠近的话</p>
-<p>第一个Y减去主人公Y坐标 = 18-19 = -1<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
-<p>按照刚才的理论，第二个Y ＞ 第一个Y， 倒影往下走</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0005:mirror Ymove] = 18 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] -= Variable [0002]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] = 18 </span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] -= Variable [0004]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] += 1 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] *= -1 </span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &lt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &gt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>移动决定了，停止时的朝向也得考虑：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Player is facing Up</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Right</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Down</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Left</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>之后，我们设置好主人公的半透明图像，并且将这个事件设置为<code>Parallel Process</code>。另：主人公的速度如果保持默认，<code>Movement Speed</code>应当设置成和主人公一样的普通速。</p>
-<p>还记得之前的开关吗？我们将这一页直接复制，左上角的触发条件只需要将<code>transparent</code>给打开，图像设置成一个<strong>完全透明</strong>的图块就OK了。如果不想让主人公碰到倒影，还可以将<code>Priority</code>设置为<code>Below Characters</code>。</p>
-<p>如果有加速道具或是长按SHIFT加速的需求，再复制一页，触发条件中将加速的开关打开，然后将<code>Movement Speed</code>调整为加速后的速度就没问题了。</p>
-<p>最后，我们将主人公放在镜子前，开始debug！</p>
-<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>延迟完全为零几乎是不存在的，行动稍微有一点点延迟是正常现象。</p>
-<p>为了不穿帮，主人公的3×3的外围最好也布置一些不可通行的图块，这样就不会出现倒影乱跑的BUG。</p>
-<p>最终结果看起来就会是这样（我还顺带测试了一下SHIFT加速）：</p>
-<p><img src="https://s2.loli.net/2022/11/25/aFQMrWiKjvxN4V5.gif" alt="mirror.gif"></p>
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RM2003</tag>
-        <tag>游戏开发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何顺手使用Aseprite</title>
     <url>/2021/Aseprite/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>Aseprite是一个非常便利的像素绘画软件，不仅可以普通绘制图像，还拥有时间轴编辑、逐帧输出等很多对游戏制作有用的功能。</p>
@@ -411,91 +131,84 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown语法记录</title>
-    <url>/2021/markdown/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>这几天翻官网发现next自带了一些插件能够通过markdown实现，就干脆单开一个笔记记录一下以后可能会用到的（人比较健忘）。</p>
+    <title>博客搭建经验</title>
+    <url>/2021/Blog/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在一堆博客平台上兜兜转转好几年，最终还是选择了GitHub。无各种限制+无广告+无社交互动已经很让人心动了，最重要的还是对系统友好、不用花高价去维护，很适合像我这样又穷又自闭的赛博难民。</p>
+<p>这两天花了一些时间学习了怎么搭建和配置，趁着还没忘记录一下搭建时遇到的问题和解决办法（详细的搭建过程很容易找到，这里就不阐述了）</p>
 <span id="more"></span>
 
-<h2 id="字体篇"><a href="#字体篇" class="headerlink" title="字体篇"></a>字体篇</h2><h3 id="改变字体"><a href="#改变字体" class="headerlink" title="改变字体"></a>改变字体</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font face=&quot;字体&quot;&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p>能调用所有本机系统安装的所有字体文件，只要知道字体的名字就可以。</p>
-<p><font face="Zpix">像素字体</font></p>
-<p><font face="Annabelle">Handwriting</font></p>
-<p><font face="DFPKanTingLiu-B5">もうひつ</font></p>
-<h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;内容&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-
-<center>有一种写论文的感觉</center>
-
-<h3 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font color=16进制HEX&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p>一段话里可以同时存在好几种颜色，比如说<font color=#4E008E>紫色的文字</font>、<font color=#00AB84>绿色的文字</font>、<font color=#D1428D>粉色的文字</font>。</p>
-<h3 id="字体大小"><a href="#字体大小" class="headerlink" title="字体大小"></a>字体大小</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font size=&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p>突然<font size=5>变大</font></p>
-<p>突然<font size=2>缩小</font></p>
-<p>size直接填写数字也可以，填写像素也可以。</p>
-<h3 id="字体综合"><a href="#字体综合" class="headerlink" title="字体综合"></a>字体综合</h3><p>把以上所有的语句全部综合可得：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font color= size= face=&quot;&quot;&gt;内容&lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-
-<center><font color=\#001489 size=5 face="Zpix">居中的蓝色像素大字体</font></center>
-
-<hr>
-<h2 id="列表篇"><a href="#列表篇" class="headerlink" title="列表篇"></a>列表篇</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [ ] 内容</span><br><span class="line">- [x] 内容</span><br></pre></td></tr></table></figure>
-
-<p>任务列表适合写笔记用，或者可以搞选择题。</p>
-<ul>
-<li><input disabled="" type="checkbox"> 未选</li>
-<li><input checked="" disabled="" type="checkbox"> 选择</li>
-</ul>
-<hr>
-<h2 id="NexT插件篇"><a href="#NexT插件篇" class="headerlink" title="NexT插件篇"></a>NexT插件篇</h2><h3 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn 地址 , 文字 , 图标 规格 %&#125;</span><br><span class="line">fa-fw fa-lg fa-2x fa-3x fa-4x fa-5x</span><br></pre></td></tr></table></figure>
-
-<p>可以只选一种也可以互相搭配：</p>
-<a class="btn" href="#">button</a>
-
-<a class="btn" href="#"><i class="fa fa-link fa-lg"></i></a>
-
-<a class="btn" href="https://theme-next.js.org/docs/tag-plugins/button.html "><i class="fa fa-link fa-fw"></i>NexT</a>
-
-<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;内容&lt;/blockquote&gt;</span><br><span class="line">&#123;% centerquote %&#125;内容&#123;% endcenterquote %&#125;</span><br><span class="line">&#123;% cq %&#125;内容&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote class="blockquote-center">
-<p>Each possible move represents a different game,</p>
-<p>a different universe in which you make a better move.</p>
-<p>There are more possible games of chess</p>
-<p>than there are atoms in the universe.</p>
-<p>No one could possibly predict them all, even you.</p>
-
+<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>先说明自己所用的版本信息：</p>
+<blockquote>
+<p>Git-2.31.1 64bit</p>
+<p>Nodejs-14.16.1 64bit</p>
+<p>Hexo-5.4.0</p>
+<p>nexT-5.1.4</p>
 </blockquote>
+<p>电脑是Win10。</p>
+<hr>
+<h3 id="运行hexo-d时显示错误"><a href="#运行hexo-d时显示错误" class="headerlink" title="运行hexo d时显示错误"></a>运行<code>hexo d</code>时显示错误</h3>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fatal: unable to access &#x27;yoursite&#x27;: Failed to connect to github.com port 443: Timed out</span><br></pre></td></tr></table></figure>
 
-<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note class %&#125;内容&#123;% endnote %&#125;</span><br><span class="line">class: default/primary/success/info/warning/danger/no-icon</span><br></pre></td></tr></table></figure>
+<p>   这是一个经常会产生的问题（我几乎每次部署都会弹这种错误反馈）实在不行就<code>hexo clean</code>几次，重新部署几次总能成功的。</p>
+<h3 id="域名解析时出现问题"><a href="#域名解析时出现问题" class="headerlink" title="域名解析时出现问题"></a>域名解析时出现问题</h3><p>   这个问题一般不会出现，但我实在是太想要一个个人域名了就去Godaddy上买了一个。买完后发现网上找到的教程早已过时，DNS的配置方法和页面布局被官方改得妈都不认识，只好自己慢慢试错了。</p>
+<ul>
+<li>首先打开cmd，输入<code>ping username.github.io</code>得到GitHub的IP。</li>
+<li>进入Godaddy的个人域名管理界面，点击DNS进入DNS管理。添加一个类型A，名称@，值为IP的记录。此外修改名称为www的CNAME，将值改为username.github.io。TTL是默认1h，可以不用动它。</li>
+<li><strong>然后把剩余的DNS管理可编辑的都删了</strong>（它默认有个_domainconnect 的CNAME和parked custom的记录）</li>
+<li>在本地文件source中创建一个CNAME的文件，里面写上自己买的域名，保存，<strong>删掉文件后缀。</strong></li>
+<li>在GitBash中输入<code>hexo d</code>，让这个CNAME上传到GitHub仓库。</li>
+<li>打开仓库，点击<code>Settings</code>进入仓库的设置界面。在左边的目录中找到<code>Pages</code>，在Custom Domain里输入你的域名，然后等待它自己检测DNS配置，变成绿色的√就证明域名解析成功。（如果期间弹出了DNS解析失败等提示可能需要等待一段时间。）</li>
+<li>勾选Enforce HTTPS。</li>
+</ul>
+<p>   然后输入域名就可以跳转到博客界面啦。</p>
+<h3 id="tags和categories的页面显示404"><a href="#tags和categories的页面显示404" class="headerlink" title="tags和categories的页面显示404"></a>tags和categories的页面显示404</h3><p>   这个问题很容易产生！我觉得最大的原因出现在主题的配置文件里。</p>
+<ul>
+<li><p>打开主题配置文件，找到menu一栏</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tags:</span> <span class="string">/tags/||</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">/categories/||</span> <span class="string">th</span></span><br></pre></td></tr></table></figure>
 
-<p>要启用这些得先去站点配置里找到有关note的介绍并且把它们打开。</p>
-<div class="note default"><h4 id="Default"><a href="#Default" class="headerlink" title="Default"></a>Default</h4><p>灰色箭头标志</p>
+<p>把/和||之间的空格删掉。</p>
+</li>
+<li><p>在GitBash中输入<code>hexo new page tags</code>，让它在source下生成一个名为tags的文件夹，里面会多出个index.md的文件。</p>
+</li>
+<li><p>打开index.md，在最后一行中加入一句<code>type: &quot;tags&quot;</code>，直接保存退出。不需要加<code>---</code>在顶端和末端。</p>
+</li>
+<li><p>添加categories的方法就是同上两个步骤，只是把<code>tags</code>替换成<code>categories</code>。</p>
+</li>
+<li><p>执行<code>hexo s</code>，在localhost上查看页面是否显示正常。</p>
+</li>
+</ul>
+<p>   没啥问题就<code>hexo d</code>了。</p>
+<hr>
+<h2 id="nexT自定义"><a href="#nexT自定义" class="headerlink" title="nexT自定义"></a>nexT自定义</h2><p>这里记录一些我觉得还比较有趣（麻烦）的自定义过程。</p>
+<h3 id="访客量设置"><a href="#访客量设置" class="headerlink" title="访客量设置"></a>访客量设置</h3><p>   不蒜子在2018年换了域名，所以按照网上找到的教程走很有可能无法显示访问量。</p>
+<p>   打开<code>\themes\next\layout\third-party\analytics\busuanzi-counter.swig</code>文件，把第一行改成</p>
+   <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.busuanzi_count.enable %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;busuanzi-count&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>   然后在主题配置文件里将<code>busuanzi_count</code>目录下的enable改成true。这下面还可以改一下<code>site_uv_footer</code>和<code>site_pv_footer</code>，这是访问量的后缀。</p>
+<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
 </div>
 
-<div class="note primary"><h4 id="Primary"><a href="#Primary" class="headerlink" title="Primary"></a>Primary</h4><p>紫色加号标志</p>
+<h3 id="头像设置成圆形并且让它转起来"><a href="#头像设置成圆形并且让它转起来" class="headerlink" title="头像设置成圆形并且让它转起来"></a>头像设置成圆形并且让它转起来</h3><p>   打开<code>themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code>，输入</p>
+   <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">2s</span> all;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);</span><br></pre></td></tr></table></figure>
+
+<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
 </div>
 
-<div class="note success"><h4 id="Success"><a href="#Success" class="headerlink" title="Success"></a>Success</h4><p>绿色对勾标志</p>
+<h3 id="文章置顶"><a href="#文章置顶" class="headerlink" title="文章置顶"></a>文章置顶</h3><p>   首先在GitBash中输入<code>npm uninstall hexo-generator-index --save</code>卸载默认插件。</p>
+<p>   然后安装一个新的插件<code>npm install hexo-generator-index-pin-top --save</code></p>
+<p>   之后写文章的时候在标签分类下面写上一行<code>top: true</code>就可以让这篇文章出现在第一个了。</p>
+<hr>
+<h2 id="一些摸索"><a href="#一些摸索" class="headerlink" title="一些摸索"></a>一些摸索</h2><h3 id="仓库整理"><a href="#仓库整理" class="headerlink" title="仓库整理"></a>仓库整理</h3><p>在查看仓库时发现我的文章全都以单独文件夹的形式罗列在仓库里，时间长了肯定不好管理。去看了其他人的仓库却发现他们并没有我这样的情况，难道是我最开始安装Git的时候出错了吗？还是说我有哪些配置改错了？</p>
+<p>既然是生成部署的问题，那就去站点配置里找答案。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:name/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br></pre></td></tr></table></figure>
+
+<p>当时我自定义的时候想“永久链接的格式当然要简介明了才比较好记”，于是跟着官网的设置选择了以文件名(name)为永久链接，这样我的文章地址就变成了<code>https://drifter-games.com/name</code>。</p>
+<p>好看是好看，但在进行<code>hexo g</code>的时候，这篇文章就会以<code>index.html</code>的形式放在<code>public\name</code>的文件夹里。（同理，有几篇文章就会生成几个文件夹）随着文章数增加，文件夹也会越来越多，仓库内部的画面可想而知。所以我选择了以年份作为一个整理的方案：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:name/</span></span><br></pre></td></tr></table></figure>
+
+<p>这样进行<code>hexo g</code>的时候，public文件夹里就会自动把文章进行一个年份归档，之后部署到GitHub仓库的时候就不会再出现这个问题了。</p>
+<div class="note info no-icon"><p>注：执行<code>hexo clean</code>时会自动删除public文件，如果找不到public文件夹在哪的话请先执行<code>hexo g</code>查看。</p>
 </div>
-
-<div class="note info"><h4 id="Info"><a href="#Info" class="headerlink" title="Info"></a>Info</h4><p>蓝色信息标志</p>
-</div>
-
-<div class="note warning"><h4 id="Warning"><a href="#Warning" class="headerlink" title="Warning"></a>Warning</h4><p>黄色预警标志</p>
-</div>
-
-<div class="note danger"><h4 id="Danger"><a href="#Danger" class="headerlink" title="Danger"></a>Danger</h4><p>红色禁止标志</p>
-</div>
-
-<p>折叠也可以：</p>
-<details class="note danger"><summary><p>Content Warning</p>
-</summary>
-<h4 id="Content-Warning"><a href="#Content-Warning" class="headerlink" title="Content Warning"></a>Content Warning</h4><p>Content warnings are not an excuse for students to skip class or censor your material.</p>
-
-</details>
-
 ]]></content>
       <categories>
         <category>帮助</category>
@@ -503,99 +216,6 @@
       <tags>
         <tag>Hexo</tag>
         <tag>nexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>讲解RM2K3-System的原理</title>
-    <url>/2021/System/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关System"><a href="#有关System" class="headerlink" title="有关System"></a>有关System</h2><p>System一般指的是菜单样式，它和Chipset、Charset一样属于可自定义的图像。</p>
-<span id="more"></span>
-
-<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
-<li><p>规格</p>
-<table>
-<thead>
-<tr>
-<th>图像大小</th>
-<th>导入格式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>160×80</td>
-<td>PNG、BMP、XYZ</td>
-</tr>
-</tbody></table>
-</li>
-<li><p>配置</p>
-<p><img src="https://s2.loli.net/2022/11/25/lI7w1xcCo5KS4fh.png" alt="system.png"></p>
-<p>这是一张System的模板。里面包含了5块32×32的格子，24块16×16的格子以及12块8×16的小格子。</p>
-</li>
-</ol>
-<hr>
-<h2 id="自定义菜单样式"><a href="#自定义菜单样式" class="headerlink" title="自定义菜单样式"></a>自定义菜单样式</h2><p><img src="https://s2.loli.net/2022/11/25/cs9mECYZ8DPKaV3.png" alt="systemtutorials.png"></p>
-<p>为了方便理解，我给每个区域标注了对应的字母和数字。如果想看指定区域的解析，可以通过左侧的目录直接跳转（仅限电脑端）</p>
-<h3 id="A区域：菜单背景"><a href="#A区域：菜单背景" class="headerlink" title="A区域：菜单背景"></a>A区域：菜单背景</h3><p>对话框的背景、游戏开场时的选项背景、状态栏的背景……这些全都属于A区域管理的部分。可以在里面随意画上自己喜欢的颜色或者图案。</p>
-<p>通过设置<code>Window Background</code>，可以得到拉伸或平铺的效果。</p>
-<p><img src="https://s2.loli.net/2022/11/25/HZgeX7iAET8fz3U.png" alt="backgroundsetting.png"></p>
-<p><code>Stretch to Fit</code>适合纯色/渐变型背景；<code>Tiled Pattern</code>则适合图案型背景。</p>
-<p>※注意：图案型背景选择Stretch的话效果会很糟糕，如果设计了图案的话最好不要选择这项。</p>
-<h3 id="B区域：边框和指示箭头"><a href="#B区域：边框和指示箭头" class="headerlink" title="B区域：边框和指示箭头"></a>B区域：边框和指示箭头</h3><p>黄色的部分是边框所占的最大空间，只要不超过黄色的部分，边框无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。四个直角的读取范围是8×8，剩下的内容会根据边框的长度进行压缩或平铺。</p>
-<p>橙色的部分是指示箭头所占的最大空间，对话框底部闪烁的图案、菜单滚动页面的指示箭头都靠这部分显示，默认闪烁。上半部分和下半部分的大小都是8×16，注意不要画过头了。</p>
-<h3 id="C-amp-D区域：光标"><a href="#C-amp-D区域：光标" class="headerlink" title="C&amp;D区域：光标"></a>C&amp;D区域：光标</h3><p>这两块绿色的部分相当于起到光标的作用，两者交替显示形成一种闪烁的效果：</p>
-<p><img src="https://s2.loli.net/2022/11/25/kEUt43LK9ApVTea.gif" alt="titile.gif"></p>
-<p>和边框一样，只要不超过这些区域，无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。比如可以在宽的部分加上指示标记，或者只画一条线充当选项的下划线……请发挥想象力！</p>
-<h3 id="E区域：店铺页面的显示"><a href="#E区域：店铺页面的显示" class="headerlink" title="E区域：店铺页面的显示"></a>E区域：店铺页面的显示</h3><p>这部分一般会在武器防具店购买东西的时候用上，如果是做派生的话这部分的内容是用不上的，想空着也可以空着。</p>
-<p>从上至下分别为<code>状态提升</code>、<code>状态不变</code>、<code>状态下降</code>以及<code>正在装备</code>。它们的播放顺序都是从左往右1→2→3→4</p>
-<h3 id="F区域：整体背景"><a href="#F区域：整体背景" class="headerlink" title="F区域：整体背景"></a>F区域：整体背景</h3><p>它负责没有被边框框住的部分，比如持有金和菜单栏之间的背景，存档页面的背景（如图）。没什么需求的话可以搞成纯黑的，或者和A区域使用同一种色系。</p>
-<p><img src="https://s2.loli.net/2022/11/25/XHrgJE5waOWBfZx.png" alt="save.png"></p>
-<p>蓝色的部分就是F区域，橙色的部分则是B区域指示箭头的下半部分。</p>
-<h3 id="G区域：文字的影子"><a href="#G区域：文字的影子" class="headerlink" title="G区域：文字的影子"></a>G区域：文字的影子</h3><p>此区域的颜色会影响所有的文字和符号，它可以让字符变得更加立体和美观。一般设定成深色，可以按实际需求调整。</p>
-<h3 id="0-19：文字的颜色"><a href="#0-19：文字的颜色" class="headerlink" title="0~19：文字的颜色"></a>0~19：文字的颜色</h3><p>0：默认文本颜色</p>
-<p>1：金钱的单位颜色、状态文本的颜色（例如HP、MP、LV等）</p>
-<p>2：状态数值上升时的颜色</p>
-<p>3：某选项无法选择时的颜色（例如游戏在未读出存档时Continue的颜色，详见CD区域的GIF）</p>
-<p>以上四种是制作派生时会用到的颜色。</p>
-<p>剩下的4~19虽然不会在游戏里直接显示，但是可以随时通过<code>\c[]</code>调用。例如我在文本里输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt;Text: Hello, I&#x27;m \c[3]Drifter!</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s2.loli.net/2022/11/25/WGAw1TLq7UcoZJj.png" alt="text.png"></p>
-<blockquote>
-<p>注：如果想在一段长台词里标亮其中一段句子或词语，记得在标亮词句后输入<code>\c[0]</code>以保证之后的文本颜色回到默认状态。</p>
-</blockquote>
-<p>只要在[]中输入编号(1~19)，系统就会自动调用System中对应的颜色。当输入的数值超过19的情况，系统会显示默认的颜色（0号）。</p>
-<h3 id="彩色区域：计时器的样式"><a href="#彩色区域：计时器的样式" class="headerlink" title="彩色区域：计时器的样式"></a>彩色区域：计时器的样式</h3><p>这段区域由12块8×16的小格子组成，一般在里面填写0~9以及冒号（剩余一段8×16的空格在游戏里不会被显示）。当在事件里启用计时器时，画面的左上角就会显示这部分的内容。</p>
-<p>制作派生时一般用它来显示入睡时间。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Timer 1 Operation: Start</span><br><span class="line">@&gt; Timer 1 Operation: Set Time, 0 minutes 03 seconds</span><br></pre></td></tr></table></figure>
-
-<p>像本家或派生三秒入睡，实际上只需要布置1~3的数字在此区域就可以运行了。如果没有计时器的要求，那么这段区域空着也可以。</p>
-<h3 id="椭圆区域：飞行船的影子"><a href="#椭圆区域：飞行船的影子" class="headerlink" title="椭圆区域：飞行船的影子"></a>椭圆区域：飞行船的影子</h3><p>它是Vehicle中的Airship的影子，派生一般用不上这块区域其实可以忽略。</p>
-<p>两个椭圆会被系统认定为两个叠加的半透明图案，在飞行船底部形成一个边缘淡化的影子。</p>
-<hr>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="https://s2.loli.net/2022/11/25/4TQjtzSLsP6bCYG.png" alt="systemexample.png"></p>
-<p>用一张以前做的菜单样式作为例子，注意边框、指示箭头和计时器数字的背景都指定了透明色。</p>
-<p><img src="https://s2.loli.net/2022/11/25/hQeOPp5KFUXJSDY.png" alt="parts.png"></p>
-<p>右侧边框的内容可以通过数据库的<code>System 2</code>中得到修改，制作派生时可以将第一行的<code>Items</code>换成<code>Effects</code>，将<code>Equipment</code>与<code>Save</code>关闭。</p>
-<p>边框底部是持有金的显示，货币单位G可以在<code>Glossary4</code>的<code>Shop Paramenters</code>里进行修改。</p>
-<p>右侧是有关主人公的数值面板，第一行是<code>Name</code>和<code>Nickname</code>，制作派生时可以将主人公的状态输进昵称栏里。（第二行的特殊符号我会在下方进行详细的解释）</p>
-<h2 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h2><p>RM2003自带了特殊符号，一共52种。只要使用<code>$英文字母</code>就能随时调用。</p>
-<p>在文本框里输入以下内容可以看到所有的符号：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Text: $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p $q</span><br><span class="line"> :     : $r $s $t $u $v $w $x $y $z</span><br><span class="line"> :     : $A $B $C $D $E $F $G $H $I $J $K $L $M $N $O $P $Q</span><br><span class="line"> :     : $R $S $T $U $V $W $X $Y $Z</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s2.loli.net/2022/11/25/3fYiBt92OqsoZ4C.png" alt="emoji.png"></p>
-<p>这些符号也可以应用到数据库中的<code>Terms</code>里。找到<code>Glossary5</code>，可以在里面设置Level、HP、MP、EXP的缩略符号。</p>
-<p>例如在<code>HP(Abbr.)</code>里输入<code>$k</code>，那么在菜单栏里的HP代表符号就会变成一颗心的形状。</p>
-<p><img src="https://s2.loli.net/2022/11/25/MQVav2jumi4oY9G.png" alt="Snipaste_2021-05-17_03-19-48.png"></p>
-<p>大家可以根据个人喜好决定内容。</p>
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RM2003</tag>
-        <tag>游戏开发</tag>
       </tags>
   </entry>
   <entry>
@@ -937,6 +557,499 @@
       </tags>
   </entry>
   <entry>
+    <title>Happy Anniversary!</title>
+    <url>/2021/Ephem1st/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2021/12/08/sNeCQS8OWywocuT.png" alt="round1.png" style="zoom: 50%;" />
+
+<center><font color=4a5b92>🎉Ephemreal发布一周年🍾</font></center>
+
+
+
+<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>距离上次公开已经过去了一年（<em>2020.12.08~2021.12.08</em>）。时间过得太快了，以至于我都不记得这一年做了什么……</p>
+<p>自从开始做Ephemreal后，也不知道是好事还是坏事，我的大脑就完全被它占满了。（依稀记得在公开0.00+之后，我直接休息了几个月）</p>
+<p>同时，这一年我认识了很多人。有愿意帮我检查、编写优化指令的朋友，还有愿意投稿壁纸、音乐的朋友，可以说没有他们就无法完成现在的Ephemreal。制作完成后，这款派生得到了更多的关注度，其中少不了同人和实况视频的宣传功劳。放在以前，这些是我想都不敢想的。</p>
+<p>在这里由衷感谢所有愿意帮助我的所有人、游玩的你、以及我自己。</p>
+<p>让我们下一个更新再见！</p>
+<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><div class="note warning"><p>以下内容可能会剧透。</p>
+</div>
+
+
+
+<span id="more"></span>
+
+
+
+<h3 id="开发进度报告"><a href="#开发进度报告" class="headerlink" title="开发进度报告"></a>开发进度报告</h3><p>想必大家最关心的就是开发进度了吧。</p>
+<p>很可惜的是，距离0.01发布还有一段时间…我也不知道什么时候能做好，无法给出具体详细的日期。</p>
+<p><strong>但是！</strong>我准备了一些开发中的截图↓</p>
+<img src="https://s2.loli.net/2021/12/08/3JkB61luMLd2US5.png" alt="吊机.png" style="zoom: 80%;" />
+
+<img src="https://s2.loli.net/2021/12/08/mH1VqK5Yj4WGLQ7.png" alt="Snipaste_2021-04-16_00-29-20.png" style="zoom:67%;" />
+
+<img src="https://s2.loli.net/2021/12/08/mUScdQOJof6rq3H.png" alt="Snipaste_2021-03-16_03-03-12.png" style="zoom:67%;" />
+
+<blockquote>
+<p>这三张几乎是处于同一时期做好的地图，时间在今年的3~4月。</p>
+</blockquote>
+<img src="https://s2.loli.net/2021/12/08/9rVT2k3ubdqtQih.png" alt="coffee.png" style="zoom: 67%;" />
+
+<blockquote>
+<p>这一张是最近的地图，时间大概在10月。</p>
+</blockquote>
+<h3 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h3><ul>
+<li>效果会增加至12个</li>
+<li>地图数目至少新增30张（大小不限）</li>
+<li>更多的事件和菜单样式</li>
+<li>电脑系统的重置</li>
+<li>更多细节和玩法的更新</li>
+</ul>
+<hr>
+<p>Ephemreal长期接收壁纸、音乐的投稿！欢迎私信或邮箱。</p>
+]]></content>
+      <categories>
+        <category>杂谈记事</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Happy 2nd Anniversary!</title>
+    <url>/2022/Ephem2nd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2022/12/07/bn9JZ5SVksXmY3f.png" title="" alt="二周年.png" data-align="center">
+
+<center><font color=4a5b92>🎉Ephemreal发布二周年🍾</font></center>
+
+<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>不知不觉又过去一年…但是今年的开发进度明显放缓，本想着二周年能够发布0.01版，无奈现实生活过于繁忙。</p>
+<p>要说今年做了什么重要的决定，那就是把数据库<strong>全部删除重写</strong>…………真的非常累。重写意味着0.00版本的存档将不再适用于新版本，所以下次更新之后我会删除0.00相关的所有链接。</p>
+<p>这一年也学会了很多RM2K3的很多高级操作，会逐渐运用至Ephemreal中的。</p>
+<p>感谢大家继续喜爱着Ephemreal，让我们下一个更新再见！</p>
+<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><p>因为进度放缓，新地图的数量不多，为了游玩体验就不再放出新地图的预览。</p>
+<ul>
+<li><p>现在效果数量：11</p>
+</li>
+<li><p>地图数量：约60张</p>
+</li>
+<li><p>电脑、壁纸、音乐播放器、存档系统已全部完成</p>
+</li>
+<li><p>几乎所有的地图全都会改动<del>甚至有些会被删除</del></p>
+</li>
+</ul>
+<p><img src="https://s2.loli.net/2022/12/07/uRm8y9UMIrTWJ42.png" alt="Snipaste_2022-08-04_16-02-24.png"></p>
+<blockquote>
+<p>给GB世界新增了电视扫描线</p>
+</blockquote>
+<p><img src="https://s2.loli.net/2022/12/08/8n4qsDLjguvSkXA.png" alt="Snipaste_2022-11-24_02-11-46.png"></p>
+<blockquote>
+<p>重画了像素</p>
+</blockquote>
+<p>除此之外还有很多…</p>
+<hr>
+<p><img src="https://s2.loli.net/2022/12/07/VF5gJlmBxZP7b3t.gif" alt="爆炸.gif"></p>
+<p><del>当初只是为了搞笑而做的动画，结果意外地很有趣</del> 不会实装！！图个乐子！！</p>
+<hr>
+<p>Ephemreal长期接收壁纸、音乐的投稿！欢迎私信或邮箱。</p>
+]]></content>
+      <categories>
+        <category>杂谈记事</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ephemreal</title>
+    <url>/2020/Ephemreal/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://i.loli.net/2021/05/07/64FqkcE3WOUwPiy.png" alt="ephemreal.png"><br><img src="https://i.loli.net/2021/05/07/UTfbhj5FOKsr2CI.png" alt="room.png"></p>
+<span id="more"></span>
+
+<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><div class="note warning"><p>此游戏是梦日记的fangame，也就是所谓的同人游戏。并不是梦日记的续作，<strong>与梦日记和kikiyama氏完全没有关系。</strong></p>
+</div>
+
+<p>此外，Ephemreal现处于开发状态，因此内容较少，并没有实装结局。今后还会不定期进行更新和修复，欢迎向我报告遇到的bug。</p>
+<h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><ul>
+<li>移动：<code>方向键</code></li>
+<li>确定：<code>Z/Enter</code></li>
+<li>菜单/取消：<code>X</code></li>
+<li>特殊动作：<code>Shift</code></li>
+<li>捏脸：<code>数字9</code></li>
+<li>存档：<code>调查主人公卧室右下角的显示屏</code></li>
+</ul>
+<p>在梦中四处转转，调查一些特殊物品取得<code>效果</code>吧。</p>
+<h3 id="版本履历"><a href="#版本履历" class="headerlink" title="版本履历"></a>版本履历</h3><table>
+<thead>
+<tr>
+<th>版本信息</th>
+<th>下载连接</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ver0.00</td>
+<td><a href="https://www.mediafire.com/file/27u86p7gu7hx97b/Ephemreal_ver0.00.rar/file">简体中文</a></td>
+</tr>
+<tr>
+<td>ver0.00+</td>
+<td><a href="https://www.mediafire.com/file/875djymsazazs6d/Ephemreal_ver0.00%252B.rar/file">ENGLISH</a></td>
+</tr>
+</tbody></table>
+<h3 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h3><p>安装运行出现了问题？<a href="https://drifter-games.com/2020/Help/">请看这边</a><br>我想投稿，该怎么做？<a href="https://drifter-games.com/2020/subrules/">请点这里</a></p>
+<h2 id="其他链接"><a href="#其他链接" class="headerlink" title="其他链接"></a>其他链接</h2><a class="btn" href="https://www.pixiv.net/artworks/86174142 "><i class="fa fa-link fa-lg"></i>Pixiv</a>
+<a class="btn" href="https://yumenikkifg.fandom.com/wiki/Ephemreal "><i class="fa fa-link fa-lg"></i>Wiki</a>]]></content>
+      <categories>
+        <category>更新/发布信息</category>
+      </categories>
+      <tags>
+        <tag>梦日记派生</tag>
+        <tag>游戏发布</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Help</title>
+    <url>/2020/Help/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
+<li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
+</li>
+<li><p>Q：打开后有弹窗报错<br>A：一般是缺少RTP。请安装<a href="https://dl.degica.com/rpgmakerweb/run-time-packages/rpg2003_rtp_installer.zip">英文版rtp2003</a>，解压后将文件复制粘贴于Ephemreal的内部文件夹内。</p>
+<div class="note danger"><p><strong>重名的情况请务必保留源文件不要覆盖！！！！！！！！</strong> </p>
+</div></li>
+<li><p>Q：可以用Easyrpg启动吗<br>A：请<strong>不要</strong>这样做，会有很多奇怪的bug。<del>信我，开头就会黑屏</del></p>
+</li>
+<li><p>Q：Mac可以玩吗<br>A：很遗憾，非Windows系统是无法运行游戏的……</p>
+</li>
+<li><p>Q：非中文系统想运行简体中文版<br>A：Win7用户请下载Applocale，安装后选择中文，指定Start.exe后运行即可，不成功的情况请指定Ephemreal文件夹内的RPG_RT.exe运行。<br>Win10用户请下载<a href="https://github.com/xupefei/Locale-Emulator/releases">Local Emulator</a>，按步骤安装后鼠标右键选中Start.exe，在菜单栏里勾选上「按程序源环境配置」应该就能成功运行了，不成功的情况同上。</p>
+</li>
+</ul>
+<p>遇到了其他问题请参考或私信<br><a href="http://yumenikki.info/archives/%e6%b4%be%e7%94%9f%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95/">派生安装方法</a></p>
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>讲解RM2K3-System的原理</title>
+    <url>/2021/System/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关System"><a href="#有关System" class="headerlink" title="有关System"></a>有关System</h2><p>System一般指的是菜单样式，它和Chipset、Charset一样属于可自定义的图像。</p>
+<span id="more"></span>
+
+<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
+<li><p>规格</p>
+<table>
+<thead>
+<tr>
+<th>图像大小</th>
+<th>导入格式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>160×80</td>
+<td>PNG、BMP、XYZ</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>配置</p>
+<p><img src="https://s2.loli.net/2022/11/25/lI7w1xcCo5KS4fh.png" alt="system.png"></p>
+<p>这是一张System的模板。里面包含了5块32×32的格子，24块16×16的格子以及12块8×16的小格子。</p>
+</li>
+</ol>
+<hr>
+<h2 id="自定义菜单样式"><a href="#自定义菜单样式" class="headerlink" title="自定义菜单样式"></a>自定义菜单样式</h2><p><img src="https://s2.loli.net/2022/11/25/cs9mECYZ8DPKaV3.png" alt="systemtutorials.png"></p>
+<p>为了方便理解，我给每个区域标注了对应的字母和数字。如果想看指定区域的解析，可以通过左侧的目录直接跳转（仅限电脑端）</p>
+<h3 id="A区域：菜单背景"><a href="#A区域：菜单背景" class="headerlink" title="A区域：菜单背景"></a>A区域：菜单背景</h3><p>对话框的背景、游戏开场时的选项背景、状态栏的背景……这些全都属于A区域管理的部分。可以在里面随意画上自己喜欢的颜色或者图案。</p>
+<p>通过设置<code>Window Background</code>，可以得到拉伸或平铺的效果。</p>
+<p><img src="https://s2.loli.net/2022/11/25/HZgeX7iAET8fz3U.png" alt="backgroundsetting.png"></p>
+<p><code>Stretch to Fit</code>适合纯色/渐变型背景；<code>Tiled Pattern</code>则适合图案型背景。</p>
+<p>※注意：图案型背景选择Stretch的话效果会很糟糕，如果设计了图案的话最好不要选择这项。</p>
+<h3 id="B区域：边框和指示箭头"><a href="#B区域：边框和指示箭头" class="headerlink" title="B区域：边框和指示箭头"></a>B区域：边框和指示箭头</h3><p>黄色的部分是边框所占的最大空间，只要不超过黄色的部分，边框无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。四个直角的读取范围是8×8，剩下的内容会根据边框的长度进行压缩或平铺。</p>
+<p>橙色的部分是指示箭头所占的最大空间，对话框底部闪烁的图案、菜单滚动页面的指示箭头都靠这部分显示，默认闪烁。上半部分和下半部分的大小都是8×16，注意不要画过头了。</p>
+<h3 id="C-amp-D区域：光标"><a href="#C-amp-D区域：光标" class="headerlink" title="C&amp;D区域：光标"></a>C&amp;D区域：光标</h3><p>这两块绿色的部分相当于起到光标的作用，两者交替显示形成一种闪烁的效果：</p>
+<p><img src="https://s2.loli.net/2022/11/25/kEUt43LK9ApVTea.gif" alt="titile.gif"></p>
+<p>和边框一样，只要不超过这些区域，无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。比如可以在宽的部分加上指示标记，或者只画一条线充当选项的下划线……请发挥想象力！</p>
+<h3 id="E区域：店铺页面的显示"><a href="#E区域：店铺页面的显示" class="headerlink" title="E区域：店铺页面的显示"></a>E区域：店铺页面的显示</h3><p>这部分一般会在武器防具店购买东西的时候用上，如果是做派生的话这部分的内容是用不上的，想空着也可以空着。</p>
+<p>从上至下分别为<code>状态提升</code>、<code>状态不变</code>、<code>状态下降</code>以及<code>正在装备</code>。它们的播放顺序都是从左往右1→2→3→4</p>
+<h3 id="F区域：整体背景"><a href="#F区域：整体背景" class="headerlink" title="F区域：整体背景"></a>F区域：整体背景</h3><p>它负责没有被边框框住的部分，比如持有金和菜单栏之间的背景，存档页面的背景（如图）。没什么需求的话可以搞成纯黑的，或者和A区域使用同一种色系。</p>
+<p><img src="https://s2.loli.net/2022/11/25/XHrgJE5waOWBfZx.png" alt="save.png"></p>
+<p>蓝色的部分就是F区域，橙色的部分则是B区域指示箭头的下半部分。</p>
+<h3 id="G区域：文字的影子"><a href="#G区域：文字的影子" class="headerlink" title="G区域：文字的影子"></a>G区域：文字的影子</h3><p>此区域的颜色会影响所有的文字和符号，它可以让字符变得更加立体和美观。一般设定成深色，可以按实际需求调整。</p>
+<h3 id="0-19：文字的颜色"><a href="#0-19：文字的颜色" class="headerlink" title="0~19：文字的颜色"></a>0~19：文字的颜色</h3><p>0：默认文本颜色</p>
+<p>1：金钱的单位颜色、状态文本的颜色（例如HP、MP、LV等）</p>
+<p>2：状态数值上升时的颜色</p>
+<p>3：某选项无法选择时的颜色（例如游戏在未读出存档时Continue的颜色，详见CD区域的GIF）</p>
+<p>以上四种是制作派生时会用到的颜色。</p>
+<p>剩下的4~19虽然不会在游戏里直接显示，但是可以随时通过<code>\c[]</code>调用。例如我在文本里输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt;Text: Hello, I&#x27;m \c[3]Drifter!</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s2.loli.net/2022/11/25/WGAw1TLq7UcoZJj.png" alt="text.png"></p>
+<blockquote>
+<p>注：如果想在一段长台词里标亮其中一段句子或词语，记得在标亮词句后输入<code>\c[0]</code>以保证之后的文本颜色回到默认状态。</p>
+</blockquote>
+<p>只要在[]中输入编号(1~19)，系统就会自动调用System中对应的颜色。当输入的数值超过19的情况，系统会显示默认的颜色（0号）。</p>
+<h3 id="彩色区域：计时器的样式"><a href="#彩色区域：计时器的样式" class="headerlink" title="彩色区域：计时器的样式"></a>彩色区域：计时器的样式</h3><p>这段区域由12块8×16的小格子组成，一般在里面填写0~9以及冒号（剩余一段8×16的空格在游戏里不会被显示）。当在事件里启用计时器时，画面的左上角就会显示这部分的内容。</p>
+<p>制作派生时一般用它来显示入睡时间。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Timer 1 Operation: Start</span><br><span class="line">@&gt; Timer 1 Operation: Set Time, 0 minutes 03 seconds</span><br></pre></td></tr></table></figure>
+
+<p>像本家或派生三秒入睡，实际上只需要布置1~3的数字在此区域就可以运行了。如果没有计时器的要求，那么这段区域空着也可以。</p>
+<h3 id="椭圆区域：飞行船的影子"><a href="#椭圆区域：飞行船的影子" class="headerlink" title="椭圆区域：飞行船的影子"></a>椭圆区域：飞行船的影子</h3><p>它是Vehicle中的Airship的影子，派生一般用不上这块区域其实可以忽略。</p>
+<p>两个椭圆会被系统认定为两个叠加的半透明图案，在飞行船底部形成一个边缘淡化的影子。</p>
+<hr>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="https://s2.loli.net/2022/11/25/4TQjtzSLsP6bCYG.png" alt="systemexample.png"></p>
+<p>用一张以前做的菜单样式作为例子，注意边框、指示箭头和计时器数字的背景都指定了透明色。</p>
+<p><img src="https://s2.loli.net/2022/11/25/hQeOPp5KFUXJSDY.png" alt="parts.png"></p>
+<p>右侧边框的内容可以通过数据库的<code>System 2</code>中得到修改，制作派生时可以将第一行的<code>Items</code>换成<code>Effects</code>，将<code>Equipment</code>与<code>Save</code>关闭。</p>
+<p>边框底部是持有金的显示，货币单位G可以在<code>Glossary4</code>的<code>Shop Paramenters</code>里进行修改。</p>
+<p>右侧是有关主人公的数值面板，第一行是<code>Name</code>和<code>Nickname</code>，制作派生时可以将主人公的状态输进昵称栏里。（第二行的特殊符号我会在下方进行详细的解释）</p>
+<h2 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h2><p>RM2003自带了特殊符号，一共52种。只要使用<code>$英文字母</code>就能随时调用。</p>
+<p>在文本框里输入以下内容可以看到所有的符号：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Text: $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p $q</span><br><span class="line"> :     : $r $s $t $u $v $w $x $y $z</span><br><span class="line"> :     : $A $B $C $D $E $F $G $H $I $J $K $L $M $N $O $P $Q</span><br><span class="line"> :     : $R $S $T $U $V $W $X $Y $Z</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s2.loli.net/2022/11/25/3fYiBt92OqsoZ4C.png" alt="emoji.png"></p>
+<p>这些符号也可以应用到数据库中的<code>Terms</code>里。找到<code>Glossary5</code>，可以在里面设置Level、HP、MP、EXP的缩略符号。</p>
+<p>例如在<code>HP(Abbr.)</code>里输入<code>$k</code>，那么在菜单栏里的HP代表符号就会变成一颗心的形状。</p>
+<p><img src="https://s2.loli.net/2022/11/25/MQVav2jumi4oY9G.png" alt="Snipaste_2021-05-17_03-19-48.png"></p>
+<p>大家可以根据个人喜好决定内容。</p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>RM2K3特殊事件-自制标题界面</title>
+    <url>/2021/Titlescreen/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>自制标题有两种方法：</p>
+<p>一种是准备好一张320*240的256色索引图片，将它导入于工程文件的<code>Title</code>文件夹内，最后在数据库中的<code>System</code>选项卡中选择刚才导入的图片即可。</p>
+<p>另一种是<strong>跳过</strong>系统标题画面，手动编写地图事件，从头开始创造一个自定义的标题画面。面向于那些有事件编写基础、且对自定义有一定要求的人。</p>
+<p>这里主要记录第二种自定义的方法。</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="跳过标题画面的处理"><a href="#跳过标题画面的处理" class="headerlink" title="跳过标题画面的处理"></a>跳过标题画面的处理</h3><p>既然要开始自定义，首先我们要跳过系统检测标题画面的处理↓</p>
+<img src="https://s2.loli.net/2021/12/06/Z8ayFjtpXenboG7.png" alt="step1.png">
+
+<p>把Use的勾关掉后，程序运行时就会自动跳过标题画面，直接从主人公所在位置开始游戏。</p>
+<p>之后我们打开编辑器，新建一个20*15地图，用透明色填满它。</p>
+<h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>在自定义标题之前，首先确保自己已经构思好整个标题画面的设计以及UI的交互。</p>
+<p>例如，我希望玩家能够在标题界面选择【Start】、【Load】、以及【End】，那么我应该准备这三个选项的设计：当玩家输入上下键时，这三个选项会发生什么样的变化，光标会如何移动等等……</p>
+<p>准备好素材后，将这些所有的素材用透明底导入于工程文件的<code>Pictrue</code>文件夹内。</p>
+<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>既然要涉及到玩家输入上下键位，那么一定会有<code>Key Input Processing</code>和<strong>一大堆</strong><code>Conditional Branch</code>，<del>光是想想都已经有点头晕</del></p>
+<p>而且既然是标题画面，那么一定要<code>Disable Menu Access</code> 以及<code>Hide Player</code>，（当然如果你的游戏开场需要显示主人公就不需要开隐身了）。</p>
+<p>如果处理没问题的话，理想状态的标题画面是这样的：</p>
+<p>玩家输入上下移动光标，被选中的项目就会高亮，只要按下确认键就可以进入相对应的处理。</p>
+<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备两个变量：一个控制玩家键位输入的<code>Keys</code>，一个控制光标移动位置的<code>Cursor</code>。</p>
+<h3 id="EV0001"><a href="#EV0001" class="headerlink" title="EV0001"></a>EV0001</h3><p>我们新建一个EV0001，将它设置成<code>Parallel Process</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Show/Hide Player: Transparent ON</span><br><span class="line">@&gt; Change Menu Access: Disable</span><br><span class="line">@&gt; Erase Event</span><br></pre></td></tr></table></figure>
+
+<p>Erase Event是让它不要在后台一直运行。</p>
+<h3 id="EV0002"><a href="#EV0002" class="headerlink" title="EV0002"></a>EV0002</h3><p>然后我们再新建一个EV0002，也同样设置成<code>Parallel Process</code></p>
+<p>假设我们只需要三个按钮，那么变量<code>Cursor</code>就有三个值分别代表光标的位置。</p>
+<p>（这里要确定的东西比较麻烦，毕竟这三个按钮以及光标的显示需要自己手动去对坐标轴。）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">  @&gt; #如果选中了Start的话，Start高亮，其他的按钮都恢复原貌</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">    @&gt; #如果选中了Load的话，Load高亮，其他的按钮都恢复原貌</span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">      @&gt; #如果选中了End的话，End高亮，其他的按钮都恢复原貌</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>这里不用Erase的缘故是因为按钮和光标必须一直在画面上。</p>
+<p>要注意这三个条件分歧的位置，都是嵌套在上一级的Else里。</p>
+<h3 id="EV0003"><a href="#EV0003" class="headerlink" title="EV0003"></a>EV0003</h3><p>最后我们再新建一个EV0003，依旧是<code>Parallel Process</code></p>
+<p>这个事件重点处理玩家输入上下键以及确认键，是整个事件的核心：</p>
+<p><code>Keys</code>为1时，检测玩家输入↓，为4时，检测玩家输入↑，为5时，检测玩家输入Z/Enter。</p>
+<p><code>Cursor</code>的值就参照EV0002设计的那样，1是选中Start，2是选中Load，3是选中End。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Key Input Processing: V[0025:Keys], (W) &#123; Select, Down, Up, &#125;</span><br><span class="line">@&gt; Conditional Branch: V[0025:Keys] == 1</span><br><span class="line">  @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">    @&gt; #这是在Start按了↓的结果，也就是选中了Load的情况</span><br><span class="line">    @&gt; Control Variables: V[0024:Cursor] += 1</span><br><span class="line">    @&gt; </span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">      @&gt; #这是在Load按了↓的结果，也就是选中了End的情况</span><br><span class="line">      @&gt; Control Variables: V[0024:Cursor] += 1</span><br><span class="line">      @&gt; </span><br><span class="line">     : Else</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">        @&gt; #这是在End按了↓的结果，也就是选中了Start的情况</span><br><span class="line">        @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">        @&gt; </span><br><span class="line">       : Else</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Conditional Branch: V[0025:Keys] == 4</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">      @&gt; #这是在Start按了↑的结果，也就是选中了End的情况</span><br><span class="line">      @&gt; Control Variables: V[0024:Cursor] = 3</span><br><span class="line">      @&gt; </span><br><span class="line">     : Else</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">        @&gt; #这是在Load按了↑的结果，也就是选中了Start的情况</span><br><span class="line">        @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">        @&gt;</span><br><span class="line">       : Else</span><br><span class="line">        @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">          @&gt; #这是在End按了↑的结果，也就是选中了Load的情况</span><br><span class="line">          @&gt; Control Variables: V[0024:Cursor] = 2</span><br><span class="line">          @&gt; </span><br><span class="line">         : Else</span><br><span class="line">          @&gt;</span><br><span class="line">         : Branch End</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0025:Keys] == 5</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">        @&gt; #玩家在Start高亮的时候按下了确认键，进入新游戏。</span><br><span class="line">        @&gt;</span><br><span class="line">       : Else</span><br><span class="line">        @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">          @&gt; #玩家在Load高亮的时候按下了确认键，打开读档界面。</span><br><span class="line">         : Else</span><br><span class="line">          @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">            @&gt; #玩家在End高亮的时候按下了确认键，关闭游戏。</span><br><span class="line">            @&gt;</span><br><span class="line">           : Else</span><br><span class="line">            @&gt;</span><br><span class="line">           : Branch End</span><br><span class="line">          @&gt;</span><br><span class="line">         : Branch End</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Else</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>这样框架就搭好了，试着运行一下吧！</p>
+<p>可能会出现的Bug：如果运行不了，试着把EV0002和EV0003在地图上的位置替换一下。</p>
+<p><img src="https://s2.loli.net/2021/12/06/jVKcQ8hMEzWsJNb.gif" alt="自制菜单测试.gif"></p>
+<p>还有个小小的细节，如果想要让玩家有存档的情况下自动让Load高亮，可以在EV0001中加入这么两行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Savestate is available</span><br><span class="line">  @&gt; #光标自动停留在Load上</span><br><span class="line">  @&gt; Control Variables: V[0024:Cursor] = 2</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">  @&gt; #光标自动停留在Start上</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>这样可以让玩家读档的速度进一步加快。</p>
+<h3 id="举一反三"><a href="#举一反三" class="headerlink" title="举一反三"></a>举一反三</h3><p>既然标题画面变成了一张地图，那么只要稍微添加亿些细节就可以实现标题下雨下雪、动画背景…只要地图上能编写的事件全都可以在标题画面使用。</p>
+<p>那么同理，所有的标题画面能够通过地图事件自定义，那么存档读档以及菜单栏理论上全都可以自定义。</p>
+<p>是不是<del>很容易掉头发</del>很方便？来，试试看！</p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>RM2K3特殊事件-镜子和倒影</title>
+    <url>/2021/mirrorevent/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>内容涉及了<u>变量</u>和<u>坐标轴</u>。</p>
+<div class="note warning no-icon"><p>在阅读内容之前，请确认自己已经学习过03的基础指令和变量相关的知识，以及坐标轴的判定原理。</p>
+</div>
+
+<p>※此教程为个人学习笔记，可能会有很多表述不清楚的地方</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>要做一面镜子，首先得确定<code>镜子的样式</code>、<code>面积</code>以及<code>在地图上的位置</code>。</p>
+<p>为了能让倒影有足够多的测试空间，我选择了3×3的落地镜作为范例，这样一来倒影的活动范围也就固定在了3×3的空间中。</p>
+<p>而倒影本质上是<code>一个会跟着主人公走动的NPC</code>，因此倒影事件的图像应当设置成<code>半透明形态的主人公</code>。</p>
+<p>决定好后就可以开始画对应的素材了。</p>
+<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>理想状态是：主人公在镜子前走动，倒影能即时作出反应，且没有延迟</p>
+<p>那么需要用到的指令一定会有<code>Conditional Branch</code>以及<code>Set Move Route</code>，朝向不需要牵扯到变量，因此可以先在倒影的事件中把四个朝向的条件分歧输入进框架中。</p>
+<p>要让倒影做出即时反应，那么必须读取主人公的坐标。当主人公的X值增加，倒影和主人公都会往右走；当主人公的Y值增加，那么倒影应该往上走；而变量可以将XY值转化为可以操作的数值，所以条件分歧除了主人公朝向，大部分应是变量。</p>
+<p>主人公走出3×3范围外倒影就会消失，所以还得准备一个开关来控制倒影的有无。</p>
+<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备好四个变量，分别是主人公的XY轴和倒影的XY轴。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0001:X] = Player&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0002:Y] = Player&#x27;s Y Coordinate</span><br><span class="line">@&gt; Control Variables: [0003:mirror X] = This Event&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0004:mirror Y] = This Event&#x27;s Y Coordinate</span><br></pre></td></tr></table></figure>
+
+<p>然后我们进入编辑器，手动确认主人公的活动范围。</p>
+<p>X轴在<code>23~25</code>之间，Y轴在<code>19~21</code>之间，在此区间内倒影会显形，反之就会消失。这里就需要用上之前构思的开关了：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 22</span><br><span class="line">  @&gt; Conditional Branch: Variable [0001:X] &lt; 26</span><br><span class="line">    @&gt; Conditional Branch: Variable [0002:Y] &lt; 21</span><br><span class="line">      @&gt; Control Switches: [0002:transparent] = OFF</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; 22</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 26</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0002:Y] &gt; 21</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>然后比较主人公和倒影的XY值。因为镜子的面积是3×3，所以这里需要把倒影事件设置在<code>底部的中心</code>。这样就可以直接通过比较大小来确认主人公往哪个方向移动了。</p>
+<p>当系统读取到主人公往右走时，X值增加，所以当主人公的X值大于倒影的X值时，倒影也应该跟着往右走一格，反之亦然。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>之后是最难的Y轴部分，因为倒影的行走方向和主人公相反，光靠比较大小是没办法的。这里我们要先把每个坐标数值的变化记下来，找到其中的运算规律。</p>
+<p>经过计算，最终确定用<code>两个Y变量</code>来代入倒影的Y值。</p>
+<p>理论如下（左为主人公，右为倒影）<br>（24,19）→（24,20）      （24,18）→（24,17）</p>
+<p>因为最底部中心点的Y值是18，所以两个Y的初始值都应是18</p>
+<p>假设主人公往下移动了一格，倒影的理想状态是往上移动一格</p>
+<p>第一个Y减去主人公Y坐标 = 18-20 = -2<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
+<p>因为主人公不可能和倒影重叠，所以第二个Y必须＞主人公的Y值（差值最少为1）所以给第二个Y+1<br>第一个Y永远比主人公Y轴大，所以得取绝对值才能有条件分歧 ×-1得到2</p>
+<p>所以当 第一个Y ＞ 第二个Y 的时候，倒影往上走</p>
+<p>相反，如果两者靠近的话</p>
+<p>第一个Y减去主人公Y坐标 = 18-19 = -1<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
+<p>按照刚才的理论，第二个Y ＞ 第一个Y， 倒影往下走</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0005:mirror Ymove] = 18 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] -= Variable [0002]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] = 18 </span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] -= Variable [0004]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] += 1 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] *= -1 </span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &lt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &gt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>移动决定了，停止时的朝向也得考虑：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Player is facing Up</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Right</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Down</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Left</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>之后，我们设置好主人公的半透明图像，并且将这个事件设置为<code>Parallel Process</code>。另：主人公的速度如果保持默认，<code>Movement Speed</code>应当设置成和主人公一样的普通速。</p>
+<p>还记得之前的开关吗？我们将这一页直接复制，左上角的触发条件只需要将<code>transparent</code>给打开，图像设置成一个<strong>完全透明</strong>的图块就OK了。如果不想让主人公碰到倒影，还可以将<code>Priority</code>设置为<code>Below Characters</code>。</p>
+<p>如果有加速道具或是长按SHIFT加速的需求，再复制一页，触发条件中将加速的开关打开，然后将<code>Movement Speed</code>调整为加速后的速度就没问题了。</p>
+<p>最后，我们将主人公放在镜子前，开始debug！</p>
+<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>延迟完全为零几乎是不存在的，行动稍微有一点点延迟是正常现象。</p>
+<p>为了不穿帮，主人公的3×3的外围最好也布置一些不可通行的图块，这样就不会出现倒影乱跑的BUG。</p>
+<p>最终结果看起来就会是这样（我还顺带测试了一下SHIFT加速）：</p>
+<p><img src="https://s2.loli.net/2022/11/25/aFQMrWiKjvxN4V5.gif" alt="mirror.gif"></p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法记录</title>
+    <url>/2021/markdown/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>这几天翻官网发现next自带了一些插件能够通过markdown实现，就干脆单开一个笔记记录一下以后可能会用到的（人比较健忘）。</p>
+<span id="more"></span>
+
+<h2 id="字体篇"><a href="#字体篇" class="headerlink" title="字体篇"></a>字体篇</h2><h3 id="改变字体"><a href="#改变字体" class="headerlink" title="改变字体"></a>改变字体</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font face=&quot;字体&quot;&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>能调用所有本机系统安装的所有字体文件，只要知道字体的名字就可以。</p>
+<p><font face="Zpix">像素字体</font></p>
+<p><font face="Annabelle">Handwriting</font></p>
+<p><font face="DFPKanTingLiu-B5">もうひつ</font></p>
+<h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;内容&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+
+<center>有一种写论文的感觉</center>
+
+<h3 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font color=16进制HEX&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>一段话里可以同时存在好几种颜色，比如说<font color=#4E008E>紫色的文字</font>、<font color=#00AB84>绿色的文字</font>、<font color=#D1428D>粉色的文字</font>。</p>
+<h3 id="字体大小"><a href="#字体大小" class="headerlink" title="字体大小"></a>字体大小</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font size=&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>突然<font size=5>变大</font></p>
+<p>突然<font size=2>缩小</font></p>
+<p>size直接填写数字也可以，填写像素也可以。</p>
+<h3 id="字体综合"><a href="#字体综合" class="headerlink" title="字体综合"></a>字体综合</h3><p>把以上所有的语句全部综合可得：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font color= size= face=&quot;&quot;&gt;内容&lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+
+<center><font color=\#001489 size=5 face="Zpix">居中的蓝色像素大字体</font></center>
+
+<hr>
+<h2 id="列表篇"><a href="#列表篇" class="headerlink" title="列表篇"></a>列表篇</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [ ] 内容</span><br><span class="line">- [x] 内容</span><br></pre></td></tr></table></figure>
+
+<p>任务列表适合写笔记用，或者可以搞选择题。</p>
+<ul>
+<li><input disabled="" type="checkbox"> 未选</li>
+<li><input checked="" disabled="" type="checkbox"> 选择</li>
+</ul>
+<hr>
+<h2 id="NexT插件篇"><a href="#NexT插件篇" class="headerlink" title="NexT插件篇"></a>NexT插件篇</h2><h3 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn 地址 , 文字 , 图标 规格 %&#125;</span><br><span class="line">fa-fw fa-lg fa-2x fa-3x fa-4x fa-5x</span><br></pre></td></tr></table></figure>
+
+<p>可以只选一种也可以互相搭配：</p>
+<a class="btn" href="#">button</a>
+
+<a class="btn" href="#"><i class="fa fa-link fa-lg"></i></a>
+
+<a class="btn" href="https://theme-next.js.org/docs/tag-plugins/button.html "><i class="fa fa-link fa-fw"></i>NexT</a>
+
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;内容&lt;/blockquote&gt;</span><br><span class="line">&#123;% centerquote %&#125;内容&#123;% endcenterquote %&#125;</span><br><span class="line">&#123;% cq %&#125;内容&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote class="blockquote-center">
+<p>Each possible move represents a different game,</p>
+<p>a different universe in which you make a better move.</p>
+<p>There are more possible games of chess</p>
+<p>than there are atoms in the universe.</p>
+<p>No one could possibly predict them all, even you.</p>
+
+</blockquote>
+
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note class %&#125;内容&#123;% endnote %&#125;</span><br><span class="line">class: default/primary/success/info/warning/danger/no-icon</span><br></pre></td></tr></table></figure>
+
+<p>要启用这些得先去站点配置里找到有关note的介绍并且把它们打开。</p>
+<div class="note default"><h4 id="Default"><a href="#Default" class="headerlink" title="Default"></a>Default</h4><p>灰色箭头标志</p>
+</div>
+
+<div class="note primary"><h4 id="Primary"><a href="#Primary" class="headerlink" title="Primary"></a>Primary</h4><p>紫色加号标志</p>
+</div>
+
+<div class="note success"><h4 id="Success"><a href="#Success" class="headerlink" title="Success"></a>Success</h4><p>绿色对勾标志</p>
+</div>
+
+<div class="note info"><h4 id="Info"><a href="#Info" class="headerlink" title="Info"></a>Info</h4><p>蓝色信息标志</p>
+</div>
+
+<div class="note warning"><h4 id="Warning"><a href="#Warning" class="headerlink" title="Warning"></a>Warning</h4><p>黄色预警标志</p>
+</div>
+
+<div class="note danger"><h4 id="Danger"><a href="#Danger" class="headerlink" title="Danger"></a>Danger</h4><p>红色禁止标志</p>
+</div>
+
+<p>折叠也可以：</p>
+<details class="note danger"><summary><p>Content Warning</p>
+</summary>
+<h4 id="Content-Warning"><a href="#Content-Warning" class="headerlink" title="Content Warning"></a>Content Warning</h4><p>Content warnings are not an excuse for students to skip class or censor your material.</p>
+
+</details>
+
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>nexT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>nexT主题v5升级至v8记录</title>
     <url>/2021/nextupdate/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
@@ -1043,94 +1156,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客搭建经验</title>
-    <url>/2021/Blog/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在一堆博客平台上兜兜转转好几年，最终还是选择了GitHub。无各种限制+无广告+无社交互动已经很让人心动了，最重要的还是对系统友好、不用花高价去维护，很适合像我这样又穷又自闭的赛博难民。</p>
-<p>这两天花了一些时间学习了怎么搭建和配置，趁着还没忘记录一下搭建时遇到的问题和解决办法（详细的搭建过程很容易找到，这里就不阐述了）</p>
-<span id="more"></span>
-
-<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>先说明自己所用的版本信息：</p>
-<blockquote>
-<p>Git-2.31.1 64bit</p>
-<p>Nodejs-14.16.1 64bit</p>
-<p>Hexo-5.4.0</p>
-<p>nexT-5.1.4</p>
-</blockquote>
-<p>电脑是Win10。</p>
-<hr>
-<h3 id="运行hexo-d时显示错误"><a href="#运行hexo-d时显示错误" class="headerlink" title="运行hexo d时显示错误"></a>运行<code>hexo d</code>时显示错误</h3>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fatal: unable to access &#x27;yoursite&#x27;: Failed to connect to github.com port 443: Timed out</span><br></pre></td></tr></table></figure>
-
-<p>   这是一个经常会产生的问题（我几乎每次部署都会弹这种错误反馈）实在不行就<code>hexo clean</code>几次，重新部署几次总能成功的。</p>
-<h3 id="域名解析时出现问题"><a href="#域名解析时出现问题" class="headerlink" title="域名解析时出现问题"></a>域名解析时出现问题</h3><p>   这个问题一般不会出现，但我实在是太想要一个个人域名了就去Godaddy上买了一个。买完后发现网上找到的教程早已过时，DNS的配置方法和页面布局被官方改得妈都不认识，只好自己慢慢试错了。</p>
-<ul>
-<li>首先打开cmd，输入<code>ping username.github.io</code>得到GitHub的IP。</li>
-<li>进入Godaddy的个人域名管理界面，点击DNS进入DNS管理。添加一个类型A，名称@，值为IP的记录。此外修改名称为www的CNAME，将值改为username.github.io。TTL是默认1h，可以不用动它。</li>
-<li><strong>然后把剩余的DNS管理可编辑的都删了</strong>（它默认有个_domainconnect 的CNAME和parked custom的记录）</li>
-<li>在本地文件source中创建一个CNAME的文件，里面写上自己买的域名，保存，<strong>删掉文件后缀。</strong></li>
-<li>在GitBash中输入<code>hexo d</code>，让这个CNAME上传到GitHub仓库。</li>
-<li>打开仓库，点击<code>Settings</code>进入仓库的设置界面。在左边的目录中找到<code>Pages</code>，在Custom Domain里输入你的域名，然后等待它自己检测DNS配置，变成绿色的√就证明域名解析成功。（如果期间弹出了DNS解析失败等提示可能需要等待一段时间。）</li>
-<li>勾选Enforce HTTPS。</li>
-</ul>
-<p>   然后输入域名就可以跳转到博客界面啦。</p>
-<h3 id="tags和categories的页面显示404"><a href="#tags和categories的页面显示404" class="headerlink" title="tags和categories的页面显示404"></a>tags和categories的页面显示404</h3><p>   这个问题很容易产生！我觉得最大的原因出现在主题的配置文件里。</p>
-<ul>
-<li><p>打开主题配置文件，找到menu一栏</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tags:</span> <span class="string">/tags/||</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">/categories/||</span> <span class="string">th</span></span><br></pre></td></tr></table></figure>
-
-<p>把/和||之间的空格删掉。</p>
-</li>
-<li><p>在GitBash中输入<code>hexo new page tags</code>，让它在source下生成一个名为tags的文件夹，里面会多出个index.md的文件。</p>
-</li>
-<li><p>打开index.md，在最后一行中加入一句<code>type: &quot;tags&quot;</code>，直接保存退出。不需要加<code>---</code>在顶端和末端。</p>
-</li>
-<li><p>添加categories的方法就是同上两个步骤，只是把<code>tags</code>替换成<code>categories</code>。</p>
-</li>
-<li><p>执行<code>hexo s</code>，在localhost上查看页面是否显示正常。</p>
-</li>
-</ul>
-<p>   没啥问题就<code>hexo d</code>了。</p>
-<hr>
-<h2 id="nexT自定义"><a href="#nexT自定义" class="headerlink" title="nexT自定义"></a>nexT自定义</h2><p>这里记录一些我觉得还比较有趣（麻烦）的自定义过程。</p>
-<h3 id="访客量设置"><a href="#访客量设置" class="headerlink" title="访客量设置"></a>访客量设置</h3><p>   不蒜子在2018年换了域名，所以按照网上找到的教程走很有可能无法显示访问量。</p>
-<p>   打开<code>\themes\next\layout\third-party\analytics\busuanzi-counter.swig</code>文件，把第一行改成</p>
-   <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.busuanzi_count.enable %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;busuanzi-count&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>   然后在主题配置文件里将<code>busuanzi_count</code>目录下的enable改成true。这下面还可以改一下<code>site_uv_footer</code>和<code>site_pv_footer</code>，这是访问量的后缀。</p>
-<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
-</div>
-
-<h3 id="头像设置成圆形并且让它转起来"><a href="#头像设置成圆形并且让它转起来" class="headerlink" title="头像设置成圆形并且让它转起来"></a>头像设置成圆形并且让它转起来</h3><p>   打开<code>themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code>，输入</p>
-   <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">2s</span> all;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);</span><br></pre></td></tr></table></figure>
-
-<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
-</div>
-
-<h3 id="文章置顶"><a href="#文章置顶" class="headerlink" title="文章置顶"></a>文章置顶</h3><p>   首先在GitBash中输入<code>npm uninstall hexo-generator-index --save</code>卸载默认插件。</p>
-<p>   然后安装一个新的插件<code>npm install hexo-generator-index-pin-top --save</code></p>
-<p>   之后写文章的时候在标签分类下面写上一行<code>top: true</code>就可以让这篇文章出现在第一个了。</p>
-<hr>
-<h2 id="一些摸索"><a href="#一些摸索" class="headerlink" title="一些摸索"></a>一些摸索</h2><h3 id="仓库整理"><a href="#仓库整理" class="headerlink" title="仓库整理"></a>仓库整理</h3><p>在查看仓库时发现我的文章全都以单独文件夹的形式罗列在仓库里，时间长了肯定不好管理。去看了其他人的仓库却发现他们并没有我这样的情况，难道是我最开始安装Git的时候出错了吗？还是说我有哪些配置改错了？</p>
-<p>既然是生成部署的问题，那就去站点配置里找答案。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:name/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br></pre></td></tr></table></figure>
-
-<p>当时我自定义的时候想“永久链接的格式当然要简介明了才比较好记”，于是跟着官网的设置选择了以文件名(name)为永久链接，这样我的文章地址就变成了<code>https://drifter-games.com/name</code>。</p>
-<p>好看是好看，但在进行<code>hexo g</code>的时候，这篇文章就会以<code>index.html</code>的形式放在<code>public\name</code>的文件夹里。（同理，有几篇文章就会生成几个文件夹）随着文章数增加，文件夹也会越来越多，仓库内部的画面可想而知。所以我选择了以年份作为一个整理的方案：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:name/</span></span><br></pre></td></tr></table></figure>
-
-<p>这样进行<code>hexo g</code>的时候，public文件夹里就会自动把文章进行一个年份归档，之后部署到GitHub仓库的时候就不会再出现这个问题了。</p>
-<div class="note info no-icon"><p>注：执行<code>hexo clean</code>时会自动删除public文件，如果找不到public文件夹在哪的话请先执行<code>hexo g</code>查看。</p>
-</div>
-]]></content>
-      <categories>
-        <category>帮助</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>nexT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Submission rules</title>
     <url>/2020/subrules/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="投稿规则"><a href="#投稿规则" class="headerlink" title="投稿规则"></a>投稿规则</h2><h3 id="Wallpaper"><a href="#Wallpaper" class="headerlink" title="Wallpaper"></a>Wallpaper</h3><ul>
@@ -1162,7 +1187,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#x68;&#121;&#x6f;&#117;&#x72;&#x79;&#117;&#x75;&#64;&#102;&#111;&#x78;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x68;&#121;&#x6f;&#117;&#x72;&#x79;&#117;&#x75;&#64;&#102;&#111;&#x78;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></p>
+<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#104;&#121;&#111;&#117;&#x72;&#121;&#x75;&#x75;&#64;&#102;&#x6f;&#120;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#104;&#121;&#111;&#117;&#x72;&#121;&#x75;&#x75;&#64;&#102;&#x6f;&#120;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></p>
 ]]></content>
       <categories>
         <category>投稿规则</category>
@@ -1172,28 +1197,657 @@
       </tags>
   </entry>
   <entry>
-    <title>Help</title>
-    <url>/2020/Help/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
-<li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
+    <title>2023食谱年终总结</title>
+    <url>/2023/2023recipes/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>耶 复活了</center>
+
+<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>回首2023，我认识了各式各样的人，体验了很多很多的第一次。</p>
+<p>比如说第一次尝试烘焙，第一次去泰国旅行，第一次制作个人专辑，第一次换游戏引擎，第一次参加考试，第一次独自去外面吃饭，第一次独自去电影院，第一次去修电脑和手机等等…</p>
+<p>总的来说是画画和游戏制作方面没怎么进步反倒是学会怎么做饭的一年（）十月份考试通过之后就要忙着找房了，明年又是一个全新的环境，希望一切顺利。</p>
+<p>之后放一些今年做的食谱总结↓</p>
+<span id="more"></span>
+
+<h2 id="食谱"><a href="#食谱" class="headerlink" title="食谱"></a>食谱</h2><h3 id="蛋包饭"><a href="#蛋包饭" class="headerlink" title="蛋包饭"></a>蛋包饭</h3><p><img src="https://s2.loli.net/2023/12/07/9cvr3FuQXR1AqHe.jpg" alt="蛋包饭.jpg"></p>
+<blockquote>
+<p>制作难易度：★☆☆☆☆</p>
+<p>制作成本：1~3★</p>
+</blockquote>
+<p>蛋包饭应该是最快手的食谱，难点只有<strong>煎蛋</strong>还有<strong>包饭</strong>的环节。</p>
+<p>如果想要顺滑的蛋皮，可以给蛋液过筛，在蛋液里加一点牛奶。</p>
+<p>如果想要让蛋皮好吃，可以用黄油煎蛋获得奶香味，也可以加盐加胡椒粉给点底味。</p>
+<p>里面的饭随便怎么搭配都行，如果懒得做直接包白饭也可。</p>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>鸡蛋2~3个</li>
+<li>牛奶</li>
+<li>洋葱半个切碎</li>
+<li>培根</li>
+<li>黄油</li>
+<li>番茄酱</li>
+<li>盐</li>
+<li>黑胡椒</li>
+<li>欧芹碎</li>
+</ul>
+
+</details>
+
+<h3 id="亲子盖饭"><a href="#亲子盖饭" class="headerlink" title="亲子盖饭"></a>亲子盖饭</h3><p><img src="https://s2.loli.net/2023/12/07/wqaJn4A5SIODph1.jpg" alt="亲子盖饭.jpg"></p>
+<blockquote>
+<p>制作难易度：★★☆☆☆</p>
+<p>制作成本：★★☆☆☆</p>
+</blockquote>
+<p>亲子盖饭也是很简单的一道菜，只要有鸡蛋洋葱和鸡肉就可以做，没胃口的时候吃这个是个不错的选择。当初做这个的时候被评价比餐厅的还好吃，得意。</p>
+<p>基本上没有什么难点，在烹饪鸡肉的时候只要注意不要让温度降低就不会有腥味了。</p>
+<blockquote>
+<p>先开火，把鸡皮朝下煎出鸡油，再将两面煎至金黄。</p>
+<p>下入洋葱，炒至变软后加入开水泡好的鸡高汤（用浓汤包，鸡汤粉末都行，有条件的自己熬最好）</p>
+<p>用一勺味淋，砂糖，料酒，生抽两勺调味。</p>
+<p>最后倒入蛋液，用余温将鸡蛋焖熟，出锅前加一把葱花。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>鸡蛋2~3个</li>
+<li>鸡腿肉</li>
+<li>洋葱半个切丝</li>
+<li>鸡高汤（热）</li>
+<li>味淋</li>
+<li>砂糖</li>
+<li>料酒</li>
+<li>薄盐生抽</li>
+</ul>
+
+</details>
+
+<h3 id="芝士鸡肉焗饭"><a href="#芝士鸡肉焗饭" class="headerlink" title="芝士鸡肉焗饭"></a>芝士鸡肉焗饭</h3><p><img src="https://s2.loli.net/2023/12/07/gsnlDIy8hARpWwm.jpg" alt="芝士焗饭.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★☆☆</p>
+<p>制作成本：★★★★☆</p>
+</blockquote>
+<p>这道菜是我在大学的时候经常吃的，没胃口的时候来一口焗饭真的很得劲。有一天突然想起来，于是想办法复刻一把…从奥尔良调料开始做起。</p>
+<p>鸡肉提前腌制一晚上比较好。</p>
+<blockquote>
+<p>鸡肉腌好后拿出来加一把泡打粉，放进冰箱里冷藏一个小时。拿出来后放油揉匀，放进预热好的烤箱210℃20分钟，拿出来涂一层蜂蜜，再烤两分钟。（加上彩椒一起烤会更香）</p>
+<p>在锅里加入黄油20g，面粉20g，牛奶300ml，搅和搅和就是白酱。调味用盐，肉豆蔻粉，白胡椒粉即可（熬白酱这一步可以省略）</p>
+<p>在耐热碗里铺一层米饭，一层白酱，一层奥尔良鸡肉和彩椒，最后加上一层芝士，烤箱200℃20分钟+250℃5分钟，所有食材都已经熟了所以只需要观察上色即可。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<p>奥尔良调料</p>
+<ul>
+<li><p>盐1勺</p>
 </li>
-<li><p>Q：打开后有弹窗报错<br>A：一般是缺少RTP。请安装<a href="https://dl.degica.com/rpgmakerweb/run-time-packages/rpg2003_rtp_installer.zip">英文版rtp2003</a>，解压后将文件复制粘贴于Ephemreal的内部文件夹内。</p>
-<div class="note danger"><p><strong>重名的情况请务必保留源文件不要覆盖！！！！！！！！</strong> </p>
-</div></li>
-<li><p>Q：可以用Easyrpg启动吗<br>A：请<strong>不要</strong>这样做，会有很多奇怪的bug。<del>信我，开头就会黑屏</del></p>
+<li><p>糖1勺</p>
 </li>
-<li><p>Q：Mac可以玩吗<br>A：很遗憾，非Windows系统是无法运行游戏的……</p>
+<li><p>大蒜粉1勺</p>
 </li>
-<li><p>Q：非中文系统想运行简体中文版<br>A：Win7用户请下载Applocale，安装后选择中文，指定Start.exe后运行即可，不成功的情况请指定Ephemreal文件夹内的RPG_RT.exe运行。<br>Win10用户请下载<a href="https://github.com/xupefei/Locale-Emulator/releases">Local Emulator</a>，按步骤安装后鼠标右键选中Start.exe，在菜单栏里勾选上「按程序源环境配置」应该就能成功运行了，不成功的情况同上。</p>
+<li><p>洋葱粉1勺</p>
+</li>
+<li><p>辣椒粉1勺</p>
+</li>
+<li><p>甜椒粉1勺</p>
+</li>
+<li><p>姜黄粉1勺</p>
+</li>
+<li><p>白胡椒粉1勺</p>
+</li>
+<li><p>鸡精1勺</p>
+</li>
+<li><p>水2勺</p>
+</li>
+<li><p>鸡腿肉</p>
+</li>
+<li><p>彩椒</p>
 </li>
 </ul>
-<p>遇到了其他问题请参考或私信<br><a href="http://yumenikki.info/archives/%e6%b4%be%e7%94%9f%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95/">派生安装方法</a></p>
+
+</details>
+
+<h3 id="托斯卡纳三文鱼"><a href="#托斯卡纳三文鱼" class="headerlink" title="托斯卡纳三文鱼"></a>托斯卡纳三文鱼</h3><p><img src="https://s2.loli.net/2023/12/07/MwJjkCy2cHzF4PU.jpg" alt="菠萝炒饭和托斯卡纳三文鱼.jpg"></p>
+<blockquote>
+<p>制作难易度：★★☆☆☆</p>
+<p>制作成本：★★★★☆</p>
+</blockquote>
+<p>左边是菠萝炒饭！是我高中的时候的早饭（）突然想起来所以做了一下。</p>
+<p>重点在右侧的三文鱼！又方便又好吃，推荐所有人尝试。</p>
+<blockquote>
+<p>三文鱼用盐和黑胡椒腌制，用橄榄油煎至四面焦黄。</p>
+<p>锅里下入黄油，加入蒜末，洋葱碎，小西红柿，淡奶油100ml，煮到冒泡加入盐和黑胡椒调味。</p>
+<p>最后下入菠菜，变软后加入煎好的三文鱼。</p>
+<p>出锅前加入一把罗勒和帕马森芝士碎即可。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>三文鱼2~4片</li>
+<li>大蒜2~3瓣切碎</li>
+<li>半个洋葱切碎</li>
+<li>小西红柿</li>
+<li>菠菜</li>
+<li>罗勒</li>
+<li>淡奶油</li>
+<li>盐</li>
+<li>黑胡椒</li>
+<li>帕马森奶酪</li>
+</ul>
+
+</details>
+
+<h3 id="罗勒猪肉饭"><a href="#罗勒猪肉饭" class="headerlink" title="罗勒猪肉饭"></a>罗勒猪肉饭</h3><p><img src="https://s2.loli.net/2023/12/07/HRsJx7bW9B3UAKm.jpg" alt="罗勒猪肉饭.jpg"></p>
+<blockquote>
+<p>制作难易度：★★☆☆☆</p>
+<p>制作成本：★★☆☆☆</p>
+</blockquote>
+<p>学会的第一道泰国料理，因为有辣味我很喜欢！</p>
+<p>这也是我第一次吃罗勒，感想是……香味好像辣条啊（）配合煎蛋真的很好吃。我住的附近买不到九重塔，用甜罗勒代替了。</p>
+<blockquote>
+<p>红辣椒和大蒜捣碎。</p>
+<p>红葱头一个切碎（没有红葱头就用普通的洋葱切碎也可以）</p>
+<p>先煎蛋，盛出备用。</p>
+<p>红辣椒和大蒜下入锅中爆香，有红葱头就先煎一下。</p>
+<p>加入肉糜，猪肉碎牛肉碎鸡肉碎都行。</p>
+<p>倒入配好的酱汁（耗油一勺，生抽三勺，鱼露一点，老抽一点，砂糖根据个人情况加一勺~两勺或者干脆不加）</p>
+<p>收汁，尝味道，不够辣再加辣椒粉。加入罗勒，稍微翻炒一下就可以出锅了。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>红辣椒</li>
+<li>大蒜</li>
+<li>红葱头（或红洋葱）</li>
+<li>鸡蛋</li>
+<li>肉糜</li>
+<li>罗勒</li>
+<li>耗油</li>
+<li>生抽</li>
+<li>鱼露</li>
+<li>老抽</li>
+<li>砂糖</li>
+</ul>
+
+</details>
+
+<h3 id="越南炸春卷"><a href="#越南炸春卷" class="headerlink" title="越南炸春卷"></a>越南炸春卷</h3><p><img src="https://s2.loli.net/2023/12/07/DjFbTi3BKCYa2Qv.jpg" alt="炸春卷.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★★☆</p>
+<p>制作成本：★★★☆☆</p>
+</blockquote>
+<p>第一次尝试油炸，因为怕房间里都是油味所以跑到邻居家厨房去了（……）配合甜辣酱和柠檬很好吃！</p>
+<p>因为电磁炉火力不够，完全不知道自己在多少度的情况下炸成这样的，印象里花了不少时间。大概是再也不会再做的菜品，姑且记录一下。</p>
+<blockquote>
+<p>粉丝泡好，过凉水备用。</p>
+<p>炒一下猪肉，用黑胡椒和大蒜以及香菜根调味。</p>
+<p>加入卷心菜碎，胡萝卜碎，粉丝豆芽一起翻炒。</p>
+<p>春卷皮稍微沾水，把馅料卷起来后就可以下入油锅了。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>春卷皮</li>
+<li>粉丝</li>
+<li>猪肉碎</li>
+<li>卷心菜</li>
+<li>胡萝卜</li>
+<li>豆苗</li>
+<li>黑胡椒</li>
+<li>大蒜</li>
+<li>香菜根（没有就不加）</li>
+</ul>
+
+</details>
+
+<h3 id="炸猪排盖饭"><a href="#炸猪排盖饭" class="headerlink" title="炸猪排盖饭"></a>炸猪排盖饭</h3><p><img src="https://s2.loli.net/2023/12/07/rJYcpu4D9tOzPXw.jpg" alt="炸猪排.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★☆☆</p>
+<p>制作成本：★★★☆☆</p>
+</blockquote>
+<p>用烤箱做的炸猪排！几乎没有加油，没有油味吃着比餐厅里清爽许多。而且自己一个人做可以尽情往饭上加猪排！！如果想尽情吃肉的话，请一定要试试这个菜品。</p>
+<blockquote>
+<p>先处理猪排。用刀背把肉拍松，切断筋防止卷起。正反面撒上黑胡椒盐以及其他喜欢的调料（我加了孜然粉五香粉辣椒粉还有蒜末），腌制一会儿。</p>
+<p>之后依次裹上面粉蛋液面包糠，注意面包糠和面粉不要放多了。鸡蛋打两个差不多。</p>
+<p>烤箱预热200℃25分钟，中途记得翻个面查看一下情况。</p>
+<p>起锅烧油，加入洋葱碎，炒至变软之后加入两勺生抽两勺味淋，将烤好的猪排切块放进锅里入个味，倒入剩余的蛋液，关火用余温把剩鱼的鸡蛋烤熟。</p>
+<p>把所有的食材码在饭上，撒上海苔碎和葱花即可。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>猪排</li>
+<li>面粉</li>
+<li>鸡蛋两个</li>
+<li>面包糠</li>
+<li>洋葱碎</li>
+<li>生抽两勺</li>
+<li>味淋两勺</li>
+<li>葱花</li>
+</ul>
+
+</details>
+
+<h3 id="豆乳火锅"><a href="#豆乳火锅" class="headerlink" title="豆乳火锅"></a>豆乳火锅</h3><p><img src="https://s2.loli.net/2023/12/07/cyRlnKrZDBgQTW2.png" alt="豆乳火锅.png"></p>
+<blockquote>
+<p>制作难易度：★★☆☆☆</p>
+<p>制作成本：2~4★</p>
+</blockquote>
+<p>冬天就得吃火锅麻辣烫！！豆乳麻辣烫绝对是我做过的最好吃的一款。这几天太冷了，比起关东煮不如用这些材料做一锅麻辣烫，绝对满足。</p>
+<blockquote>
+<p>大葱，姜片，葱白放进锅里炒香，加入火锅底料和豆瓣酱，炒化。</p>
+<p>加入香料（干辣椒，花椒，草果）</p>
+<p>爆香后，加入水和豆乳，煮开之后撇去浮沫和干料。</p>
+<p>用盐，糖（如果豆乳有糖就不要加），鸡精，味精，花生酱调味。</p>
+<p>转小火煮五分钟，可以往里加入鱼糕丸子方便面等任何喜欢的蔬菜和肉类。</p>
+<p>最后加入一勺芝麻酱和葱花就可以出锅了。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>鱼糕</li>
+<li>方便面</li>
+<li>大葱</li>
+<li>姜</li>
+<li>干料</li>
+<li>豆乳</li>
+<li>盐</li>
+<li>糖</li>
+<li>鸡精</li>
+<li>味精</li>
+<li>花生酱</li>
+<li>芝麻酱</li>
+<li>葱花</li>
+</ul>
+
+</details>
+
+<h3 id="法式咸派"><a href="#法式咸派" class="headerlink" title="法式咸派"></a>法式咸派</h3><p><img src="https://s2.loli.net/2023/12/07/aFnvWZLCqJYTh9K.jpg" alt="咸派.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★★☆</p>
+<p>制作成本：★★★★☆</p>
+</blockquote>
+<p>做起来超级费时的法式咸派，但是成果不会让人失望。吃起来非常饱腹，可以算是主食类。</p>
+<p>冬天最适合做派了，根本不用担心黄油化在面粉里。只是揉面皮的时候注意不要扭到手。</p>
+<blockquote>
+<p>揉派皮（黄油78g，高筋面粉120g，低筋面粉20g，盐1.5g，牛奶30g），包好保鲜膜放入冰箱里冷藏两个小时以上。</p>
+<p>模具上涂抹黄油，撒上高筋面粉。面团拿出来擀成2~3mm的厚度，铺在模具里。扎孔，烘焙纸+红豆，预热烤箱180℃15分钟。之后把红豆拿走，继续烤6分钟。刷上蛋液再烤2分钟。</p>
+<p>内陷可以炒任何你喜欢的蔬菜和肉类（洋葱培根土豆大蒜口蘑等）用盐和黑胡椒简单调味即可。</p>
+<p>液体部分是蛋液，牛奶60g，淡奶油60g，盐1勺，芝士粉3大勺的混合。</p>
+<p>派里铺上一层芝士碎，放入炒好的内陷，浇上液体部分，烤箱170℃10分钟，拿出来撒芝士碎继续10分钟。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>黄油</li>
+<li>高筋面粉</li>
+<li>低筋面粉</li>
+<li>盐</li>
+<li>牛奶</li>
+<li>洋葱</li>
+<li>蒜片</li>
+<li>土豆</li>
+<li>培根</li>
+<li>口蘑</li>
+<li>鸡蛋两个</li>
+<li>牛奶</li>
+<li>芝士粉</li>
+<li>淡奶油</li>
+<li>芝士碎</li>
+</ul>
+
+</details>
+
+<h3 id="苹果派"><a href="#苹果派" class="headerlink" title="苹果派"></a>苹果派</h3><p><img src="https://s2.loli.net/2023/12/07/3XNK4Rm9sqxdYjt.jpg" alt="苹果派.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★★☆</p>
+<p>制作成本：★★☆☆☆</p>
+</blockquote>
+<p>抽空做了一个非常经典的派，说到苹果派果然就是这种样子的（不是麦当劳那种派），算是圆了小时候的一个梦。苹果派本身并不是很惊艳，但是非常适合派对的时候露一手。</p>
+<blockquote>
+<p>揉派皮（黄油115g，中筋面粉280g，糖26g，盐5g，逐渐加水变成团），分成两份，包好保鲜膜放入冰箱里冷冻。</p>
+<p>削两个苹果，偏硬的最好。切块，加入柠檬汁，糖，一点肉桂，最后用中筋粉吸收多余的水分。</p>
+<p>派皮放进模具，稍微修剪一下边缘，放进冰箱里冷冻。</p>
+<p>把苹果放进去，尽量压紧不要有空隙，否则烤的时候会爆汁。</p>
+<p>另一块派皮切分成长度均等的条，编制出网状（先等距放一排，然后旋转90°，隔一排就掀开一条）。在表面刷上加了淡奶油的蛋黄液，再撒一点粗砂糖（目的形成脆壳）。</p>
+<p>预热烤箱220℃20分钟上色，190℃1小时10分钟烤熟。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>黄油</li>
+<li>中筋面粉</li>
+<li>糖</li>
+<li>盐</li>
+<li>苹果两个</li>
+</ul>
+
+</details>
+
+<h3 id="芝士蛋糕"><a href="#芝士蛋糕" class="headerlink" title="芝士蛋糕"></a>芝士蛋糕</h3><p><img src="https://s2.loli.net/2023/12/07/vjRxzskwyeLZVQ1.jpg" alt="芝士蛋糕.jpg"></p>
+<blockquote>
+<p>制作难易度：★★☆☆☆</p>
+<p>制作成本：★★★★☆</p>
+</blockquote>
+<p>这款虽然看上去是派的样子但重点在于内陷。就算不做成派，放进蛋糕模具里做成普通的芝士蛋糕也很好吃，是偶尔就想要再做一次的蛋糕。</p>
+<blockquote>
+<p>将奶油奶酪和鸡蛋放置在常温的地方，鸡蛋要打散备用。</p>
+<p>将砂糖和奶油奶酪放入容器中搅拌至平滑，有条件的在搅拌过程中将容器稍微加热一些（这么做可以缩短烤制时间也可以让蛋糕有顺滑的口感）。</p>
+<p>在另一个容器中加入酸奶油和酸奶搅匀。将鸡蛋液分三次倒进去，搅匀后再加入玉米淀粉和柠檬汁。</p>
+<p>在锅里加入淡奶油，白巧克力，香草精，煮至沸腾。</p>
+<p>将白巧淡奶油放进奶油奶酪中，搅匀后加入酸奶蛋液，过筛之后倒入模具中备用。</p>
+<p>将模具放在烤盘上，烤盘倒入2~3公分的热水。烤箱预热180℃烤25分钟后，将温度降至150℃20分钟。最后拿出放凉，放进冰箱里冷藏4小时以上即可食用。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>奶油奶酪220g</li>
+<li>砂糖100g</li>
+<li>希腊酸奶50g</li>
+<li>酸奶油180g</li>
+<li>淡奶油100g</li>
+<li>鸡蛋两个</li>
+<li>玉米淀粉20g</li>
+<li>柠檬汁9g</li>
+<li>白巧克力50g</li>
+<li>香草精</li>
+</ul>
+
+</details>
+
+<h3 id="咖啡蛋糕"><a href="#咖啡蛋糕" class="headerlink" title="咖啡蛋糕"></a>咖啡蛋糕</h3><p><img src="https://s2.loli.net/2023/12/07/ciuoMJpfKdXT3HZ.jpg" alt="咖啡蛋糕.jpg"></p>
+<blockquote>
+<p>制作难易度：★★☆☆☆</p>
+<p>制作成本：★★☆☆☆</p>
+</blockquote>
+<p>这款咖啡蛋糕是我第一个学会的蛋糕，真的只需要搅拌就可以完成。完成的时候整个房间里都会是咖啡的香气，尤其是顶部脆壳的口感很棒，请务必试试看。</p>
+<blockquote>
+<p>鸡蛋两个，玉米油65g（或者融化的黄油），糖75g，淡奶油40g，朗姆酒15g，搅匀即可。</p>
+<p>筛入低筋面粉100g，速溶咖啡粉7g，泡打粉4g，盐2g，巧克力豆30g。</p>
+<p>过筛后放进模具里。</p>
+<p>中筋面粉20g+糖15g+黄油12g揉成粉末状，撒在表面。</p>
+<p>预热烤箱180℃40分钟即可，中途记得观察脆壳上色情况。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>鸡蛋两个</li>
+<li>黄油</li>
+<li>糖</li>
+<li>淡奶油</li>
+<li>朗姆酒</li>
+<li>低筋面粉</li>
+<li>中筋面粉</li>
+<li>泡打粉</li>
+<li>盐</li>
+<li>巧克力豆</li>
+</ul>
+
+</details>
+
+<h3 id="墨西哥咖啡面包"><a href="#墨西哥咖啡面包" class="headerlink" title="墨西哥咖啡面包"></a>墨西哥咖啡面包</h3><p><img src="https://s2.loli.net/2023/12/07/Wmyf5oS1CA3MHsL.jpg" alt="咖啡面包.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★☆☆</p>
+<p>制作成本：★★★☆☆</p>
+</blockquote>
+<p>咖啡面包的香气主要在于表层的咖啡脆壳，里面的面团非常简单。非常适合做成早餐或者是餐后的甜点，曾经火过一阵子，但是现在很难找到咖啡味的面包。突然想起来就做了。</p>
+<blockquote>
+<p>高筋面粉245g，糖30g，奶粉15g，蛋液30g，干酵母2.5g和牛奶混合成面团，按开松弛五分钟。</p>
+<p>在面团中加入30g黄油和3g的盐，揉搓摔打面团，滚圆发酵至不回缩（大概室温一个小时左右）之后切割收圆松弛25分钟，进行二次发酵。</p>
+<p>黄油60g，糖80g，蛋液50g+咖啡粉6g，混合之后加入60g低筋面粉，放进裱花袋。</p>
+<p>在发酵好的面团上挤上螺旋状的咖啡混合液，放进预热好的烤箱180℃12分钟。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>鸡蛋</li>
+<li>黄油</li>
+<li>盐</li>
+<li>高筋面粉</li>
+<li>低筋面粉</li>
+<li>糖</li>
+<li>奶粉</li>
+<li>干酵母</li>
+<li>牛奶</li>
+<li>咖啡粉</li>
+</ul>
+
+</details>
+
+<h3 id="蜂巢蛋糕"><a href="#蜂巢蛋糕" class="headerlink" title="蜂巢蛋糕"></a>蜂巢蛋糕</h3><p><img src="https://s2.loli.net/2023/12/07/3OX5NpEiIYRhuCF.jpg" alt="蜂巢蛋糕.jpg"></p>
+<blockquote>
+<p>制作难易度：★☆☆☆☆</p>
+<p>制作成本：★★☆☆☆</p>
+</blockquote>
+<p>小时候经常吃的一款蛋糕，因为口感厚实有弹性，外表像蜂巢所以叫蜂巢蛋糕。长大之后发现并不是所有地区都有卖这个蛋糕。上网一搜有用烤箱做的，也有用蒸笼做的，感觉小时候经常吃的应该是烤箱做的毕竟感觉油很多。</p>
+<blockquote>
+<p>锅里煮开白糖50g+红糖50g+清水180g。</p>
+<p>碗里加入三颗鸡蛋，炼乳150g，蜂蜜20g，玉米油80g，搅匀后加入过筛的130g低筋面粉+5g小苏打。</p>
+<p>将放凉的红糖水分次加入面糊里，盖上保鲜膜放置30分钟。</p>
+<p>预热烤箱175℃35分钟。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>鸡蛋</li>
+<li>白糖</li>
+<li>红糖</li>
+<li>炼乳</li>
+<li>蜂蜜</li>
+<li>低筋面粉</li>
+<li>小苏打</li>
+</ul>
+
+</details>
+
+<h3 id="布丁面包"><a href="#布丁面包" class="headerlink" title="布丁面包"></a>布丁面包</h3><p><img src="https://s2.loli.net/2023/12/07/31JuThromiOgyQw.jpg" alt="布丁面包.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★★☆</p>
+<p>制作成本：★★★☆☆</p>
+</blockquote>
+<p>面包里挖空加入布丁液继续烘烤，可以同时体验脆面包和软布丁的双重口感。分开做不是很难但是放在一起就很费时，感觉很考验烤箱温度。</p>
+<blockquote>
+<p>180g高筋面粉+100g中筋面粉+2g酵母+5g糖+2g盐+10g黄油，一边搅拌一边加水，等面团差不多成型了就开始揉搓，烤箱加水喷蒸汽，30℃发酵40分钟。</p>
+<p>两个蛋黄+两个全蛋+48g砂糖+6g玉米淀粉+（加热的380g淡奶油+80g牛奶+香草精）组合成布丁液。</p>
+<p>面团切成6等份，盖上湿布松弛20分钟。收圆，二次发酵30℃60分钟。</p>
+<p>预热烤箱220℃15分钟。</p>
+<p>切开面包，挖空内部，加入布丁液，烤箱170℃10~15分钟。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>鸡蛋</li>
+<li>糖</li>
+<li>玉米淀粉</li>
+<li>淡奶油</li>
+<li>高筋面粉</li>
+<li>中筋面粉</li>
+<li>盐</li>
+<li>黄油</li>
+<li>牛奶</li>
+</ul>
+
+</details>
+
+<h3 id="烟熏鸡肉包"><a href="#烟熏鸡肉包" class="headerlink" title="烟熏鸡肉包"></a>烟熏鸡肉包</h3><p><img src="https://s2.loli.net/2023/12/07/LMhXB91veFG5AOd.jpg" alt="烟熏鸡肉包.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★☆☆</p>
+<p>制作成本：★★★☆☆</p>
+</blockquote>
+<p>这款面团可以说是所有咸面包的基础，加入其他的内陷也可以做出很好吃的咸面包，比如说咖喱面包培根香肠面包什么的。</p>
+<blockquote>
+<p>高筋面粉225g+低筋面粉25g+糖15g+盐4g+酵母2.5g+牛奶45g，慢慢加水成团，加入黄油20g摔打揉搓变光滑。</p>
+<p>烟熏鸡肉+玉米粒+黑胡椒+盐+蛋黄酱搅拌成内陷。</p>
+<p>把一发好的面团里裹上内陷包好，刷一层蛋液，沾上芝士粉。二发结束后割出十字，用小葱点缀一下（欧芹碎也可以）。</p>
+<p>预热烤箱180℃20~25分钟。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>鸡蛋</li>
+<li>糖</li>
+<li>高筋面粉</li>
+<li>低筋面粉</li>
+<li>盐</li>
+<li>酵母</li>
+<li>牛奶</li>
+<li>鸡肉</li>
+<li>玉米粒</li>
+<li>黑胡椒粉</li>
+<li>蛋黄酱</li>
+</ul>
+
+</details>
+
+<h3 id="黑糖肉桂卷"><a href="#黑糖肉桂卷" class="headerlink" title="黑糖肉桂卷"></a>黑糖肉桂卷</h3><p><img src="https://s2.loli.net/2023/12/07/J8AqxkS6IovzeT5.jpg" alt="肉桂卷.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★☆☆</p>
+<p>制作成本：★★★☆☆</p>
+</blockquote>
+<p>面团本身并不是很惊艳，但是黑糖肉桂酱真的很好吃！整个房间里都是肉桂糖的味道。如果喜欢肉桂的话，这个面包可能会吃上瘾。有条件的可以买锡兰肉桂，如果是国产或者是越南的肉桂味道会有点冲，记得少放点。</p>
+<blockquote>
+<p>汤种面团：</p>
+<p>30g中筋面粉+130g牛奶放进锅里煮至沸腾再完全放凉，再放进冰箱里冷藏。</p>
+<p>面团：</p>
+<p>300g 中筋面粉+50g 砂糖+5g 盐+4g 酵母+ 65g 牛奶+两个全蛋+两个蛋黄+汤种</p>
+<p>最后加入46g无盐黄油，揉成光滑的面团即可。</p>
+<p>枫糖黄油酱：</p>
+<p>60g 黄油40g+红糖30g+枫糖浆20g+水1/2小勺+肉桂粉</p>
+<p>肉桂黄油糖馅：</p>
+<p>100g 黄油+108g 红糖+18~20g 锡兰肉桂粉+1小勺 可可粉+1小勺 香草精</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>黄油</li>
+<li>红糖</li>
+<li>枫糖浆</li>
+<li>肉桂粉</li>
+<li>可可粉</li>
+<li>香草精</li>
+<li>中筋面粉</li>
+<li>牛奶</li>
+<li>酵母</li>
+<li>糖</li>
+<li>盐</li>
+<li>鸡蛋</li>
+</ul>
+
+</details>
+
+<h3 id="南瓜面包"><a href="#南瓜面包" class="headerlink" title="南瓜面包"></a>南瓜面包</h3><p><img src="https://s2.loli.net/2023/12/07/c6O3uCInJTQDX2g.jpg" alt="南瓜面包.jpg"></p>
+<blockquote>
+<p>制作难易度：★★☆☆☆</p>
+<p>制作成本：★★☆☆☆</p>
+</blockquote>
+<p>这个面包是我今年冬天做过的最好吃的面包，看上去也非常有食欲。南瓜酱是一种柔和的甜味，就算不做成面包单吃也很完美。</p>
+<blockquote>
+<p>面团：</p>
+<p>260g高筋面粉+105g南瓜泥（南瓜去皮蒸软捣成泥）+25g糖+3g酵母+2g盐+一个鸡蛋+60g牛奶+25g黄油</p>
+<p>南瓜馅：</p>
+<p>500g南瓜泥+25g无盐黄油+15g玉米淀粉+30g奶粉+10g糖+50g麦芽糖（或者用糖代替）</p>
+<p>按照做面包+包馅的流程来，烤箱预热180℃15分钟左右就好了，中途观察上色情况，可以加盖一层锡纸防止烤焦。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>黄油</li>
+<li>高筋面粉</li>
+<li>南瓜</li>
+<li>糖</li>
+<li>酵母</li>
+<li>盐</li>
+<li>鸡蛋</li>
+<li>牛奶</li>
+<li>玉米淀粉</li>
+</ul>
+
+</details>
+
+<h3 id="巧克力软曲奇"><a href="#巧克力软曲奇" class="headerlink" title="巧克力软曲奇"></a>巧克力软曲奇</h3><p><img src="https://s2.loli.net/2023/12/07/fnAUyFkJmsD4aXZ.jpg" alt="黄油饼干.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★☆☆</p>
+<p>制作成本：★★☆☆☆</p>
+</blockquote>
+<p>我本人不是很喜欢吃曲奇，但是这款软曲奇是我今年最成功的一款。虽然中途有点翻车但是味道真的很不错，很适合做成小礼品或者是派对零食。打算有空再尝试一次！</p>
+<blockquote>
+<p>软化黄油75g+红糖40g+糖粉50g+盐2g打发均匀。</p>
+<p>鸡蛋50g（大概是一颗的重量）+杏仁粉40g+低筋面粉100g+泡打粉1.5g+巧克力豆若干，搅拌成一团，在撒了面粉的桌面上搓成一长条，放冰箱冷藏一小时拿出来切块。（我这里翻车了根本成不了团，冷藏一小时还是湿黏的…）</p>
+<p>烤箱预热180℃12分钟即可出炉。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>黄油</li>
+<li>低筋面粉</li>
+<li>泡打粉</li>
+<li>杏仁粉</li>
+<li>红糖</li>
+<li>糖粉</li>
+<li>盐</li>
+<li>鸡蛋</li>
+<li>巧克力豆</li>
+</ul>
+
+</details>
+
+<h3 id="香草冰淇淋"><a href="#香草冰淇淋" class="headerlink" title="香草冰淇淋"></a>香草冰淇淋</h3><p><img src="https://s2.loli.net/2023/12/07/fq2zAljyIb5dMx9.jpg" alt="香草冰淇淋.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★☆☆</p>
+<p>制作成本：★★☆☆☆</p>
+</blockquote>
+<p>没有冰淇淋机一样也能做出没有冰渣的冰淇淋！！吃过的人都赞不绝口！</p>
+<p>做起来非常非常简单但是为了没有冰渣得时不时拿出来搅拌，非常费时（需要花费一整天的时间）。</p>
+<blockquote>
+<p>蛋黄两个+淡奶油200g分两次加入。如果想做其他口味的冰淇淋可以在这里加可可粉，草莓粉，抹茶粉什么的。如果是抹茶粉的话再加20g糖粉。</p>
+<p>牛奶50g+糖45g+香草精，放在锅里中小火加热，搅拌至顺滑。把容器放进冰水里迅速降温之后冰箱冷藏4小时。</p>
+<p>拿出来再次打发，第一步打入起泡，盖保鲜膜放进冷冻室3小时。</p>
+<p>再拿出来打发，把冰渣打碎，倒入容器里放入冷冻室，第二天就好了。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>淡奶油</li>
+<li>蛋黄</li>
+<li>牛奶</li>
+<li>糖</li>
+<li>香草精</li>
+</ul>
+
+</details>
+
+<h3 id="烤布蕾"><a href="#烤布蕾" class="headerlink" title="烤布蕾"></a>烤布蕾</h3><p><img src="https://s2.loli.net/2023/12/07/z3d1alSPrqx2owR.jpg" alt="烤布蕾.jpg"></p>
+<blockquote>
+<p>制作难易度：★★★☆☆</p>
+<p>制作成本：★★☆☆☆</p>
+</blockquote>
+<p>唯一的难点大概就是外层的脆壳，我特地买了火枪来做这个…口感真的是入口即化，而且可以自由控制糖量非常健康。</p>
+<blockquote>
+<p>蛋黄4个+糖25g搅拌均匀。</p>
+<p>淡奶油200g+牛奶200g+香草精1g放进锅中煮沸腾，放凉一会儿加入蛋黄液里，搅拌均匀。过筛，放进容器里。烤盘里倒入容器一半的开水。</p>
+<p>烤箱预热140℃30~40分钟，摇晃表面看上去差不多凝固了就行。</p>
+<p>放进冰箱里冷藏至少两个小时。</p>
+<p>撒上糖，用喷枪烤出脆壳。</p>
+</blockquote>
+<details class="note primary"><summary><p>材料清单</p>
+</summary>
+<ul>
+<li>淡奶油</li>
+<li>蛋黄</li>
+<li>牛奶</li>
+<li>糖</li>
+<li>香草精</li>
+</ul>
+
+</details>
+
+<hr>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>今年不仅自己做了一大堆还跑到别人家里做厨子<del>做什么游戏不如去当厨师</del>，不过能够通过征服味蕾的方式来交朋友对我来说省了很多交流的麻烦…这么一想和画画社交很像（）</p>
+<p>明年的目标是买一个新烤箱！！</p>
 ]]></content>
       <categories>
-        <category>帮助</category>
+        <category>杂谈记事</category>
       </categories>
       <tags>
-        <tag>梦日记派生</tag>
+        <tag>食谱</tag>
+        <tag>日常</tag>
       </tags>
   </entry>
 </search>
