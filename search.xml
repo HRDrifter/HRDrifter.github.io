@@ -35,7 +35,7 @@
 <td><a href="https://www.mediafire.com/file/875djymsazazs6d/Ephemreal_ver0.00%252B.rar/file">ENGLISH</a></td>
 </tr>
 </tbody></table>
-<h3 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h3><p>安装运行出现了问题？<a href="https://drifter-games.com/2020/Help/">请看这边</a><br>我想投稿，该怎么做？<a href="https://drifter-games.com/2020/subrules/">请点这里</a></p>
+<h3 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h3><p>安装运行出现了问题？<a href="https://drifter-games.com/2020/Help/">请看这边</a></p>
 <h2 id="其他链接"><a href="#其他链接" class="headerlink" title="其他链接"></a>其他链接</h2><a class="btn" href="https://www.pixiv.net/artworks/86174142 "><i class="fa fa-link fa-lg"></i>Pixiv</a>
 <a class="btn" href="https://yumenikkifg.fandom.com/wiki/Ephemreal "><i class="fa fa-link fa-lg"></i>Wiki</a>]]></content>
       <categories>
@@ -57,13 +57,19 @@
 <p>在今年最适合做游戏的时节，我的电脑它死了…结果我只能跑去<a href="https://drifter-games.com/2023/2023recipes/">做饭</a>。</p>
 <p>本来说好今年有个大更新但是这下又要拖到明年了…但还是有在一点点的做。感谢各位的耐心等候，明年再会！！</p>
 <h3 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h3><ul>
-<li><p>删除部分旧地图/新增3张地图</p>
-</li>
-<li><p>新增两首新的曲目</p>
-</li>
-<li><p>修改并且优化路线</p>
-</li>
+<li>删除部分旧地图/新增3张地图</li>
+<li>新增两首新的曲目</li>
+<li>修改并且优化路线</li>
 </ul>
+<div class="note warning"><p>以下内容可能会剧透。</p>
+</div>
+
+
+
+<span id="more"></span>
+
+
+
 <img src="https://s2.loli.net/2023/12/07/rLzNYOyQhsg5HJn.png" title="" alt="Snipaste_2023-01-09_02-14-12.png" data-align="center" style="zoom:50%;" >
 
 <blockquote>
@@ -84,8 +90,6 @@
 <blockquote>
 <p>sprite功能的测试</p>
 </blockquote>
-<hr>
-<p>Ephemreal长期接收壁纸、音乐的投稿！欢迎私信或邮箱。</p>
 ]]></content>
       <categories>
         <category>杂谈记事</category>
@@ -760,7 +764,16 @@
 <p>要说今年做了什么重要的决定，那就是把数据库<strong>全部删除重写</strong>…………真的非常累。重写意味着0.00版本的存档将不再适用于新版本，所以下次更新之后我会删除0.00相关的所有链接。</p>
 <p>这一年也学会了很多RM2K3的很多高级操作，会逐渐运用至Ephemreal中的。</p>
 <p>感谢大家继续喜爱着Ephemreal，让我们下一个更新再见！</p>
-<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><p>因为进度放缓，新地图的数量不多，为了游玩体验就不再放出新地图的预览。</p>
+<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><div class="note warning"><p>以下内容可能会剧透。</p>
+</div>
+
+
+
+<span id="more"></span>
+
+
+
+<p>因为进度放缓，新地图的数量不多，为了游玩体验就不再放出新地图的预览。</p>
 <ul>
 <li><p>现在效果数量：11</p>
 </li>
@@ -783,8 +796,6 @@
 <hr>
 <p><img src="https://s2.loli.net/2022/12/07/VF5gJlmBxZP7b3t.gif" alt="爆炸.gif"></p>
 <p><del>当初只是为了搞笑而做的动画，结果意外地很有趣</del> 不会实装！！图个乐子！！</p>
-<hr>
-<p>Ephemreal长期接收壁纸、音乐的投稿！欢迎私信或邮箱。</p>
 ]]></content>
       <categories>
         <category>杂谈记事</category>
@@ -841,8 +852,6 @@
 <li>电脑系统的重置</li>
 <li>更多细节和玩法的更新</li>
 </ul>
-<hr>
-<p>Ephemreal长期接收壁纸、音乐的投稿！欢迎私信或邮箱。</p>
 ]]></content>
       <categories>
         <category>杂谈记事</category>
@@ -987,10 +996,6 @@
     <title>如何顺手使用Aseprite</title>
     <url>/2021/Aseprite/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>Aseprite是一个非常便利的像素绘画软件，不仅可以普通绘制图像，还拥有时间轴编辑、逐帧输出等很多对游戏制作有用的功能。</p>
-<p>目前推出的1.3版本可以在Steam的属性界面点选测试版体验。</p>
-<div class="note warning"><p>v1.3beta依旧存在一些未知bug，请酌情升级。</p>
-</div>
-
 <span id="more"></span>
 
 <hr>
@@ -1098,7 +1103,6 @@
 <p>此外，如果使用了色板以外的颜色，前景色的后方会显示一个红色的感叹号❗，这并不是提示出了问题，反之，如果你点击这个红色的感叹号，这个颜色将会自动加入色板，可以通过这个方式给喜欢的色板加入自定义的颜色。</p>
 <h2 id="导出"><a href="#导出" class="headerlink" title="导出"></a>导出</h2><p>一般来说直接在<code>Save as</code>里选择保存的格式就可以保存了，但像素太小了，如果直接导出的话成品也会很小。所以一般使用<code>Export</code>来导出文件。</p>
 <p>导出的选项里可以选择大小，最大可以放大10倍（我一般就放大个4倍左右），因为是像素所以根本不用担心会糊。如果要导出GIF的话，还可以选择导出的图层和动画的播放模式。</p>
-<p>1.3的Gif导出时偶尔会出现颜色显示错误的问题，如果重启无效的话，还是建议退回1.2.9版本。</p>
 <p><img src="https://s2.loli.net/2022/11/25/KSQuzoqX9vcnIP7.png"></p>
 <center>祝大家绘制愉快！</center>
 
@@ -1831,47 +1835,6 @@
       <tags>
         <tag>Hexo</tag>
         <tag>nexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Submission rules</title>
-    <url>/2020/subrules/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="投稿规则"><a href="#投稿规则" class="headerlink" title="投稿规则"></a>投稿规则</h2><h3 id="Wallpaper"><a href="#Wallpaper" class="headerlink" title="Wallpaper"></a>Wallpaper</h3><ul>
-<li><p>壁纸的规格</p>
-<ul>
-<li><p>画布大小使用320×240像素为最佳（比例为4：3也可以，不过最终都会被缩小成320×240。如果介意图片变糊，请尽量使用这个大小进行创作。）</p>
-</li>
-<li><p>图像命名为<code>pc-wallpaper-[yourID].png</code></p>
-</li>
-<li><p>有条件的请将图片转换为<code>索引模式256色</code>（这一步不会可以跳过，也可以参考教程）</p>
-</li>
-<li><p>给壁纸起一个标题（英文最佳）</p>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="Music"><a href="#Music" class="headerlink" title="Music"></a>Music</h3><ul>
-<li><p>音乐的规格：</p>
-<ul>
-<li><p>不宜过长，前后可以无缝衔接</p>
-</li>
-<li><p>格式为wav或mp3</p>
-</li>
-<li><p>有条件的请尽量压缩大小再上传</p>
-</li>
-<li><p>文件命名为<code>[title]_[yourID].wav/mp3</code></p>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="提交方式"><a href="#提交方式" class="headerlink" title="提交方式"></a>提交方式</h3><p>发送至邮箱：<a href="mailto:&#x68;&#121;&#111;&#117;&#114;&#121;&#x75;&#x75;&#x40;&#102;&#111;&#120;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x68;&#121;&#111;&#117;&#114;&#121;&#x75;&#x75;&#x40;&#102;&#111;&#120;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></p>
-]]></content>
-      <categories>
-        <category>投稿规则</category>
-      </categories>
-      <tags>
-        <tag>梦日记派生</tag>
       </tags>
   </entry>
   <entry>
