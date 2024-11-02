@@ -47,6 +47,74 @@
       </tags>
   </entry>
   <entry>
+    <title>Maniacs补丁的安装使用指南</title>
+    <url>/2024/Maniacs/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><h3 id="什么是Maniacs"><a href="#什么是Maniacs" class="headerlink" title="什么是Maniacs"></a>什么是Maniacs</h3><p>它是由<a href="https://x.com/BingShan1024">氷山羊（@BingShan1024）さん </a>制作的补丁，用于增强Steam版RM2003。它增加了许多强大的功能，还大幅优化了处理速度。</p>
+<div class="note warning no-icon"><p>在打补丁之前记得要进行<strong>全面备份</strong></p>
+</div>
+
+<span id="more"></span>
+
+<hr>
+<h2 id="给引擎安装补丁"><a href="#给引擎安装补丁" class="headerlink" title="给引擎安装补丁"></a>给引擎安装补丁</h2><h3 id="需要准备的文件"><a href="#需要准备的文件" class="headerlink" title="需要准备的文件"></a>需要准备的文件</h3><ol>
+<li>Steam版的RM2003</li>
+<li>补丁文件</li>
+</ol>
+<p>首先去<a href="https://bingshan1024.github.io/steam2003_maniacs/">官网</a>下载最新版补丁。</p>
+<p>※这里我选择的是241028版本是因为我目前不需要日语化补丁，有需要的朋友们请自由选择</p>
+<h3 id="执行文件"><a href="#执行文件" class="headerlink" title="执行文件"></a>执行文件</h3><p> 执行<code>utility.exe</code>后会出现这个界面。</p>
+<p><img src="https://s2.loli.net/2024/11/02/uVIG73aTylbfdnL.png" alt="utility.png"></p>
+<p>应该默认填好了Steam版本的引擎路径和输出路径。如果没有的话，请自己指定一下。</p>
+<p>点击実行（apply）即可完成，现在你的Steam版里应该出现了一个名为<strong>maniacs_en_安装年月日</strong>的文件夹。</p>
+<h3 id="添加补丁"><a href="#添加补丁" class="headerlink" title="添加补丁"></a>添加补丁</h3><p>在<code>utility.exe</code>上方找到English文件夹（是日文版就打开Japanese文件夹）里面应该是这样的：</p>
+<p><code>Plugin</code></p>
+<p><code>cmdTos.dll</code></p>
+<p><code>patch.exe</code></p>
+<p><code>RPG_RT.exe</code></p>
+<p>将它们复制到Steam的<strong>maniacs_en_安装年月日</strong>文件夹里，运行<code>patch.exe</code>即可完成安装。（安装过程或许有乱码，但问题不大）</p>
+<p>如果出错了可能得重新安装一下Steam的RM2003。</p>
+<hr>
+<h2 id="给自己的游戏添加补丁"><a href="#给自己的游戏添加补丁" class="headerlink" title="给自己的游戏添加补丁"></a>给自己的游戏添加补丁</h2><p><img src="https://s2.loli.net/2024/11/02/ipSJqTxjw4UeQGg.png" alt="RPGRT.png"></p>
+<p>English文件夹里的执行文件<code>RPG_RT.exe</code>是给自己的项目用的。直接复制替换掉自己游戏文件夹里的RPG_RT.exe。</p>
+<div class="note warning no-icon"><p>241028版本将im版和pf版统一了，默认im版。</p>
+<p>如果要改成pf版，则要打开项目文件夹中的<code>RPG_RT.ini</code>，加一句<code>pf=1</code></p>
+</div>
+
+<blockquote>
+<p>im版：Immediately<br>pf版：Per Frame</p>
+<p>im版是2000系的处理方式，也就是每次变更一次变量和开关的时候就会自动检测一次全地图的事件</p>
+<p>pf版是改进版，每帧只检测一次全地图的事件，大幅改进了处理速度和处理成本。但若要切换事件页面的情况下最好加上wait0.0</p>
+<p>※ pf版每帧能够检测的指令数量从原本的1万条提升至20万条</p>
+</blockquote>
+<hr>
+<h2 id="进阶：TPC"><a href="#进阶：TPC" class="headerlink" title="进阶：TPC"></a>进阶：TPC</h2><h3 id="什么是TPC"><a href="#什么是TPC" class="headerlink" title="什么是TPC"></a>什么是TPC</h3><p>TPC是生成指令和事件的插件，需要使用它规定的语法进行编写。</p>
+<p>有关TPC的使用方法，可以直接运行<code>tpc.exe</code>查看说明书或参照<a href="https://wikiwiki.jp/viprpg-dev/2003/%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%83%81/TPC/%E4%BD%BF%E3%81%84%E6%96%B9">wiki</a></p>
+<h3 id="如何安装TPC"><a href="#如何安装TPC" class="headerlink" title="如何安装TPC"></a>如何安装TPC</h3><p>在<a href="https://bingshan1024.github.io/steam2003_maniacs/">官网</a>的下载界面找到tpc_241028并下载。</p>
+<p>解压，将里面的所有文件全部复制到Steam的<strong>maniacs_en_安装年月日</strong>文件夹里。</p>
+<p>右键指令框，看见如下的菜单就算成功。</p>
+<p><img src="https://s2.loli.net/2024/11/02/xWQJO5Nvm7yfEhS.png" alt="TPC.png"></p>
+<p>点击Create with tpc，就可以开始编写指令了。</p>
+<hr>
+<h2 id="进阶：扩充插件"><a href="#进阶：扩充插件" class="headerlink" title="进阶：扩充插件"></a>进阶：扩充插件</h2><h3 id="什么是扩充插件"><a href="#什么是扩充插件" class="headerlink" title="什么是扩充插件"></a>什么是扩充插件</h3><p>听说对应了补丁的扩充指令，修改了部分指令的UI。</p>
+<p>例如显示图片的UI变成了这样：</p>
+<p><img src="https://s2.loli.net/2024/11/02/QtFdxCGX1PkTZml.png" alt="showpic.png"></p>
+<p>除此之外，还有条件分歧、呼出事件、显示文本、呼出存档画面等指令的UI被改变了。详细可以参考<a href="https://wikiwiki.jp/viprpg-dev/2003/%E6%8B%A1%E5%BC%B5%E3%83%91%E3%83%83%E3%83%81/%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3">wiki</a>和Readme.txt</p>
+<h3 id="如何安装扩充插件"><a href="#如何安装扩充插件" class="headerlink" title="如何安装扩充插件"></a>如何安装扩充插件</h3><p>将ExtraCommands_241028解压后，将<code>ExtraCommands.dll</code>复制到Steam补丁版的<strong>Plugin</strong>文件夹里。</p>
+<p>启动引擎，在Plugin Settings选项卡里看见扩充插件就算成功了。</p>
+<p><img src="https://s2.loli.net/2024/11/02/Vswif9PpZLWmoNl.png" alt="plugin.png"></p>
+<hr>
+<p>感谢开发者<a href="https://x.com/BingShan1024">氷山羊（@BingShan1024）さん </a></p>
+<p>感谢<a href="https://wikiwiki.jp/viprpg-dev/">VIPRPG@総合制作技術 Wiki</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Happy 3rd Anniversary!</title>
     <url>/2023/Ephem3rd/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2023/12/07/gmbrxMzCp2jRuX7.png" alt="空.png" style="zoom:67%;" />
