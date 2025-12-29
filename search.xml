@@ -1,6 +1,779 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>如何顺手使用Aseprite</title>
+    <url>/2021/Aseprite/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>Aseprite是一个非常便利的像素绘画软件，不仅可以普通绘制图像，还拥有时间轴编辑、逐帧输出等很多对游戏制作有用的功能。</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="基础快捷键"><a href="#基础快捷键" class="headerlink" title="基础快捷键"></a>基础快捷键</h2><table>
+<thead>
+<tr>
+<th align="center">快捷键</th>
+<th align="center">功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">B</td>
+<td align="center">笔</td>
+</tr>
+<tr>
+<td align="center">E</td>
+<td align="center">橡皮擦</td>
+</tr>
+<tr>
+<td align="center">G</td>
+<td align="center">填充</td>
+</tr>
+<tr>
+<td align="center">Alt(长按)</td>
+<td align="center">吸色</td>
+</tr>
+<tr>
+<td align="center">Delete</td>
+<td align="center">清除画布</td>
+</tr>
+<tr>
+<td align="center">Tab</td>
+<td align="center">开关时间轴</td>
+</tr>
+<tr>
+<td align="center">P</td>
+<td align="center">调整帧数播放速度</td>
+</tr>
+</tbody></table>
+<p>以上是我比较常用的几个快捷键。（一般都是左手按着E和B随时切换）</p>
+<p>此外，如果使用鼠标的话，左键为前景色，右键为背景色。放大缩小都可以用滚轮来实现。</p>
+<h2 id="基础组合键"><a href="#基础组合键" class="headerlink" title="基础组合键"></a>基础组合键</h2><table>
+<thead>
+<tr>
+<th align="center">组合键</th>
+<th align="center">功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Ctrl+Z</td>
+<td align="center">撤销</td>
+</tr>
+<tr>
+<td align="center">Ctrl+Y</td>
+<td align="center">重置</td>
+</tr>
+<tr>
+<td align="center">Ctrl+B</td>
+<td align="center">登录笔刷</td>
+</tr>
+<tr>
+<td align="center">Ctrl+S</td>
+<td align="center">保存</td>
+</tr>
+<tr>
+<td align="center">Shift+N</td>
+<td align="center">新建图层</td>
+</tr>
+<tr>
+<td align="center">Shift+O</td>
+<td align="center">自动描边</td>
+</tr>
+<tr>
+<td align="center">Alt+C</td>
+<td align="center">删除帧</td>
+</tr>
+<tr>
+<td align="center">Alt+B</td>
+<td align="center">增加空白帧</td>
+</tr>
+</tbody></table>
+<p>其中，登录笔刷需要配合选区一同使用。</p>
+<p>例如有自己非常喜欢的抖动风格，图案等，都可以选区选中该内容+<code>Ctrl+B</code>，这样就会登录进笔刷库中了。（使用方法：在笔刷大小的旁边有一个<code>Brush Type</code>的按钮，点开可以查看所有笔刷类型）</p>
+<p>※以上所有的键位都可以在<code>Edit</code>的<code>Keyboard Shortcuts</code>中修改。</p>
+<h2 id="编辑栏"><a href="#编辑栏" class="headerlink" title="编辑栏"></a>编辑栏</h2><p><code>File</code>：可以新建画布，保存，输出。</p>
+<p><code>Edit</code>：可以编辑图层内容，复制粘贴水平翻转之类的都可以搞。值得注意的是<code>Insert Text</code>似乎是不能直接输入中文的，要输入中文的话还得从外部复制粘贴才行。</p>
+<p><code>Sprite</code>：可以转色彩模式和裁剪画布，<code>Trim</code>会自动贴合内容的大小来裁切画布，<code>Crop</code>是可以通过选区的大小来裁切画布。如果没有把握的话，可以直接通过<code>Canvas Size</code>手动调整大小。色彩模式中，如果将图像转为<code>Indexed</code>，可以通过左侧的色板直接调整内容的颜色（请在所有颜色都已经登陆色板的情况下使用）</p>
+<p><code>Layer</code>：图层的属性设置，可以设置透明度，叠加模式之类的。<code>Merge Down</code>和<code>Flatten</code>可以合并图层，是比较常用的功能。</p>
+<p><code>Frame</code>：可以调整帧动画的内容，新增帧数、复制帧数、调整速度等都可以在这里调整。比较有趣的是<code>Tags</code>，可以通过打tag的方式循环特定帧数。画好帧动画可以直接按回车键预览效果。</p>
+<p><code>View</code>：可以调整视窗。这里建议各位打开<code>Symmetry options</code>，这样就可以开启对称尺功能，画人物和物件非常便利！<code>Grid</code>可以设置网格的大小，如果配合<code>Tiled Mode</code>一同使用，就可以很轻松地画出四方连续型地砖，不用进行额外的检查。</p>
+<p>另外，如果想要开启缩略图，请把目光移向右下角1:1的按钮。</p>
+<h2 id="制作帧动画"><a href="#制作帧动画" class="headerlink" title="制作帧动画"></a>制作帧动画</h2><p><img src="https://s2.loli.net/2022/11/25/UA5Ef9lh7Maue1v.gif"></p>
+<p>要制作帧动画之前首先要知道洋葱皮的用法，洋葱皮的开启键就在时间轴左上方，类似于窗口化的一个小图标。同时，旁边的设置小图标里可以调整洋葱皮的透明度。</p>
+<p>Aseprite可以<strong>直接导入GIF文件</strong>查看帧数，这点我觉得非常便利，大家可以拖拽上方的GIF直接进入Aseprite查看帧数的运行情况，也可以跟着下方的步骤实际操作，加强理解！</p>
+<p><code>Frame</code>栏的<code>Constant Frame Rate</code>可以一并修改所有帧数的播放速度，默认是100，数字越大运行速度越慢，反之越快。如果想单独调整帧数的播放速度可以按下<code>P</code>来调整。</p>
+<p>如果想要移动帧的位置，点击要移动的帧数（上方的数字），将光标往边缘稍稍移动，直到光标变成移动的样子，就可以长按调整位置了。同理，多选帧数的情况可以一起移动位置。</p>
+<p>想移动帧内容的位置，同样也是选中拖拽即可。移动到了右侧空白的区域，它将会自动新建帧数，将选中的内容移进去。</p>
+<p>如果想要复制帧的话，长按Ctrl拖拽即可，不管是单帧还是多帧，都可以用Ctrl复制，是一个很常用的功能。</p>
+<p>此外，如果想统一修改相同帧的内容，我们可以多选相同帧，单击右键，选择<code>Link Cels</code>，将这些相同帧数连在一起。这样修改其中一帧，其余所有的相同帧内容都会跟着一起改动。这样制作背景或者物件时，就不用每次都得CtrlC+CtrlV啦。</p>
+<h2 id="色板"><a href="#色板" class="headerlink" title="色板"></a>色板</h2><p>画面的左边是色板，上方有四个小按钮，分别是编辑颜色、排序、色板库、色板选项。</p>
+<p>Aseprite内置了很多优秀的色板，但觉得不够的情况，这里推荐一个像素色板网站：</p>
+<p><a href="https://lospec.com/palette-list">Palette List (lospec.com)</a></p>
+<p>在里面所有的色板都可以选择下载<code>Gimp.GPL</code>格式，导入进Aseprite的data→palettes里。重启Aseprite，就可以在色板库里看见刚才下载的色板了。</p>
+<p>色板的最后有一个类似⏸的标志，按住左右拖动就可以新增空位。</p>
+<p>此外，如果使用了色板以外的颜色，前景色的后方会显示一个红色的感叹号❗，这并不是提示出了问题，反之，如果你点击这个红色的感叹号，这个颜色将会自动加入色板，可以通过这个方式给喜欢的色板加入自定义的颜色。</p>
+<h2 id="导出"><a href="#导出" class="headerlink" title="导出"></a>导出</h2><p>一般来说直接在<code>Save as</code>里选择保存的格式就可以保存了，但像素太小了，如果直接导出的话成品也会很小。所以一般使用<code>Export</code>来导出文件。</p>
+<p>导出的选项里可以选择大小，最大可以放大10倍（我一般就放大个4倍左右），因为是像素所以根本不用担心会糊。如果要导出GIF的话，还可以选择导出的图层和动画的播放模式。</p>
+<p><img src="https://s2.loli.net/2022/11/25/KSQuzoqX9vcnIP7.png"></p>
+<center>祝大家绘制愉快！</center>
+
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Aseprite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建经验</title>
+    <url>/2021/Blog/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在一堆博客平台上兜兜转转好几年，最终还是选择了GitHub。无各种限制+无广告+无社交互动已经很让人心动了，最重要的还是对系统友好、不用花高价去维护，很适合像我这样又穷又自闭的赛博难民。</p>
+<p>这两天花了一些时间学习了怎么搭建和配置，趁着还没忘记录一下搭建时遇到的问题和解决办法（详细的搭建过程很容易找到，这里就不阐述了）</p>
+<span id="more"></span>
+
+<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>先说明自己所用的版本信息：</p>
+<blockquote>
+<p>Git-2.31.1 64bit</p>
+<p>Nodejs-14.16.1 64bit</p>
+<p>Hexo-5.4.0</p>
+<p>nexT-5.1.4</p>
+</blockquote>
+<p>电脑是Win10。</p>
+<hr>
+<h3 id="运行hexo-d时显示错误"><a href="#运行hexo-d时显示错误" class="headerlink" title="运行hexo d时显示错误"></a>运行<code>hexo d</code>时显示错误</h3>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fatal: unable to access &#x27;yoursite&#x27;: Failed to connect to github.com port 443: Timed out</span><br></pre></td></tr></table></figure>
+
+<p>   这是一个经常会产生的问题（我几乎每次部署都会弹这种错误反馈）实在不行就<code>hexo clean</code>几次，重新部署几次总能成功的。</p>
+<h3 id="域名解析时出现问题"><a href="#域名解析时出现问题" class="headerlink" title="域名解析时出现问题"></a>域名解析时出现问题</h3><p>   这个问题一般不会出现，但我实在是太想要一个个人域名了就去Godaddy上买了一个。买完后发现网上找到的教程早已过时，DNS的配置方法和页面布局被官方改得妈都不认识，只好自己慢慢试错了。</p>
+<ul>
+<li>首先打开cmd，输入<code>ping username.github.io</code>得到GitHub的IP。</li>
+<li>进入Godaddy的个人域名管理界面，点击DNS进入DNS管理。添加一个类型A，名称@，值为IP的记录。此外修改名称为www的CNAME，将值改为username.github.io。TTL是默认1h，可以不用动它。</li>
+<li><strong>然后把剩余的DNS管理可编辑的都删了</strong>（它默认有个_domainconnect 的CNAME和parked custom的记录）</li>
+<li>在本地文件source中创建一个CNAME的文件，里面写上自己买的域名，保存，<strong>删掉文件后缀。</strong></li>
+<li>在GitBash中输入<code>hexo d</code>，让这个CNAME上传到GitHub仓库。</li>
+<li>打开仓库，点击<code>Settings</code>进入仓库的设置界面。在左边的目录中找到<code>Pages</code>，在Custom Domain里输入你的域名，然后等待它自己检测DNS配置，变成绿色的√就证明域名解析成功。（如果期间弹出了DNS解析失败等提示可能需要等待一段时间。）</li>
+<li>勾选Enforce HTTPS。</li>
+</ul>
+<p>   然后输入域名就可以跳转到博客界面啦。</p>
+<h3 id="tags和categories的页面显示404"><a href="#tags和categories的页面显示404" class="headerlink" title="tags和categories的页面显示404"></a>tags和categories的页面显示404</h3><p>   这个问题很容易产生！我觉得最大的原因出现在主题的配置文件里。</p>
+<ul>
+<li><p>打开主题配置文件，找到menu一栏</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tags:</span> <span class="string">/tags/||</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">/categories/||</span> <span class="string">th</span></span><br></pre></td></tr></table></figure>
+
+<p>把/和||之间的空格删掉。</p>
+</li>
+<li><p>在GitBash中输入<code>hexo new page tags</code>，让它在source下生成一个名为tags的文件夹，里面会多出个index.md的文件。</p>
+</li>
+<li><p>打开index.md，在最后一行中加入一句<code>type: &quot;tags&quot;</code>，直接保存退出。不需要加<code>---</code>在顶端和末端。</p>
+</li>
+<li><p>添加categories的方法就是同上两个步骤，只是把<code>tags</code>替换成<code>categories</code>。</p>
+</li>
+<li><p>执行<code>hexo s</code>，在localhost上查看页面是否显示正常。</p>
+</li>
+</ul>
+<p>   没啥问题就<code>hexo d</code>了。</p>
+<hr>
+<h2 id="nexT自定义"><a href="#nexT自定义" class="headerlink" title="nexT自定义"></a>nexT自定义</h2><p>这里记录一些我觉得还比较有趣（麻烦）的自定义过程。</p>
+<h3 id="访客量设置"><a href="#访客量设置" class="headerlink" title="访客量设置"></a>访客量设置</h3><p>   不蒜子在2018年换了域名，所以按照网上找到的教程走很有可能无法显示访问量。</p>
+<p>   打开<code>\themes\next\layout\third-party\analytics\busuanzi-counter.swig</code>文件，把第一行改成</p>
+   <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.busuanzi_count.enable %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;busuanzi-count&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>   然后在主题配置文件里将<code>busuanzi_count</code>目录下的enable改成true。这下面还可以改一下<code>site_uv_footer</code>和<code>site_pv_footer</code>，这是访问量的后缀。</p>
+<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
+</div>
+
+<h3 id="头像设置成圆形并且让它转起来"><a href="#头像设置成圆形并且让它转起来" class="headerlink" title="头像设置成圆形并且让它转起来"></a>头像设置成圆形并且让它转起来</h3><p>   打开<code>themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code>，输入</p>
+   <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">2s</span> all;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);</span><br></pre></td></tr></table></figure>
+
+<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
+</div>
+
+<h3 id="文章置顶"><a href="#文章置顶" class="headerlink" title="文章置顶"></a>文章置顶</h3><p>   首先在GitBash中输入<code>npm uninstall hexo-generator-index --save</code>卸载默认插件。</p>
+<p>   然后安装一个新的插件<code>npm install hexo-generator-index-pin-top --save</code></p>
+<p>   之后写文章的时候在标签分类下面写上一行<code>top: true</code>就可以让这篇文章出现在第一个了。</p>
+<hr>
+<h2 id="一些摸索"><a href="#一些摸索" class="headerlink" title="一些摸索"></a>一些摸索</h2><h3 id="仓库整理"><a href="#仓库整理" class="headerlink" title="仓库整理"></a>仓库整理</h3><p>在查看仓库时发现我的文章全都以单独文件夹的形式罗列在仓库里，时间长了肯定不好管理。去看了其他人的仓库却发现他们并没有我这样的情况，难道是我最开始安装Git的时候出错了吗？还是说我有哪些配置改错了？</p>
+<p>既然是生成部署的问题，那就去站点配置里找答案。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:name/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br></pre></td></tr></table></figure>
+
+<p>当时我自定义的时候想“永久链接的格式当然要简介明了才比较好记”，于是跟着官网的设置选择了以文件名(name)为永久链接，这样我的文章地址就变成了<code>https://drifter-games.com/name</code>。</p>
+<p>好看是好看，但在进行<code>hexo g</code>的时候，这篇文章就会以<code>index.html</code>的形式放在<code>public\name</code>的文件夹里。（同理，有几篇文章就会生成几个文件夹）随着文章数增加，文件夹也会越来越多，仓库内部的画面可想而知。所以我选择了以年份作为一个整理的方案：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:name/</span></span><br></pre></td></tr></table></figure>
+
+<p>这样进行<code>hexo g</code>的时候，public文件夹里就会自动把文章进行一个年份归档，之后部署到GitHub仓库的时候就不会再出现这个问题了。</p>
+<div class="note info no-icon"><p>注：执行<code>hexo clean</code>时会自动删除public文件，如果找不到public文件夹在哪的话请先执行<code>hexo g</code>查看。</p>
+</div>
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>nexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>讲解RM2K3-Charset的原理</title>
+    <url>/2021/Charset/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关Charset"><a href="#有关Charset" class="headerlink" title="有关Charset"></a>有关Charset</h2><p>Charset是存放角色行走图的地方，也是制作游戏时必不可少的元素之一。</p>
+<span id="more"></span>
+
+<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
+<li><p>规格</p>
+<table>
+<thead>
+<tr>
+<th>图像大小</th>
+<th>导入格式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>288×256</td>
+<td>PNG、BMP、XYZ</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>配置</p>
+<p><img src="https://s2.loli.net/2022/11/25/iWHP2SrODXmnJe9.png" alt="charset.png"></p>
+<p>这是一张Charset的模板。一格的大小是24×32像素，一组共12块。一整张Charset正好可以放下八组。</p>
+<p>单独把一组拆出来进行解析：</p>
+<p><img src="https://s2.loli.net/2022/11/25/IUOD1v2jfN6ch3B.png" alt="size.png"></p>
+<p>在这里我把16×16的格子们放置在中间，可以较为直观地看出一格的长度正好是16的两倍，宽度左右各多出了4个像素点的空间。其实多出来的内容一样可以在游戏中显示出来，不需要担心自己的图像超过了范围。</p>
+<p>但需要注意的是如果地图元件没有设置好通行的话，这部分的内容就会<strong>穿过该元件的边缘</strong>，所以除非自己有特殊需求，<strong>尽量</strong>不要让角色的宽度占满所有空间。</p>
+</li>
+</ol>
+<hr>
+<h2 id="初阶：角色的配置"><a href="#初阶：角色的配置" class="headerlink" title="初阶：角色的配置"></a>初阶：角色的配置</h2><p><img src="https://s2.loli.net/2022/11/25/4qJdLmlhfU2s8Hc.png" alt="character.png"></p>
+<p>用以前画的行走图拿出来举例，一组一共对应了角色的四个方向：上、右、下、左，每个朝向都对应了三帧动画。</p>
+<p>系统默认玩家不动的时候，角色的状态以正中间的纵列为主，被称为<code>静止帧</code>；当玩家输入按键的时候，图像会进行1→2→3→2的循环并同时移动位置，这些被称为<code>摆动帧</code>。</p>
+<p>制作角色行走图时需要注意的几点要求：</p>
+<ul>
+<li>画行走图时，需要注意角色静止时和行走时的<code>高低差</code>。如果三个动作都在同一水平面上，会感觉角色在地图上平移，不自然不美观。</li>
+<li>配置的时候切记<code>上右下左</code>的顺序，千万不能搞反方向。</li>
+<li>给角色增加细节，例如衣服的摆动和头发的摆动。</li>
+</ul>
+<h2 id="进阶：物件的配置"><a href="#进阶：物件的配置" class="headerlink" title="进阶：物件的配置"></a>进阶：物件的配置</h2><p>那除了画人，是不是还可以画物体呢？</p>
+<p>当然可以！</p>
+<h3 id="配置小物件"><a href="#配置小物件" class="headerlink" title="配置小物件"></a>配置小物件</h3><p><a href="https://drifter-games.com/2021/Chipset/">上一章</a>我们提到，Chipset分为<code>下层元件</code>和<code>上层元件</code>，而Charset的物体，在地图上可以被分类成第三类元件：它不仅可以充当下层元件，甚至还可以存在于上层元件之上。比如可以是床上的一本书，可以是桌上的台灯，栏杆上挂着的衣服……如果Chipset的空间已经占满，或想做一个可交互的小物件时，使用行走图就可以解决大部分问题。</p>
+<p><img src="https://s2.loli.net/2022/11/25/IyRsjkuLZFXMnti.png" alt="lamp.png"></p>
+<p>以一盏台灯为例，如果把它放进游戏里的话就会是这样的：</p>
+<p><img src="https://s2.loli.net/2022/11/25/uoCUOAH3ReqEbzD.png" alt="through.png"></p>
+<p>角色虽然不能从杆子的部分穿过，但是可以从灯的后面穿过。我们得出一个结论：<strong>行走图的上半部分会被系统默认为☆可穿过元件。</strong>只要合理利用这点就能很快在地图上配置好各种各样的物件，而不用担心Chipset的上限问题。</p>
+<h3 id="配置大物件"><a href="#配置大物件" class="headerlink" title="配置大物件"></a>配置大物件</h3><p>当然不是所有的物体都像是刚才的台灯那样刚刚好，比如我画了一张大到一个格子塞不下的床：</p>
+<p><img src="https://s2.loli.net/2022/11/25/NjzIbc6JPFSL249.png" alt="example.png"></p>
+<p>这种情况就要逐个把它们分进小格子里一段一段配置。在配置一节讲到过，行走图一格的宽度比普通的一格宽度多出了8个像素点，但这部分又确实能在地图上显示，所以左右拆分的时候也应当<strong>空出相同数量的像素点</strong>，这样就不会出现显示错误。</p>
+<p>根据以上的结论，可以得出两种拆分方法：</p>
+<ol>
+<li>利用行走图的宽度特性：内容占满了一整格24×32的情况，左右两侧就应该留出4+4=8格像素的空间。</li>
+<li>不利用行走图的宽度特性：内容只占中间16×32的情况，左右两侧就应该留出行走图宽度多出来的4格像素的空间。</li>
+</ol>
+<p>大家可以视实际情况决定拆分方法！在这里我用第一种方法举例：</p>
+<p><img src="https://s2.loli.net/2022/11/25/8rQwMNg6RxsoeIt.png" alt="parts.png"></p>
+<p>因为床的中心占满了整个24×32的格子，所以两侧都得空出8个像素的空间。理论上这张床放进游戏里是不会有任何显示错误的，但放进游戏里进行测试的时候，却发现了这样的问题：</p>
+<p><img src="https://s2.loli.net/2022/11/25/oQPMsgO7n8bRUva.gif" alt="pass.gif"></p>
+<p>主人公能从中间穿过的原因在于上一章我们得出的结论：</p>
+<blockquote>
+<p>行走图的上半部分会被系统默认为可穿过元件</p>
+</blockquote>
+<p>于是再进行一次拆分工作：</p>
+<p><img src="https://s2.loli.net/2022/11/25/tvRHKN5awlJrxOg.png" alt="parts2.png"></p>
+<p>如图所示，只要把这些会穿过的部分单独拆出来放进另一组的<code>下半部分</code>就不会出现这种问题了。</p>
+<p>最后把这些床全都放进行走图里做一个对比：</p>
+<p><img src="https://s2.loli.net/2022/11/25/9wrovqtCx581Wni.png" alt="bed.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/DhrM61fCzQxqEVH.png"></p>
+<p><img src="https://s2.loli.net/2022/11/25/n3x2fsYVk8MW5HK.png" alt="testplay.png"></p>
+<p>第一张床是简单的拆分法、第二张床是经过改良之后的拆分法、第三张床就是完全没有进行拆分的情况。把这些床放进编辑器里进行配置</p>
+<div class="note info"><p><strong>配置时要记得将部件的<code>Animation Type</code>设置成<code>Fixed Graphic</code>才能在地图上正常显示</strong></p>
+</div>
+
+<p><img src="https://s2.loli.net/2022/11/25/36brFxXaSCNo8AH.png" alt="fixed graphic.png"></p>
+<p>如图所示，未进行拆分的床变得一塌糊涂，而经过拆分的床则没有这种问题。学会拆分就不用担心Chipset空间不够，是一种非常实用的技能。</p>
+<blockquote>
+<p>注：其实第一张床出现的穿过问题，可以在中间那一排加上属性为<code>Same as Characters</code>的空白事件强制让主人公无法通过。大家可以视地图的具体情况来确定拆分方法。</p>
+</blockquote>
+<h2 id="高阶：动画的配置"><a href="#高阶：动画的配置" class="headerlink" title="高阶：动画的配置"></a>高阶：动画的配置</h2><p>动画的配置需要了解事件编辑器中的<code>Animation Type</code>（动画类型）和<code>Movement Speed</code>（移动速度），通过这两者的配合就可以在行走图做出各种不同的帧动画。</p>
+<p><code>Animation Type</code>一共有7种设置方法：</p>
+<table>
+<thead>
+<tr>
+<th>Animation Type</th>
+<th>动画类型</th>
+<th>处理方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Standing Animation</td>
+<td>站立动画</td>
+<td>移动时不会固定朝向和摆动帧动画</td>
+</tr>
+<tr>
+<td>Walking Animation</td>
+<td>行走动画</td>
+<td>循环播放摆动帧动画</td>
+</tr>
+<tr>
+<td>Direction Fix/Inanimated</td>
+<td>方向校正/无动画</td>
+<td>固定朝向，不固定摆动帧动画</td>
+</tr>
+<tr>
+<td>Direction Fix/Animated</td>
+<td>方向校正/动画</td>
+<td>固定朝向，循环播放摆动帧动画</td>
+</tr>
+<tr>
+<td>Fixed Graphic</td>
+<td>图像校正</td>
+<td>可指定任意方向的任意帧数</td>
+</tr>
+<tr>
+<td>Spin</td>
+<td>旋转</td>
+<td>固定读取静止帧，按照上右下左的顺序循环播放</td>
+</tr>
+<tr>
+<td>Step Frame Fix</td>
+<td>摆动帧校正</td>
+<td>固定读取静止帧，不固定朝向</td>
+</tr>
+</tbody></table>
+<p>建议实际操作感受一下这七种类型的区别。</p>
+<h3 id="三帧-amp-四帧"><a href="#三帧-amp-四帧" class="headerlink" title="三帧&amp;四帧"></a>三帧&amp;四帧</h3><p>在行走图里画帧动画，一般会用上<code>Walking Animation</code>和<code>Spin</code>两种模式。行走动画默认读取横向摆动帧，旋转默认读取纵向静止帧，由此可得一张行走图最多可以放置四种行走动画或三种旋转动画。</p>
+<p>举一个例子：</p>
+<p><img src="https://s2.loli.net/2022/11/25/o9dnyP3BmS5RXiH.png" alt="ring.png"></p>
+<p>中间的静止帧是一个旋转的圆环，其他摆动帧分别为跳动的圆环、拉长的圆环、旋转的宝石和闪烁的圆环。调整好动画类型和速度，放进地图里就会像这样：</p>
+<p><img src="https://s2.loli.net/2022/11/25/x4ZYuJn2FKeI36w.gif" alt="ring.gif"></p>
+<p>但是这种方法最多只能画四帧动画，那如果四帧并不能满足需求，这种时候就得用上<code>Movement Type</code>（移动方式）进行辅助了。</p>
+<h3 id="四帧以上"><a href="#四帧以上" class="headerlink" title="四帧以上"></a>四帧以上</h3><p><code>Movement Type</code>位于左下角，一共有七种：</p>
+<table>
+<thead>
+<tr>
+<th>Movement Type</th>
+<th>移动类型</th>
+<th>处理方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Stationary</td>
+<td>静止</td>
+<td>不移动</td>
+</tr>
+<tr>
+<td>Random</td>
+<td>随机</td>
+<td>随机移动</td>
+</tr>
+<tr>
+<td>Vertical</td>
+<td>纵向</td>
+<td>垂直方向移动，碰到障碍物会反向移动</td>
+</tr>
+<tr>
+<td>Horizontal</td>
+<td>横向</td>
+<td>水平方向移动，碰到障碍物会反向移动</td>
+</tr>
+<tr>
+<td>Approach Player</td>
+<td>靠近主人公</td>
+<td>往主人公的所在位置靠近</td>
+</tr>
+<tr>
+<td>Away from Player</td>
+<td>远离主人公</td>
+<td>远离主人公的所在位置</td>
+</tr>
+<tr>
+<td>Custom</td>
+<td>自定义</td>
+<td>指定该事件的移动路线</td>
+</tr>
+</tbody></table>
+<p>这里可以用<code>Custom</code>（自定义）来增加动画的帧数。当选择自定义时，会发现底端多了一个名为<code>Frequency</code>的选项，它的数字越大，执行指令的速度就越快。</p>
+<p>为了举例，我画了一个球体在地面上弹跳的动画：</p>
+<p><img src="https://s2.loli.net/2022/11/25/VGjs1UynxDXTtBR.png" alt="ball.png"></p>
+<p>注意此处我把它们分成了两组，这样设置移动路线的时候可以利用<code>Change Graphic</code>实现帧数之间的无缝衔接。</p>
+<p>我们在<code>Movement Commands</code>里输入以下指令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//首先是第一组的四帧</span><br><span class="line">$&gt;Turn Up</span><br><span class="line">$&gt;Turn Right</span><br><span class="line">$&gt;Turn Down</span><br><span class="line">$&gt;Turn Left</span><br><span class="line">//然后衔接上第二组</span><br><span class="line">Graphic:&#x27;ball&#x27;,2</span><br><span class="line">Turn Up</span><br><span class="line">Turn Right</span><br><span class="line">Turn Down</span><br><span class="line">Turn Left</span><br><span class="line">//再切换回第一组</span><br><span class="line">Graphic:&#x27;ball&#x27;,1</span><br></pre></td></tr></table></figure>
+
+<p>之后将<code>Frequency</code>设置成5，按下确定，来看看效果：</p>
+<p><img src="https://s2.loli.net/2022/11/25/CLpqa6D9btVAw4i.gif" alt="bounce.gif"></p>
+<p>一个弹跳的球完成了！</p>
+<div class="note info no-icon"><p>如果有其他需求，可以用事件指令<code>Set Move Route</code>并指定<code>This Event</code>进行编辑，效果是一样的。</p>
+</div>
+
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>讲解RM2K3-Chipset的原理</title>
+    <url>/2021/Chipset/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关Chipset"><a href="#有关Chipset" class="headerlink" title="有关Chipset"></a>有关Chipset</h2><p>Chipset是存放地图素材的地方，它是构成一切地图的基础，也是游戏开发者必须要去了解的东西。</p>
+<span id="more"></span>
+
+<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
+<li><p>规格</p>
+<table>
+<thead>
+<tr>
+<th>图像大小</th>
+<th>导入格式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>480×256</td>
+<td>PNG、BMP、XYZ</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>配置</p>
+<p><img src="https://i.loli.net/2021/05/11/79Pdmr3THInxUkj.png" alt="chipset.png"></p>
+<p>这是一张Chipset的模板。可以看到被分成了五个部分：</p>
+<blockquote>
+<p>蓝色海洋元件（A）</p>
+<p>黄色动画元件（B）</p>
+<p>自动填充元件（C）</p>
+<p>普通下层元件（D）</p>
+<p>普通上层元件（E）</p>
+</blockquote>
+<p>所有的下层元件位于亮黄色折线的左边（包括ABC三个区域），上层则位于折线的右边。折线的中央有一块不太一样的空格，它代表透明色。</p>
+<div class="note warning no-icon"><p><strong>注意：必须留一个空格表示透明色</strong></p>
+</div>
+
+<p>官方有关上下层元件的说明如下：</p>
+<blockquote>
+<p>The map is comprised of 2 layers (upper and lower)  and each has a different set of placeable tiles. The “lower layer” is used for  placing terrain such as sea, mountains, and dirt, while the “upper layer” is  used for details such as buildings, treasure chests, and characters.</p>
+</blockquote>
+<blockquote>
+<p>地图由2层（上层和下层）组成，每层都有一组不同的可放置元件。“下层 ”用于放置地形，如大海、山脉和泥土，而 “上层 ”则用于放置细节，比如建筑物、宝箱和人物。</p>
+</blockquote>
+<p>了解了什么是上下层之后，我们可以开始着手画元件了。</p>
+</li>
+</ol>
+<hr>
+<h2 id="下层元件绘制"><a href="#下层元件绘制" class="headerlink" title="下层元件绘制"></a>下层元件绘制</h2><h3 id="初阶：四方连续与动画元件"><a href="#初阶：四方连续与动画元件" class="headerlink" title="初阶：四方连续与动画元件"></a>初阶：四方连续与动画元件</h3><ol>
+<li><p>四方连续的画法</p>
+<p>我们先从最简单的开始入手：只需一格（16×16）就能平铺成地面的四方连续型元件。例子：草地、泥土、地板、沙漠等等。</p>
+<p><img src="https://i.loli.net/2021/05/11/ac1MesHqxf2CwJp.png" alt="四方连续"></p>
+<p>首先构思好想要画的地面。比如我想要一块泥土，就用棕色填充一块16×16的格子作为基底，再确定好浅色和深色分别代表土块和阴影，画出一个大致的形状。但是仅仅像这样是不够的，还得检查拼接是否有瑕疵。检查的方法有很多种，图中我演示的是<code>对角线互换法</code>。像这样把一格分为四等分，把它们以对角线交换，在此基础上进行略微改动即可。</p>
+<p>按照同样的方法继续绘制石块和海洋。</p>
+</li>
+<li><p>动画元件的画法</p>
+<p>动画元件一共有三列可以被调用，每一列都有四个16×16的格子组成。动画的行进方向为从上至下1→2→3→4→1。这个区域的动画速度是无法被调整的，因此如果想要加快速度或减慢速度的话推荐使用行走图（Charset）进行绘制。</p>
+<p>这里用我以前做的瀑布动画作为例子：</p>
+<p><img src="https://s2.loli.net/2022/11/25/8MbCorvzxaBPd9K.png" alt="waterfall.png"></p>
+<p>除了瀑布以外还可以画风扇、灯光、火焰等等。</p>
+<p>当然也完全可以把这个区域当成一个静止的下层元件看待，只要四帧动画完全一致，那么这一列就和普通的下层元件没有区别。</p>
+</li>
+</ol>
+<h3 id="进阶：自动填充"><a href="#进阶：自动填充" class="headerlink" title="进阶：自动填充"></a>进阶：自动填充</h3><p>自动填充是初学者在绘制时很容易碰壁的区域，光看系统自带的RTP也无法完全参透它的原理。它其实就是让系统自动帮忙填充边界的功能，只要运用好就可以大大缩短地图的配置时间。</p>
+<p>这里我使用上面准备的石块作为自动填充的素材，将它和泥土结合形成一块石头路面。首先石块和泥土各复制成九块，按照3×3的规格排列。（石块要进行一些擦除和修改，使其变成一个不规则图形。按照自己的想法随意修改即可）</p>
+<p><img src="https://s2.loli.net/2022/11/25/VgMsL7x625yEaTm.png" alt="regroup.png"></p>
+<p>粉色的区域对应正中央四方连续型的石头图块，其余四个角分别用黄、绿、蓝、红标出。之后按照第二步进行一个重组。</p>
+<p>重组完成后会发现中央的四个直角区域有瑕疵（亮粉色区域），把它们修正后可以得到一个完美的十字。</p>
+<p><img src="https://s2.loli.net/2022/11/25/L8kdsFRh3mUnxXO.png" alt="highlight.png"></p>
+<p>之后将高光部分如上图拼起来，可以得到两个小图块。这两个小图块就是自动填充图块的精髓，左边代表了<code>外侧边缘的填充</code>，右边代表了<code>内侧边缘的填充</code>。</p>
+<blockquote>
+<p>注：关于外侧边缘的填充系统会自动完成，实际上第一格只是起到一个标记的作用，方便作者在编辑器里调用相关内容。因此无论这一格不论画成什么样都都不会影响外侧边缘的填充。</p>
+</blockquote>
+<p>之后我们把这些元素进行一个最终组装：</p>
+<p><img src="https://s2.loli.net/2022/11/25/TmQOVuZqGANXgwU.png" alt="cobble.png"></p>
+<p>锵锵！一块自动填充元件就画好啦！</p>
+<h3 id="中阶：海洋图块"><a href="#中阶：海洋图块" class="headerlink" title="中阶：海洋图块"></a>中阶：海洋图块</h3><p>海洋图块位于Chipset的左上角，一组由三个16×16的图块为一排、四个16×16的图块为一列组成，共12格。每排它都会自动按照从左到右（默认1→2→3→2）的顺序播放。可以算作是一种动画图块。</p>
+<p>同样地，先绘制好海洋的三帧动画，进行一个调色和拼装：</p>
+<p><img src="https://s2.loli.net/2022/11/25/S1VLJlsj46gFWaZ.png" alt="ocean.png"></p>
+<p>在这里我设置底下两排为深水区。实际上这块可以灵活变通，不一定要设置深水区，甚至都不一定要画海洋，只要知道它会自动从左往右播放就行。</p>
+<p>海洋画好后我们来设置陆地。依旧是之前画的泥土<del>（本来应该重新画草地的但我懒）</del>拼成一个十字，但进行一个调色使其看起来像是青苔陆地。</p>
+<p><img src="https://s2.loli.net/2022/11/25/hSmKPa5n3g1dOBV.png" alt="regroup2.png"></p>
+<p>在周围画上边缘体现厚度。这里我不推荐把16*16的格子画满，最多到四分之一的大小就好（就是下方示意图的小色块的大小），而且如果想偷懒的话，还可以只画一边，然后水平翻转一下就可以了。<del>当然不偷懒会更自然好看，可我懒</del></p>
+<p>最容易配置的是黄色的区域，就是四个内侧直角所在的地方。把它们组合拼装我们可以得到第一块。</p>
+<p>绿色和红色区域是左右接续边缘，把它们组合拼装得到第二块。</p>
+<p>蓝色和紫色区域是上下接续边缘，把它们组合拼装得到第三块。</p>
+<p>最后就是白色区域，它是负责拼接外侧转角的部分，组合拼装得到第四块。</p>
+<p>这样我们就准备好所有的素材了！把整体拖入上面画的海洋图层里看看效果（不满意还可以再后期调色，直到看起来像是陆地为止）此外考虑到陆地周边的海洋不会是深水区，因此配置的时候背景采用的是第一排的海洋图块。</p>
+<p><img src="https://s2.loli.net/2022/11/25/e3FHpCAtPNKwyo2.png" alt="land.png"></p>
+<p>大功告成！</p>
+<h3 id="高阶：应用"><a href="#高阶：应用" class="headerlink" title="高阶：应用"></a>高阶：应用</h3><p>现在我们学会了自动填充的绘制方法，也知道了它的构成原理，那么接下来该谈谈如何灵活运用这块区域，让它变成一个“元件储藏室”。</p>
+<p>介绍Chipset的配置时提到，不管是海洋元件、动画元件还是自动填充元件，它们都属于<code>下层元件</code>。下层原件就是构成地面或墙壁的元素，一不小心就会画很多。这种时候为了节省空间，是可以把下层元件放进上层区域管理的。但如果上层的空间都已经被各种元件占满了，还有一些没地方放怎么办？一张地图只支持一张Chipset，难道要忍痛删除部分元件吗？</p>
+<p>不用着急，这里有两种解决办法：</p>
+<ol>
+<li>利用行走图，让它变成一块可管理的第三级元件。</li>
+<li>利用自动填充区域，让它变成可以在编辑器里复制的下层元件。</li>
+</ol>
+<p>第一种方法请参考<a href="https://drifter-games.com/2021/Charset/">Charset-物件的配置</a>，在这里详细解释一下第二种解决办法。</p>
+<p><img src="https://s2.loli.net/2022/11/25/JcMNIpiSZxYEAje.png" alt="number.png"></p>
+<p>这里为了方便大家理解，我在每一格里放入了对应的数字和符号。当这张Chipset被导入进编辑器后，数字0以16×16的大小出现在下层编辑器的左上角，表示这一格可以调用数字1~9所在区域的内容。</p>
+<p>我们在地图里画出一个3×3的格子就可以自然得到1~9，而右上角的冒号得画出一个十字才能被显示出来。如图所示：</p>
+<p><img src="https://s2.loli.net/2022/11/25/rVUzmxJ3RuFTk5G.png" alt="autonumber.png"></p>
+<p>按住<code>Shift</code>不要松开，使用<code>右键</code>点击任何数字所在区域即可随意复制（长按右键拖动可以复制更多内容），之后在任意区域再次<code>右键</code>就可以粘贴了。</p>
+<div class="note warning no-icon"><p><strong>全程请不要松开Shift。</strong></p>
+</div>
+
+<p>按照这个方法，我们可以随意排列组合1~9以及符号，而不受自动填充系统的影响。这就相当于多出了10个16×16的下层空间！当普通上层和下层的区域都被塞满，而自动填充区域还有空间时，请不妨使用这个方法配置更多元件。</p>
+<hr>
+<h2 id="上层元件绘制"><a href="#上层元件绘制" class="headerlink" title="上层元件绘制"></a>上层元件绘制</h2><p>上层并没有多少可以讲解的部分，除了注意配置一栏提到的<code>必须留空的格子</code>以外，几乎所有的空间都可以被调用。不论是树木，屋顶，栏杆，家具，一切能够在地图上存在的物件都可以往上面画。</p>
+<hr>
+<h2 id="数据库设定"><a href="#数据库设定" class="headerlink" title="数据库设定"></a>数据库设定</h2><p>最后我们画好一整张Chipset后，在数据库里进行一个通行设定和音效的设定。</p>
+<p>进入<code>Database</code>，找到<code>Tilesets</code>选项卡，在<code>Tileset Graphic</code>里指定画好的Chipset就可以开始进行设定了。</p>
+<ol>
+<li><p>下层元件<code>Lower Layer</code></p>
+<p><code>Terrain</code>是音效和特效的指定。得先在<code>Terrain</code>选项卡里设定好，再回到<code>Tilesets</code>选项卡里指定相关的数字。</p>
+<p><code>Passability</code>就是通行设定。○是可通行，×是不可通行，☆是可穿过，□是自动填充元件的专属通行规则。</p>
+<p><code>Passage(4 Dir)</code>是通行设定的一个辅助功能。如果不想让主人公在特定方向通过此图块，只要把这个方向关掉即可，反之亦然。</p>
+<p><code>Global Terrain Setting</code>是可以将Chipset上所有的Terrain都设置成同一种数字的功能。</p>
+<p><code>Autotile Animation</code>可以设定海洋元件的播放速度和播放顺序。有自动预览，可以根据自己的喜好进行调整。</p>
+</li>
+<li><p>上层元件<code>Upper Layer</code></p>
+<p><code>Passability</code>与<code>Passage(4 Dir)</code>的功能与下层元件一样，都是通行设定。</p>
+<p><code>Counter</code>是计数标记，和地图事件有关。当一个地图事件用上了以<code>Action Button</code>作为开关时，主人公必须踩在上面或面对它按确认键才能激活。但计数标记图块存在于主人公和事件之间时，事件就会直接执行。</p>
+</li>
+</ol>
+<p>设置好后就可以开始在编辑器里绘制地图了。</p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Happy Anniversary!</title>
+    <url>/2021/Ephem1st/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2021/12/08/sNeCQS8OWywocuT.png" alt="round1.png" style="zoom: 50%;" />
+
+<center><font color=4a5b92>🎉Ephemreal发布一周年🍾</font></center>
+
+
+
+<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>距离上次公开已经过去了一年（<em>2020.12.08~2021.12.08</em>）。时间过得太快了，以至于我都不记得这一年做了什么……</p>
+<p>自从开始做Ephemreal后，也不知道是好事还是坏事，我的大脑就完全被它占满了。（依稀记得在公开0.00+之后，我直接休息了几个月）</p>
+<p>同时，这一年我认识了很多人。有愿意帮我检查、编写优化指令的朋友，还有愿意投稿壁纸、音乐的朋友，可以说没有他们就无法完成现在的Ephemreal。制作完成后，这款派生得到了更多的关注度，其中少不了同人和实况视频的宣传功劳。放在以前，这些是我想都不敢想的。</p>
+<p>在这里由衷感谢所有愿意帮助我的所有人、游玩的你、以及我自己。</p>
+<p>让我们下一个更新再见！</p>
+<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><div class="note warning"><p>以下内容可能会剧透。</p>
+</div>
+
+
+
+<span id="more"></span>
+
+
+
+<h3 id="开发进度报告"><a href="#开发进度报告" class="headerlink" title="开发进度报告"></a>开发进度报告</h3><p>想必大家最关心的就是开发进度了吧。</p>
+<p>很可惜的是，距离0.01发布还有一段时间…我也不知道什么时候能做好，无法给出具体详细的日期。</p>
+<p><strong>但是！</strong>我准备了一些开发中的截图↓</p>
+<img src="https://s2.loli.net/2021/12/08/3JkB61luMLd2US5.png" alt="吊机.png" style="zoom: 80%;" />
+
+<img src="https://s2.loli.net/2021/12/08/mH1VqK5Yj4WGLQ7.png" alt="Snipaste_2021-04-16_00-29-20.png" style="zoom:67%;" />
+
+<img src="https://s2.loli.net/2021/12/08/mUScdQOJof6rq3H.png" alt="Snipaste_2021-03-16_03-03-12.png" style="zoom:67%;" />
+
+<blockquote>
+<p>这三张几乎是处于同一时期做好的地图，时间在今年的3~4月。</p>
+</blockquote>
+<img src="https://s2.loli.net/2021/12/08/9rVT2k3ubdqtQih.png" alt="coffee.png" style="zoom: 67%;" />
+
+<blockquote>
+<p>这一张是最近的地图，时间大概在10月。</p>
+</blockquote>
+<h3 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h3><ul>
+<li>效果会增加至12个</li>
+<li>地图数目至少新增30张（大小不限）</li>
+<li>更多的事件和菜单样式</li>
+<li>电脑系统的重置</li>
+<li>更多细节和玩法的更新</li>
+</ul>
+]]></content>
+      <categories>
+        <category>杂谈记事</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Happy 2nd Anniversary!</title>
+    <url>/2022/Ephem2nd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2022/12/07/bn9JZ5SVksXmY3f.png" title="" alt="二周年.png" data-align="center">
+
+<center><font color=4a5b92>🎉Ephemreal发布二周年🍾</font></center>
+
+<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>不知不觉又过去一年…但是今年的开发进度明显放缓，本想着二周年能够发布0.01版，无奈现实生活过于繁忙。</p>
+<p>要说今年做了什么重要的决定，那就是把数据库<strong>全部删除重写</strong>…………真的非常累。重写意味着0.00版本的存档将不再适用于新版本，所以下次更新之后我会删除0.00相关的所有链接。</p>
+<p>这一年也学会了很多RM2K3的很多高级操作，会逐渐运用至Ephemreal中的。</p>
+<p>感谢大家继续喜爱着Ephemreal，让我们下一个更新再见！</p>
+<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><div class="note warning"><p>以下内容可能会剧透。</p>
+</div>
+
+
+
+<span id="more"></span>
+
+
+
+<p>因为进度放缓，新地图的数量不多，为了游玩体验就不再放出新地图的预览。</p>
+<ul>
+<li><p>现在效果数量：11</p>
+</li>
+<li><p>地图数量：约60张</p>
+</li>
+<li><p>电脑、壁纸、音乐播放器、存档系统已全部完成</p>
+</li>
+<li><p>几乎所有的地图全都会改动<del>甚至有些会被删除</del></p>
+</li>
+</ul>
+<p><img src="https://s2.loli.net/2022/12/07/uRm8y9UMIrTWJ42.png" alt="Snipaste_2022-08-04_16-02-24.png"></p>
+<blockquote>
+<p>给GB世界新增了电视扫描线</p>
+</blockquote>
+<p><img src="https://s2.loli.net/2022/12/08/8n4qsDLjguvSkXA.png" alt="Snipaste_2022-11-24_02-11-46.png"></p>
+<blockquote>
+<p>重画了像素</p>
+</blockquote>
+<p>除此之外还有很多…</p>
+<hr>
+<p><img src="https://s2.loli.net/2022/12/07/VF5gJlmBxZP7b3t.gif" alt="爆炸.gif"></p>
+<p><del>当初只是为了搞笑而做的动画，结果意外地很有趣</del> 不会实装！！图个乐子！！</p>
+]]></content>
+      <categories>
+        <category>杂谈记事</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Happy 3rd Anniversary!</title>
+    <url>/2023/Ephem3rd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2023/12/07/gmbrxMzCp2jRuX7.png" alt="空.png" style="zoom:67%;" />
+
+<center><font color=4a5b92>🐋Ephemreal发布三周年☁</font></center>
+
+<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>怎么什么都没做2023就结束了，救命啊。</p>
+<p>在今年最适合做游戏的时节，我的电脑它死了…结果我只能跑去<a href="https://drifter-games.com/2023/2023recipes/">做饭</a>。</p>
+<p>本来说好今年有个大更新但是这下又要拖到明年了…但还是有在一点点的做。感谢各位的耐心等候，明年再会！！</p>
+<h3 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h3><ul>
+<li>删除部分旧地图/新增3张地图</li>
+<li>新增两首新的曲目</li>
+<li>修改并且优化路线</li>
+</ul>
+<div class="note warning"><p>以下内容可能会剧透。</p>
+</div>
+
+
+
+<span id="more"></span>
+
+
+
+<img src="https://s2.loli.net/2023/12/07/rLzNYOyQhsg5HJn.png" title="" alt="Snipaste_2023-01-09_02-14-12.png" data-align="center" style="zoom:50%;" >
+
+<blockquote>
+<p>公寓楼的走廊</p>
+</blockquote>
+<img src="https://s2.loli.net/2023/12/07/vwQaM4e3qdLmkAo.png" title="" alt="Snipaste_2023-01-11_17-23-37.png" data-align="center">
+
+<blockquote>
+<p>公园的赏花景点</p>
+</blockquote>
+<img src="https://s2.loli.net/2023/12/07/bJgF4CzrZoxIVX5.png" title="" alt="Snipaste_2023-10-03_19-23-33.png" data-align="center" style="zoom: 67%;" >
+
+<blockquote>
+<p>这是……？</p>
+</blockquote>
+<img src="https://s2.loli.net/2023/12/07/ilG9khMDVWAHFBS.gif" title="" alt="cube.gif" data-align="center">
+
+<blockquote>
+<p>sprite功能的测试</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>杂谈记事</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ephem4th</title>
+    <url>/2024/Ephem4th/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://s2.loli.net/2025/02/17/dsp3MLyn28T9KWa.png" alt="potplant.png"></p>
+<center><font color=4a5b92>🌧Ephemreal发布四周年🌂</font></center>
+
+<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>春节过完，2025开始了。</p>
+<p>回顾2024，真是忙到头发掉光。又是找房，搬家，办理各种手续，入学之后朝九晚五，又是无穷无尽的报告书和演讲发表…活着就已经很厉害了。</p>
+<p>搬了新家之后希望生活能慢慢变得稳定（感觉去年也说过一样的话…）</p>
+<h3 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h3><p>距离0.00版本的发布已经过去了四年。</p>
+<p>令人高兴的是<strong>0.01版本终于做完了</strong>，而且还对应了<strong>中英日语言</strong>！三个版本一起制作的感觉真的太迷人了，不仅翻译是三倍的工作量，bug也是三倍！<del>有一种想要在下个版本的时候直接完结的冲动</del></p>
+<p>在这里由衷感谢支持我的朋友们，还有玩家们。希望下次更新不要再等四年了（真成奥运派生了）</p>
+]]></content>
+      <categories>
+        <category>杂谈记事</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ephem5th</title>
+    <url>/2025/Ephem5th/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://s2.loli.net/2025/12/08/EBO4yaluzcQ9gfC.png" alt="90sbuilding2.png"></p>
+<center><font color=4a5b92>🌧Ephemreal发布五周年🐋</font></center>
+
+<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>什么？2025已经要结束了……？（惊恐）</p>
+<p>自从春节期间更新了派生之后感觉一直在忙，不过比起去年来说要安定一些。按理来说春假和暑假时间漫长可以慢慢肝进度，但实际上暑假基本都在实习，休息时间就是拿来写各种报告书志愿书，写完一个又布置一个……（其实打下这行字的时候我手头还有两个报告没有写完）要是没有精神寄托这生活真的要命了。</p>
+<p>不过今年也有两个好事发生了，一个是▲更新了，一个是丝发售了，<del>雨世界的更新算吗应该也算吧</del>，这些游戏撑起了我的下半年，谢谢你，勤劳的独立游戏制作者。什么时候我也能把我的坑填好啊……</p>
+<h3 id="Ver0-02开发报告"><a href="#Ver0-02开发报告" class="headerlink" title="Ver0.02开发报告"></a>Ver0.02开发报告</h3><p>这个封面图算是剧透了下次更新的主题，是怀旧！但不是中式梦核。主要是基于我自己的童年体验，希望能更贴合梦日记的感觉。</p>
+<p>除此之外更新了补丁，又多了好多玩法，不知道能不能利用起来做点新鲜玩意。</p>
+<div class="note warning"><p>以下内容可能会剧透。</p>
+</div>
+
+
+
+<span id="more"></span>
+
+<ul>
+<li>效果进度（3/6）</li>
+<li>地图进度（3/?）</li>
+</ul>
+<p>一些新要素尝鲜：</p>
+<p><img src="https://s2.loli.net/2025/12/08/76jfeIxo1WAUOLb.png" alt="guangchang.png"></p>
+<blockquote>
+<p>喷泉广场</p>
+</blockquote>
+<p><img src="https://s2.loli.net/2025/12/08/oTCxSjkYdgF4Jtz.gif" alt=".gif"></p>
+<blockquote>
+<p>说到蜡烛果然是……</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>杂谈记事</category>
+      </categories>
+      <tags>
+        <tag>游戏开发</tag>
+        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ephemreal</title>
     <url>/2020/Ephemreal/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2025/02/09/lz5faH3gPnQw9yo.png" alt="chs title.png" style="zoom: 83%;" />
@@ -54,63 +827,27 @@
       </tags>
   </entry>
   <entry>
-    <title>Ephem5th</title>
-    <url>/2025/Ephem5th/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://s2.loli.net/2025/12/08/EBO4yaluzcQ9gfC.png" alt="90sbuilding2.png"></p>
-<center><font color=4a5b92>🌧Ephemreal发布五周年🐋</font></center>
-
-<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>什么？2025已经要结束了……？（惊恐）</p>
-<p>自从春节期间更新了派生之后感觉一直在忙，不过比起去年来说要安定一些。按理来说春假和暑假时间漫长可以慢慢肝进度，但实际上暑假基本都在实习，休息时间就是拿来写各种报告书志愿书，写完一个又布置一个……（其实打下这行字的时候我手头还有两个报告没有写完）要是没有精神寄托这生活真的要命了。</p>
-<p>不过今年也有两个好事发生了，一个是▲更新了，一个是丝发售了，<del>雨世界的更新算吗应该也算吧</del>，这些游戏撑起了我的下半年，谢谢你，勤劳的独立游戏制作者。什么时候我也能把我的坑填好啊……</p>
-<h3 id="Ver0-02开发报告"><a href="#Ver0-02开发报告" class="headerlink" title="Ver0.02开发报告"></a>Ver0.02开发报告</h3><p>这个封面图算是剧透了下次更新的主题，是怀旧！但不是中式梦核。主要是基于我自己的童年体验，希望能更贴合梦日记的感觉。</p>
-<p>除此之外更新了补丁，又多了好多玩法，不知道能不能利用起来做点新鲜玩意。</p>
-<div class="note warning"><p>以下内容可能会剧透。</p>
-</div>
-
-
-
-<span id="more"></span>
-
-<ul>
-<li>效果进度（3/6）</li>
-<li>地图进度（3/?）</li>
+    <title>Help</title>
+    <url>/2020/Help/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
+<li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
+</li>
+<li><p>Q：打开后有弹窗报错<br>A：一般是缺少RTP。请安装<a href="https://dl.degica.com/rpgmakerweb/run-time-packages/rpg2003_rtp_installer.zip">英文版rtp2003</a>，解压后将文件复制粘贴于Ephemreal的内部文件夹内。</p>
+<div class="note danger"><p><strong>重名的情况请务必保留源文件不要覆盖！！！！！！！！</strong> </p>
+</div></li>
+<li><p>Q：可以用Easyrpg启动吗<br>A：请<strong>不要</strong>这样做，会有很多奇怪的bug。<del>信我，开头就会黑屏</del></p>
+</li>
+<li><p>Q：Mac可以玩吗<br>A：很遗憾，非Windows系统是无法运行游戏的……</p>
+</li>
+<li><p>Q：非中文系统想运行简体中文版<br>A：Win7用户请下载Applocale，安装后选择中文，指定Start.exe后运行即可，不成功的情况请指定Ephemreal文件夹内的RPG_RT.exe运行。<br>Win10用户请下载<a href="https://github.com/xupefei/Locale-Emulator/releases">Local Emulator</a>，按步骤安装后鼠标右键选中Start.exe，在菜单栏里勾选上「按程序源环境配置」应该就能成功运行了，不成功的情况同上。</p>
+</li>
 </ul>
-<p>一些新要素尝鲜：</p>
-<p><img src="https://s2.loli.net/2025/12/08/76jfeIxo1WAUOLb.png" alt="guangchang.png"></p>
-<blockquote>
-<p>喷泉广场</p>
-</blockquote>
-<p><img src="https://s2.loli.net/2025/12/08/oTCxSjkYdgF4Jtz.gif" alt=".gif"></p>
-<blockquote>
-<p>说到蜡烛果然是……</p>
-</blockquote>
+<p>遇到了其他问题请参考或私信<br><a href="http://yumenikki.info/archives/%e6%b4%be%e7%94%9f%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95/">派生安装方法</a></p>
 ]]></content>
       <categories>
-        <category>杂谈记事</category>
+        <category>帮助</category>
       </categories>
       <tags>
-        <tag>游戏开发</tag>
-        <tag>梦日记派生</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ephem4th</title>
-    <url>/2024/Ephem4th/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="https://s2.loli.net/2025/02/17/dsp3MLyn28T9KWa.png" alt="potplant.png"></p>
-<center><font color=4a5b92>🌧Ephemreal发布四周年🌂</font></center>
-
-<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>春节过完，2025开始了。</p>
-<p>回顾2024，真是忙到头发掉光。又是找房，搬家，办理各种手续，入学之后朝九晚五，又是无穷无尽的报告书和演讲发表…活着就已经很厉害了。</p>
-<p>搬了新家之后希望生活能慢慢变得稳定（感觉去年也说过一样的话…）</p>
-<h3 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h3><p>距离0.00版本的发布已经过去了四年。</p>
-<p>令人高兴的是<strong>0.01版本终于做完了</strong>，而且还对应了<strong>中英日语言</strong>！三个版本一起制作的感觉真的太迷人了，不仅翻译是三倍的工作量，bug也是三倍！<del>有一种想要在下个版本的时候直接完结的冲动</del></p>
-<p>在这里由衷感谢支持我的朋友们，还有玩家们。希望下次更新不要再等四年了（真成奥运派生了）</p>
-]]></content>
-      <categories>
-        <category>杂谈记事</category>
-      </categories>
-      <tags>
-        <tag>游戏开发</tag>
         <tag>梦日记派生</tag>
       </tags>
   </entry>
@@ -183,56 +920,428 @@
       </tags>
   </entry>
   <entry>
-    <title>Happy 3rd Anniversary!</title>
-    <url>/2023/Ephem3rd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2023/12/07/gmbrxMzCp2jRuX7.png" alt="空.png" style="zoom:67%;" />
-
-<center><font color=4a5b92>🐋Ephemreal发布三周年☁</font></center>
-
-<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>怎么什么都没做2023就结束了，救命啊。</p>
-<p>在今年最适合做游戏的时节，我的电脑它死了…结果我只能跑去<a href="https://drifter-games.com/2023/2023recipes/">做饭</a>。</p>
-<p>本来说好今年有个大更新但是这下又要拖到明年了…但还是有在一点点的做。感谢各位的耐心等候，明年再会！！</p>
-<h3 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h3><ul>
-<li>删除部分旧地图/新增3张地图</li>
-<li>新增两首新的曲目</li>
-<li>修改并且优化路线</li>
-</ul>
-<div class="note warning"><p>以下内容可能会剧透。</p>
-</div>
-
-
-
+    <title>讲解RM2K3-System的原理</title>
+    <url>/2021/System/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关System"><a href="#有关System" class="headerlink" title="有关System"></a>有关System</h2><p>System一般指的是菜单样式，它和Chipset、Charset一样属于可自定义的图像。</p>
 <span id="more"></span>
 
+<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
+<li><p>规格</p>
+<table>
+<thead>
+<tr>
+<th>图像大小</th>
+<th>导入格式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>160×80</td>
+<td>PNG、BMP、XYZ</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>配置</p>
+<p><img src="https://s2.loli.net/2022/11/25/lI7w1xcCo5KS4fh.png" alt="system.png"></p>
+<p>这是一张System的模板。里面包含了5块32×32的格子，24块16×16的格子以及12块8×16的小格子。</p>
+</li>
+</ol>
+<hr>
+<h2 id="自定义菜单样式"><a href="#自定义菜单样式" class="headerlink" title="自定义菜单样式"></a>自定义菜单样式</h2><p><img src="https://s2.loli.net/2022/11/25/cs9mECYZ8DPKaV3.png" alt="systemtutorials.png"></p>
+<p>为了方便理解，我给每个区域标注了对应的字母和数字。如果想看指定区域的解析，可以通过左侧的目录直接跳转（仅限电脑端）</p>
+<h3 id="A区域：菜单背景"><a href="#A区域：菜单背景" class="headerlink" title="A区域：菜单背景"></a>A区域：菜单背景</h3><p>对话框的背景、游戏开场时的选项背景、状态栏的背景……这些全都属于A区域管理的部分。可以在里面随意画上自己喜欢的颜色或者图案。</p>
+<p>通过设置<code>Window Background</code>，可以得到拉伸或平铺的效果。</p>
+<p><img src="https://s2.loli.net/2022/11/25/HZgeX7iAET8fz3U.png" alt="backgroundsetting.png"></p>
+<p><code>Stretch to Fit</code>适合纯色/渐变型背景；<code>Tiled Pattern</code>则适合图案型背景。</p>
+<p>※注意：图案型背景选择Stretch的话效果会很糟糕，如果设计了图案的话最好不要选择这项。</p>
+<h3 id="B区域：边框和指示箭头"><a href="#B区域：边框和指示箭头" class="headerlink" title="B区域：边框和指示箭头"></a>B区域：边框和指示箭头</h3><p>黄色的部分是边框所占的最大空间，只要不超过黄色的部分，边框无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。四个直角的读取范围是8×8，剩下的内容会根据边框的长度进行压缩或平铺。</p>
+<p>橙色的部分是指示箭头所占的最大空间，对话框底部闪烁的图案、菜单滚动页面的指示箭头都靠这部分显示，默认闪烁。上半部分和下半部分的大小都是8×16，注意不要画过头了。</p>
+<h3 id="C-amp-D区域：光标"><a href="#C-amp-D区域：光标" class="headerlink" title="C&amp;D区域：光标"></a>C&amp;D区域：光标</h3><p>这两块绿色的部分相当于起到光标的作用，两者交替显示形成一种闪烁的效果：</p>
+<p><img src="https://s2.loli.net/2022/11/25/kEUt43LK9ApVTea.gif" alt="titile.gif"></p>
+<p>和边框一样，只要不超过这些区域，无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。比如可以在宽的部分加上指示标记，或者只画一条线充当选项的下划线……请发挥想象力！</p>
+<h3 id="E区域：店铺页面的显示"><a href="#E区域：店铺页面的显示" class="headerlink" title="E区域：店铺页面的显示"></a>E区域：店铺页面的显示</h3><p>这部分一般会在武器防具店购买东西的时候用上，如果是做派生的话这部分的内容是用不上的，想空着也可以空着。</p>
+<p>从上至下分别为<code>状态提升</code>、<code>状态不变</code>、<code>状态下降</code>以及<code>正在装备</code>。它们的播放顺序都是从左往右1→2→3→4</p>
+<h3 id="F区域：整体背景"><a href="#F区域：整体背景" class="headerlink" title="F区域：整体背景"></a>F区域：整体背景</h3><p>它负责没有被边框框住的部分，比如持有金和菜单栏之间的背景，存档页面的背景（如图）。没什么需求的话可以搞成纯黑的，或者和A区域使用同一种色系。</p>
+<p><img src="https://s2.loli.net/2022/11/25/XHrgJE5waOWBfZx.png" alt="save.png"></p>
+<p>蓝色的部分就是F区域，橙色的部分则是B区域指示箭头的下半部分。</p>
+<h3 id="G区域：文字的影子"><a href="#G区域：文字的影子" class="headerlink" title="G区域：文字的影子"></a>G区域：文字的影子</h3><p>此区域的颜色会影响所有的文字和符号，它可以让字符变得更加立体和美观。一般设定成深色，可以按实际需求调整。</p>
+<h3 id="0-19：文字的颜色"><a href="#0-19：文字的颜色" class="headerlink" title="0~19：文字的颜色"></a>0~19：文字的颜色</h3><p>0：默认文本颜色</p>
+<p>1：金钱的单位颜色、状态文本的颜色（例如HP、MP、LV等）</p>
+<p>2：状态数值上升时的颜色</p>
+<p>3：某选项无法选择时的颜色（例如游戏在未读出存档时Continue的颜色，详见CD区域的GIF）</p>
+<p>以上四种是制作派生时会用到的颜色。</p>
+<p>剩下的4~19虽然不会在游戏里直接显示，但是可以随时通过<code>\c[]</code>调用。例如我在文本里输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt;Text: Hello, I&#x27;m \c[3]Drifter!</span><br></pre></td></tr></table></figure>
 
-
-<img src="https://s2.loli.net/2023/12/07/rLzNYOyQhsg5HJn.png" title="" alt="Snipaste_2023-01-09_02-14-12.png" data-align="center" style="zoom:50%;" >
-
+<p><img src="https://s2.loli.net/2022/11/25/WGAw1TLq7UcoZJj.png" alt="text.png"></p>
 <blockquote>
-<p>公寓楼的走廊</p>
+<p>注：如果想在一段长台词里标亮其中一段句子或词语，记得在标亮词句后输入<code>\c[0]</code>以保证之后的文本颜色回到默认状态。</p>
 </blockquote>
-<img src="https://s2.loli.net/2023/12/07/vwQaM4e3qdLmkAo.png" title="" alt="Snipaste_2023-01-11_17-23-37.png" data-align="center">
+<p>只要在[]中输入编号(1~19)，系统就会自动调用System中对应的颜色。当输入的数值超过19的情况，系统会显示默认的颜色（0号）。</p>
+<h3 id="彩色区域：计时器的样式"><a href="#彩色区域：计时器的样式" class="headerlink" title="彩色区域：计时器的样式"></a>彩色区域：计时器的样式</h3><p>这段区域由12块8×16的小格子组成，一般在里面填写0~9以及冒号（剩余一段8×16的空格在游戏里不会被显示）。当在事件里启用计时器时，画面的左上角就会显示这部分的内容。</p>
+<p>制作派生时一般用它来显示入睡时间。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Timer 1 Operation: Start</span><br><span class="line">@&gt; Timer 1 Operation: Set Time, 0 minutes 03 seconds</span><br></pre></td></tr></table></figure>
 
-<blockquote>
-<p>公园的赏花景点</p>
-</blockquote>
-<img src="https://s2.loli.net/2023/12/07/bJgF4CzrZoxIVX5.png" title="" alt="Snipaste_2023-10-03_19-23-33.png" data-align="center" style="zoom: 67%;" >
+<p>像本家或派生三秒入睡，实际上只需要布置1~3的数字在此区域就可以运行了。如果没有计时器的要求，那么这段区域空着也可以。</p>
+<h3 id="椭圆区域：飞行船的影子"><a href="#椭圆区域：飞行船的影子" class="headerlink" title="椭圆区域：飞行船的影子"></a>椭圆区域：飞行船的影子</h3><p>它是Vehicle中的Airship的影子，派生一般用不上这块区域其实可以忽略。</p>
+<p>两个椭圆会被系统认定为两个叠加的半透明图案，在飞行船底部形成一个边缘淡化的影子。</p>
+<hr>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="https://s2.loli.net/2022/11/25/4TQjtzSLsP6bCYG.png" alt="systemexample.png"></p>
+<p>用一张以前做的菜单样式作为例子，注意边框、指示箭头和计时器数字的背景都指定了透明色。</p>
+<p><img src="https://s2.loli.net/2022/11/25/hQeOPp5KFUXJSDY.png" alt="parts.png"></p>
+<p>右侧边框的内容可以通过数据库的<code>System 2</code>中得到修改，制作派生时可以将第一行的<code>Items</code>换成<code>Effects</code>，将<code>Equipment</code>与<code>Save</code>关闭。</p>
+<p>边框底部是持有金的显示，货币单位G可以在<code>Glossary4</code>的<code>Shop Paramenters</code>里进行修改。</p>
+<p>右侧是有关主人公的数值面板，第一行是<code>Name</code>和<code>Nickname</code>，制作派生时可以将主人公的状态输进昵称栏里。（第二行的特殊符号我会在下方进行详细的解释）</p>
+<h2 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h2><p>RM2003自带了特殊符号，一共52种。只要使用<code>$英文字母</code>就能随时调用。</p>
+<p>在文本框里输入以下内容可以看到所有的符号：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Text: $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p $q</span><br><span class="line"> :     : $r $s $t $u $v $w $x $y $z</span><br><span class="line"> :     : $A $B $C $D $E $F $G $H $I $J $K $L $M $N $O $P $Q</span><br><span class="line"> :     : $R $S $T $U $V $W $X $Y $Z</span><br></pre></td></tr></table></figure>
 
-<blockquote>
-<p>这是……？</p>
-</blockquote>
-<img src="https://s2.loli.net/2023/12/07/ilG9khMDVWAHFBS.gif" title="" alt="cube.gif" data-align="center">
-
-<blockquote>
-<p>sprite功能的测试</p>
-</blockquote>
+<p><img src="https://s2.loli.net/2022/11/25/3fYiBt92OqsoZ4C.png" alt="emoji.png"></p>
+<p>这些符号也可以应用到数据库中的<code>Terms</code>里。找到<code>Glossary5</code>，可以在里面设置Level、HP、MP、EXP的缩略符号。</p>
+<p>例如在<code>HP(Abbr.)</code>里输入<code>$k</code>，那么在菜单栏里的HP代表符号就会变成一颗心的形状。</p>
+<p><img src="https://s2.loli.net/2022/11/25/MQVav2jumi4oY9G.png" alt="Snipaste_2021-05-17_03-19-48.png"></p>
+<p>大家可以根据个人喜好决定内容。</p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
 ]]></content>
       <categories>
-        <category>杂谈记事</category>
+        <category>教程</category>
       </categories>
       <tags>
+        <tag>RM2003</tag>
         <tag>游戏开发</tag>
-        <tag>梦日记派生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>RM2K3特殊事件-自制标题界面</title>
+    <url>/2021/Titlescreen/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>自制标题有两种方法：</p>
+<p>一种是准备好一张320*240的256色索引图片，将它导入于工程文件的<code>Title</code>文件夹内，最后在数据库中的<code>System</code>选项卡中选择刚才导入的图片即可。</p>
+<p>另一种是<strong>跳过</strong>系统标题画面，手动编写地图事件，从头开始创造一个自定义的标题画面。面向于那些有事件编写基础、且对自定义有一定要求的人。</p>
+<p>这里主要记录第二种自定义的方法。</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="跳过标题画面的处理"><a href="#跳过标题画面的处理" class="headerlink" title="跳过标题画面的处理"></a>跳过标题画面的处理</h3><p>既然要开始自定义，首先我们要跳过系统检测标题画面的处理↓</p>
+<img src="https://s2.loli.net/2021/12/06/Z8ayFjtpXenboG7.png" alt="step1.png">
+
+<p>把Use的勾关掉后，程序运行时就会自动跳过标题画面，直接从主人公所在位置开始游戏。</p>
+<p>之后我们打开编辑器，新建一个20*15地图，用透明色填满它。</p>
+<h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>在自定义标题之前，首先确保自己已经构思好整个标题画面的设计以及UI的交互。</p>
+<p>例如，我希望玩家能够在标题界面选择【Start】、【Load】、以及【End】，那么我应该准备这三个选项的设计：当玩家输入上下键时，这三个选项会发生什么样的变化，光标会如何移动等等……</p>
+<p>准备好素材后，将这些所有的素材用透明底导入于工程文件的<code>Pictrue</code>文件夹内。</p>
+<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>既然要涉及到玩家输入上下键位，那么一定会有<code>Key Input Processing</code>和<strong>一大堆</strong><code>Conditional Branch</code>，<del>光是想想都已经有点头晕</del></p>
+<p>而且既然是标题画面，那么一定要<code>Disable Menu Access</code> 以及<code>Hide Player</code>，（当然如果你的游戏开场需要显示主人公就不需要开隐身了）。</p>
+<p>如果处理没问题的话，理想状态的标题画面是这样的：</p>
+<p>玩家输入上下移动光标，被选中的项目就会高亮，只要按下确认键就可以进入相对应的处理。</p>
+<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备两个变量：一个控制玩家键位输入的<code>Keys</code>，一个控制光标移动位置的<code>Cursor</code>。</p>
+<h3 id="EV0001"><a href="#EV0001" class="headerlink" title="EV0001"></a>EV0001</h3><p>我们新建一个EV0001，将它设置成<code>Parallel Process</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Show/Hide Player: Transparent ON</span><br><span class="line">@&gt; Change Menu Access: Disable</span><br><span class="line">@&gt; Erase Event</span><br></pre></td></tr></table></figure>
+
+<p>Erase Event是让它不要在后台一直运行。</p>
+<h3 id="EV0002"><a href="#EV0002" class="headerlink" title="EV0002"></a>EV0002</h3><p>然后我们再新建一个EV0002，也同样设置成<code>Parallel Process</code></p>
+<p>假设我们只需要三个按钮，那么变量<code>Cursor</code>就有三个值分别代表光标的位置。</p>
+<p>（这里要确定的东西比较麻烦，毕竟这三个按钮以及光标的显示需要自己手动去对坐标轴。）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">  @&gt; #如果选中了Start的话，Start高亮，其他的按钮都恢复原貌</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">    @&gt; #如果选中了Load的话，Load高亮，其他的按钮都恢复原貌</span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">      @&gt; #如果选中了End的话，End高亮，其他的按钮都恢复原貌</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>这里不用Erase的缘故是因为按钮和光标必须一直在画面上。</p>
+<p>要注意这三个条件分歧的位置，都是嵌套在上一级的Else里。</p>
+<h3 id="EV0003"><a href="#EV0003" class="headerlink" title="EV0003"></a>EV0003</h3><p>最后我们再新建一个EV0003，依旧是<code>Parallel Process</code></p>
+<p>这个事件重点处理玩家输入上下键以及确认键，是整个事件的核心：</p>
+<p><code>Keys</code>为1时，检测玩家输入↓，为4时，检测玩家输入↑，为5时，检测玩家输入Z/Enter。</p>
+<p><code>Cursor</code>的值就参照EV0002设计的那样，1是选中Start，2是选中Load，3是选中End。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Key Input Processing: V[0025:Keys], (W) &#123; Select, Down, Up, &#125;</span><br><span class="line">@&gt; Conditional Branch: V[0025:Keys] == 1</span><br><span class="line">  @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">    @&gt; #这是在Start按了↓的结果，也就是选中了Load的情况</span><br><span class="line">    @&gt; Control Variables: V[0024:Cursor] += 1</span><br><span class="line">    @&gt; </span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">      @&gt; #这是在Load按了↓的结果，也就是选中了End的情况</span><br><span class="line">      @&gt; Control Variables: V[0024:Cursor] += 1</span><br><span class="line">      @&gt; </span><br><span class="line">     : Else</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">        @&gt; #这是在End按了↓的结果，也就是选中了Start的情况</span><br><span class="line">        @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">        @&gt; </span><br><span class="line">       : Else</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Conditional Branch: V[0025:Keys] == 4</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">      @&gt; #这是在Start按了↑的结果，也就是选中了End的情况</span><br><span class="line">      @&gt; Control Variables: V[0024:Cursor] = 3</span><br><span class="line">      @&gt; </span><br><span class="line">     : Else</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">        @&gt; #这是在Load按了↑的结果，也就是选中了Start的情况</span><br><span class="line">        @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">        @&gt;</span><br><span class="line">       : Else</span><br><span class="line">        @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">          @&gt; #这是在End按了↑的结果，也就是选中了Load的情况</span><br><span class="line">          @&gt; Control Variables: V[0024:Cursor] = 2</span><br><span class="line">          @&gt; </span><br><span class="line">         : Else</span><br><span class="line">          @&gt;</span><br><span class="line">         : Branch End</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0025:Keys] == 5</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">        @&gt; #玩家在Start高亮的时候按下了确认键，进入新游戏。</span><br><span class="line">        @&gt;</span><br><span class="line">       : Else</span><br><span class="line">        @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">          @&gt; #玩家在Load高亮的时候按下了确认键，打开读档界面。</span><br><span class="line">         : Else</span><br><span class="line">          @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">            @&gt; #玩家在End高亮的时候按下了确认键，关闭游戏。</span><br><span class="line">            @&gt;</span><br><span class="line">           : Else</span><br><span class="line">            @&gt;</span><br><span class="line">           : Branch End</span><br><span class="line">          @&gt;</span><br><span class="line">         : Branch End</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Else</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>这样框架就搭好了，试着运行一下吧！</p>
+<p>可能会出现的Bug：如果运行不了，试着把EV0002和EV0003在地图上的位置替换一下。</p>
+<p><img src="https://s2.loli.net/2021/12/06/jVKcQ8hMEzWsJNb.gif" alt="自制菜单测试.gif"></p>
+<p>还有个小小的细节，如果想要让玩家有存档的情况下自动让Load高亮，可以在EV0001中加入这么两行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Savestate is available</span><br><span class="line">  @&gt; #光标自动停留在Load上</span><br><span class="line">  @&gt; Control Variables: V[0024:Cursor] = 2</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">  @&gt; #光标自动停留在Start上</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>这样可以让玩家读档的速度进一步加快。</p>
+<h3 id="举一反三"><a href="#举一反三" class="headerlink" title="举一反三"></a>举一反三</h3><p>既然标题画面变成了一张地图，那么只要稍微添加亿些细节就可以实现标题下雨下雪、动画背景…只要地图上能编写的事件全都可以在标题画面使用。</p>
+<p>那么同理，所有的标题画面能够通过地图事件自定义，那么存档读档以及菜单栏理论上全都可以自定义。</p>
+<p>是不是<del>很容易掉头发</del>很方便？来，试试看！</p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法记录</title>
+    <url>/2021/markdown/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>这几天翻官网发现next自带了一些插件能够通过markdown实现，就干脆单开一个笔记记录一下以后可能会用到的（人比较健忘）。</p>
+<span id="more"></span>
+
+<h2 id="字体篇"><a href="#字体篇" class="headerlink" title="字体篇"></a>字体篇</h2><h3 id="改变字体"><a href="#改变字体" class="headerlink" title="改变字体"></a>改变字体</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font face=&quot;字体&quot;&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>能调用所有本机系统安装的所有字体文件，只要知道字体的名字就可以。</p>
+<p><font face="Zpix">像素字体</font></p>
+<p><font face="Annabelle">Handwriting</font></p>
+<p><font face="DFPKanTingLiu-B5">もうひつ</font></p>
+<h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;内容&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+
+<center>有一种写论文的感觉</center>
+
+<h3 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font color=16进制HEX&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>一段话里可以同时存在好几种颜色，比如说<font color=#4E008E>紫色的文字</font>、<font color=#00AB84>绿色的文字</font>、<font color=#D1428D>粉色的文字</font>。</p>
+<h3 id="字体大小"><a href="#字体大小" class="headerlink" title="字体大小"></a>字体大小</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font size=&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>突然<font size=5>变大</font></p>
+<p>突然<font size=2>缩小</font></p>
+<p>size直接填写数字也可以，填写像素也可以。</p>
+<h3 id="字体综合"><a href="#字体综合" class="headerlink" title="字体综合"></a>字体综合</h3><p>把以上所有的语句全部综合可得：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font color= size= face=&quot;&quot;&gt;内容&lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+
+<center><font color=\#001489 size=5 face="Zpix">居中的蓝色像素大字体</font></center>
+
+<hr>
+<h2 id="列表篇"><a href="#列表篇" class="headerlink" title="列表篇"></a>列表篇</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [ ] 内容</span><br><span class="line">- [x] 内容</span><br></pre></td></tr></table></figure>
+
+<p>任务列表适合写笔记用，或者可以搞选择题。</p>
+<ul>
+<li><input disabled="" type="checkbox"> 未选</li>
+<li><input checked="" disabled="" type="checkbox"> 选择</li>
+</ul>
+<hr>
+<h2 id="NexT插件篇"><a href="#NexT插件篇" class="headerlink" title="NexT插件篇"></a>NexT插件篇</h2><h3 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn 地址 , 文字 , 图标 规格 %&#125;</span><br><span class="line">fa-fw fa-lg fa-2x fa-3x fa-4x fa-5x</span><br></pre></td></tr></table></figure>
+
+<p>可以只选一种也可以互相搭配：</p>
+<a class="btn" href="#">button</a>
+
+<a class="btn" href="#"><i class="fa fa-link fa-lg"></i></a>
+
+<a class="btn" href="https://theme-next.js.org/docs/tag-plugins/button.html "><i class="fa fa-link fa-fw"></i>NexT</a>
+
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;内容&lt;/blockquote&gt;</span><br><span class="line">&#123;% centerquote %&#125;内容&#123;% endcenterquote %&#125;</span><br><span class="line">&#123;% cq %&#125;内容&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote class="blockquote-center">
+<p>Each possible move represents a different game,</p>
+<p>a different universe in which you make a better move.</p>
+<p>There are more possible games of chess</p>
+<p>than there are atoms in the universe.</p>
+<p>No one could possibly predict them all, even you.</p>
+
+</blockquote>
+
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note class %&#125;内容&#123;% endnote %&#125;</span><br><span class="line">class: default/primary/success/info/warning/danger/no-icon</span><br></pre></td></tr></table></figure>
+
+<p>要启用这些得先去站点配置里找到有关note的介绍并且把它们打开。</p>
+<div class="note default"><h4 id="Default"><a href="#Default" class="headerlink" title="Default"></a>Default</h4><p>灰色箭头标志</p>
+</div>
+
+<div class="note primary"><h4 id="Primary"><a href="#Primary" class="headerlink" title="Primary"></a>Primary</h4><p>紫色加号标志</p>
+</div>
+
+<div class="note success"><h4 id="Success"><a href="#Success" class="headerlink" title="Success"></a>Success</h4><p>绿色对勾标志</p>
+</div>
+
+<div class="note info"><h4 id="Info"><a href="#Info" class="headerlink" title="Info"></a>Info</h4><p>蓝色信息标志</p>
+</div>
+
+<div class="note warning"><h4 id="Warning"><a href="#Warning" class="headerlink" title="Warning"></a>Warning</h4><p>黄色预警标志</p>
+</div>
+
+<div class="note danger"><h4 id="Danger"><a href="#Danger" class="headerlink" title="Danger"></a>Danger</h4><p>红色禁止标志</p>
+</div>
+
+<p>折叠也可以：</p>
+<details class="note danger"><summary><p>Content Warning</p>
+</summary>
+<h4 id="Content-Warning"><a href="#Content-Warning" class="headerlink" title="Content Warning"></a>Content Warning</h4><p>Content warnings are not an excuse for students to skip class or censor your material.</p>
+
+</details>
+
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>nexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>RM2K3特殊事件-镜子和倒影</title>
+    <url>/2021/mirrorevent/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>内容涉及了<u>变量</u>和<u>坐标轴</u>。</p>
+<div class="note warning no-icon"><p>在阅读内容之前，请确认自己已经学习过03的基础指令和变量相关的知识，以及坐标轴的判定原理。</p>
+</div>
+
+<p>※此教程为个人学习笔记，可能会有很多表述不清楚的地方</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>要做一面镜子，首先得确定<code>镜子的样式</code>、<code>面积</code>以及<code>在地图上的位置</code>。</p>
+<p>为了能让倒影有足够多的测试空间，我选择了3×3的落地镜作为范例，这样一来倒影的活动范围也就固定在了3×3的空间中。</p>
+<p>而倒影本质上是<code>一个会跟着主人公走动的NPC</code>，因此倒影事件的图像应当设置成<code>半透明形态的主人公</code>。</p>
+<p>决定好后就可以开始画对应的素材了。</p>
+<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>理想状态是：主人公在镜子前走动，倒影能即时作出反应，且没有延迟</p>
+<p>那么需要用到的指令一定会有<code>Conditional Branch</code>以及<code>Set Move Route</code>，朝向不需要牵扯到变量，因此可以先在倒影的事件中把四个朝向的条件分歧输入进框架中。</p>
+<p>要让倒影做出即时反应，那么必须读取主人公的坐标。当主人公的X值增加，倒影和主人公都会往右走；当主人公的Y值增加，那么倒影应该往上走；而变量可以将XY值转化为可以操作的数值，所以条件分歧除了主人公朝向，大部分应是变量。</p>
+<p>主人公走出3×3范围外倒影就会消失，所以还得准备一个开关来控制倒影的有无。</p>
+<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备好四个变量，分别是主人公的XY轴和倒影的XY轴。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0001:X] = Player&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0002:Y] = Player&#x27;s Y Coordinate</span><br><span class="line">@&gt; Control Variables: [0003:mirror X] = This Event&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0004:mirror Y] = This Event&#x27;s Y Coordinate</span><br></pre></td></tr></table></figure>
+
+<p>然后我们进入编辑器，手动确认主人公的活动范围。</p>
+<p>X轴在<code>23~25</code>之间，Y轴在<code>19~21</code>之间，在此区间内倒影会显形，反之就会消失。这里就需要用上之前构思的开关了：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 22</span><br><span class="line">  @&gt; Conditional Branch: Variable [0001:X] &lt; 26</span><br><span class="line">    @&gt; Conditional Branch: Variable [0002:Y] &lt; 21</span><br><span class="line">      @&gt; Control Switches: [0002:transparent] = OFF</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; 22</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 26</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0002:Y] &gt; 21</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>然后比较主人公和倒影的XY值。因为镜子的面积是3×3，所以这里需要把倒影事件设置在<code>底部的中心</code>。这样就可以直接通过比较大小来确认主人公往哪个方向移动了。</p>
+<p>当系统读取到主人公往右走时，X值增加，所以当主人公的X值大于倒影的X值时，倒影也应该跟着往右走一格，反之亦然。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>之后是最难的Y轴部分，因为倒影的行走方向和主人公相反，光靠比较大小是没办法的。这里我们要先把每个坐标数值的变化记下来，找到其中的运算规律。</p>
+<p>经过计算，最终确定用<code>两个Y变量</code>来代入倒影的Y值。</p>
+<p>理论如下（左为主人公，右为倒影）<br>（24,19）→（24,20）      （24,18）→（24,17）</p>
+<p>因为最底部中心点的Y值是18，所以两个Y的初始值都应是18</p>
+<p>假设主人公往下移动了一格，倒影的理想状态是往上移动一格</p>
+<p>第一个Y减去主人公Y坐标 = 18-20 = -2<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
+<p>因为主人公不可能和倒影重叠，所以第二个Y必须＞主人公的Y值（差值最少为1）所以给第二个Y+1<br>第一个Y永远比主人公Y轴大，所以得取绝对值才能有条件分歧 ×-1得到2</p>
+<p>所以当 第一个Y ＞ 第二个Y 的时候，倒影往上走</p>
+<p>相反，如果两者靠近的话</p>
+<p>第一个Y减去主人公Y坐标 = 18-19 = -1<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
+<p>按照刚才的理论，第二个Y ＞ 第一个Y， 倒影往下走</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0005:mirror Ymove] = 18 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] -= Variable [0002]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] = 18 </span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] -= Variable [0004]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] += 1 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] *= -1 </span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &lt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &gt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>移动决定了，停止时的朝向也得考虑：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Player is facing Up</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Right</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Down</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Left</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
+
+<p>之后，我们设置好主人公的半透明图像，并且将这个事件设置为<code>Parallel Process</code>。另：主人公的速度如果保持默认，<code>Movement Speed</code>应当设置成和主人公一样的普通速。</p>
+<p>还记得之前的开关吗？我们将这一页直接复制，左上角的触发条件只需要将<code>transparent</code>给打开，图像设置成一个<strong>完全透明</strong>的图块就OK了。如果不想让主人公碰到倒影，还可以将<code>Priority</code>设置为<code>Below Characters</code>。</p>
+<p>如果有加速道具或是长按SHIFT加速的需求，再复制一页，触发条件中将加速的开关打开，然后将<code>Movement Speed</code>调整为加速后的速度就没问题了。</p>
+<p>最后，我们将主人公放在镜子前，开始debug！</p>
+<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>延迟完全为零几乎是不存在的，行动稍微有一点点延迟是正常现象。</p>
+<p>为了不穿帮，主人公的3×3的外围最好也布置一些不可通行的图块，这样就不会出现倒影乱跑的BUG。</p>
+<p>最终结果看起来就会是这样（我还顺带测试了一下SHIFT加速）：</p>
+<p><img src="https://s2.loli.net/2022/11/25/aFQMrWiKjvxN4V5.gif" alt="mirror.gif"></p>
+<hr>
+<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
+<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RM2003</tag>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>nexT主题v5升级至v8记录</title>
+    <url>/2021/nextupdate/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h2 id="更新之前"><a href="#更新之前" class="headerlink" title="更新之前"></a>更新之前</h2><p>昨天写搭建记录的时候发现自己的Hexo和Node.js还有Git都是最新版本，但nexT版本还停留在5.1.4，看了一下官网最新版本都已经8.4.0了，遂决定手动跨版本更新。</p>
+<p>这是nexT的历代版本仓库。</p>
+<table>
+<thead>
+<tr>
+<th>年</th>
+<th>版本号</th>
+<th>仓库地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2014~2017</td>
+<td>v5</td>
+<td><a href="https://github.com/iissnan/hexo-theme-next">https://github.com/iissnan/hexo-theme-next</a></td>
+</tr>
+<tr>
+<td>2018~2019</td>
+<td>v6~v7</td>
+<td><a href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></td>
+</tr>
+<tr>
+<td>2020</td>
+<td>v8</td>
+<td><a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></td>
+</tr>
+</tbody></table>
+<p>下载主题就相当于从仓库下载代码，这就是为什么明明跟着教程走却只能安装到v5版本的原因。可v5升级到v8在网上的教程少得可怜，看了官方的介绍还是一知半解……还是走一步算一步，出了错再随机应变吧。</p>
+<p>以下是我的更新步骤。</p>
+<span id="more"></span>
+
+<h2 id="需要准备的"><a href="#需要准备的" class="headerlink" title="需要准备的"></a>需要准备的</h2><ol>
+<li>下载一个文件对比软件，比如<code>BeyondCompare</code></li>
+<li>一个备份文件夹，用来装之前的v5版本</li>
+<li><code>GitBash</code>，所有的基础</li>
+</ol>
+<p>准备以上材料，我们开始进行更新。</p>
+<hr>
+<h3 id="第一步-安装"><a href="#第一步-安装" class="headerlink" title="第一步 安装"></a>第一步 安装</h3><ul>
+<li><p>将themes中的next文件夹转移至备份文件夹内。</p>
+</li>
+<li><p>之后用GitBash定位到站点文件夹，通过<code>npm</code>安装最新版本。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure></li>
+<li><p>下载完成后，在站点文件夹的node_modules里找到一个名为hexo-theme-next的文件夹，这就是最新版的主题文件。把它复制到themes文件夹内，并重新命名为<code>next-v8</code>。（只是个例子）</p>
+</li>
+<li><p>打开站点配置文件，把<code>themes: next</code>后面的内容改成<code>next-v8</code>。</p>
+</li>
+<li><p>在GitBash中输入<code>hexo version</code>查看当前版本号，出现一个巨大NEXT和最新版本号即成功安装。</p>
+</li>
+</ul>
+<p>恭喜！你已经完成一半的内容了！</p>
+<h3 id="第二步-配置"><a href="#第二步-配置" class="headerlink" title="第二步 配置"></a>第二步 配置</h3><p>因为是v5刚刚起步的缘故，官网上所说的迁移方法对我来说并没有什么用处。这里我选择单独配置：</p>
+<ul>
+<li><p>把这个还没有动过的主题配置文件复制出来，重命名为<code>_config.next.yml</code>，放在站点文件夹里。</p>
+</li>
+<li><p>运行<code>BeyondCompare</code>，打开旧主题配置和新主题配置，进行一个比较和修改。</p>
+<p><strong>注意！最开始的主题设置，如果想启用之前的<code>Gemini</code>，请关闭默认主题选项！！！</strong></p>
+</li>
+<li><p>然后可以试着运行一下<code>hexo s</code>，查看是否可以正常显示。建议一边改一边检查，新主题配置文件的内容比起v5还是有很大的区别的，具体设置跟着注释走，不要无脑修改。</p>
+</li>
+</ul>
+<p>至此，你已经完成了v5至v8的升级。</p>
+<h3 id="第三步-自定义"><a href="#第三步-自定义" class="headerlink" title="第三步 自定义"></a>第三步 自定义</h3><p>自定义所消耗的时间最长。原因在于我很想还原v5的配置，但内部文件改动太大，加上针对v8的自定义的教程比更新的教程还少，无从下手，只得摸索。</p>
+<h4 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a>Font Awesome</h4><p>v8更新之后，所有的有关图标的配置都得改成fa fa-xxx格式才能正常显示。具体的图标样式和格式在官网上可以查看引用。<a href="https://fontawesome.com/icons">Font Awesome</a></p>
+<h4 id="代码样式"><a href="#代码样式" class="headerlink" title="代码样式"></a>代码样式</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="comment"># Code Highlight theme</span></span><br><span class="line">  <span class="comment"># All available themes: https://theme-next.js.org/highlight/</span></span><br><span class="line">  <span class="attr">theme:</span></span><br><span class="line">    <span class="attr">light:</span> </span><br><span class="line">    <span class="attr">dark:</span> </span><br><span class="line">  <span class="attr">prism:</span></span><br><span class="line">    <span class="attr">light:</span> </span><br><span class="line">    <span class="attr">dark:</span> </span><br><span class="line">  <span class="comment"># Add copy button on codeblock</span></span><br><span class="line">  <span class="attr">copy_button:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">False</span></span><br><span class="line">    <span class="comment"># Available values: default | flat | mac</span></span><br><span class="line">    <span class="attr">style:</span> </span><br></pre></td></tr></table></figure>
+
+<p>这里的代码模块样式可以在<a href="https://theme-next.js.org/highlight/">这里</a>找到即时预览，把样式名直接输入进<code>theme</code>和<code>prism</code>栏即可。把<code>copy_button</code>设置为True可以打开一键复制按钮，很方便。</p>
+<p>此处我把底部的<code>style</code>设置成了<code>flat</code>，也有不少人选择<code>mac</code>（这款也很好看推荐大家尝试）</p>
+<h4 id="自定义CSS目录"><a href="#自定义CSS目录" class="headerlink" title="自定义CSS目录"></a>自定义CSS目录</h4><p>v8更新之后很多文件都找不到了，而要自定义CSS得在站点文件夹的<code>/source/_data/styles.styl</code>里改。没有_data的话就创一个。</p>
+<p>然后在主题配置里将<code>custom_file_path</code>里的<code>style</code>启用即可。</p>
+<p>这里是我的配置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">//</span> <span class="string">图片阴影</span></span><br><span class="line"><span class="string">.medium-zoom-image</span> &#123;</span><br><span class="line">  <span class="attr">box-shadow:</span> <span class="number">0</span> <span class="string">10px</span> <span class="string">30px</span> <span class="string">0px</span> <span class="string">rgba(0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span><span class="string">);</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">短代码颜色</span></span><br><span class="line"><span class="string">code</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="comment">#E3E1E8;</span></span><br><span class="line">  <span class="attr">color:</span> <span class="comment">#383a42;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">隐藏顶部黑线条</span></span><br><span class="line"><span class="string">.headband</span> &#123;</span><br><span class="line">  <span class="attr">display:</span> <span class="string">none;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//底部文字颜色</span></span><br><span class="line"><span class="string">.footer-inner</span> &#123;</span><br><span class="line">  <span class="attr">color:</span> <span class="comment">#494948;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//</span> <span class="string">代码滑块</span></span><br><span class="line"><span class="string">.table-container</span> &#123;</span><br><span class="line">  <span class="attr">scrollbar-width:</span> <span class="string">thin;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.table-container::-webkit-scrollbar</span> &#123;</span><br><span class="line">  <span class="attr">width:</span> <span class="number">0.</span><span class="string">5em;</span></span><br><span class="line">  <span class="attr">height:</span> <span class="number">0.</span><span class="string">5em;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.table-container::-webkit-scrollbar-thumb</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">4px;</span></span><br><span class="line">  <span class="attr">background:</span> <span class="comment">#00af91;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.table-container::-webkit-scrollbar-track</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">none;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//透明化：自定义opacity的值。范围为0~1的小数</span></span><br><span class="line"><span class="string">//文章内容透明</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.95</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//侧边框透明</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.95</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//菜单栏透明</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">margin-top:</span> <span class="string">18px;</span></span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.95</span><span class="string">);</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//搜索框透明</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.95</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//</span> <span class="string">添加顶部边距</span></span><br><span class="line"><span class="string">.main</span> &#123;</span><br><span class="line">  <span class="attr">margin:</span> <span class="string">4px</span> <span class="string">auto</span> <span class="number">0</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">.header</span> &#123;</span><br><span class="line">  <span class="string">+mobile()</span> &#123;</span><br><span class="line">    <span class="attr">padding:</span> <span class="string">4px;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">圆角计划</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">50px</span> <span class="string">50px</span> <span class="string">18px</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.site-brand-container</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="string">18px</span> <span class="number">0</span> <span class="number">0</span><span class="string">;</span></span><br><span class="line">  <span class="string">+mobile()</span> &#123;</span><br><span class="line">    <span class="attr">border-radius:</span> <span class="string">18px;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.sidebar-inner</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.back-to-top</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="number">0</span> <span class="number">0</span> <span class="string">18px</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.post-block</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="type">!important;</span></span><br><span class="line">  <span class="attr">margin-top:</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.pagination</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="type">!important;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.comments</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="type">!important;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">字体大小</span></span><br><span class="line"><span class="string">.post-body</span> &#123;</span><br><span class="line">  <span class="attr">font-size:</span> <span class="string">15px;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>里面的数值可以根据自己的想法修改。这里我启用了圆角化，这样页面看起来可爱又舒服。</p>
+<h4 id="Canvas-nest"><a href="#Canvas-nest" class="headerlink" title="Canvas_nest"></a>Canvas_nest</h4><p>v8更新之后动态背景只剩下<code>canvas_ribbon</code>一个选项了，但我又很想要还原以前的风格，于是找到了<a href="https://github.com/theme-next/theme-next-canvas-nest">官方地址</a>，跟着README一步一步配置即可。</p>
+<p>再次进入主题配置文件，找到<code>custom_file_path</code>，将<code>footer</code>启用。</p>
+<p>还需要注意的一点：v8升级之后<code>swig</code>文件已经替换成了<code>njk</code>，因此官方所说的</p>
+<blockquote>
+<p>Create a file named <code>footer.swig</code> in <code>hexo/source/_data</code> directory (create <code>_data</code> directory if it does not exist).</p>
+</blockquote>
+<p>应该将<code>footer.swig</code>改成<code>footer.njk</code>。</p>
+<p>最后在配置文件里新增一段<code>canvas_nest: true</code>就可以运行了。</p>
+<h4 id="Animation-Settings"><a href="#Animation-Settings" class="headerlink" title="Animation Settings"></a>Animation Settings</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">motion:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">async:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">transition:</span></span><br><span class="line">    <span class="comment"># All available transition variants: https://theme-next.js.org/animate/</span></span><br><span class="line">    <span class="attr">post_block:</span> <span class="string">fadeIn</span></span><br><span class="line">    <span class="attr">post_header:</span> <span class="string">fadeInDown</span></span><br><span class="line">    <span class="attr">post_body:</span> <span class="string">fadeInDown</span></span><br><span class="line">    <span class="attr">coll_header:</span> <span class="string">fadeInLeft</span></span><br><span class="line">    <span class="comment"># Only for Pisces | Gemini.</span></span><br><span class="line">    <span class="attr">sidebar:</span> <span class="string">bounceInUp</span></span><br></pre></td></tr></table></figure>
+
+<p>在<a href="https://animate.style/">这里</a>可以看到所有的动画设置和名称，根据想要的样式修改即可。</p>
+<h4 id="自动打开编辑器"><a href="#自动打开编辑器" class="headerlink" title="自动打开编辑器"></a>自动打开编辑器</h4><p>这与更新无关，但加上之后可以提升一些写作的速度。</p>
+<p>在站点目录下新建<code>scripts</code>文件夹，里面添加一个js脚本：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> spawn = require(<span class="string">&#x27;child_process&#x27;</span>).exec;</span><br><span class="line">hexo.on(<span class="string">&#x27;new&#x27;</span>, function(data)&#123;</span><br><span class="line">  spawn(<span class="string">&#x27;start  &quot;Typora.exe&quot; &#x27;</span> + data.path);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p>此处的<code>start &quot;Typora.exe&quot;</code>里面应该填写编辑器所在的路径。此处我用的是Typora，因此这里应该指向Typora.exe所在的文件路径。</p>
+<p>配置好后，之后每次执行完<code>hexo new</code>后都会自动弹出编辑器，不用再去<code>_post</code>路径下寻找文章了。</p>
+<hr>
+<p>至此，你已经完成了此次更新！恭喜！</p>
+<p>其他问题和更新相关的说明请查看<a href="https://github.com/next-theme/hexo-theme-next/issues/4">官方文档</a></p>
+]]></content>
+      <categories>
+        <category>帮助</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>nexT</tag>
       </tags>
   </entry>
   <entry>
@@ -887,1115 +1996,6 @@
       <tags>
         <tag>食谱</tag>
         <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Happy 2nd Anniversary!</title>
-    <url>/2022/Ephem2nd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2022/12/07/bn9JZ5SVksXmY3f.png" title="" alt="二周年.png" data-align="center">
-
-<center><font color=4a5b92>🎉Ephemreal发布二周年🍾</font></center>
-
-<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>不知不觉又过去一年…但是今年的开发进度明显放缓，本想着二周年能够发布0.01版，无奈现实生活过于繁忙。</p>
-<p>要说今年做了什么重要的决定，那就是把数据库<strong>全部删除重写</strong>…………真的非常累。重写意味着0.00版本的存档将不再适用于新版本，所以下次更新之后我会删除0.00相关的所有链接。</p>
-<p>这一年也学会了很多RM2K3的很多高级操作，会逐渐运用至Ephemreal中的。</p>
-<p>感谢大家继续喜爱着Ephemreal，让我们下一个更新再见！</p>
-<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><div class="note warning"><p>以下内容可能会剧透。</p>
-</div>
-
-
-
-<span id="more"></span>
-
-
-
-<p>因为进度放缓，新地图的数量不多，为了游玩体验就不再放出新地图的预览。</p>
-<ul>
-<li><p>现在效果数量：11</p>
-</li>
-<li><p>地图数量：约60张</p>
-</li>
-<li><p>电脑、壁纸、音乐播放器、存档系统已全部完成</p>
-</li>
-<li><p>几乎所有的地图全都会改动<del>甚至有些会被删除</del></p>
-</li>
-</ul>
-<p><img src="https://s2.loli.net/2022/12/07/uRm8y9UMIrTWJ42.png" alt="Snipaste_2022-08-04_16-02-24.png"></p>
-<blockquote>
-<p>给GB世界新增了电视扫描线</p>
-</blockquote>
-<p><img src="https://s2.loli.net/2022/12/08/8n4qsDLjguvSkXA.png" alt="Snipaste_2022-11-24_02-11-46.png"></p>
-<blockquote>
-<p>重画了像素</p>
-</blockquote>
-<p>除此之外还有很多…</p>
-<hr>
-<p><img src="https://s2.loli.net/2022/12/07/VF5gJlmBxZP7b3t.gif" alt="爆炸.gif"></p>
-<p><del>当初只是为了搞笑而做的动画，结果意外地很有趣</del> 不会实装！！图个乐子！！</p>
-]]></content>
-      <categories>
-        <category>杂谈记事</category>
-      </categories>
-      <tags>
-        <tag>游戏开发</tag>
-        <tag>梦日记派生</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Happy Anniversary!</title>
-    <url>/2021/Ephem1st/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img src="https://s2.loli.net/2021/12/08/sNeCQS8OWywocuT.png" alt="round1.png" style="zoom: 50%;" />
-
-<center><font color=4a5b92>🎉Ephemreal发布一周年🍾</font></center>
-
-
-
-<h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><p>距离上次公开已经过去了一年（<em>2020.12.08~2021.12.08</em>）。时间过得太快了，以至于我都不记得这一年做了什么……</p>
-<p>自从开始做Ephemreal后，也不知道是好事还是坏事，我的大脑就完全被它占满了。（依稀记得在公开0.00+之后，我直接休息了几个月）</p>
-<p>同时，这一年我认识了很多人。有愿意帮我检查、编写优化指令的朋友，还有愿意投稿壁纸、音乐的朋友，可以说没有他们就无法完成现在的Ephemreal。制作完成后，这款派生得到了更多的关注度，其中少不了同人和实况视频的宣传功劳。放在以前，这些是我想都不敢想的。</p>
-<p>在这里由衷感谢所有愿意帮助我的所有人、游玩的你、以及我自己。</p>
-<p>让我们下一个更新再见！</p>
-<h2 id="Ver0-01开发报告"><a href="#Ver0-01开发报告" class="headerlink" title="Ver0.01开发报告"></a>Ver0.01开发报告</h2><div class="note warning"><p>以下内容可能会剧透。</p>
-</div>
-
-
-
-<span id="more"></span>
-
-
-
-<h3 id="开发进度报告"><a href="#开发进度报告" class="headerlink" title="开发进度报告"></a>开发进度报告</h3><p>想必大家最关心的就是开发进度了吧。</p>
-<p>很可惜的是，距离0.01发布还有一段时间…我也不知道什么时候能做好，无法给出具体详细的日期。</p>
-<p><strong>但是！</strong>我准备了一些开发中的截图↓</p>
-<img src="https://s2.loli.net/2021/12/08/3JkB61luMLd2US5.png" alt="吊机.png" style="zoom: 80%;" />
-
-<img src="https://s2.loli.net/2021/12/08/mH1VqK5Yj4WGLQ7.png" alt="Snipaste_2021-04-16_00-29-20.png" style="zoom:67%;" />
-
-<img src="https://s2.loli.net/2021/12/08/mUScdQOJof6rq3H.png" alt="Snipaste_2021-03-16_03-03-12.png" style="zoom:67%;" />
-
-<blockquote>
-<p>这三张几乎是处于同一时期做好的地图，时间在今年的3~4月。</p>
-</blockquote>
-<img src="https://s2.loli.net/2021/12/08/9rVT2k3ubdqtQih.png" alt="coffee.png" style="zoom: 67%;" />
-
-<blockquote>
-<p>这一张是最近的地图，时间大概在10月。</p>
-</blockquote>
-<h3 id="更新计划"><a href="#更新计划" class="headerlink" title="更新计划"></a>更新计划</h3><ul>
-<li>效果会增加至12个</li>
-<li>地图数目至少新增30张（大小不限）</li>
-<li>更多的事件和菜单样式</li>
-<li>电脑系统的重置</li>
-<li>更多细节和玩法的更新</li>
-</ul>
-]]></content>
-      <categories>
-        <category>杂谈记事</category>
-      </categories>
-      <tags>
-        <tag>游戏开发</tag>
-        <tag>梦日记派生</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>RM2K3特殊事件-自制标题界面</title>
-    <url>/2021/Titlescreen/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>自制标题有两种方法：</p>
-<p>一种是准备好一张320*240的256色索引图片，将它导入于工程文件的<code>Title</code>文件夹内，最后在数据库中的<code>System</code>选项卡中选择刚才导入的图片即可。</p>
-<p>另一种是<strong>跳过</strong>系统标题画面，手动编写地图事件，从头开始创造一个自定义的标题画面。面向于那些有事件编写基础、且对自定义有一定要求的人。</p>
-<p>这里主要记录第二种自定义的方法。</p>
-<span id="more"></span>
-
-<hr>
-<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="跳过标题画面的处理"><a href="#跳过标题画面的处理" class="headerlink" title="跳过标题画面的处理"></a>跳过标题画面的处理</h3><p>既然要开始自定义，首先我们要跳过系统检测标题画面的处理↓</p>
-<img src="https://s2.loli.net/2021/12/06/Z8ayFjtpXenboG7.png" alt="step1.png">
-
-<p>把Use的勾关掉后，程序运行时就会自动跳过标题画面，直接从主人公所在位置开始游戏。</p>
-<p>之后我们打开编辑器，新建一个20*15地图，用透明色填满它。</p>
-<h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>在自定义标题之前，首先确保自己已经构思好整个标题画面的设计以及UI的交互。</p>
-<p>例如，我希望玩家能够在标题界面选择【Start】、【Load】、以及【End】，那么我应该准备这三个选项的设计：当玩家输入上下键时，这三个选项会发生什么样的变化，光标会如何移动等等……</p>
-<p>准备好素材后，将这些所有的素材用透明底导入于工程文件的<code>Pictrue</code>文件夹内。</p>
-<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>既然要涉及到玩家输入上下键位，那么一定会有<code>Key Input Processing</code>和<strong>一大堆</strong><code>Conditional Branch</code>，<del>光是想想都已经有点头晕</del></p>
-<p>而且既然是标题画面，那么一定要<code>Disable Menu Access</code> 以及<code>Hide Player</code>，（当然如果你的游戏开场需要显示主人公就不需要开隐身了）。</p>
-<p>如果处理没问题的话，理想状态的标题画面是这样的：</p>
-<p>玩家输入上下移动光标，被选中的项目就会高亮，只要按下确认键就可以进入相对应的处理。</p>
-<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备两个变量：一个控制玩家键位输入的<code>Keys</code>，一个控制光标移动位置的<code>Cursor</code>。</p>
-<h3 id="EV0001"><a href="#EV0001" class="headerlink" title="EV0001"></a>EV0001</h3><p>我们新建一个EV0001，将它设置成<code>Parallel Process</code>：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Show/Hide Player: Transparent ON</span><br><span class="line">@&gt; Change Menu Access: Disable</span><br><span class="line">@&gt; Erase Event</span><br></pre></td></tr></table></figure>
-
-<p>Erase Event是让它不要在后台一直运行。</p>
-<h3 id="EV0002"><a href="#EV0002" class="headerlink" title="EV0002"></a>EV0002</h3><p>然后我们再新建一个EV0002，也同样设置成<code>Parallel Process</code></p>
-<p>假设我们只需要三个按钮，那么变量<code>Cursor</code>就有三个值分别代表光标的位置。</p>
-<p>（这里要确定的东西比较麻烦，毕竟这三个按钮以及光标的显示需要自己手动去对坐标轴。）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">  @&gt; #如果选中了Start的话，Start高亮，其他的按钮都恢复原貌</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">    @&gt; #如果选中了Load的话，Load高亮，其他的按钮都恢复原貌</span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">      @&gt; #如果选中了End的话，End高亮，其他的按钮都恢复原貌</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>这里不用Erase的缘故是因为按钮和光标必须一直在画面上。</p>
-<p>要注意这三个条件分歧的位置，都是嵌套在上一级的Else里。</p>
-<h3 id="EV0003"><a href="#EV0003" class="headerlink" title="EV0003"></a>EV0003</h3><p>最后我们再新建一个EV0003，依旧是<code>Parallel Process</code></p>
-<p>这个事件重点处理玩家输入上下键以及确认键，是整个事件的核心：</p>
-<p><code>Keys</code>为1时，检测玩家输入↓，为4时，检测玩家输入↑，为5时，检测玩家输入Z/Enter。</p>
-<p><code>Cursor</code>的值就参照EV0002设计的那样，1是选中Start，2是选中Load，3是选中End。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Key Input Processing: V[0025:Keys], (W) &#123; Select, Down, Up, &#125;</span><br><span class="line">@&gt; Conditional Branch: V[0025:Keys] == 1</span><br><span class="line">  @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">    @&gt; #这是在Start按了↓的结果，也就是选中了Load的情况</span><br><span class="line">    @&gt; Control Variables: V[0024:Cursor] += 1</span><br><span class="line">    @&gt; </span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">      @&gt; #这是在Load按了↓的结果，也就是选中了End的情况</span><br><span class="line">      @&gt; Control Variables: V[0024:Cursor] += 1</span><br><span class="line">      @&gt; </span><br><span class="line">     : Else</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">        @&gt; #这是在End按了↓的结果，也就是选中了Start的情况</span><br><span class="line">        @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">        @&gt; </span><br><span class="line">       : Else</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Conditional Branch: V[0025:Keys] == 4</span><br><span class="line">    @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">      @&gt; #这是在Start按了↑的结果，也就是选中了End的情况</span><br><span class="line">      @&gt; Control Variables: V[0024:Cursor] = 3</span><br><span class="line">      @&gt; </span><br><span class="line">     : Else</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">        @&gt; #这是在Load按了↑的结果，也就是选中了Start的情况</span><br><span class="line">        @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">        @&gt;</span><br><span class="line">       : Else</span><br><span class="line">        @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">          @&gt; #这是在End按了↑的结果，也就是选中了Load的情况</span><br><span class="line">          @&gt; Control Variables: V[0024:Cursor] = 2</span><br><span class="line">          @&gt; </span><br><span class="line">         : Else</span><br><span class="line">          @&gt;</span><br><span class="line">         : Branch End</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Else</span><br><span class="line">    @&gt; Conditional Branch: V[0025:Keys] == 5</span><br><span class="line">      @&gt; Conditional Branch: V[0024:Cursor] == 1</span><br><span class="line">        @&gt; #玩家在Start高亮的时候按下了确认键，进入新游戏。</span><br><span class="line">        @&gt;</span><br><span class="line">       : Else</span><br><span class="line">        @&gt; Conditional Branch: V[0024:Cursor] == 2</span><br><span class="line">          @&gt; #玩家在Load高亮的时候按下了确认键，打开读档界面。</span><br><span class="line">         : Else</span><br><span class="line">          @&gt; Conditional Branch: V[0024:Cursor] == 3</span><br><span class="line">            @&gt; #玩家在End高亮的时候按下了确认键，关闭游戏。</span><br><span class="line">            @&gt;</span><br><span class="line">           : Else</span><br><span class="line">            @&gt;</span><br><span class="line">           : Branch End</span><br><span class="line">          @&gt;</span><br><span class="line">         : Branch End</span><br><span class="line">        @&gt;</span><br><span class="line">       : Branch End</span><br><span class="line">      @&gt;</span><br><span class="line">     : Else</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>这样框架就搭好了，试着运行一下吧！</p>
-<p>可能会出现的Bug：如果运行不了，试着把EV0002和EV0003在地图上的位置替换一下。</p>
-<p><img src="https://s2.loli.net/2021/12/06/jVKcQ8hMEzWsJNb.gif" alt="自制菜单测试.gif"></p>
-<p>还有个小小的细节，如果想要让玩家有存档的情况下自动让Load高亮，可以在EV0001中加入这么两行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Savestate is available</span><br><span class="line">  @&gt; #光标自动停留在Load上</span><br><span class="line">  @&gt; Control Variables: V[0024:Cursor] = 2</span><br><span class="line"> : Else</span><br><span class="line">  @&gt; Control Variables: V[0024:Cursor] = 1</span><br><span class="line">  @&gt; #光标自动停留在Start上</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>这样可以让玩家读档的速度进一步加快。</p>
-<h3 id="举一反三"><a href="#举一反三" class="headerlink" title="举一反三"></a>举一反三</h3><p>既然标题画面变成了一张地图，那么只要稍微添加亿些细节就可以实现标题下雨下雪、动画背景…只要地图上能编写的事件全都可以在标题画面使用。</p>
-<p>那么同理，所有的标题画面能够通过地图事件自定义，那么存档读档以及菜单栏理论上全都可以自定义。</p>
-<p>是不是<del>很容易掉头发</del>很方便？来，试试看！</p>
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RM2003</tag>
-        <tag>游戏开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>RM2K3特殊事件-镜子和倒影</title>
-    <url>/2021/mirrorevent/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>内容涉及了<u>变量</u>和<u>坐标轴</u>。</p>
-<div class="note warning no-icon"><p>在阅读内容之前，请确认自己已经学习过03的基础指令和变量相关的知识，以及坐标轴的判定原理。</p>
-</div>
-
-<p>※此教程为个人学习笔记，可能会有很多表述不清楚的地方</p>
-<span id="more"></span>
-
-<hr>
-<h2 id="初步构思"><a href="#初步构思" class="headerlink" title="初步构思"></a>初步构思</h2><h3 id="素材的准备"><a href="#素材的准备" class="headerlink" title="素材的准备"></a>素材的准备</h3><p>要做一面镜子，首先得确定<code>镜子的样式</code>、<code>面积</code>以及<code>在地图上的位置</code>。</p>
-<p>为了能让倒影有足够多的测试空间，我选择了3×3的落地镜作为范例，这样一来倒影的活动范围也就固定在了3×3的空间中。</p>
-<p>而倒影本质上是<code>一个会跟着主人公走动的NPC</code>，因此倒影事件的图像应当设置成<code>半透明形态的主人公</code>。</p>
-<p>决定好后就可以开始画对应的素材了。</p>
-<h3 id="整理思路"><a href="#整理思路" class="headerlink" title="整理思路"></a>整理思路</h3><p>理想状态是：主人公在镜子前走动，倒影能即时作出反应，且没有延迟</p>
-<p>那么需要用到的指令一定会有<code>Conditional Branch</code>以及<code>Set Move Route</code>，朝向不需要牵扯到变量，因此可以先在倒影的事件中把四个朝向的条件分歧输入进框架中。</p>
-<p>要让倒影做出即时反应，那么必须读取主人公的坐标。当主人公的X值增加，倒影和主人公都会往右走；当主人公的Y值增加，那么倒影应该往上走；而变量可以将XY值转化为可以操作的数值，所以条件分歧除了主人公朝向，大部分应是变量。</p>
-<p>主人公走出3×3范围外倒影就会消失，所以还得准备一个开关来控制倒影的有无。</p>
-<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><p>首先我们要准备好四个变量，分别是主人公的XY轴和倒影的XY轴。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0001:X] = Player&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0002:Y] = Player&#x27;s Y Coordinate</span><br><span class="line">@&gt; Control Variables: [0003:mirror X] = This Event&#x27;s X Coordinate</span><br><span class="line">@&gt; Control Variables: [0004:mirror Y] = This Event&#x27;s Y Coordinate</span><br></pre></td></tr></table></figure>
-
-<p>然后我们进入编辑器，手动确认主人公的活动范围。</p>
-<p>X轴在<code>23~25</code>之间，Y轴在<code>19~21</code>之间，在此区间内倒影会显形，反之就会消失。这里就需要用上之前构思的开关了：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 22</span><br><span class="line">  @&gt; Conditional Branch: Variable [0001:X] &lt; 26</span><br><span class="line">    @&gt; Conditional Branch: Variable [0002:Y] &lt; 21</span><br><span class="line">      @&gt; Control Switches: [0002:transparent] = OFF</span><br><span class="line">      @&gt;</span><br><span class="line">     : Branch End</span><br><span class="line">    @&gt;</span><br><span class="line">   : Branch End</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; 22</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; 26</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0002:Y] &gt; 21</span><br><span class="line">  @&gt; Control Switches: [0002:transparent] = ON</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>然后比较主人公和倒影的XY值。因为镜子的面积是3×3，所以这里需要把倒影事件设置在<code>底部的中心</code>。这样就可以直接通过比较大小来确认主人公往哪个方向移动了。</p>
-<p>当系统读取到主人公往右走时，X值增加，所以当主人公的X值大于倒影的X值时，倒影也应该跟着往右走一格，反之亦然。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Variable [0001:X] &lt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0001:X] &gt; V[0003:mirror X]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>之后是最难的Y轴部分，因为倒影的行走方向和主人公相反，光靠比较大小是没办法的。这里我们要先把每个坐标数值的变化记下来，找到其中的运算规律。</p>
-<p>经过计算，最终确定用<code>两个Y变量</code>来代入倒影的Y值。</p>
-<p>理论如下（左为主人公，右为倒影）<br>（24,19）→（24,20）      （24,18）→（24,17）</p>
-<p>因为最底部中心点的Y值是18，所以两个Y的初始值都应是18</p>
-<p>假设主人公往下移动了一格，倒影的理想状态是往上移动一格</p>
-<p>第一个Y减去主人公Y坐标 = 18-20 = -2<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
-<p>因为主人公不可能和倒影重叠，所以第二个Y必须＞主人公的Y值（差值最少为1）所以给第二个Y+1<br>第一个Y永远比主人公Y轴大，所以得取绝对值才能有条件分歧 ×-1得到2</p>
-<p>所以当 第一个Y ＞ 第二个Y 的时候，倒影往上走</p>
-<p>相反，如果两者靠近的话</p>
-<p>第一个Y减去主人公Y坐标 = 18-19 = -1<br>第二个Y减去镜子Y坐标 = 18-18 = 0</p>
-<p>按照刚才的理论，第二个Y ＞ 第一个Y， 倒影往下走</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Control Variables: [0005:mirror Ymove] = 18 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] -= Variable [0002]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] = 18 </span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] -= Variable [0004]</span><br><span class="line">@&gt; Control Variables: [0006:mirror Ymove2] += 1 </span><br><span class="line">@&gt; Control Variables: [0005:mirror Ymove] *= -1 </span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &lt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Variable [0005:mirror Ymove] &gt; V[0006:mirror Ymove2]</span><br><span class="line">  @&gt; Set Move Route: This Event, Through ON, Move Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>移动决定了，停止时的朝向也得考虑：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Conditional Branch: Player is facing Up</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Down</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Right</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Right</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Down</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Up</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br><span class="line">@&gt; Conditional Branch: Player is facing Left</span><br><span class="line">  @&gt; Set Move Route: This Event, Turn Left</span><br><span class="line">  @&gt;</span><br><span class="line"> : Branch End</span><br></pre></td></tr></table></figure>
-
-<p>之后，我们设置好主人公的半透明图像，并且将这个事件设置为<code>Parallel Process</code>。另：主人公的速度如果保持默认，<code>Movement Speed</code>应当设置成和主人公一样的普通速。</p>
-<p>还记得之前的开关吗？我们将这一页直接复制，左上角的触发条件只需要将<code>transparent</code>给打开，图像设置成一个<strong>完全透明</strong>的图块就OK了。如果不想让主人公碰到倒影，还可以将<code>Priority</code>设置为<code>Below Characters</code>。</p>
-<p>如果有加速道具或是长按SHIFT加速的需求，再复制一页，触发条件中将加速的开关打开，然后将<code>Movement Speed</code>调整为加速后的速度就没问题了。</p>
-<p>最后，我们将主人公放在镜子前，开始debug！</p>
-<h2 id="体验实装"><a href="#体验实装" class="headerlink" title="体验实装"></a>体验实装</h2><p>延迟完全为零几乎是不存在的，行动稍微有一点点延迟是正常现象。</p>
-<p>为了不穿帮，主人公的3×3的外围最好也布置一些不可通行的图块，这样就不会出现倒影乱跑的BUG。</p>
-<p>最终结果看起来就会是这样（我还顺带测试了一下SHIFT加速）：</p>
-<p><img src="https://s2.loli.net/2022/11/25/aFQMrWiKjvxN4V5.gif" alt="mirror.gif"></p>
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RM2003</tag>
-        <tag>游戏开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何顺手使用Aseprite</title>
-    <url>/2021/Aseprite/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>Aseprite是一个非常便利的像素绘画软件，不仅可以普通绘制图像，还拥有时间轴编辑、逐帧输出等很多对游戏制作有用的功能。</p>
-<span id="more"></span>
-
-<hr>
-<h2 id="基础快捷键"><a href="#基础快捷键" class="headerlink" title="基础快捷键"></a>基础快捷键</h2><table>
-<thead>
-<tr>
-<th align="center">快捷键</th>
-<th align="center">功能</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">B</td>
-<td align="center">笔</td>
-</tr>
-<tr>
-<td align="center">E</td>
-<td align="center">橡皮擦</td>
-</tr>
-<tr>
-<td align="center">G</td>
-<td align="center">填充</td>
-</tr>
-<tr>
-<td align="center">Alt(长按)</td>
-<td align="center">吸色</td>
-</tr>
-<tr>
-<td align="center">Delete</td>
-<td align="center">清除画布</td>
-</tr>
-<tr>
-<td align="center">Tab</td>
-<td align="center">开关时间轴</td>
-</tr>
-<tr>
-<td align="center">P</td>
-<td align="center">调整帧数播放速度</td>
-</tr>
-</tbody></table>
-<p>以上是我比较常用的几个快捷键。（一般都是左手按着E和B随时切换）</p>
-<p>此外，如果使用鼠标的话，左键为前景色，右键为背景色。放大缩小都可以用滚轮来实现。</p>
-<h2 id="基础组合键"><a href="#基础组合键" class="headerlink" title="基础组合键"></a>基础组合键</h2><table>
-<thead>
-<tr>
-<th align="center">组合键</th>
-<th align="center">功能</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">Ctrl+Z</td>
-<td align="center">撤销</td>
-</tr>
-<tr>
-<td align="center">Ctrl+Y</td>
-<td align="center">重置</td>
-</tr>
-<tr>
-<td align="center">Ctrl+B</td>
-<td align="center">登录笔刷</td>
-</tr>
-<tr>
-<td align="center">Ctrl+S</td>
-<td align="center">保存</td>
-</tr>
-<tr>
-<td align="center">Shift+N</td>
-<td align="center">新建图层</td>
-</tr>
-<tr>
-<td align="center">Shift+O</td>
-<td align="center">自动描边</td>
-</tr>
-<tr>
-<td align="center">Alt+C</td>
-<td align="center">删除帧</td>
-</tr>
-<tr>
-<td align="center">Alt+B</td>
-<td align="center">增加空白帧</td>
-</tr>
-</tbody></table>
-<p>其中，登录笔刷需要配合选区一同使用。</p>
-<p>例如有自己非常喜欢的抖动风格，图案等，都可以选区选中该内容+<code>Ctrl+B</code>，这样就会登录进笔刷库中了。（使用方法：在笔刷大小的旁边有一个<code>Brush Type</code>的按钮，点开可以查看所有笔刷类型）</p>
-<p>※以上所有的键位都可以在<code>Edit</code>的<code>Keyboard Shortcuts</code>中修改。</p>
-<h2 id="编辑栏"><a href="#编辑栏" class="headerlink" title="编辑栏"></a>编辑栏</h2><p><code>File</code>：可以新建画布，保存，输出。</p>
-<p><code>Edit</code>：可以编辑图层内容，复制粘贴水平翻转之类的都可以搞。值得注意的是<code>Insert Text</code>似乎是不能直接输入中文的，要输入中文的话还得从外部复制粘贴才行。</p>
-<p><code>Sprite</code>：可以转色彩模式和裁剪画布，<code>Trim</code>会自动贴合内容的大小来裁切画布，<code>Crop</code>是可以通过选区的大小来裁切画布。如果没有把握的话，可以直接通过<code>Canvas Size</code>手动调整大小。色彩模式中，如果将图像转为<code>Indexed</code>，可以通过左侧的色板直接调整内容的颜色（请在所有颜色都已经登陆色板的情况下使用）</p>
-<p><code>Layer</code>：图层的属性设置，可以设置透明度，叠加模式之类的。<code>Merge Down</code>和<code>Flatten</code>可以合并图层，是比较常用的功能。</p>
-<p><code>Frame</code>：可以调整帧动画的内容，新增帧数、复制帧数、调整速度等都可以在这里调整。比较有趣的是<code>Tags</code>，可以通过打tag的方式循环特定帧数。画好帧动画可以直接按回车键预览效果。</p>
-<p><code>View</code>：可以调整视窗。这里建议各位打开<code>Symmetry options</code>，这样就可以开启对称尺功能，画人物和物件非常便利！<code>Grid</code>可以设置网格的大小，如果配合<code>Tiled Mode</code>一同使用，就可以很轻松地画出四方连续型地砖，不用进行额外的检查。</p>
-<p>另外，如果想要开启缩略图，请把目光移向右下角1:1的按钮。</p>
-<h2 id="制作帧动画"><a href="#制作帧动画" class="headerlink" title="制作帧动画"></a>制作帧动画</h2><p><img src="https://s2.loli.net/2022/11/25/UA5Ef9lh7Maue1v.gif"></p>
-<p>要制作帧动画之前首先要知道洋葱皮的用法，洋葱皮的开启键就在时间轴左上方，类似于窗口化的一个小图标。同时，旁边的设置小图标里可以调整洋葱皮的透明度。</p>
-<p>Aseprite可以<strong>直接导入GIF文件</strong>查看帧数，这点我觉得非常便利，大家可以拖拽上方的GIF直接进入Aseprite查看帧数的运行情况，也可以跟着下方的步骤实际操作，加强理解！</p>
-<p><code>Frame</code>栏的<code>Constant Frame Rate</code>可以一并修改所有帧数的播放速度，默认是100，数字越大运行速度越慢，反之越快。如果想单独调整帧数的播放速度可以按下<code>P</code>来调整。</p>
-<p>如果想要移动帧的位置，点击要移动的帧数（上方的数字），将光标往边缘稍稍移动，直到光标变成移动的样子，就可以长按调整位置了。同理，多选帧数的情况可以一起移动位置。</p>
-<p>想移动帧内容的位置，同样也是选中拖拽即可。移动到了右侧空白的区域，它将会自动新建帧数，将选中的内容移进去。</p>
-<p>如果想要复制帧的话，长按Ctrl拖拽即可，不管是单帧还是多帧，都可以用Ctrl复制，是一个很常用的功能。</p>
-<p>此外，如果想统一修改相同帧的内容，我们可以多选相同帧，单击右键，选择<code>Link Cels</code>，将这些相同帧数连在一起。这样修改其中一帧，其余所有的相同帧内容都会跟着一起改动。这样制作背景或者物件时，就不用每次都得CtrlC+CtrlV啦。</p>
-<h2 id="色板"><a href="#色板" class="headerlink" title="色板"></a>色板</h2><p>画面的左边是色板，上方有四个小按钮，分别是编辑颜色、排序、色板库、色板选项。</p>
-<p>Aseprite内置了很多优秀的色板，但觉得不够的情况，这里推荐一个像素色板网站：</p>
-<p><a href="https://lospec.com/palette-list">Palette List (lospec.com)</a></p>
-<p>在里面所有的色板都可以选择下载<code>Gimp.GPL</code>格式，导入进Aseprite的data→palettes里。重启Aseprite，就可以在色板库里看见刚才下载的色板了。</p>
-<p>色板的最后有一个类似⏸的标志，按住左右拖动就可以新增空位。</p>
-<p>此外，如果使用了色板以外的颜色，前景色的后方会显示一个红色的感叹号❗，这并不是提示出了问题，反之，如果你点击这个红色的感叹号，这个颜色将会自动加入色板，可以通过这个方式给喜欢的色板加入自定义的颜色。</p>
-<h2 id="导出"><a href="#导出" class="headerlink" title="导出"></a>导出</h2><p>一般来说直接在<code>Save as</code>里选择保存的格式就可以保存了，但像素太小了，如果直接导出的话成品也会很小。所以一般使用<code>Export</code>来导出文件。</p>
-<p>导出的选项里可以选择大小，最大可以放大10倍（我一般就放大个4倍左右），因为是像素所以根本不用担心会糊。如果要导出GIF的话，还可以选择导出的图层和动画的播放模式。</p>
-<p><img src="https://s2.loli.net/2022/11/25/KSQuzoqX9vcnIP7.png"></p>
-<center>祝大家绘制愉快！</center>
-
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Aseprite</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown语法记录</title>
-    <url>/2021/markdown/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>这几天翻官网发现next自带了一些插件能够通过markdown实现，就干脆单开一个笔记记录一下以后可能会用到的（人比较健忘）。</p>
-<span id="more"></span>
-
-<h2 id="字体篇"><a href="#字体篇" class="headerlink" title="字体篇"></a>字体篇</h2><h3 id="改变字体"><a href="#改变字体" class="headerlink" title="改变字体"></a>改变字体</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font face=&quot;字体&quot;&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p>能调用所有本机系统安装的所有字体文件，只要知道字体的名字就可以。</p>
-<p><font face="Zpix">像素字体</font></p>
-<p><font face="Annabelle">Handwriting</font></p>
-<p><font face="DFPKanTingLiu-B5">もうひつ</font></p>
-<h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;内容&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-
-<center>有一种写论文的感觉</center>
-
-<h3 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font color=16进制HEX&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p>一段话里可以同时存在好几种颜色，比如说<font color=#4E008E>紫色的文字</font>、<font color=#00AB84>绿色的文字</font>、<font color=#D1428D>粉色的文字</font>。</p>
-<h3 id="字体大小"><a href="#字体大小" class="headerlink" title="字体大小"></a>字体大小</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font size=&gt;内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
-
-<p>突然<font size=5>变大</font></p>
-<p>突然<font size=2>缩小</font></p>
-<p>size直接填写数字也可以，填写像素也可以。</p>
-<h3 id="字体综合"><a href="#字体综合" class="headerlink" title="字体综合"></a>字体综合</h3><p>把以上所有的语句全部综合可得：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;&lt;font color= size= face=&quot;&quot;&gt;内容&lt;/font&gt;&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-
-<center><font color=\#001489 size=5 face="Zpix">居中的蓝色像素大字体</font></center>
-
-<hr>
-<h2 id="列表篇"><a href="#列表篇" class="headerlink" title="列表篇"></a>列表篇</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [ ] 内容</span><br><span class="line">- [x] 内容</span><br></pre></td></tr></table></figure>
-
-<p>任务列表适合写笔记用，或者可以搞选择题。</p>
-<ul>
-<li><input disabled="" type="checkbox"> 未选</li>
-<li><input checked="" disabled="" type="checkbox"> 选择</li>
-</ul>
-<hr>
-<h2 id="NexT插件篇"><a href="#NexT插件篇" class="headerlink" title="NexT插件篇"></a>NexT插件篇</h2><h3 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn 地址 , 文字 , 图标 规格 %&#125;</span><br><span class="line">fa-fw fa-lg fa-2x fa-3x fa-4x fa-5x</span><br></pre></td></tr></table></figure>
-
-<p>可以只选一种也可以互相搭配：</p>
-<a class="btn" href="#">button</a>
-
-<a class="btn" href="#"><i class="fa fa-link fa-lg"></i></a>
-
-<a class="btn" href="https://theme-next.js.org/docs/tag-plugins/button.html "><i class="fa fa-link fa-fw"></i>NexT</a>
-
-<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;内容&lt;/blockquote&gt;</span><br><span class="line">&#123;% centerquote %&#125;内容&#123;% endcenterquote %&#125;</span><br><span class="line">&#123;% cq %&#125;内容&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote class="blockquote-center">
-<p>Each possible move represents a different game,</p>
-<p>a different universe in which you make a better move.</p>
-<p>There are more possible games of chess</p>
-<p>than there are atoms in the universe.</p>
-<p>No one could possibly predict them all, even you.</p>
-
-</blockquote>
-
-<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note class %&#125;内容&#123;% endnote %&#125;</span><br><span class="line">class: default/primary/success/info/warning/danger/no-icon</span><br></pre></td></tr></table></figure>
-
-<p>要启用这些得先去站点配置里找到有关note的介绍并且把它们打开。</p>
-<div class="note default"><h4 id="Default"><a href="#Default" class="headerlink" title="Default"></a>Default</h4><p>灰色箭头标志</p>
-</div>
-
-<div class="note primary"><h4 id="Primary"><a href="#Primary" class="headerlink" title="Primary"></a>Primary</h4><p>紫色加号标志</p>
-</div>
-
-<div class="note success"><h4 id="Success"><a href="#Success" class="headerlink" title="Success"></a>Success</h4><p>绿色对勾标志</p>
-</div>
-
-<div class="note info"><h4 id="Info"><a href="#Info" class="headerlink" title="Info"></a>Info</h4><p>蓝色信息标志</p>
-</div>
-
-<div class="note warning"><h4 id="Warning"><a href="#Warning" class="headerlink" title="Warning"></a>Warning</h4><p>黄色预警标志</p>
-</div>
-
-<div class="note danger"><h4 id="Danger"><a href="#Danger" class="headerlink" title="Danger"></a>Danger</h4><p>红色禁止标志</p>
-</div>
-
-<p>折叠也可以：</p>
-<details class="note danger"><summary><p>Content Warning</p>
-</summary>
-<h4 id="Content-Warning"><a href="#Content-Warning" class="headerlink" title="Content Warning"></a>Content Warning</h4><p>Content warnings are not an excuse for students to skip class or censor your material.</p>
-
-</details>
-
-]]></content>
-      <categories>
-        <category>帮助</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>nexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>讲解RM2K3-System的原理</title>
-    <url>/2021/System/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关System"><a href="#有关System" class="headerlink" title="有关System"></a>有关System</h2><p>System一般指的是菜单样式，它和Chipset、Charset一样属于可自定义的图像。</p>
-<span id="more"></span>
-
-<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
-<li><p>规格</p>
-<table>
-<thead>
-<tr>
-<th>图像大小</th>
-<th>导入格式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>160×80</td>
-<td>PNG、BMP、XYZ</td>
-</tr>
-</tbody></table>
-</li>
-<li><p>配置</p>
-<p><img src="https://s2.loli.net/2022/11/25/lI7w1xcCo5KS4fh.png" alt="system.png"></p>
-<p>这是一张System的模板。里面包含了5块32×32的格子，24块16×16的格子以及12块8×16的小格子。</p>
-</li>
-</ol>
-<hr>
-<h2 id="自定义菜单样式"><a href="#自定义菜单样式" class="headerlink" title="自定义菜单样式"></a>自定义菜单样式</h2><p><img src="https://s2.loli.net/2022/11/25/cs9mECYZ8DPKaV3.png" alt="systemtutorials.png"></p>
-<p>为了方便理解，我给每个区域标注了对应的字母和数字。如果想看指定区域的解析，可以通过左侧的目录直接跳转（仅限电脑端）</p>
-<h3 id="A区域：菜单背景"><a href="#A区域：菜单背景" class="headerlink" title="A区域：菜单背景"></a>A区域：菜单背景</h3><p>对话框的背景、游戏开场时的选项背景、状态栏的背景……这些全都属于A区域管理的部分。可以在里面随意画上自己喜欢的颜色或者图案。</p>
-<p>通过设置<code>Window Background</code>，可以得到拉伸或平铺的效果。</p>
-<p><img src="https://s2.loli.net/2022/11/25/HZgeX7iAET8fz3U.png" alt="backgroundsetting.png"></p>
-<p><code>Stretch to Fit</code>适合纯色/渐变型背景；<code>Tiled Pattern</code>则适合图案型背景。</p>
-<p>※注意：图案型背景选择Stretch的话效果会很糟糕，如果设计了图案的话最好不要选择这项。</p>
-<h3 id="B区域：边框和指示箭头"><a href="#B区域：边框和指示箭头" class="headerlink" title="B区域：边框和指示箭头"></a>B区域：边框和指示箭头</h3><p>黄色的部分是边框所占的最大空间，只要不超过黄色的部分，边框无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。四个直角的读取范围是8×8，剩下的内容会根据边框的长度进行压缩或平铺。</p>
-<p>橙色的部分是指示箭头所占的最大空间，对话框底部闪烁的图案、菜单滚动页面的指示箭头都靠这部分显示，默认闪烁。上半部分和下半部分的大小都是8×16，注意不要画过头了。</p>
-<h3 id="C-amp-D区域：光标"><a href="#C-amp-D区域：光标" class="headerlink" title="C&amp;D区域：光标"></a>C&amp;D区域：光标</h3><p>这两块绿色的部分相当于起到光标的作用，两者交替显示形成一种闪烁的效果：</p>
-<p><img src="https://s2.loli.net/2022/11/25/kEUt43LK9ApVTea.gif" alt="titile.gif"></p>
-<p>和边框一样，只要不超过这些区域，无论画成圆角或方角，甚至是不规则图形都可以正常被系统读取。比如可以在宽的部分加上指示标记，或者只画一条线充当选项的下划线……请发挥想象力！</p>
-<h3 id="E区域：店铺页面的显示"><a href="#E区域：店铺页面的显示" class="headerlink" title="E区域：店铺页面的显示"></a>E区域：店铺页面的显示</h3><p>这部分一般会在武器防具店购买东西的时候用上，如果是做派生的话这部分的内容是用不上的，想空着也可以空着。</p>
-<p>从上至下分别为<code>状态提升</code>、<code>状态不变</code>、<code>状态下降</code>以及<code>正在装备</code>。它们的播放顺序都是从左往右1→2→3→4</p>
-<h3 id="F区域：整体背景"><a href="#F区域：整体背景" class="headerlink" title="F区域：整体背景"></a>F区域：整体背景</h3><p>它负责没有被边框框住的部分，比如持有金和菜单栏之间的背景，存档页面的背景（如图）。没什么需求的话可以搞成纯黑的，或者和A区域使用同一种色系。</p>
-<p><img src="https://s2.loli.net/2022/11/25/XHrgJE5waOWBfZx.png" alt="save.png"></p>
-<p>蓝色的部分就是F区域，橙色的部分则是B区域指示箭头的下半部分。</p>
-<h3 id="G区域：文字的影子"><a href="#G区域：文字的影子" class="headerlink" title="G区域：文字的影子"></a>G区域：文字的影子</h3><p>此区域的颜色会影响所有的文字和符号，它可以让字符变得更加立体和美观。一般设定成深色，可以按实际需求调整。</p>
-<h3 id="0-19：文字的颜色"><a href="#0-19：文字的颜色" class="headerlink" title="0~19：文字的颜色"></a>0~19：文字的颜色</h3><p>0：默认文本颜色</p>
-<p>1：金钱的单位颜色、状态文本的颜色（例如HP、MP、LV等）</p>
-<p>2：状态数值上升时的颜色</p>
-<p>3：某选项无法选择时的颜色（例如游戏在未读出存档时Continue的颜色，详见CD区域的GIF）</p>
-<p>以上四种是制作派生时会用到的颜色。</p>
-<p>剩下的4~19虽然不会在游戏里直接显示，但是可以随时通过<code>\c[]</code>调用。例如我在文本里输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt;Text: Hello, I&#x27;m \c[3]Drifter!</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s2.loli.net/2022/11/25/WGAw1TLq7UcoZJj.png" alt="text.png"></p>
-<blockquote>
-<p>注：如果想在一段长台词里标亮其中一段句子或词语，记得在标亮词句后输入<code>\c[0]</code>以保证之后的文本颜色回到默认状态。</p>
-</blockquote>
-<p>只要在[]中输入编号(1~19)，系统就会自动调用System中对应的颜色。当输入的数值超过19的情况，系统会显示默认的颜色（0号）。</p>
-<h3 id="彩色区域：计时器的样式"><a href="#彩色区域：计时器的样式" class="headerlink" title="彩色区域：计时器的样式"></a>彩色区域：计时器的样式</h3><p>这段区域由12块8×16的小格子组成，一般在里面填写0~9以及冒号（剩余一段8×16的空格在游戏里不会被显示）。当在事件里启用计时器时，画面的左上角就会显示这部分的内容。</p>
-<p>制作派生时一般用它来显示入睡时间。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Timer 1 Operation: Start</span><br><span class="line">@&gt; Timer 1 Operation: Set Time, 0 minutes 03 seconds</span><br></pre></td></tr></table></figure>
-
-<p>像本家或派生三秒入睡，实际上只需要布置1~3的数字在此区域就可以运行了。如果没有计时器的要求，那么这段区域空着也可以。</p>
-<h3 id="椭圆区域：飞行船的影子"><a href="#椭圆区域：飞行船的影子" class="headerlink" title="椭圆区域：飞行船的影子"></a>椭圆区域：飞行船的影子</h3><p>它是Vehicle中的Airship的影子，派生一般用不上这块区域其实可以忽略。</p>
-<p>两个椭圆会被系统认定为两个叠加的半透明图案，在飞行船底部形成一个边缘淡化的影子。</p>
-<hr>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="https://s2.loli.net/2022/11/25/4TQjtzSLsP6bCYG.png" alt="systemexample.png"></p>
-<p>用一张以前做的菜单样式作为例子，注意边框、指示箭头和计时器数字的背景都指定了透明色。</p>
-<p><img src="https://s2.loli.net/2022/11/25/hQeOPp5KFUXJSDY.png" alt="parts.png"></p>
-<p>右侧边框的内容可以通过数据库的<code>System 2</code>中得到修改，制作派生时可以将第一行的<code>Items</code>换成<code>Effects</code>，将<code>Equipment</code>与<code>Save</code>关闭。</p>
-<p>边框底部是持有金的显示，货币单位G可以在<code>Glossary4</code>的<code>Shop Paramenters</code>里进行修改。</p>
-<p>右侧是有关主人公的数值面板，第一行是<code>Name</code>和<code>Nickname</code>，制作派生时可以将主人公的状态输进昵称栏里。（第二行的特殊符号我会在下方进行详细的解释）</p>
-<h2 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h2><p>RM2003自带了特殊符号，一共52种。只要使用<code>$英文字母</code>就能随时调用。</p>
-<p>在文本框里输入以下内容可以看到所有的符号：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@&gt; Text: $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p $q</span><br><span class="line"> :     : $r $s $t $u $v $w $x $y $z</span><br><span class="line"> :     : $A $B $C $D $E $F $G $H $I $J $K $L $M $N $O $P $Q</span><br><span class="line"> :     : $R $S $T $U $V $W $X $Y $Z</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://s2.loli.net/2022/11/25/3fYiBt92OqsoZ4C.png" alt="emoji.png"></p>
-<p>这些符号也可以应用到数据库中的<code>Terms</code>里。找到<code>Glossary5</code>，可以在里面设置Level、HP、MP、EXP的缩略符号。</p>
-<p>例如在<code>HP(Abbr.)</code>里输入<code>$k</code>，那么在菜单栏里的HP代表符号就会变成一颗心的形状。</p>
-<p><img src="https://s2.loli.net/2022/11/25/MQVav2jumi4oY9G.png" alt="Snipaste_2021-05-17_03-19-48.png"></p>
-<p>大家可以根据个人喜好决定内容。</p>
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RM2003</tag>
-        <tag>游戏开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>讲解RM2K3-Charset的原理</title>
-    <url>/2021/Charset/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关Charset"><a href="#有关Charset" class="headerlink" title="有关Charset"></a>有关Charset</h2><p>Charset是存放角色行走图的地方，也是制作游戏时必不可少的元素之一。</p>
-<span id="more"></span>
-
-<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
-<li><p>规格</p>
-<table>
-<thead>
-<tr>
-<th>图像大小</th>
-<th>导入格式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>288×256</td>
-<td>PNG、BMP、XYZ</td>
-</tr>
-</tbody></table>
-</li>
-<li><p>配置</p>
-<p><img src="https://s2.loli.net/2022/11/25/iWHP2SrODXmnJe9.png" alt="charset.png"></p>
-<p>这是一张Charset的模板。一格的大小是24×32像素，一组共12块。一整张Charset正好可以放下八组。</p>
-<p>单独把一组拆出来进行解析：</p>
-<p><img src="https://s2.loli.net/2022/11/25/IUOD1v2jfN6ch3B.png" alt="size.png"></p>
-<p>在这里我把16×16的格子们放置在中间，可以较为直观地看出一格的长度正好是16的两倍，宽度左右各多出了4个像素点的空间。其实多出来的内容一样可以在游戏中显示出来，不需要担心自己的图像超过了范围。</p>
-<p>但需要注意的是如果地图元件没有设置好通行的话，这部分的内容就会<strong>穿过该元件的边缘</strong>，所以除非自己有特殊需求，<strong>尽量</strong>不要让角色的宽度占满所有空间。</p>
-</li>
-</ol>
-<hr>
-<h2 id="初阶：角色的配置"><a href="#初阶：角色的配置" class="headerlink" title="初阶：角色的配置"></a>初阶：角色的配置</h2><p><img src="https://s2.loli.net/2022/11/25/4qJdLmlhfU2s8Hc.png" alt="character.png"></p>
-<p>用以前画的行走图拿出来举例，一组一共对应了角色的四个方向：上、右、下、左，每个朝向都对应了三帧动画。</p>
-<p>系统默认玩家不动的时候，角色的状态以正中间的纵列为主，被称为<code>静止帧</code>；当玩家输入按键的时候，图像会进行1→2→3→2的循环并同时移动位置，这些被称为<code>摆动帧</code>。</p>
-<p>制作角色行走图时需要注意的几点要求：</p>
-<ul>
-<li>画行走图时，需要注意角色静止时和行走时的<code>高低差</code>。如果三个动作都在同一水平面上，会感觉角色在地图上平移，不自然不美观。</li>
-<li>配置的时候切记<code>上右下左</code>的顺序，千万不能搞反方向。</li>
-<li>给角色增加细节，例如衣服的摆动和头发的摆动。</li>
-</ul>
-<h2 id="进阶：物件的配置"><a href="#进阶：物件的配置" class="headerlink" title="进阶：物件的配置"></a>进阶：物件的配置</h2><p>那除了画人，是不是还可以画物体呢？</p>
-<p>当然可以！</p>
-<h3 id="配置小物件"><a href="#配置小物件" class="headerlink" title="配置小物件"></a>配置小物件</h3><p><a href="https://drifter-games.com/2021/Chipset/">上一章</a>我们提到，Chipset分为<code>下层元件</code>和<code>上层元件</code>，而Charset的物体，在地图上可以被分类成第三类元件：它不仅可以充当下层元件，甚至还可以存在于上层元件之上。比如可以是床上的一本书，可以是桌上的台灯，栏杆上挂着的衣服……如果Chipset的空间已经占满，或想做一个可交互的小物件时，使用行走图就可以解决大部分问题。</p>
-<p><img src="https://s2.loli.net/2022/11/25/IyRsjkuLZFXMnti.png" alt="lamp.png"></p>
-<p>以一盏台灯为例，如果把它放进游戏里的话就会是这样的：</p>
-<p><img src="https://s2.loli.net/2022/11/25/uoCUOAH3ReqEbzD.png" alt="through.png"></p>
-<p>角色虽然不能从杆子的部分穿过，但是可以从灯的后面穿过。我们得出一个结论：<strong>行走图的上半部分会被系统默认为☆可穿过元件。</strong>只要合理利用这点就能很快在地图上配置好各种各样的物件，而不用担心Chipset的上限问题。</p>
-<h3 id="配置大物件"><a href="#配置大物件" class="headerlink" title="配置大物件"></a>配置大物件</h3><p>当然不是所有的物体都像是刚才的台灯那样刚刚好，比如我画了一张大到一个格子塞不下的床：</p>
-<p><img src="https://s2.loli.net/2022/11/25/NjzIbc6JPFSL249.png" alt="example.png"></p>
-<p>这种情况就要逐个把它们分进小格子里一段一段配置。在配置一节讲到过，行走图一格的宽度比普通的一格宽度多出了8个像素点，但这部分又确实能在地图上显示，所以左右拆分的时候也应当<strong>空出相同数量的像素点</strong>，这样就不会出现显示错误。</p>
-<p>根据以上的结论，可以得出两种拆分方法：</p>
-<ol>
-<li>利用行走图的宽度特性：内容占满了一整格24×32的情况，左右两侧就应该留出4+4=8格像素的空间。</li>
-<li>不利用行走图的宽度特性：内容只占中间16×32的情况，左右两侧就应该留出行走图宽度多出来的4格像素的空间。</li>
-</ol>
-<p>大家可以视实际情况决定拆分方法！在这里我用第一种方法举例：</p>
-<p><img src="https://s2.loli.net/2022/11/25/8rQwMNg6RxsoeIt.png" alt="parts.png"></p>
-<p>因为床的中心占满了整个24×32的格子，所以两侧都得空出8个像素的空间。理论上这张床放进游戏里是不会有任何显示错误的，但放进游戏里进行测试的时候，却发现了这样的问题：</p>
-<p><img src="https://s2.loli.net/2022/11/25/oQPMsgO7n8bRUva.gif" alt="pass.gif"></p>
-<p>主人公能从中间穿过的原因在于上一章我们得出的结论：</p>
-<blockquote>
-<p>行走图的上半部分会被系统默认为可穿过元件</p>
-</blockquote>
-<p>于是再进行一次拆分工作：</p>
-<p><img src="https://s2.loli.net/2022/11/25/tvRHKN5awlJrxOg.png" alt="parts2.png"></p>
-<p>如图所示，只要把这些会穿过的部分单独拆出来放进另一组的<code>下半部分</code>就不会出现这种问题了。</p>
-<p>最后把这些床全都放进行走图里做一个对比：</p>
-<p><img src="https://s2.loli.net/2022/11/25/9wrovqtCx581Wni.png" alt="bed.png"></p>
-<p><img src="https://s2.loli.net/2022/11/25/DhrM61fCzQxqEVH.png"></p>
-<p><img src="https://s2.loli.net/2022/11/25/n3x2fsYVk8MW5HK.png" alt="testplay.png"></p>
-<p>第一张床是简单的拆分法、第二张床是经过改良之后的拆分法、第三张床就是完全没有进行拆分的情况。把这些床放进编辑器里进行配置</p>
-<div class="note info"><p><strong>配置时要记得将部件的<code>Animation Type</code>设置成<code>Fixed Graphic</code>才能在地图上正常显示</strong></p>
-</div>
-
-<p><img src="https://s2.loli.net/2022/11/25/36brFxXaSCNo8AH.png" alt="fixed graphic.png"></p>
-<p>如图所示，未进行拆分的床变得一塌糊涂，而经过拆分的床则没有这种问题。学会拆分就不用担心Chipset空间不够，是一种非常实用的技能。</p>
-<blockquote>
-<p>注：其实第一张床出现的穿过问题，可以在中间那一排加上属性为<code>Same as Characters</code>的空白事件强制让主人公无法通过。大家可以视地图的具体情况来确定拆分方法。</p>
-</blockquote>
-<h2 id="高阶：动画的配置"><a href="#高阶：动画的配置" class="headerlink" title="高阶：动画的配置"></a>高阶：动画的配置</h2><p>动画的配置需要了解事件编辑器中的<code>Animation Type</code>（动画类型）和<code>Movement Speed</code>（移动速度），通过这两者的配合就可以在行走图做出各种不同的帧动画。</p>
-<p><code>Animation Type</code>一共有7种设置方法：</p>
-<table>
-<thead>
-<tr>
-<th>Animation Type</th>
-<th>动画类型</th>
-<th>处理方法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Standing Animation</td>
-<td>站立动画</td>
-<td>移动时不会固定朝向和摆动帧动画</td>
-</tr>
-<tr>
-<td>Walking Animation</td>
-<td>行走动画</td>
-<td>循环播放摆动帧动画</td>
-</tr>
-<tr>
-<td>Direction Fix/Inanimated</td>
-<td>方向校正/无动画</td>
-<td>固定朝向，不固定摆动帧动画</td>
-</tr>
-<tr>
-<td>Direction Fix/Animated</td>
-<td>方向校正/动画</td>
-<td>固定朝向，循环播放摆动帧动画</td>
-</tr>
-<tr>
-<td>Fixed Graphic</td>
-<td>图像校正</td>
-<td>可指定任意方向的任意帧数</td>
-</tr>
-<tr>
-<td>Spin</td>
-<td>旋转</td>
-<td>固定读取静止帧，按照上右下左的顺序循环播放</td>
-</tr>
-<tr>
-<td>Step Frame Fix</td>
-<td>摆动帧校正</td>
-<td>固定读取静止帧，不固定朝向</td>
-</tr>
-</tbody></table>
-<p>建议实际操作感受一下这七种类型的区别。</p>
-<h3 id="三帧-amp-四帧"><a href="#三帧-amp-四帧" class="headerlink" title="三帧&amp;四帧"></a>三帧&amp;四帧</h3><p>在行走图里画帧动画，一般会用上<code>Walking Animation</code>和<code>Spin</code>两种模式。行走动画默认读取横向摆动帧，旋转默认读取纵向静止帧，由此可得一张行走图最多可以放置四种行走动画或三种旋转动画。</p>
-<p>举一个例子：</p>
-<p><img src="https://s2.loli.net/2022/11/25/o9dnyP3BmS5RXiH.png" alt="ring.png"></p>
-<p>中间的静止帧是一个旋转的圆环，其他摆动帧分别为跳动的圆环、拉长的圆环、旋转的宝石和闪烁的圆环。调整好动画类型和速度，放进地图里就会像这样：</p>
-<p><img src="https://s2.loli.net/2022/11/25/x4ZYuJn2FKeI36w.gif" alt="ring.gif"></p>
-<p>但是这种方法最多只能画四帧动画，那如果四帧并不能满足需求，这种时候就得用上<code>Movement Type</code>（移动方式）进行辅助了。</p>
-<h3 id="四帧以上"><a href="#四帧以上" class="headerlink" title="四帧以上"></a>四帧以上</h3><p><code>Movement Type</code>位于左下角，一共有七种：</p>
-<table>
-<thead>
-<tr>
-<th>Movement Type</th>
-<th>移动类型</th>
-<th>处理方法</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Stationary</td>
-<td>静止</td>
-<td>不移动</td>
-</tr>
-<tr>
-<td>Random</td>
-<td>随机</td>
-<td>随机移动</td>
-</tr>
-<tr>
-<td>Vertical</td>
-<td>纵向</td>
-<td>垂直方向移动，碰到障碍物会反向移动</td>
-</tr>
-<tr>
-<td>Horizontal</td>
-<td>横向</td>
-<td>水平方向移动，碰到障碍物会反向移动</td>
-</tr>
-<tr>
-<td>Approach Player</td>
-<td>靠近主人公</td>
-<td>往主人公的所在位置靠近</td>
-</tr>
-<tr>
-<td>Away from Player</td>
-<td>远离主人公</td>
-<td>远离主人公的所在位置</td>
-</tr>
-<tr>
-<td>Custom</td>
-<td>自定义</td>
-<td>指定该事件的移动路线</td>
-</tr>
-</tbody></table>
-<p>这里可以用<code>Custom</code>（自定义）来增加动画的帧数。当选择自定义时，会发现底端多了一个名为<code>Frequency</code>的选项，它的数字越大，执行指令的速度就越快。</p>
-<p>为了举例，我画了一个球体在地面上弹跳的动画：</p>
-<p><img src="https://s2.loli.net/2022/11/25/VGjs1UynxDXTtBR.png" alt="ball.png"></p>
-<p>注意此处我把它们分成了两组，这样设置移动路线的时候可以利用<code>Change Graphic</code>实现帧数之间的无缝衔接。</p>
-<p>我们在<code>Movement Commands</code>里输入以下指令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">//首先是第一组的四帧</span><br><span class="line">$&gt;Turn Up</span><br><span class="line">$&gt;Turn Right</span><br><span class="line">$&gt;Turn Down</span><br><span class="line">$&gt;Turn Left</span><br><span class="line">//然后衔接上第二组</span><br><span class="line">Graphic:&#x27;ball&#x27;,2</span><br><span class="line">Turn Up</span><br><span class="line">Turn Right</span><br><span class="line">Turn Down</span><br><span class="line">Turn Left</span><br><span class="line">//再切换回第一组</span><br><span class="line">Graphic:&#x27;ball&#x27;,1</span><br></pre></td></tr></table></figure>
-
-<p>之后将<code>Frequency</code>设置成5，按下确定，来看看效果：</p>
-<p><img src="https://s2.loli.net/2022/11/25/CLpqa6D9btVAw4i.gif" alt="bounce.gif"></p>
-<p>一个弹跳的球完成了！</p>
-<div class="note info no-icon"><p>如果有其他需求，可以用事件指令<code>Set Move Route</code>并指定<code>This Event</code>进行编辑，效果是一样的。</p>
-</div>
-
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RM2003</tag>
-        <tag>游戏开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>讲解RM2K3-Chipset的原理</title>
-    <url>/2021/Chipset/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="有关Chipset"><a href="#有关Chipset" class="headerlink" title="有关Chipset"></a>有关Chipset</h2><p>Chipset是存放地图素材的地方，它是构成一切地图的基础，也是游戏开发者必须要去了解的东西。</p>
-<span id="more"></span>
-
-<h3 id="规格和配置"><a href="#规格和配置" class="headerlink" title="规格和配置"></a>规格和配置</h3><ol>
-<li><p>规格</p>
-<table>
-<thead>
-<tr>
-<th>图像大小</th>
-<th>导入格式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>480×256</td>
-<td>PNG、BMP、XYZ</td>
-</tr>
-</tbody></table>
-</li>
-<li><p>配置</p>
-<p><img src="https://i.loli.net/2021/05/11/79Pdmr3THInxUkj.png" alt="chipset.png"></p>
-<p>这是一张Chipset的模板。可以看到被分成了五个部分：</p>
-<blockquote>
-<p>蓝色海洋元件（A）</p>
-<p>黄色动画元件（B）</p>
-<p>自动填充元件（C）</p>
-<p>普通下层元件（D）</p>
-<p>普通上层元件（E）</p>
-</blockquote>
-<p>所有的下层元件位于亮黄色折线的左边（包括ABC三个区域），上层则位于折线的右边。折线的中央有一块不太一样的空格，它代表透明色。</p>
-<div class="note warning no-icon"><p><strong>注意：必须留一个空格表示透明色</strong></p>
-</div>
-
-<p>官方有关上下层元件的说明如下：</p>
-<blockquote>
-<p>The map is comprised of 2 layers (upper and lower)  and each has a different set of placeable tiles. The “lower layer” is used for  placing terrain such as sea, mountains, and dirt, while the “upper layer” is  used for details such as buildings, treasure chests, and characters.</p>
-</blockquote>
-<blockquote>
-<p>地图由2层（上层和下层）组成，每层都有一组不同的可放置元件。“下层 ”用于放置地形，如大海、山脉和泥土，而 “上层 ”则用于放置细节，比如建筑物、宝箱和人物。</p>
-</blockquote>
-<p>了解了什么是上下层之后，我们可以开始着手画元件了。</p>
-</li>
-</ol>
-<hr>
-<h2 id="下层元件绘制"><a href="#下层元件绘制" class="headerlink" title="下层元件绘制"></a>下层元件绘制</h2><h3 id="初阶：四方连续与动画元件"><a href="#初阶：四方连续与动画元件" class="headerlink" title="初阶：四方连续与动画元件"></a>初阶：四方连续与动画元件</h3><ol>
-<li><p>四方连续的画法</p>
-<p>我们先从最简单的开始入手：只需一格（16×16）就能平铺成地面的四方连续型元件。例子：草地、泥土、地板、沙漠等等。</p>
-<p><img src="https://i.loli.net/2021/05/11/ac1MesHqxf2CwJp.png" alt="四方连续"></p>
-<p>首先构思好想要画的地面。比如我想要一块泥土，就用棕色填充一块16×16的格子作为基底，再确定好浅色和深色分别代表土块和阴影，画出一个大致的形状。但是仅仅像这样是不够的，还得检查拼接是否有瑕疵。检查的方法有很多种，图中我演示的是<code>对角线互换法</code>。像这样把一格分为四等分，把它们以对角线交换，在此基础上进行略微改动即可。</p>
-<p>按照同样的方法继续绘制石块和海洋。</p>
-</li>
-<li><p>动画元件的画法</p>
-<p>动画元件一共有三列可以被调用，每一列都有四个16×16的格子组成。动画的行进方向为从上至下1→2→3→4→1。这个区域的动画速度是无法被调整的，因此如果想要加快速度或减慢速度的话推荐使用行走图（Charset）进行绘制。</p>
-<p>这里用我以前做的瀑布动画作为例子：</p>
-<p><img src="https://s2.loli.net/2022/11/25/8MbCorvzxaBPd9K.png" alt="waterfall.png"></p>
-<p>除了瀑布以外还可以画风扇、灯光、火焰等等。</p>
-<p>当然也完全可以把这个区域当成一个静止的下层元件看待，只要四帧动画完全一致，那么这一列就和普通的下层元件没有区别。</p>
-</li>
-</ol>
-<h3 id="进阶：自动填充"><a href="#进阶：自动填充" class="headerlink" title="进阶：自动填充"></a>进阶：自动填充</h3><p>自动填充是初学者在绘制时很容易碰壁的区域，光看系统自带的RTP也无法完全参透它的原理。它其实就是让系统自动帮忙填充边界的功能，只要运用好就可以大大缩短地图的配置时间。</p>
-<p>这里我使用上面准备的石块作为自动填充的素材，将它和泥土结合形成一块石头路面。首先石块和泥土各复制成九块，按照3×3的规格排列。（石块要进行一些擦除和修改，使其变成一个不规则图形。按照自己的想法随意修改即可）</p>
-<p><img src="https://s2.loli.net/2022/11/25/VgMsL7x625yEaTm.png" alt="regroup.png"></p>
-<p>粉色的区域对应正中央四方连续型的石头图块，其余四个角分别用黄、绿、蓝、红标出。之后按照第二步进行一个重组。</p>
-<p>重组完成后会发现中央的四个直角区域有瑕疵（亮粉色区域），把它们修正后可以得到一个完美的十字。</p>
-<p><img src="https://s2.loli.net/2022/11/25/L8kdsFRh3mUnxXO.png" alt="highlight.png"></p>
-<p>之后将高光部分如上图拼起来，可以得到两个小图块。这两个小图块就是自动填充图块的精髓，左边代表了<code>外侧边缘的填充</code>，右边代表了<code>内侧边缘的填充</code>。</p>
-<blockquote>
-<p>注：关于外侧边缘的填充系统会自动完成，实际上第一格只是起到一个标记的作用，方便作者在编辑器里调用相关内容。因此无论这一格不论画成什么样都都不会影响外侧边缘的填充。</p>
-</blockquote>
-<p>之后我们把这些元素进行一个最终组装：</p>
-<p><img src="https://s2.loli.net/2022/11/25/TmQOVuZqGANXgwU.png" alt="cobble.png"></p>
-<p>锵锵！一块自动填充元件就画好啦！</p>
-<h3 id="中阶：海洋图块"><a href="#中阶：海洋图块" class="headerlink" title="中阶：海洋图块"></a>中阶：海洋图块</h3><p>海洋图块位于Chipset的左上角，一组由三个16×16的图块为一排、四个16×16的图块为一列组成，共12格。每排它都会自动按照从左到右（默认1→2→3→2）的顺序播放。可以算作是一种动画图块。</p>
-<p>同样地，先绘制好海洋的三帧动画，进行一个调色和拼装：</p>
-<p><img src="https://s2.loli.net/2022/11/25/S1VLJlsj46gFWaZ.png" alt="ocean.png"></p>
-<p>在这里我设置底下两排为深水区。实际上这块可以灵活变通，不一定要设置深水区，甚至都不一定要画海洋，只要知道它会自动从左往右播放就行。</p>
-<p>海洋画好后我们来设置陆地。依旧是之前画的泥土<del>（本来应该重新画草地的但我懒）</del>拼成一个十字，但进行一个调色使其看起来像是青苔陆地。</p>
-<p><img src="https://s2.loli.net/2022/11/25/hSmKPa5n3g1dOBV.png" alt="regroup2.png"></p>
-<p>在周围画上边缘体现厚度。这里我不推荐把16*16的格子画满，最多到四分之一的大小就好（就是下方示意图的小色块的大小），而且如果想偷懒的话，还可以只画一边，然后水平翻转一下就可以了。<del>当然不偷懒会更自然好看，可我懒</del></p>
-<p>最容易配置的是黄色的区域，就是四个内侧直角所在的地方。把它们组合拼装我们可以得到第一块。</p>
-<p>绿色和红色区域是左右接续边缘，把它们组合拼装得到第二块。</p>
-<p>蓝色和紫色区域是上下接续边缘，把它们组合拼装得到第三块。</p>
-<p>最后就是白色区域，它是负责拼接外侧转角的部分，组合拼装得到第四块。</p>
-<p>这样我们就准备好所有的素材了！把整体拖入上面画的海洋图层里看看效果（不满意还可以再后期调色，直到看起来像是陆地为止）此外考虑到陆地周边的海洋不会是深水区，因此配置的时候背景采用的是第一排的海洋图块。</p>
-<p><img src="https://s2.loli.net/2022/11/25/e3FHpCAtPNKwyo2.png" alt="land.png"></p>
-<p>大功告成！</p>
-<h3 id="高阶：应用"><a href="#高阶：应用" class="headerlink" title="高阶：应用"></a>高阶：应用</h3><p>现在我们学会了自动填充的绘制方法，也知道了它的构成原理，那么接下来该谈谈如何灵活运用这块区域，让它变成一个“元件储藏室”。</p>
-<p>介绍Chipset的配置时提到，不管是海洋元件、动画元件还是自动填充元件，它们都属于<code>下层元件</code>。下层原件就是构成地面或墙壁的元素，一不小心就会画很多。这种时候为了节省空间，是可以把下层元件放进上层区域管理的。但如果上层的空间都已经被各种元件占满了，还有一些没地方放怎么办？一张地图只支持一张Chipset，难道要忍痛删除部分元件吗？</p>
-<p>不用着急，这里有两种解决办法：</p>
-<ol>
-<li>利用行走图，让它变成一块可管理的第三级元件。</li>
-<li>利用自动填充区域，让它变成可以在编辑器里复制的下层元件。</li>
-</ol>
-<p>第一种方法请参考<a href="https://drifter-games.com/2021/Charset/">Charset-物件的配置</a>，在这里详细解释一下第二种解决办法。</p>
-<p><img src="https://s2.loli.net/2022/11/25/JcMNIpiSZxYEAje.png" alt="number.png"></p>
-<p>这里为了方便大家理解，我在每一格里放入了对应的数字和符号。当这张Chipset被导入进编辑器后，数字0以16×16的大小出现在下层编辑器的左上角，表示这一格可以调用数字1~9所在区域的内容。</p>
-<p>我们在地图里画出一个3×3的格子就可以自然得到1~9，而右上角的冒号得画出一个十字才能被显示出来。如图所示：</p>
-<p><img src="https://s2.loli.net/2022/11/25/rVUzmxJ3RuFTk5G.png" alt="autonumber.png"></p>
-<p>按住<code>Shift</code>不要松开，使用<code>右键</code>点击任何数字所在区域即可随意复制（长按右键拖动可以复制更多内容），之后在任意区域再次<code>右键</code>就可以粘贴了。</p>
-<div class="note warning no-icon"><p><strong>全程请不要松开Shift。</strong></p>
-</div>
-
-<p>按照这个方法，我们可以随意排列组合1~9以及符号，而不受自动填充系统的影响。这就相当于多出了10个16×16的下层空间！当普通上层和下层的区域都被塞满，而自动填充区域还有空间时，请不妨使用这个方法配置更多元件。</p>
-<hr>
-<h2 id="上层元件绘制"><a href="#上层元件绘制" class="headerlink" title="上层元件绘制"></a>上层元件绘制</h2><p>上层并没有多少可以讲解的部分，除了注意配置一栏提到的<code>必须留空的格子</code>以外，几乎所有的空间都可以被调用。不论是树木，屋顶，栏杆，家具，一切能够在地图上存在的物件都可以往上面画。</p>
-<hr>
-<h2 id="数据库设定"><a href="#数据库设定" class="headerlink" title="数据库设定"></a>数据库设定</h2><p>最后我们画好一整张Chipset后，在数据库里进行一个通行设定和音效的设定。</p>
-<p>进入<code>Database</code>，找到<code>Tilesets</code>选项卡，在<code>Tileset Graphic</code>里指定画好的Chipset就可以开始进行设定了。</p>
-<ol>
-<li><p>下层元件<code>Lower Layer</code></p>
-<p><code>Terrain</code>是音效和特效的指定。得先在<code>Terrain</code>选项卡里设定好，再回到<code>Tilesets</code>选项卡里指定相关的数字。</p>
-<p><code>Passability</code>就是通行设定。○是可通行，×是不可通行，☆是可穿过，□是自动填充元件的专属通行规则。</p>
-<p><code>Passage(4 Dir)</code>是通行设定的一个辅助功能。如果不想让主人公在特定方向通过此图块，只要把这个方向关掉即可，反之亦然。</p>
-<p><code>Global Terrain Setting</code>是可以将Chipset上所有的Terrain都设置成同一种数字的功能。</p>
-<p><code>Autotile Animation</code>可以设定海洋元件的播放速度和播放顺序。有自动预览，可以根据自己的喜好进行调整。</p>
-</li>
-<li><p>上层元件<code>Upper Layer</code></p>
-<p><code>Passability</code>与<code>Passage(4 Dir)</code>的功能与下层元件一样，都是通行设定。</p>
-<p><code>Counter</code>是计数标记，和地图事件有关。当一个地图事件用上了以<code>Action Button</code>作为开关时，主人公必须踩在上面或面对它按确认键才能激活。但计数标记图块存在于主人公和事件之间时，事件就会直接执行。</p>
-</li>
-</ol>
-<p>设置好后就可以开始在编辑器里绘制地图了。</p>
-<hr>
-<p>※以上内容仅作为个人观点，如有解释不当的部分欢迎讨论。内容随时会进行更新和补充。</p>
-<p>※本文章的内容，包括文字、图片均为本人(Drifter)原创。可将文章提供的内容用于个人学习、研究以及其他非商业用途。转载时请务必注明地址和原作者信息，请勿用于商业性或盈利性用途。</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RM2003</tag>
-        <tag>游戏开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>nexT主题v5升级至v8记录</title>
-    <url>/2021/nextupdate/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h2 id="更新之前"><a href="#更新之前" class="headerlink" title="更新之前"></a>更新之前</h2><p>昨天写搭建记录的时候发现自己的Hexo和Node.js还有Git都是最新版本，但nexT版本还停留在5.1.4，看了一下官网最新版本都已经8.4.0了，遂决定手动跨版本更新。</p>
-<p>这是nexT的历代版本仓库。</p>
-<table>
-<thead>
-<tr>
-<th>年</th>
-<th>版本号</th>
-<th>仓库地址</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>2014~2017</td>
-<td>v5</td>
-<td><a href="https://github.com/iissnan/hexo-theme-next">https://github.com/iissnan/hexo-theme-next</a></td>
-</tr>
-<tr>
-<td>2018~2019</td>
-<td>v6~v7</td>
-<td><a href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></td>
-</tr>
-<tr>
-<td>2020</td>
-<td>v8</td>
-<td><a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></td>
-</tr>
-</tbody></table>
-<p>下载主题就相当于从仓库下载代码，这就是为什么明明跟着教程走却只能安装到v5版本的原因。可v5升级到v8在网上的教程少得可怜，看了官方的介绍还是一知半解……还是走一步算一步，出了错再随机应变吧。</p>
-<p>以下是我的更新步骤。</p>
-<span id="more"></span>
-
-<h2 id="需要准备的"><a href="#需要准备的" class="headerlink" title="需要准备的"></a>需要准备的</h2><ol>
-<li>下载一个文件对比软件，比如<code>BeyondCompare</code></li>
-<li>一个备份文件夹，用来装之前的v5版本</li>
-<li><code>GitBash</code>，所有的基础</li>
-</ol>
-<p>准备以上材料，我们开始进行更新。</p>
-<hr>
-<h3 id="第一步-安装"><a href="#第一步-安装" class="headerlink" title="第一步 安装"></a>第一步 安装</h3><ul>
-<li><p>将themes中的next文件夹转移至备份文件夹内。</p>
-</li>
-<li><p>之后用GitBash定位到站点文件夹，通过<code>npm</code>安装最新版本。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure></li>
-<li><p>下载完成后，在站点文件夹的node_modules里找到一个名为hexo-theme-next的文件夹，这就是最新版的主题文件。把它复制到themes文件夹内，并重新命名为<code>next-v8</code>。（只是个例子）</p>
-</li>
-<li><p>打开站点配置文件，把<code>themes: next</code>后面的内容改成<code>next-v8</code>。</p>
-</li>
-<li><p>在GitBash中输入<code>hexo version</code>查看当前版本号，出现一个巨大NEXT和最新版本号即成功安装。</p>
-</li>
-</ul>
-<p>恭喜！你已经完成一半的内容了！</p>
-<h3 id="第二步-配置"><a href="#第二步-配置" class="headerlink" title="第二步 配置"></a>第二步 配置</h3><p>因为是v5刚刚起步的缘故，官网上所说的迁移方法对我来说并没有什么用处。这里我选择单独配置：</p>
-<ul>
-<li><p>把这个还没有动过的主题配置文件复制出来，重命名为<code>_config.next.yml</code>，放在站点文件夹里。</p>
-</li>
-<li><p>运行<code>BeyondCompare</code>，打开旧主题配置和新主题配置，进行一个比较和修改。</p>
-<p><strong>注意！最开始的主题设置，如果想启用之前的<code>Gemini</code>，请关闭默认主题选项！！！</strong></p>
-</li>
-<li><p>然后可以试着运行一下<code>hexo s</code>，查看是否可以正常显示。建议一边改一边检查，新主题配置文件的内容比起v5还是有很大的区别的，具体设置跟着注释走，不要无脑修改。</p>
-</li>
-</ul>
-<p>至此，你已经完成了v5至v8的升级。</p>
-<h3 id="第三步-自定义"><a href="#第三步-自定义" class="headerlink" title="第三步 自定义"></a>第三步 自定义</h3><p>自定义所消耗的时间最长。原因在于我很想还原v5的配置，但内部文件改动太大，加上针对v8的自定义的教程比更新的教程还少，无从下手，只得摸索。</p>
-<h4 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a>Font Awesome</h4><p>v8更新之后，所有的有关图标的配置都得改成fa fa-xxx格式才能正常显示。具体的图标样式和格式在官网上可以查看引用。<a href="https://fontawesome.com/icons">Font Awesome</a></p>
-<h4 id="代码样式"><a href="#代码样式" class="headerlink" title="代码样式"></a>代码样式</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">codeblock:</span></span><br><span class="line">  <span class="comment"># Code Highlight theme</span></span><br><span class="line">  <span class="comment"># All available themes: https://theme-next.js.org/highlight/</span></span><br><span class="line">  <span class="attr">theme:</span></span><br><span class="line">    <span class="attr">light:</span> </span><br><span class="line">    <span class="attr">dark:</span> </span><br><span class="line">  <span class="attr">prism:</span></span><br><span class="line">    <span class="attr">light:</span> </span><br><span class="line">    <span class="attr">dark:</span> </span><br><span class="line">  <span class="comment"># Add copy button on codeblock</span></span><br><span class="line">  <span class="attr">copy_button:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">False</span></span><br><span class="line">    <span class="comment"># Available values: default | flat | mac</span></span><br><span class="line">    <span class="attr">style:</span> </span><br></pre></td></tr></table></figure>
-
-<p>这里的代码模块样式可以在<a href="https://theme-next.js.org/highlight/">这里</a>找到即时预览，把样式名直接输入进<code>theme</code>和<code>prism</code>栏即可。把<code>copy_button</code>设置为True可以打开一键复制按钮，很方便。</p>
-<p>此处我把底部的<code>style</code>设置成了<code>flat</code>，也有不少人选择<code>mac</code>（这款也很好看推荐大家尝试）</p>
-<h4 id="自定义CSS目录"><a href="#自定义CSS目录" class="headerlink" title="自定义CSS目录"></a>自定义CSS目录</h4><p>v8更新之后很多文件都找不到了，而要自定义CSS得在站点文件夹的<code>/source/_data/styles.styl</code>里改。没有_data的话就创一个。</p>
-<p>然后在主题配置里将<code>custom_file_path</code>里的<code>style</code>启用即可。</p>
-<p>这里是我的配置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">//</span> <span class="string">图片阴影</span></span><br><span class="line"><span class="string">.medium-zoom-image</span> &#123;</span><br><span class="line">  <span class="attr">box-shadow:</span> <span class="number">0</span> <span class="string">10px</span> <span class="string">30px</span> <span class="string">0px</span> <span class="string">rgba(0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span><span class="string">);</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">短代码颜色</span></span><br><span class="line"><span class="string">code</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="comment">#E3E1E8;</span></span><br><span class="line">  <span class="attr">color:</span> <span class="comment">#383a42;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">隐藏顶部黑线条</span></span><br><span class="line"><span class="string">.headband</span> &#123;</span><br><span class="line">  <span class="attr">display:</span> <span class="string">none;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//底部文字颜色</span></span><br><span class="line"><span class="string">.footer-inner</span> &#123;</span><br><span class="line">  <span class="attr">color:</span> <span class="comment">#494948;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//</span> <span class="string">代码滑块</span></span><br><span class="line"><span class="string">.table-container</span> &#123;</span><br><span class="line">  <span class="attr">scrollbar-width:</span> <span class="string">thin;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.table-container::-webkit-scrollbar</span> &#123;</span><br><span class="line">  <span class="attr">width:</span> <span class="number">0.</span><span class="string">5em;</span></span><br><span class="line">  <span class="attr">height:</span> <span class="number">0.</span><span class="string">5em;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.table-container::-webkit-scrollbar-thumb</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">4px;</span></span><br><span class="line">  <span class="attr">background:</span> <span class="comment">#00af91;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.table-container::-webkit-scrollbar-track</span> &#123;</span><br><span class="line">  <span class="attr">background:</span> <span class="string">none;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//透明化：自定义opacity的值。范围为0~1的小数</span></span><br><span class="line"><span class="string">//文章内容透明</span></span><br><span class="line"><span class="string">.main-inner</span> &#123; </span><br><span class="line">    <span class="attr">opacity:</span> <span class="number">0.95</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//侧边框透明</span></span><br><span class="line"><span class="string">.sidebar</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.95</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//菜单栏透明</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">margin-top:</span> <span class="string">18px;</span></span><br><span class="line">  <span class="attr">background:</span> <span class="string">rgba(255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.95</span><span class="string">);</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//搜索框透明</span></span><br><span class="line"><span class="string">.popup</span> &#123;</span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.95</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">//</span> <span class="string">添加顶部边距</span></span><br><span class="line"><span class="string">.main</span> &#123;</span><br><span class="line">  <span class="attr">margin:</span> <span class="string">4px</span> <span class="string">auto</span> <span class="number">0</span><span class="string">;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="string">.header</span> &#123;</span><br><span class="line">  <span class="string">+mobile()</span> &#123;</span><br><span class="line">    <span class="attr">padding:</span> <span class="string">4px;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">圆角计划</span></span><br><span class="line"><span class="string">.header-inner</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">50px</span> <span class="string">50px</span> <span class="string">18px</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.site-brand-container</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="string">18px</span> <span class="number">0</span> <span class="number">0</span><span class="string">;</span></span><br><span class="line">  <span class="string">+mobile()</span> &#123;</span><br><span class="line">    <span class="attr">border-radius:</span> <span class="string">18px;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.sidebar-inner</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.back-to-top</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="number">0</span> <span class="number">0</span> <span class="string">18px</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.post-block</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="type">!important;</span></span><br><span class="line">  <span class="attr">margin-top:</span> <span class="string">18px;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.pagination</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="type">!important;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">.comments</span> &#123;</span><br><span class="line">  <span class="attr">border-radius:</span> <span class="string">18px</span> <span class="type">!important;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="string">//</span> <span class="string">字体大小</span></span><br><span class="line"><span class="string">.post-body</span> &#123;</span><br><span class="line">  <span class="attr">font-size:</span> <span class="string">15px;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>里面的数值可以根据自己的想法修改。这里我启用了圆角化，这样页面看起来可爱又舒服。</p>
-<h4 id="Canvas-nest"><a href="#Canvas-nest" class="headerlink" title="Canvas_nest"></a>Canvas_nest</h4><p>v8更新之后动态背景只剩下<code>canvas_ribbon</code>一个选项了，但我又很想要还原以前的风格，于是找到了<a href="https://github.com/theme-next/theme-next-canvas-nest">官方地址</a>，跟着README一步一步配置即可。</p>
-<p>再次进入主题配置文件，找到<code>custom_file_path</code>，将<code>footer</code>启用。</p>
-<p>还需要注意的一点：v8升级之后<code>swig</code>文件已经替换成了<code>njk</code>，因此官方所说的</p>
-<blockquote>
-<p>Create a file named <code>footer.swig</code> in <code>hexo/source/_data</code> directory (create <code>_data</code> directory if it does not exist).</p>
-</blockquote>
-<p>应该将<code>footer.swig</code>改成<code>footer.njk</code>。</p>
-<p>最后在配置文件里新增一段<code>canvas_nest: true</code>就可以运行了。</p>
-<h4 id="Animation-Settings"><a href="#Animation-Settings" class="headerlink" title="Animation Settings"></a>Animation Settings</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">motion:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">async:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">transition:</span></span><br><span class="line">    <span class="comment"># All available transition variants: https://theme-next.js.org/animate/</span></span><br><span class="line">    <span class="attr">post_block:</span> <span class="string">fadeIn</span></span><br><span class="line">    <span class="attr">post_header:</span> <span class="string">fadeInDown</span></span><br><span class="line">    <span class="attr">post_body:</span> <span class="string">fadeInDown</span></span><br><span class="line">    <span class="attr">coll_header:</span> <span class="string">fadeInLeft</span></span><br><span class="line">    <span class="comment"># Only for Pisces | Gemini.</span></span><br><span class="line">    <span class="attr">sidebar:</span> <span class="string">bounceInUp</span></span><br></pre></td></tr></table></figure>
-
-<p>在<a href="https://animate.style/">这里</a>可以看到所有的动画设置和名称，根据想要的样式修改即可。</p>
-<h4 id="自动打开编辑器"><a href="#自动打开编辑器" class="headerlink" title="自动打开编辑器"></a>自动打开编辑器</h4><p>这与更新无关，但加上之后可以提升一些写作的速度。</p>
-<p>在站点目录下新建<code>scripts</code>文件夹，里面添加一个js脚本：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> spawn = require(<span class="string">&#x27;child_process&#x27;</span>).exec;</span><br><span class="line">hexo.on(<span class="string">&#x27;new&#x27;</span>, function(data)&#123;</span><br><span class="line">  spawn(<span class="string">&#x27;start  &quot;Typora.exe&quot; &#x27;</span> + data.path);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<p>此处的<code>start &quot;Typora.exe&quot;</code>里面应该填写编辑器所在的路径。此处我用的是Typora，因此这里应该指向Typora.exe所在的文件路径。</p>
-<p>配置好后，之后每次执行完<code>hexo new</code>后都会自动弹出编辑器，不用再去<code>_post</code>路径下寻找文章了。</p>
-<hr>
-<p>至此，你已经完成了此次更新！恭喜！</p>
-<p>其他问题和更新相关的说明请查看<a href="https://github.com/next-theme/hexo-theme-next/issues/4">官方文档</a></p>
-]]></content>
-      <categories>
-        <category>帮助</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>nexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建经验</title>
-    <url>/2021/Blog/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在一堆博客平台上兜兜转转好几年，最终还是选择了GitHub。无各种限制+无广告+无社交互动已经很让人心动了，最重要的还是对系统友好、不用花高价去维护，很适合像我这样又穷又自闭的赛博难民。</p>
-<p>这两天花了一些时间学习了怎么搭建和配置，趁着还没忘记录一下搭建时遇到的问题和解决办法（详细的搭建过程很容易找到，这里就不阐述了）</p>
-<span id="more"></span>
-
-<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>先说明自己所用的版本信息：</p>
-<blockquote>
-<p>Git-2.31.1 64bit</p>
-<p>Nodejs-14.16.1 64bit</p>
-<p>Hexo-5.4.0</p>
-<p>nexT-5.1.4</p>
-</blockquote>
-<p>电脑是Win10。</p>
-<hr>
-<h3 id="运行hexo-d时显示错误"><a href="#运行hexo-d时显示错误" class="headerlink" title="运行hexo d时显示错误"></a>运行<code>hexo d</code>时显示错误</h3>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fatal: unable to access &#x27;yoursite&#x27;: Failed to connect to github.com port 443: Timed out</span><br></pre></td></tr></table></figure>
-
-<p>   这是一个经常会产生的问题（我几乎每次部署都会弹这种错误反馈）实在不行就<code>hexo clean</code>几次，重新部署几次总能成功的。</p>
-<h3 id="域名解析时出现问题"><a href="#域名解析时出现问题" class="headerlink" title="域名解析时出现问题"></a>域名解析时出现问题</h3><p>   这个问题一般不会出现，但我实在是太想要一个个人域名了就去Godaddy上买了一个。买完后发现网上找到的教程早已过时，DNS的配置方法和页面布局被官方改得妈都不认识，只好自己慢慢试错了。</p>
-<ul>
-<li>首先打开cmd，输入<code>ping username.github.io</code>得到GitHub的IP。</li>
-<li>进入Godaddy的个人域名管理界面，点击DNS进入DNS管理。添加一个类型A，名称@，值为IP的记录。此外修改名称为www的CNAME，将值改为username.github.io。TTL是默认1h，可以不用动它。</li>
-<li><strong>然后把剩余的DNS管理可编辑的都删了</strong>（它默认有个_domainconnect 的CNAME和parked custom的记录）</li>
-<li>在本地文件source中创建一个CNAME的文件，里面写上自己买的域名，保存，<strong>删掉文件后缀。</strong></li>
-<li>在GitBash中输入<code>hexo d</code>，让这个CNAME上传到GitHub仓库。</li>
-<li>打开仓库，点击<code>Settings</code>进入仓库的设置界面。在左边的目录中找到<code>Pages</code>，在Custom Domain里输入你的域名，然后等待它自己检测DNS配置，变成绿色的√就证明域名解析成功。（如果期间弹出了DNS解析失败等提示可能需要等待一段时间。）</li>
-<li>勾选Enforce HTTPS。</li>
-</ul>
-<p>   然后输入域名就可以跳转到博客界面啦。</p>
-<h3 id="tags和categories的页面显示404"><a href="#tags和categories的页面显示404" class="headerlink" title="tags和categories的页面显示404"></a>tags和categories的页面显示404</h3><p>   这个问题很容易产生！我觉得最大的原因出现在主题的配置文件里。</p>
-<ul>
-<li><p>打开主题配置文件，找到menu一栏</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">tags:</span> <span class="string">/tags/||</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">/categories/||</span> <span class="string">th</span></span><br></pre></td></tr></table></figure>
-
-<p>把/和||之间的空格删掉。</p>
-</li>
-<li><p>在GitBash中输入<code>hexo new page tags</code>，让它在source下生成一个名为tags的文件夹，里面会多出个index.md的文件。</p>
-</li>
-<li><p>打开index.md，在最后一行中加入一句<code>type: &quot;tags&quot;</code>，直接保存退出。不需要加<code>---</code>在顶端和末端。</p>
-</li>
-<li><p>添加categories的方法就是同上两个步骤，只是把<code>tags</code>替换成<code>categories</code>。</p>
-</li>
-<li><p>执行<code>hexo s</code>，在localhost上查看页面是否显示正常。</p>
-</li>
-</ul>
-<p>   没啥问题就<code>hexo d</code>了。</p>
-<hr>
-<h2 id="nexT自定义"><a href="#nexT自定义" class="headerlink" title="nexT自定义"></a>nexT自定义</h2><p>这里记录一些我觉得还比较有趣（麻烦）的自定义过程。</p>
-<h3 id="访客量设置"><a href="#访客量设置" class="headerlink" title="访客量设置"></a>访客量设置</h3><p>   不蒜子在2018年换了域名，所以按照网上找到的教程走很有可能无法显示访问量。</p>
-<p>   打开<code>\themes\next\layout\third-party\analytics\busuanzi-counter.swig</code>文件，把第一行改成</p>
-   <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;% if theme.busuanzi_count.enable %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;busuanzi-count&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>   然后在主题配置文件里将<code>busuanzi_count</code>目录下的enable改成true。这下面还可以改一下<code>site_uv_footer</code>和<code>site_pv_footer</code>，这是访问量的后缀。</p>
-<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
-</div>
-
-<h3 id="头像设置成圆形并且让它转起来"><a href="#头像设置成圆形并且让它转起来" class="headerlink" title="头像设置成圆形并且让它转起来"></a>头像设置成圆形并且让它转起来</h3><p>   打开<code>themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code>，输入</p>
-   <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</span><br><span class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</span><br><span class="line">  <span class="attribute">height</span>: $site-author-image-height;</span><br><span class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">2s</span> all;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.site-author-image</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>);</span><br></pre></td></tr></table></figure>
-
-<div class="note info no-icon"><p>新版next的配置文件中已经增加了这个功能，只需把开关打开就可以使用了。</p>
-</div>
-
-<h3 id="文章置顶"><a href="#文章置顶" class="headerlink" title="文章置顶"></a>文章置顶</h3><p>   首先在GitBash中输入<code>npm uninstall hexo-generator-index --save</code>卸载默认插件。</p>
-<p>   然后安装一个新的插件<code>npm install hexo-generator-index-pin-top --save</code></p>
-<p>   之后写文章的时候在标签分类下面写上一行<code>top: true</code>就可以让这篇文章出现在第一个了。</p>
-<hr>
-<h2 id="一些摸索"><a href="#一些摸索" class="headerlink" title="一些摸索"></a>一些摸索</h2><h3 id="仓库整理"><a href="#仓库整理" class="headerlink" title="仓库整理"></a>仓库整理</h3><p>在查看仓库时发现我的文章全都以单独文件夹的形式罗列在仓库里，时间长了肯定不好管理。去看了其他人的仓库却发现他们并没有我这样的情况，难道是我最开始安装Git的时候出错了吗？还是说我有哪些配置改错了？</p>
-<p>既然是生成部署的问题，那就去站点配置里找答案。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:name/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br></pre></td></tr></table></figure>
-
-<p>当时我自定义的时候想“永久链接的格式当然要简介明了才比较好记”，于是跟着官网的设置选择了以文件名(name)为永久链接，这样我的文章地址就变成了<code>https://drifter-games.com/name</code>。</p>
-<p>好看是好看，但在进行<code>hexo g</code>的时候，这篇文章就会以<code>index.html</code>的形式放在<code>public\name</code>的文件夹里。（同理，有几篇文章就会生成几个文件夹）随着文章数增加，文件夹也会越来越多，仓库内部的画面可想而知。所以我选择了以年份作为一个整理的方案：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:name/</span></span><br></pre></td></tr></table></figure>
-
-<p>这样进行<code>hexo g</code>的时候，public文件夹里就会自动把文章进行一个年份归档，之后部署到GitHub仓库的时候就不会再出现这个问题了。</p>
-<div class="note info no-icon"><p>注：执行<code>hexo clean</code>时会自动删除public文件，如果找不到public文件夹在哪的话请先执行<code>hexo g</code>查看。</p>
-</div>
-]]></content>
-      <categories>
-        <category>帮助</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>nexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Help</title>
-    <url>/2020/Help/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><ul>
-<li><p> Q：打开后有乱码<br>A：一般不会出现这种情况，不过万一出现了请下载0.00+版本。</p>
-</li>
-<li><p>Q：打开后有弹窗报错<br>A：一般是缺少RTP。请安装<a href="https://dl.degica.com/rpgmakerweb/run-time-packages/rpg2003_rtp_installer.zip">英文版rtp2003</a>，解压后将文件复制粘贴于Ephemreal的内部文件夹内。</p>
-<div class="note danger"><p><strong>重名的情况请务必保留源文件不要覆盖！！！！！！！！</strong> </p>
-</div></li>
-<li><p>Q：可以用Easyrpg启动吗<br>A：请<strong>不要</strong>这样做，会有很多奇怪的bug。<del>信我，开头就会黑屏</del></p>
-</li>
-<li><p>Q：Mac可以玩吗<br>A：很遗憾，非Windows系统是无法运行游戏的……</p>
-</li>
-<li><p>Q：非中文系统想运行简体中文版<br>A：Win7用户请下载Applocale，安装后选择中文，指定Start.exe后运行即可，不成功的情况请指定Ephemreal文件夹内的RPG_RT.exe运行。<br>Win10用户请下载<a href="https://github.com/xupefei/Locale-Emulator/releases">Local Emulator</a>，按步骤安装后鼠标右键选中Start.exe，在菜单栏里勾选上「按程序源环境配置」应该就能成功运行了，不成功的情况同上。</p>
-</li>
-</ul>
-<p>遇到了其他问题请参考或私信<br><a href="http://yumenikki.info/archives/%e6%b4%be%e7%94%9f%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95/">派生安装方法</a></p>
-]]></content>
-      <categories>
-        <category>帮助</category>
-      </categories>
-      <tags>
-        <tag>梦日记派生</tag>
       </tags>
   </entry>
 </search>
